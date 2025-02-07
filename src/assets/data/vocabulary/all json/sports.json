@@ -1,0 +1,290 @@
+[
+    {
+        "_id": "0",
+        "word": "player",
+        "meaning": "খেলোয়াড়",
+        "image": "player",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Football is a team game",
+        "tags": [
+            "sports",
+            "team"
+        ]
+    },
+    {
+        "_id": "1",
+        "word": "playground",
+        "meaning": "খেলার মাঠ",
+        "image": "playground",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "They came to blows on the playground.",
+        "tags": [
+            "recreation",
+            "children"
+        ]
+    },
+    {
+        "_id": "2",
+        "word": "coach",
+        "meaning": "কোচ",
+        "image": "coach",
+        "synonym": [
+            "trainer",
+            "instructor"
+        ],
+        "antonym": [],
+        "sentence": "The coach gave us some great advice before the match.",
+        "tags": [
+            "sports",
+            "mentor"
+        ]
+    },
+    {
+        "_id": "3",
+        "word": "team",
+        "meaning": "দল",
+        "image": "team",
+        "synonym": [
+            "squad",
+            "group"
+        ],
+        "antonym": [
+            "individual"
+        ],
+        "sentence": "Our team won the championship.",
+        "tags": [
+            "sports",
+            "collaboration"
+        ]
+    },
+    {
+        "_id": "4",
+        "word": "goal",
+        "meaning": "লক্ষ্য",
+        "image": "goal",
+        "synonym": [
+            "target",
+            "objective"
+        ],
+        "antonym": [],
+        "sentence": "Scoring a goal in the last minute was incredible.",
+        "tags": [
+            "sports",
+            "achievement"
+        ]
+    },
+    {
+        "_id": "5",
+        "word": "referee",
+        "meaning": "দায়িত্বশীল বিতর্ক",
+        "image": "referee",
+        "synonym": [
+            "umpire",
+            "official"
+        ],
+        "antonym": [],
+        "sentence": "The referee blew the whistle to stop play.",
+        "tags": [
+            "sports",
+            "authority"
+        ]
+    },
+    {
+        "_id": "6",
+        "word": "score",
+        "meaning": "স্কোর",
+        "image": "score",
+        "synonym": [
+            "points",
+            "result"
+        ],
+        "antonym": [],
+        "sentence": "We need to score two more goals to win.",
+        "tags": [
+            "sports",
+            "competition"
+        ]
+    },
+    {
+        "_id": "7",
+        "word": "tournament",
+        "meaning": "প্রতিযোগিতা",
+        "image": "tournament",
+        "synonym": [
+            "competition",
+            "championship"
+        ],
+        "antonym": [],
+        "sentence": "The tennis tournament attracts players from all over the world.",
+        "tags": [
+            "sports",
+            "event"
+        ]
+    },
+    {
+        "_id": "8",
+        "word": "athlete",
+        "meaning": "ক্রীড়াবিদ",
+        "image": "athlete",
+        "synonym": [
+            "sportsman",
+            "competitor"
+        ],
+        "antonym": [],
+        "sentence": "She's a talented athlete who excels in multiple sports.",
+        "tags": [
+            "sports",
+            "individual"
+        ]
+    },
+    {
+        "_id": "9",
+        "word": "match",
+        "meaning": "ম্যাচ",
+        "image": "match",
+        "synonym": [
+            "game",
+            "contest"
+        ],
+        "antonym": [],
+        "sentence": "The soccer match ended in a draw.",
+        "tags": [
+            "sports",
+            "competition"
+        ]
+    },
+    {
+        "_id": "10",
+        "word": "pitch",
+        "meaning": "মাটি",
+        "image": "pitch",
+        "synonym": [
+            "field",
+            "ground"
+        ],
+        "antonym": [],
+        "sentence": "The cricket pitch was perfect for batting.",
+        "tags": [
+            "sports",
+            "venue"
+        ]
+    },
+    {
+        "_id": "11",
+        "word": "victory",
+        "meaning": "বিজয়",
+        "image": "victory",
+        "synonym": [
+            "triumph",
+            "win"
+        ],
+        "antonym": [
+            "defeat"
+        ],
+        "sentence": "Their victory was well-deserved after such hard work.",
+        "tags": [
+            "achievement",
+            "success"
+        ]
+    },
+    {
+        "_id": "12",
+        "word": "defeat",
+        "meaning": "পরাজয়",
+        "image": "defeat",
+        "synonym": [
+            "loss",
+            "failure"
+        ],
+        "antonym": [
+            "victory"
+        ],
+        "sentence": "We must learn from defeat and come back stronger.",
+        "tags": [
+            "challenge",
+            "loss"
+        ]
+    },
+    {
+        "_id": "13",
+        "word": "scoreboard",
+        "meaning": "স্কোরবোর্ড",
+        "image": "scoreboard",
+        "synonym": [
+            "scorecard",
+            "tally"
+        ],
+        "antonym": [],
+        "sentence": "Check the scoreboard for the latest updates on the game.",
+        "tags": [
+            "sports",
+            "display"
+        ]
+    },
+    {
+        "_id": "14",
+        "word": "dribble",
+        "meaning": "ড্রিবল",
+        "image": "dribble",
+        "synonym": [
+            "trickle",
+            "ooze"
+        ],
+        "antonym": [],
+        "sentence": "He has amazing dribbling skills on the basketball court.",
+        "tags": [
+            "sports",
+            "skill"
+        ]
+    },
+    {
+        "_id": "15",
+        "word": "champion",
+        "meaning": "চ্যাম্পিয়ন",
+        "image": "champion",
+        "synonym": [
+            "winner",
+            "titleholder"
+        ],
+        "antonym": [],
+        "sentence": "She's the reigning champion of the swimming competition.",
+        "tags": [
+            "achievement",
+            "success"
+        ]
+    },
+    {
+        "_id": "16",
+        "word": "fan",
+        "meaning": "অনুরাগী",
+        "image": "fan",
+        "synonym": [
+            "supporter",
+            "enthusiast"
+        ],
+        "antonym": [],
+        "sentence": "The fans cheered loudly for their team.",
+        "tags": [
+            "sports",
+            "enthusiasm"
+        ]
+    },
+    {
+        "_id": "17",
+        "word": "spectator",
+        "meaning": "দর্শক",
+        "image": "spectator",
+        "synonym": [
+            "observer",
+            "watcher"
+        ],
+        "antonym": [],
+        "sentence": "The stadium was filled with excited spectators.",
+        "tags": [
+            "sports",
+            "observation"
+        ]
+    }
+]

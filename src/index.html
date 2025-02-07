@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/f23b08ee3a.js" crossorigin="anonymous"></script> -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>English Skills Journey</title>
+</head>
+
+<body class="select-none">
+    <header id="header" class="fixed w-full top-0 border-b bg-white">
+        <div class="container xl:!px-0">
+            <nav class="lg:flex items-center justify-between py-4 z-10">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <a class="navbar-brand font-inter text-2xl leading-none font-bold z-10"
+                            href="index.html">English Skills Journey</a>
+                    </div>
+                    <button class="navbar-toggler p-0 border-0 lg:hidden" type="button">
+                        <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
+                        <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
+                    </button>
+                </div>
+                <div class="hidden lg:block nav__items font-siliguri">
+                    <ul id="menuItem" class="flex flex-col lg:flex-row lg:space-x-8">
+                        <!-- menu item will be dynamically inserted here -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- speaking section start -->
+        <section id="speaking" class="pt-[67px] pb-14">
+            <div class="max-w-[1024px] mx-auto px-5 xl:!px-0">
+                <div
+                    class="min-h-[100px] border flex flex-col items-center justify-center bg-[#52B69A] text-white rounded-lg p-3 mb-10">
+                    <h1 class="text-3xl font-bold text-center">What will you learn today?</h1>
+                    <h2 class="text-lg">Choose a Topic</h2>
+                </div>
+
+                <div id="tags" class="grid__template">
+                    <a href="vocabulary-category.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Vocabulary</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Verbs</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Speaking</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Symbols</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Abbreviation</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Vocabulary</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Vocabulary</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">Vocabulary</p>
+                    </a>
+                    <a href="surah.html" class="space-y-3 text-center">
+                        <img class="select-none w-[50px] h-[50px] mx-auto" src="./assets/images/banner/vocabulary.png"
+                            alt="">
+                        <p class="text-sm font-medium whitespace-nowrap text-[#252b2f] capitalize">conversation
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- vocabulary section start -->
+        <section>
+            <div class="container">
+                <div class="my-6 flex items-center justify-between">
+                    <h3 class="text-xl font-semibold font-inter">Vocabulary</h3>
+                    <a href="./category.html" class="capitalize font-inter font-medium text-sm sm:text-[15px]">see
+                        all</a>
+                </div>
+                <div id="vocabulary-sections"
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-x-5 sm:gap-y-8 border-b border-[#0f172a1a] pb-6">
+
+
+
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail2.png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- vocabulary section end -->
+
+        <!-- verbs section start -->
+        <section>
+            <div class="container">
+                <div class="my-6 flex items-center justify-between">
+                    <h3 class="text-xl font-semibold font-inter">Verbs</h3>
+                    <a href="./category.html" class="capitalize font-inter font-medium text-sm sm:text-[15px]">see
+                        all</a>
+                </div>
+                <div id="vocabulary-sections"
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-5 border-b pb-6">
+                    <a href="vocabulary.html?category=vegetables"
+                        class="flex sm:flex-col space-x-2 sm:space-x-0 h-[155px]" data-type="Vegetables">
+                        <img src="./assets/images/blog/blog.webp" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full h-full ob">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=tools" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="tools">
+                        <img src="./assets/images/banner/banner2.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=vegetables" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="Vegetables">
+                        <img src="./assets/images/banner/banner2.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=vegetables" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="Vegetables">
+                        <img src="./assets/images/banner/banner2.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- speaking section end -->
+        <section>
+            <div class="container">
+                <div class="my-6">
+                    <h3 class="text-xl font-semibold font-inter">Speaking</h3>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-5 border-b pb-6">
+                    <div
+                        class="p-4 border flex flex-row sm:flex-col gap-3 lg:gap-4 sm:justify-center items-center cursor-pointer rounded-lg transition-all duration-300 lg:flex-col lg:items-center lg:rounded-2xl lg:p-6">
+                        <img class="h-8 w-8 sm:h-[60px] sm:w-[60px]" src="./assets/images/icons/conversation.svg"
+                            alt="">
+                        <h4 class="text-lg font-inter font-medium text-black lg:text-xl lg:font-semibold">Conversation
+                        </h4>
+                    </div>
+                    <div
+                        class="p-4 border flex flex-row sm:flex-col gap-3 lg:gap-4 sm:justify-center items-center cursor-pointer rounded-lg transition-all duration-300 lg:flex-col lg:items-center lg:rounded-2xl lg:p-6">
+                        <img class="h-8 w-8 sm:h-[60px] sm:w-[60px]" src="./assets/images/icons/conversation.svg"
+                            alt="">
+                        <h4 class="text-lg font-inter font-medium text-black lg:text-xl lg:font-semibold">Conversation
+                        </h4>
+                    </div>
+                    <div
+                        class="p-4 border flex flex-row sm:flex-col gap-3 lg:gap-4 sm:justify-center items-center cursor-pointer rounded-lg transition-all duration-300 lg:flex-col lg:items-center lg:rounded-2xl lg:p-6">
+                        <img class="h-8 w-8 sm:h-[60px] sm:w-[60px]" src="./assets/images/icons/conversation.svg"
+                            alt="">
+                        <h4 class="text-lg font-inter font-medium text-black lg:text-xl lg:font-semibold">Conversation
+                        </h4>
+                    </div>
+                    <div
+                        class="p-4 border flex flex-row sm:flex-col gap-3 lg:gap-4 sm:justify-center items-center cursor-pointer rounded-lg transition-all duration-300 lg:flex-col lg:items-center lg:rounded-2xl lg:p-6">
+                        <img class="h-8 w-8 sm:h-[60px] sm:w-[60px]" src="./assets/images/icons/conversation.svg"
+                            alt="">
+                        <h4 class="text-lg font-inter font-medium text-black lg:text-xl lg:font-semibold">Conversation
+                        </h4>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- speaking section end -->
+        <!-- speaking section end -->
+        <section>
+            <div class="container border-b pb-6">
+                <div class="my-6">
+                    <h3 class="text-xl font-semibold font-inter">Speaking</h3>
+                </div>
+                <div id="vocabulary-sections" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-5">
+                    <a href="vocabulary.html?category=vegetables" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="Vegetables">
+                        <img src="./assets/images/banner/banner2.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=tools" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="tools">
+                        <img src="./assets/images/banner/banner2.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=vegetables" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="Vegetables">
+                        <img src="./assets/images/banner/we.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=vegetables" class="flex sm:flex-col space-x-2 sm:space-x-0"
+                        data-type="Vegetables">
+                        <img src="./assets/images/banner/website thumbnail2.png" alt=""
+                            class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn
+                            vegetables name in
+                            English with picture
+                        </h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- speaking section end -->
+
+    </main>
+
+
+    <footer class="bg-white py-6 lg:py-8">
+        <div class="container xl:!px-0">
+            <div class="md:flex md:justify-between pt-14">
+                <div class="mb-6 md:mb-0 flex flex-col">
+                    <a href="https://flowbite.com/" class="flex flex-col justify-center items-center">
+                        <img src="./assets/images/banner/English Skills Journey.png" class="size-16 rounded-lg"
+                            alt="FlowBite Logo" />
+                        <span
+                            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-center mt-2">English
+                            <br />
+                            Skills Journey</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Useful Links
+                        </h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                            <li>
+                                <a href="https://flowbite.com/" class="hover:underline">Vocabulary</a>
+                            </li>
+                            <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Verbs</a>
+                            </li>
+                            <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Speaking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Follow Us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                            <li>
+                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Youtube</a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex justify-center items-center mt-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:mt-10 ">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2024 English Skills
+                    Journey. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/main.js" type="module"></script>
+    <script src="./assets/js/common.js" type="module"></script>
+    <script src="./assets/js/index.js" type="module"></script>
+
+</body>
+
+</html>

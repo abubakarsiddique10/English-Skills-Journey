@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>speaking</title>
+</head>
+
+<body class="overflow-y-scroll">
+    <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
+        <div class="container xl:!px-0">
+            <nav class="lg:flex items-center justify-between py-4 z-10 space-y-2 lg:space-y-0">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <a class="navbar-brand text-2xl leading-none font-bold z-10" href="index.html">English
+                            Infinity</a>
+                    </div>
+                    <button class="navbar-toggler p-0 border-0 lg:hidden" type="button">
+                        <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
+                        <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
+                    </button>
+                </div>
+                <div class="hidden lg:block nav__items font-siliguri">
+                    <ul id="menuItem" class=" flex flex-col lg:flex-row lg:space-x-8">
+                        <!-- menu item will be dynamically inserted here -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="speaking">
+            <div class="container xl:!px-0">
+                <div id="content_wrapper" class="mt-24">
+                    <div id="tags">
+                        <!-- tags item will be dynamically inserted here -->
+                    </div>
+                    <div id="details">
+                        <!-- category item will be dynamically inserted here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="preloader" class="h-screen w-full bg-white fixed top-0 z-[100] hidden">
+        <div class="w-full h-full flex justify-center items-center">
+            <span>Loading...</span>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/js/main.js" type="module"></script>
+    <script src="./assets/js/speaking-details.js" type="module"></script>
+</body>
+
+</html>
+
+
+<!-- <div>
+    <p class="text-[#242424] text-justify">
+        <img class="size-28 float-right border ml-4" src="./assets/images/quiz.jpg" alt="">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui deserunt, iste voluptate debitis cumque est voluptatibus dolore numquam facilis adipisci nihil esse, unde error laborum assumenda, soluta perspiciatis explicabo temporibus?
+    </p>
+</div> -->

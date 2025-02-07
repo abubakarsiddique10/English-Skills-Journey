@@ -1,0 +1,20 @@
+[
+    ["all", "basic", "advance"],
+    [
+        {
+            "id": 1,
+            "title": "about myself",
+            "subtitle": "Hello, my name is Sam. I'm ten years old, and I live in England. There are six people in my family: my parents, two sisters, a brother, and me. My father, William, is an engineer, and my mother, Emma, is a school teacher. I enjoy spending time with my family, especially during holidays when we visit new.",
+            "tag": "basic",
+            "content": "<p>Hello, my name is Sam. I'm ten years old, and I live in England. There are six people in my family: my parents, two sisters, a brother, and me. My father, William, is an engineer, and my mother, Emma, is a school teacher. I enjoy spending time with my family, especially during holidays when we visit new places.</p><p>I love learning English and reading books, especially stories about adventures and mysteries. My favorite subjects in school are Math and Computer Science because I enjoy solving problems and creating things. I also like coding and exploring new technologies, trying to build small apps and websites.</p> <p>In my free time, I play football with my friends at the local park, and I’m also learning how to swim. I have a pet dog named Bogey, who is very playful and loves running around in the garden. One day, I hope to become a software engineer. That's all about me.</p>"
+        },
+        {
+            "id": 2,
+            "title": "my daily routine",
+            "subtitle": "My name is Jack. I am a student, and I have a daily routine that helps me stay organized and productive. I do everything according to this routing. I get up early in the morning, around 6 AM. After waking up, I wash my face and then go for a walk with my father, enjoying the fresh air and the quiet",
+            "tag": "advance",
+            "content": "<p>My name is Jack. I am a student, and I have a daily routine that helps me stay organized and productive. I do everything according to this routing. I get up early in the morning, around 6 AM. After waking up, I wash my face and then go for a walk with my father, enjoying the fresh air and the quiet of the morning. When I return home, I take a bath. After that, I have my breakfast, usually something healthy like toast, eggs, or fruit. After breakfast, I always brush my teeth. I make sure to reach school on time, as punctuality is important to me. I attend all my classes.</p> <p>I return home at 4 PM. In the afternoon, I play football or cricket with friends at the local playground. It's a great way to stay fit and have fun. In the evening, I study for some time. Then I watch TV. After supper, I go to bed early, following the golden rule of 'early to bed and early to rise.' I strictly follow my daily routine because it helps me stay focused and disciplined.</p> <p>However, On holidays, my routine changes. Sometimes, I visit the zoo with my parents, where I enjoy seeing different animals, and other times, I spend the day at my relatives' house, catching up with my cousins and having fun. However, I never break the golden rule of 'early to bed and early to rise'.</p>"
+        }
+    ]
+    
+]

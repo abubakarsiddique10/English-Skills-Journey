@@ -1,0 +1,22 @@
+[
+    {
+        "name": "home",
+        "link": "index.html"
+    },
+    {
+        "name": "Speaking",
+        "link": "./speaking.html"
+    },
+    {
+        "name": "vocabulary",
+        "link": "./vocabulary.html"
+    },
+    {
+        "name": "verb",
+        "link": "./verb.html"
+    },
+    {
+        "name": "blog",
+        "link": "./blog.html"
+    }
+]

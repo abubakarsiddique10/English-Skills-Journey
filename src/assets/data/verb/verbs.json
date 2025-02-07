@@ -1,0 +1,576 @@
+{
+    "categories": [
+        "all"
+    ],
+    "verb_data": [
+        {
+            "category": "regular",
+            "verbs": [
+                {
+                    "_id": "101",
+                    "word": "cook",
+                    "image": "cook",
+                    "sentence": "I love to cook pasta."
+                },
+                {
+                    "_id": "102",
+                    "word": "drink",
+                    "image": "drink",
+                    "sentence": "He likes to drink coffee in the morning."
+                },
+                {
+                    "_id": "103",
+                    "word": "jump",
+                    "image": "jump",
+                    "sentence": "The kids love to jump on the trampoline."
+                },
+                {
+                    "_id": "104",
+                    "word": "swim",
+                    "image": "swim",
+                    "sentence": "We swim in the lake every summer."
+                },
+                {
+                    "_id": "105",
+                    "word": "eat",
+                    "image": "eat",
+                    "sentence": "She prefers to eat healthy food."
+                },
+                {
+                    "_id": "106",
+                    "word": "sleep",
+                    "image": "sleep",
+                    "sentence": "I always sleep early on weekdays."
+                },
+                {
+                    "_id": "77",
+                    "word": "draw",
+                    "image": "draw",
+                    "sentence": "She likes to draw landscapes."
+                },
+                {
+                    "_id": "78",
+                    "word": "paint",
+                    "image": "paint",
+                    "sentence": "They are painting the walls blue."
+                },
+                {
+                    "_id": "32",
+                    "word": "play",
+                    "image": "play",
+                    "sentence": "Let's play a game."
+                },
+                {
+                    "_id": "107",
+                    "word": "dance",
+                    "image": "dance",
+                    "sentence": "They love to dance at parties."
+                },
+                {
+                    "_id": "108",
+                    "word": "fly",
+                    "image": "fly",
+                    "sentence": "Birds fly high in the sky."
+                },
+                {
+                    "_id": "109",
+                    "word": "smell",
+                    "image": "smell",
+                    "sentence": "I can smell fresh bread from the bakery."
+                },
+                {
+                    "_id": "110",
+                    "word": "cry",
+                    "image": "cry",
+                    "sentence": "The baby started to cry when it was hungry."
+                },
+                {
+                    "_id": "2",
+                    "word": "have",
+                    "image": "have",
+                    "sentence": "I have two pets."
+                },
+                {
+                    "_id": "3",
+                    "word": "do",
+                    "image": "do",
+                    "sentence": "I always do my homework."
+                },
+                {
+                    "_id": "4",
+                    "word": "say",
+                    "image": "say",
+                    "sentence": "She likes to say funny things."
+                },
+                {
+                    "_id": "5",
+                    "word": "get",
+                    "image": "get",
+                    "sentence": "Can you get the book for me?"
+                },
+                {
+                    "_id": "6",
+                    "word": "make",
+                    "image": "make",
+                    "sentence": "I will make some coffee."
+                },
+                {
+                    "_id": "7",
+                    "word": "go",
+                    "image": "go",
+                    "sentence": "Let's go to the park."
+                },
+                {
+                    "_id": "9",
+                    "word": "take",
+                    "image": "take",
+                    "sentence": "He will take the test tomorrow."
+                },
+                {
+                    "_id": "10",
+                    "word": "see",
+                    "image": "see",
+                    "sentence": "Did you see the movie last night?"
+                },
+                {
+                    "_id": "11",
+                    "word": "come",
+                    "image": "come",
+                    "sentence": "I will come to your party."
+                },
+                {
+                    "_id": "12",
+                    "word": "think",
+                    "image": "think",
+                    "sentence": "I think it's going to rain."
+                },
+                {
+                    "_id": "13",
+                    "word": "look",
+                    "image": "look",
+                    "sentence": "Look at this beautiful painting."
+                },
+                {
+                    "_id": "14",
+                    "word": "want",
+                    "image": "want",
+                    "sentence": "I want to travel the world."
+                },
+                {
+                    "_id": "15",
+                    "word": "give",
+                    "image": "give",
+                    "sentence": "Can you give me some advice?"
+                },
+                {
+                    "_id": "16",
+                    "word": "use",
+                    "image": "use",
+                    "sentence": "I use my phone for everything."
+                },
+                {
+                    "_id": "17",
+                    "word": "find",
+                    "image": "find",
+                    "sentence": "I need to find my keys."
+                },
+                {
+                    "_id": "18",
+                    "word": "tell",
+                    "image": "tell",
+                    "sentence": "Can you tell me the time?"
+                },
+                {
+                    "_id": "19",
+                    "word": "ask",
+                    "image": "ask",
+                    "sentence": "A young boy is helping an elderly woman cross the street."
+                },
+                {
+                    "_id": "20",
+                    "word": "work",
+                    "image": "work",
+                    "sentence": "They work hard every day."
+                },
+                {
+                    "_id": "22",
+                    "word": "feel",
+                    "image": "feel",
+                    "sentence": "I feel happy today."
+                },
+                {
+                    "_id": "23",
+                    "word": "try",
+                    "image": "try",
+                    "sentence": "I'll try to fix it."
+                },
+                {
+                    "_id": "25",
+                    "word": "call",
+                    "image": "call",
+                    "sentence": "I'll call you later."
+                },
+                {
+                    "_id": "29",
+                    "word": "help",
+                    "image": "help",
+                    "sentence": "He helped me with my project."
+                },
+                {
+                    "_id": "30",
+                    "word": "show",
+                    "image": "show",
+                    "sentence": "Can you show me the way?"
+                },
+                {
+                    "_id": "31",
+                    "word": "hear",
+                    "image": "hear",
+                    "sentence": "Did you hear that noise?"
+                },
+                {
+                    "_id": "33",
+                    "word": "run",
+                    "image": "run",
+                    "sentence": "I run every morning."
+                },
+                {
+                    "_id": "36",
+                    "word": "believe",
+                    "image": "believe",
+                    "sentence": "I believe in you."
+                },
+                {
+                    "_id": "37",
+                    "word": "bring",
+                    "image": "bring",
+                    "sentence": "Can you bring me a glass of water?"
+                },
+                {
+                    "_id": "39",
+                    "word": "write",
+                    "image": "write",
+                    "sentence": "She likes to write stories."
+                },
+                {
+                    "_id": "41",
+                    "word": "sit",
+                    "image": "sit",
+                    "sentence": "Please sit here."
+                },
+                {
+                    "_id": "42",
+                    "word": "stand",
+                    "image": "stand",
+                    "sentence": "He stood up when she entered the room."
+                },
+                {
+                    "_id": "43",
+                    "word": "lose",
+                    "image": "lose",
+                    "sentence": "I lost my wallet yesterday."
+                },
+                {
+                    "_id": "44",
+                    "word": "pay",
+                    "image": "pay",
+                    "sentence": "I will pay for dinner."
+                },
+                {
+                    "_id": "45",
+                    "word": "meet",
+                    "image": "meet",
+                    "sentence": "We will meet tomorrow."
+                },
+                {
+                    "_id": "47",
+                    "word": "continue",
+                    "image": "continue",
+                    "sentence": "They will continue the discussion later."
+                },
+                {
+                    "_id": "48",
+                    "word": "set",
+                    "image": "set",
+                    "sentence": "He set the table for dinner."
+                },
+                {
+                    "_id": "49",
+                    "word": "learn",
+                    "image": "learn",
+                    "sentence": "I want to learn a new language."
+                },
+                {
+                    "_id": "50",
+                    "word": "lead",
+                    "image": "lead",
+                    "sentence": "He leads a team of engineers."
+                },
+                {
+                    "_id": "51",
+                    "word": "create",
+                    "image": "create",
+                    "sentence": "She loves to create new recipes."
+                },
+                {
+                    "_id": "52",
+                    "word": "read",
+                    "image": "read",
+                    "sentence": "I like to read books before bed."
+                },
+                {
+                    "_id": "53",
+                    "word": "change",
+                    "image": "change",
+                    "sentence": "You need to change your password regularly."
+                },
+                {
+                    "_id": "54",
+                    "word": "understand",
+                    "image": "understand",
+                    "sentence": "I don't understand the instructions."
+                },
+                {
+                    "_id": "55",
+                    "word": "watch",
+                    "image": "watch",
+                    "sentence": "Let's watch a movie tonight."
+                },
+                {
+                    "_id": "56",
+                    "word": "follow",
+                    "image": "follow",
+                    "sentence": "Please follow the rules."
+                },
+                {
+                    "_id": "57",
+                    "word": "stop",
+                    "image": "stop",
+                    "sentence": "Stop talking and listen."
+                },
+                {
+                    "_id": "58",
+                    "word": "speak",
+                    "image": "speak",
+                    "sentence": "Can you speak louder?"
+                },
+                {
+                    "_id": "59",
+                    "word": "buy",
+                    "image": "buy",
+                    "sentence": "I need to buy some groceries."
+                },
+                {
+                    "_id": "60",
+                    "word": "drive",
+                    "image": "drive",
+                    "sentence": "He drives to work every day."
+                },
+                {
+                    "_id": "61",
+                    "word": "open",
+                    "image": "open",
+                    "sentence": "Can you open the window?"
+                },
+                {
+                    "_id": "62",
+                    "word": "close",
+                    "image": "close",
+                    "sentence": "Please close the door."
+                },
+                {
+                    "_id": "63",
+                    "word": "build",
+                    "image": "build",
+                    "sentence": "They are building a new house."
+                },
+                {
+                    "_id": "64",
+                    "word": "carry",
+                    "image": "carry",
+                    "sentence": "Can you carry this bag for me?"
+                },
+                {
+                    "_id": "65",
+                    "word": "cut",
+                    "image": "cut",
+                    "sentence": "I cut the paper into small pieces."
+                },
+                {
+                    "_id": "66",
+                    "word": "sell",
+                    "image": "sell",
+                    "sentence": "She is selling fruit."
+                },
+                {
+                    "_id": "67",
+                    "word": "win",
+                    "image": "win",
+                    "sentence": "Our team won the match."
+                },
+                {
+                    "_id": "68",
+                    "word": "teach",
+                    "image": "teach",
+                    "sentence": "She teaches math at the school."
+                },
+                {
+                    "_id": "69",
+                    "word": "reach",
+                    "image": "reach",
+                    "sentence": "We finally reached the top of the mountain."
+                },
+                {
+                    "_id": "70",
+                    "word": "choose",
+                    "image": "choose",
+                    "sentence": "You can choose any option you like."
+                },
+                {
+                    "_id": "71",
+                    "word": "save",
+                    "image": "save",
+                    "sentence": "I am trying to save money for a vacation."
+                },
+                {
+                    "_id": "72",
+                    "word": "fall",
+                    "image": "fall",
+                    "sentence": "Be careful not to fall."
+                },
+                {
+                    "_id": "73",
+                    "word": "push",
+                    "image": "push",
+                    "sentence": "You need to push the door to open it."
+                },
+                {
+                    "_id": "74",
+                    "word": "pull",
+                    "image": "pull",
+                    "sentence": "He pulled the rope hard."
+                },
+                {
+                    "_id": "75",
+                    "word": "throw",
+                    "image": "throw",
+                    "sentence": "Can you throw the ball to me?"
+                },
+                {
+                    "_id": "76",
+                    "word": "catch",
+                    "image": "catch",
+                    "sentence": "He managed to catch the bus on time."
+                },
+                {
+                    "_id": "79",
+                    "word": "fix",
+                    "image": "fix",
+                    "sentence": "I need to fix my computer."
+                },
+                {
+                    "_id": "80",
+                    "word": "break",
+                    "image": "break",
+                    "sentence": "Be careful not to break the glass."
+                },
+                {
+                    "_id": "81",
+                    "word": "hit",
+                    "image": "hit",
+                    "sentence": "He accidentally hit the table."
+                },
+                {
+                    "_id": "82",
+                    "word": "grow",
+                    "image": "grow",
+                    "sentence": "They are growing vegetables in their garden."
+                },
+                {
+                    "_id": "83",
+                    "word": "raise",
+                    "image": "raise",
+                    "sentence": "They raised their hands in agreement."
+                },
+                {
+                    "_id": "84",
+                    "word": "build",
+                    "image": "build",
+                    "sentence": "He plans to build a treehouse."
+                },
+                {
+                    "_id": "85",
+                    "word": "hold",
+                    "image": "hold",
+                    "sentence": "Can you hold this for a second?"
+                },
+                {
+                    "_id": "86",
+                    "word": "offer",
+                    "image": "offer",
+                    "sentence": "He offered me a job at his company."
+                },
+                {
+                    "_id": "87",
+                    "word": "join",
+                    "image": "join",
+                    "sentence": "Would you like to join us for dinner?"
+                },
+                {
+                    "_id": "90",
+                    "word": "discover",
+                    "image": "discover",
+                    "sentence": "She discovered a new café in town."
+                },
+                {
+                    "_id": "91",
+                    "word": "agree",
+                    "image": "agree",
+                    "sentence": "They agreed to the terms."
+                },
+                {
+                    "_id": "93",
+                    "word": "accept",
+                    "image": "accept",
+                    "sentence": "She accepted the invitation."
+                },
+                {
+                    "_id": "94",
+                    "word": "refuse",
+                    "image": "refuse",
+                    "sentence": "He refused to answer the question."
+                },
+                {
+                    "_id": "96",
+                    "word": "surprise",
+                    "image": "surprise",
+                    "sentence": "They surprised me with a birthday party."
+                },
+                {
+                    "_id": "97",
+                    "word": "plan",
+                    "image": "plan",
+                    "sentence": "We plan to visit the museum tomorrow."
+                },
+                {
+                    "_id": "98",
+                    "word": "wish",
+                    "image": "wish",
+                    "sentence": "I wish I could travel more often."
+                },
+                {
+                    "_id": "99",
+                    "word": "hope",
+                    "image": "hope",
+                    "sentence": "We hope for good weather this weekend."
+                },
+                {
+                    "_id": "100",
+                    "word": "sing",
+                    "image": "sing",
+                    "sentence": "She loves to sing in the choir."
+                }
+            ]
+        }
+    ]
+}

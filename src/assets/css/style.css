@@ -1,0 +1,169 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@100..900&display=swap'); */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.06px */
+    font-family: "Roboto", serif;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 0 auto;
+}
+
+.active {
+    /* background: #F2F2F2; */
+    /* border-bottom: 1px solid black; */
+    border-color: black;
+}
+
+
+header,
+.vocabulary__category,
+#tags {
+    border-color: #f2f2f2;
+}
+
+/* 02. header */
+#close-menu {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+/* 03. banner */
+
+.banner {
+    height: calc(100vh - 1px);
+}
+
+.banner__title {
+    letter-spacing: -1.2px;
+    line-height: 1.2;
+}
+
+/* vocabulary category start */
+
+.vocab_card_title,
+.vocab_card_description {
+    max-width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    white-space: normal;
+    max-height: 3em;
+    line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.vocab_card_description {
+    color: #202224
+}
+
+.vocab_card_title {
+    max-height: 9em;
+    -webkit-line-clamp: 6;
+}
+
+.published_data {
+    color: #202224
+}
+
+/* vocabulary category end */
+
+
+/* blog css start */
+#blog_details ol {
+    list-style: decimal;
+    margin-left: 16px;
+}
+
+#blog_details p {
+    margin-bottom: 20px;
+}
+
+#blog_details h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* blog css end */
+
+
+
+/* section vocabulary start*/
+#vocabulary_slider::-webkit-scrollbar,
+#speaking_slider::-webkit-scrollbar,
+#tags::-webkit-scrollbar {
+    display: none;
+}
+
+.grid__template {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    justify-content: space-between;
+    row-gap: 16px
+}
+
+/* section vocabulary end*/
+
+
+
+/* css media query */
+@media (min-width: 640px) {
+    .grid__template {
+        grid-template-columns: repeat(5, min-content);
+        row-gap: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid__template {
+        grid-template-columns: repeat(6, min-content);
+        row-gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .grid__template {
+        grid-template-columns: repeat(7, min-content);
+        row-gap: 40px;
+    }
+
+    .speaking .active {
+        border-color: white;
+        background-color: #f8fafc;
+    }
+}
+
+@media (min-width: 1024px) {
+    .active {
+        /* background-color: var(--active-bg-color); */
+        border-bottom: none;
+        background: #f8fafc
+    }
+}

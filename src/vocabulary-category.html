@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/f23b08ee3a.js" crossorigin="anonymous"></script> -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>English Skills Journey</title>
+</head>
+
+<body class="select-none">
+    <header id="header" class="fixed w-full top-0 border-b bg-white">
+        <div class="container xl:!px-0">
+            <nav class="lg:flex items-center justify-between py-4 z-10">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <a class="navbar-brand font-inter text-2xl leading-none font-bold z-10"
+                            href="index.html">English Skills Journey</a>
+                    </div>
+                    <button class="navbar-toggler p-0 border-0 lg:hidden" type="button">
+                        <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
+                        <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
+                    </button>
+                </div>
+                <div class="hidden lg:block nav__items font-siliguri">
+                    <ul id="menuItem" class="flex flex-col lg:flex-row lg:space-x-8">
+                        <!-- menu item will be dynamically inserted here -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container xl:!px-0">
+                <div class="lg:mt-14 lg:flex flex-row-reverse justify-between pt-[57px] lg:pt-0">
+
+                    <ul id="tags"
+                        class="select-none max-w-[680px] mx-auto sticky top-14 flex lg:block overflow-auto lg:pt-10 w-full lg:max-w-[368px] lg:h-full lg:min-h-10 border-b lg:border-0">
+                        <!-- Category tags will be dynamically inserted here -->
+                        <button
+                            class="filter-button font-inter text-left py-3 px-3 capitalize flex items-center space-x-1.5 border-b border-white lg:border-white lg:py-[6px] lg:w-full active">
+                            <img class="max-w-4 inline-block" src="./assets/images/tags/tools.png" alt="">
+                            <span class="capitalize text-sm lg:text-base">tools</span>
+                        </button>
+                        <button
+                            class="filter-button font-inter text-left py-3 px-3 capitalize flex items-center space-x-1.5 border-b border-white lg:border-white lg:py-[6px] lg:w-full">
+                            <img class="max-w-4 inline-block" src="./assets/images/tags/tools.png" alt="">
+                            <span class="capitalize text-sm lg:text-base">tools</span>
+                        </button>
+                    </ul>
+
+                    <div id="blog" class="w-full max-w-[680px] lg:pt-4 mx-auto lg:ml-0">
+                        <article class="vocabulary__category border-b py-6 cursor-pointer select-none" data-id="7">
+                            <div class="flex items-center justify-between gap-6 md:gap-14">
+                                <!-- Content Section -->
+                                <div class="content">
+                                    <h2
+                                        class="vocab_card_title text-xl md:text-2xl font-bold pb-2 capitalize hover:underline lg:leading-8">
+                                        Learn Vegetables Name in English with Pictures
+                                    </h2>
+                                    <p class="vocab_card_description text-base font-normal">
+                                        Learn English vocabulary for vegetables like potato, carrot, peas, broccoli,
+                                        pumpkin, cabbage, etc.,
+                                        with illustrations and a vocabulary list.
+                                    </p>
+                                </div>
+                                <!-- Image Section -->
+                                <div class="flex-none w-[100px] md:w-[150px]">
+                                    <img class="image w-full h-auto object-cover rounded"
+                                        src="./assets/images/blog/blog.webp"
+                                        alt="English vocabulary for vegetables with pictures" loading="lazy">
+                                </div>
+                            </div>
+                            <!-- Date Section -->
+                            <div class="date mt-2">
+                                <time class="published_data text-sm text-gray-600" datetime="2024-12-18">Dec 18,
+                                    2024</time>
+                            </div>
+                        </article>
+                        <article class="vocabulary__category border-b py-6 cursor-pointer select-none" data-id="7">
+                            <div class="flex items-center justify-between gap-6 md:gap-14">
+                                <!-- Content Section -->
+                                <div class="content">
+                                    <h2
+                                        class="vocab_card_title text-xl md:text-2xl font-bold pb-2 capitalize hover:underline lg:leading-8">
+                                        Learn Vegetables Name in English with Pictures
+                                    </h2>
+                                    <p class="vocab_card_description text-base font-normal">
+                                        Learn English vocabulary for vegetables like potato, carrot, peas, broccoli,
+                                        pumpkin, cabbage, etc.,
+                                        with illustrations and a vocabulary list.
+                                    </p>
+                                </div>
+                                <!-- Image Section -->
+                                <div class="flex-none w-[100px] md:w-[150px]">
+                                    <img class="image w-full h-auto object-cover rounded"
+                                        src="./assets/images/blog/blog.webp"
+                                        alt="English vocabulary for vegetables with pictures" loading="lazy">
+                                </div>
+                            </div>
+                            <!-- Date Section -->
+                            <div class="date mt-2">
+                                <time class="published_data text-sm text-gray-600" datetime="2024-12-18">Dec 18,
+                                    2024</time>
+                            </div>
+                        </article>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- vocabulary section start -->
+        <section>
+            <div class="container">
+                <div class="my-6 flex items-center justify-between">
+                    <h3 class="text-xl font-semibold font-inter">Vocabulary</h3>
+                    <a href="./category.html" class="capitalize font-inter font-medium text-sm sm:text-[15px]">see
+                        all</a>
+                </div>
+                <div id="vocabulary-sections"
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-x-5 sm:gap-y-8 border-b border-[#0f172a1a] pb-6">
+
+
+
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail (1).png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                    <a href="vocabulary.html?category=fruits" class="flex sm:flex-col space-x-2 sm:space-x-0 "
+                        data-type="Vegetables">
+                        <div class="border border-[#4755691a] rounded-lg">
+                            <img src="./assets/images/banner/website thumbnail2.png" alt=""
+                                class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                        </div>
+                        <h4 class="font-medium text-base sm:mt-3 leading-6 font-inter capitalize flex-1">
+                            Learn Common Fruit Names with Pictures 🍇🍒
+                        </h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- vocabulary section end -->
+
+
+        <!-- testing section -->
+        <section class="py-10">
+
+        </section>
+    </main>
+
+    <!-- <footer class="bg-white py-6 lg:py-8">
+        <div class="container xl:!px-0">
+            <div class="md:flex md:justify-between pt-14">
+                <div class="mb-6 md:mb-0 flex flex-col">
+                    <a href="https://flowbite.com/" class="flex flex-col justify-center items-center">
+                        <img src="./assets/images/banner/English Skills Journey.png" class="size-16 rounded-lg"
+                            alt="FlowBite Logo" />
+                        <span
+                            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white text-center mt-2">English
+                            <br />
+                            Skills Journey</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Useful Links
+                        </h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                            <li>
+                                <a href="https://flowbite.com/" class="hover:underline">Vocabulary</a>
+                            </li>
+                            <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Verbs</a>
+                            </li>
+                            <li>
+                                <a href="https://tailwindcss.com/" class="hover:underline">Speaking</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Follow Us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                            <li>
+                                <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Youtube</a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex justify-center items-center mt-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:mt-10 ">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2024 English Skills
+                    Journey. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer> -->
+
+
+
+    <script src="./assets/js/main.js" type="module"></script>
+    <script src="./assets/js/common.js" type="module"></script>
+    <script src="./assets/js/index.js" type="module"></script>
+
+</body>
+
+</html>
+
+<!-- #0f0f0f;
+#6B6B6B; -->
