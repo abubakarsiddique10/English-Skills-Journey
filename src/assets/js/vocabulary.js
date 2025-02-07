@@ -87,7 +87,7 @@ const displayTag = (contents) => {
     tags.className = `fixed top-[57px] bg-white flex overflow-auto w-full border-b`;
     contents.forEach((content, index) => {
         const button = document.createElement('button');
-        button.className = `filter-button font-inter text-left py-3 px-4 capitalize flex items-center space-x-1.5 block border-b border-white lg:border-white ${index == 0 ? "active" : ""}`
+        button.className = `filter-button font-inter text-left py-3 px-4 capitalize flex items-center space-x-1.5 block border-b cursor-pointer border-white lg:border-white ${index == 0 ? "active" : ""}`
         button.innerHTML = `
             <img class="max-w-4 inline-block" src="./assets/images/tags/${content}.png" alt="">
             <span class="capitalize text-sm">${content}</span>
