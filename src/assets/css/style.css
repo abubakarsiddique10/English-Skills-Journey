@@ -27,8 +27,8 @@ body {
 header,
 .vocabulary__category,
 #tags {
-    border-color: #f2f2f2;
-    /*  border-color: #0f172a1a; */
+    /* border-color: #f2f2f2; */
+    border-color: #0f172a1a;
 }
 
 /* 02. header */
@@ -109,11 +109,18 @@ header,
     display: grid;
     grid-template-columns: repeat(4, min-content);
     justify-content: space-between;
-    row-gap: 16px
+    row-gap: 24px
 }
 
 /* section vocabulary end*/
 
+
+/* vocabulary start */
+.vocabulary #tags button:last-child {
+    /*  margin-right: 18px; */
+}
+
+/* vocabulary end */
 
 
 /* css media query */

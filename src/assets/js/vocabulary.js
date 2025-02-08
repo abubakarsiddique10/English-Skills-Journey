@@ -11,22 +11,6 @@ import { textToSpeech } from "../lib/speech.js";
 getCategoryInHTML.innerHTML = category */
 
 let allData = null;
-// Load vocabularies for a given category
-/* async function getVocabulary() {
-    loading(true);
-    const url = `././assets/data/vocabulary/vocabulary.json`;
-    try {
-        const vocabularies = await fetchData(url);
-        const allVocabularies = vocabularies[1].map(category => category.vocabularies).flat();
-        displayTag(vocabularies[0])
-        displayVocabularies(allVocabularies);
-        allData = allVocabularies
-        loading(false);
-    } catch (error) {
-        console.error(error)
-    }
-}
-getVocabulary(); */
 
 async function getVocabulary() {
 
@@ -64,7 +48,7 @@ const displayVocabularies = (vocabularies) => {
 // Create a vocabulary card element: card-
 const createVocabulariesCard = ({ word, image, sentence }) => {
     const vocabularyCard = document.createElement('div');
-    vocabularyCard.className = 'min-h-[160px] h-full flex rounded-md border border-[#F0F1F3]';
+    vocabularyCard.className = 'min-h-[160px] h-full flex rounded-md sm:border border-[#F0F1F3]';
     vocabularyCard.title = `Click for details about ${word}`;
     vocabularyCard.innerHTML = `
         <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full">
@@ -84,7 +68,6 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
 // display tags
 const displayTag = (contents) => {
     const tags = document.getElementById('tags');
-    tags.className = `fixed top-[57px] bg-white flex overflow-auto w-full border-b`;
     contents.forEach((content, index) => {
         const button = document.createElement('button');
         button.className = `filter-button font-inter text-left py-3 px-4 capitalize flex items-center space-x-1.5 block border-b cursor-pointer border-white lg:border-white ${index == 0 ? "active" : ""}`

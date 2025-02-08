@@ -12,9 +12,9 @@
 </head>
 
 <body class="select-none overflow-y-scroll">
-    <header id="header" class="fixed w-full top-0 border-b bg-white">
+    <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
         <div class="container xl:!px-0">
-            <nav class="lg:flex items-center justify-between py-4 z-10 space-y-2 lg:space-y-0">
+            <nav class="lg:flex items-center justify-between py-4 z-10">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center gap-2">
                         <a class="navbar-brand text-2xl leading-none font-bold z-10" href="index.html">English
@@ -25,7 +25,7 @@
                         <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
                     </button>
                 </div>
-                <div class="hidden lg:block nav__items font-siliguri">
+                <div class="hidden lg:block nav__items mt-2 lg:mt-0">
                     <ul id="menuItem" class=" flex flex-col lg:flex-row lg:space-x-8">
                         <!-- menu item will be dynamically inserted here -->
                     </ul>
@@ -35,21 +35,22 @@
     </header>
 
     <main>
-        <section class="">
+        <section class="mt-[55px]">
             <div class="container xl:!px-0">
-                <div class="">
-                    <div id="tags" class="sticky top-10">
-                        <!-- tags item will be dynamically inserted here -->
-                    </div>
+                <div id="tags" class="sticky top-[57px] bg-white flex overflow-auto w-full border-b max-w-[1200px]">
+                    <!-- tags item will be dynamically inserted here -->
+                </div>
+                <div class="article__header">
+                    <!-- <h1 class="text-4xl font-bold capitalize">learn vegetables name in english</h1> -->
+                    <!-- <img src="./assets/images/banner/4.png" class="border" alt=""> -->
+
                 </div>
                 <div id="vocabulary"
-                    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-[147px] mb-4">
+                    class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 sm:gap-5 mt-5 lg:mt-8 mb-4 z-[-1] text-red-500">
                     <!-- vocabulary cards will be dynamically inserted here -->
-
                 </div>
+            </div>
 
-            </div>
-            </div>
         </section>
     </main>
 
