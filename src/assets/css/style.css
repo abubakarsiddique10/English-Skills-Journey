@@ -42,35 +42,17 @@ header,
 
 /* common css end */
 
+/* hero section start */
+.hero__section #tags a div {
+    background-color: #f2f3f5;
+}
+
+/* hero section end */
 
 
 
 
 /* vocabulary category start */
-
-/* .vocab_card_title,
-.vocab_card_description {
-    max-width: 100%;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    white-space: normal;
-    max-height: 3em;
-    line-height: 1.5em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.vocab_card_description {
-    color: #202224
-}
-
-.vocab_card_title {
-    max-height: 9em;
-    -webkit-line-clamp: 6;
-} */
 
 .published_data {
     color: #202224
@@ -80,19 +62,6 @@ header,
 
 
 /* blog css start */
-#blog_details ol {
-    list-style: decimal;
-    margin-left: 16px;
-}
-
-#blog_details p {
-    margin-bottom: 20px;
-}
-
-#blog_details h3 {
-    font-weight: 700;
-    margin-bottom: 20px;
-}
 
 /* blog css end */
 
@@ -114,13 +83,6 @@ header,
 
 /* section vocabulary end*/
 
-
-/* vocabulary start */
-.vocabulary #tags button:last-child {
-    /*  margin-right: 18px; */
-}
-
-/* vocabulary end */
 
 
 /* css media query */

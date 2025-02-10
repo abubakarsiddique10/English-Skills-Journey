@@ -1,0 +1,13 @@
+[
+    {
+        "__comment": "Start of food vocabulary section",
+        "_id": "0",
+        "word": "rice",
+        "meaning": "",
+        "image": "rice",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Fried rice is my favorite.",
+        "tags": "food"
+    }
+]

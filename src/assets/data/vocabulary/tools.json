@@ -1,0 +1,33 @@
+[
+    {
+        "__comment": "Start of tools vocabulary section",
+        "_id": "0",
+        "word": "hammer",
+        "meaning": "হাতুড়ি",
+        "image": "hammer",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The carpenter used a hammer to drive the nails into the wood.",
+        "tags": "tools"
+    },
+    {
+        "_id": "3",
+        "word": "wrench",
+        "meaning": "কুঞ্জি",
+        "image": "wrench",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The mechanic used a wrench to tighten the bolts.",
+        "tags": "tools"
+    },
+    {
+        "_id": "5",
+        "word": "drill",
+        "meaning": "বোর",
+        "image": "drill",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The worker used a drill to bore holes in the wall.",
+        "tags": "tools"
+    }
+]

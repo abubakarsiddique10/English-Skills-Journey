@@ -1,0 +1,173 @@
+[
+    {
+        "__comment": "Start of religion vocabulary section",
+        "_id": "0",
+        "word": "almighty",
+        "meaning": "সর্বশক্তিমান",
+        "image": "almighty",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Allah is great",
+        "tags": "religion"
+    },
+    {
+        "_id": "1",
+        "word": "faith",
+        "meaning": "বিশ্বাস",
+        "image": "faith",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She has strong faith in her religion.",
+        "tags": "religion"
+    },
+    {
+        "_id": "2",
+        "word": "worship",
+        "meaning": "পূজা",
+        "image": "worship",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "They go to the temple every Sunday to worship.",
+        "tags": "religion"
+    },
+    {
+        "_id": "3",
+        "word": "blessing",
+        "meaning": "আশীর্বাদ",
+        "image": "blessing",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Receiving her father's blessing meant a lot to her.",
+        "tags": "religion"
+    },
+    {
+        "_id": "4",
+        "word": "prayer",
+        "meaning": "প্রার্থনা",
+        "image": "prayer",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She starts her day with a morning prayer.",
+        "tags": "religion"
+    },
+    {
+        "_id": "5",
+        "word": "belief",
+        "meaning": "বিশ্বাস",
+        "image": "belief",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Their belief in the afterlife is strong.",
+        "tags": "religion"
+    },
+    {
+        "_id": "7",
+        "word": "holy",
+        "meaning": "পবিত্র",
+        "image": "holy",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Jerusalem is a holy city for Jews, Christians, and Muslims alike.",
+        "tags": "religion"
+    },
+    {
+        "_id": "10",
+        "word": "soul",
+        "meaning": "আত্মা",
+        "image": "soul",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "After death, it is believed that the soul leaves the body.",
+        "tags": "religion"
+    },
+    {
+        "_id": "12",
+        "word": "heaven",
+        "meaning": "স্বর্গ",
+        "image": "heaven",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "According to some religions, righteous souls go to heaven after death.",
+        "tags": "religion"
+    },
+    {
+        "_id": "13",
+        "word": "hell",
+        "meaning": "পাতাল",
+        "image": "hell",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "In certain religious beliefs, sinners are condemned to hell.",
+        "tags": "religion"
+    },
+    {
+        "_id": "14",
+        "word": "prophet",
+        "meaning": "নবী",
+        "image": "prophet",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Moses is considered a prophet in Judaism, Christianity, and Islam.",
+        "tags": "religion"
+    },
+    {
+        "_id": "15",
+        "word": "temple",
+        "meaning": "মন্দির",
+        "image": "temple",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The temple is a place of worship for Hindus.",
+        "tags": "religion"
+    },
+    {
+        "_id": "16",
+        "word": "church",
+        "meaning": "গির্জা",
+        "image": "church",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "They attend church services every Sunday.",
+        "tags": "religion"
+    },
+    {
+        "_id": "17",
+        "word": "mosque",
+        "meaning": "মসজিদ",
+        "image": "mosque",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Muslims gather at the mosque for Friday prayers.",
+        "tags": "religion"
+    },
+    {
+        "_id": "18",
+        "word": "holy book",
+        "meaning": "পবিত্র বই",
+        "image": "holy book",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The Quran is the holy book of Islam.",
+        "tags": "religion"
+    },
+    {
+        "_id": "19",
+        "word": "religion",
+        "meaning": "ধর্ম",
+        "image": "religion",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "There are many different religions practiced around the world.",
+        "tags": "religion"
+    },
+    {
+        "_id": "21",
+        "word": "fast",
+        "meaning": "উপবাস করা",
+        "image": "fast",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "During Ramadan, Muslims fast from dawn until sunset.",
+        "tags": "religion"
+    }
+]

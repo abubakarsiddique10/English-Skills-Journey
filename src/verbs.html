@@ -11,7 +11,7 @@
     <title>English Skills Journey</title>
 </head>
 
-<body class="select-none">
+<body class="select-none overflow-y-scroll">
     <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
         <div class="container xl:!px-0">
             <nav class="lg:flex items-center justify-between py-4 z-10">
@@ -37,7 +37,14 @@
     <main>
         <section class="">
             <div class="container xl:!px-0">
-                <div class="mt-[57px] pt-14">
+                <ul id="tags"
+                    class="select-none mx-auto flex overflow-auto w-full border-b sticky top-[56px] bg-white pt-[1px]">
+                    <li class="filter-button font-inter text-left py-3 px-4 capitalize flex items-center border-b text-sm border-white cursor-pointer lg:border-white active"
+                        data-type="part-1">Part 1</li>
+                    <li class="filter-button font-inter text-left py-3 px-4 capitalize flex items-center border-b text-sm border-white cursor-pointer lg:border-white"
+                        data-type="part-2">Part 2</li>
+                </ul>
+                <div class="mt-[57px] pt-10">
                     <!-- <div id="tags">
                     </div> -->
 

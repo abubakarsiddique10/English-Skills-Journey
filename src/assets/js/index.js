@@ -27,3 +27,23 @@ speakingbArrows.forEach((arrow) => {
 /* section speaking end */
 
 
+/* hero section start */
+const leftArrow = document.getElementById('left-arrow');
+const rightArrow = document.getElementById('right-arrow');
+const tags = document.getElementById('tags');
+
+leftArrow.addEventListener('click', () => {
+    tags.scrollLeft -= 200
+})
+rightArrow.addEventListener('click', () => {
+    tags.scrollLeft += 200;
+})
+
+tags.addEventListener('scroll', () => {
+    leftArrow.style.display = tags.scrollLeft > 0 ? "block" : "none";
+    leftArrow.style.opacity = tags.scrollLeft > 0 ? 1 : 0
+    rightArrow.style.display = (tags.scrollLeft + tags.clientWidth >= tags.scrollWidth) ? "none" : "block";
+    rightArrow.style.opacity = (tags.scrollLeft + tags.clientWidth >= tags.scrollWidth) ? 0 : 1;
+});
+
+/* hero section end */

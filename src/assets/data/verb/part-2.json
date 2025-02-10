@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "104",
+        "word": "swim",
+        "image": "swim",
+        "sentence": "We swim in the lake every summer."
+    },
+    {
+        "_id": "105",
+        "word": "eat",
+        "image": "eat",
+        "sentence": "She prefers to eat healthy food."
+    },
+    {
+        "_id": "106",
+        "word": "sleep",
+        "image": "sleep",
+        "sentence": "I always sleep early on weekdays."
+    }
+]

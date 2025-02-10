@@ -1,0 +1,123 @@
+[
+    {
+        "__comment": "Start of animals vocabulary section",
+        "_id": "10",
+        "word": "camel",
+        "meaning": "উট",
+        "image": "camel",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Camel is called the ship of desert.",
+        "tags": "animals"
+    },
+    {
+        "_id": "0",
+        "word": "cow",
+        "meaning": "গাভী",
+        "image": "cow",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "the cow gives us milk.",
+        "tags": "animals"
+    },
+    {
+        "_id": "27",
+        "word": "fox",
+        "meaning": "শিয়াল",
+        "image": "fox",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The clever fox outwitted the hunters.",
+        "tags": "animals"
+    },
+    {
+        "_id": "4",
+        "word": "monkey",
+        "meaning": "বানর",
+        "image": "monkey",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The monkey swung from tree to tree.",
+        "tags": "animals"
+    },
+    {
+        "_id": "8",
+        "word": "frog",
+        "meaning": "ব্যাঙ",
+        "image": "frog",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The frog's croak could be heard all night long.",
+        "tags": "animals"
+    },
+    {
+        "_id": "19",
+        "word": "dog",
+        "meaning": "কুকুর",
+        "image": "dog",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The dog barked loudly.",
+        "tags": "animals"
+    },
+    {
+        "_id": "7",
+        "word": "turtle",
+        "meaning": "কচ্ছপ",
+        "image": "turtle",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The turtle moved slowly.",
+        "tags": "animals"
+    },
+    {
+        "_id": "26",
+        "word": "elephant",
+        "meaning": "হাতি",
+        "image": "elephant",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "We saw a huge elephant at the zoo today.",
+        "tags": "animals"
+    },
+    {
+        "_id": "44",
+        "word": "tiger",
+        "meaning": "বাঘ",
+        "image": "tiger",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The tiger crept through the jungle.",
+        "tags": "animals"
+    },
+    {
+        "_id": "41",
+        "word": "rat",
+        "meaning": "ইঁদুর",
+        "image": "rat",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He bought a new toy for his cat to play with.",
+        "tags": "animals"
+    },
+    {
+        "_id": "3",
+        "word": "snake",
+        "meaning": "সাপ",
+        "image": "snake",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The farmer set traps to catch the rats invading his barn.",
+        "tags": "animals"
+    },
+    {
+        "_id": "6",
+        "word": "cat",
+        "meaning": "বিড়াল",
+        "image": "cat",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The cat chased the mouse.",
+        "tags": "animals"
+    }
+]
