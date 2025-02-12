@@ -1,12 +1,14 @@
+const queryParams = new URLSearchParams(window.location.search);
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
+const category = queryParams.get('verbs');
 
 
 // Load vocabularies for a given category
-async function getVocabulary(part) {
+async function getVocabulary(category) {
     setLoading(true);
-    const url = `././assets/data/verb/${part}.json`;
+    const url = `././assets/data/verb/${category}.json`;
     try {
         const response = await fetchData(url);
         displayVerbs(response)
@@ -15,26 +17,37 @@ async function getVocabulary(part) {
         console.error(error)
     }
 }
-getVocabulary("part-1");
+getVocabulary(category);
 
 // Display vocabularies in the UI
-const displayVerbs = (verbs) => {
+const displayVerbs = ({ header, verbs }) => {
+    const verbHeader = document.getElementById('verb-header');
     const verbsContainer = document.getElementById('verb');
+
+    if (!verbHeader || !verbsContainer) return;
+    verbHeader.innerHTML = `
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${header.title}</h1>
+        <img src="${header.image}" class="border border-[#4755691a] object-cover" alt="">
+    `;
+
     verbsContainer.innerHTML = "";
+    // Create a fragment to improve DOM performance
+    const fragment = document.createDocumentFragment();
+
     verbs.forEach(verb => {
-        const verbCardElement = createVocabulariesCard(verb);
-        verbsContainer.appendChild(verbCardElement)
+        fragment.appendChild(createVocabulariesCard(verb));
     });
+    verbsContainer.appendChild(fragment);
 }
 
 // Create a vocabulary card element: card-
 const createVocabulariesCard = ({ word, image, sentence }) => {
     const verbCard = document.createElement('article');
-    verbCard.className = 'min-h-[160px] h-full flex';
+    verbCard.className = 'h-full flex rounded-md sm:border border-[#F0F1F3]';
     verbCard.innerHTML = `
-        <button class="pt-0 flex flex-col items-center w-full" aria-label="Details about camel">
+        <button class="p-5 flex flex-col items-center w-full" aria-label="Details about camel">
             <img id="svg" class="w-[100px] bg-transparent" src="./assets/images/verbs/${image}.png" alt="${image}">
-            <div class="flex items-center mt-5 gap-1">
+            <div class="flex items-center mt-4 gap-1">
                 <span class="text-lg font-medium leading-6 capitalize text-center">${word}</span>
                 <img class="w-5 pronounce cursor-pointer" src="./assets/images/icons/volume_up.svg" title="Click for pronounced" alt="pronounce">
             </div>
@@ -46,7 +59,7 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
 
 
 // Handle tag filtering
-function handleTagClick(event) {
+/* function handleTagClick(event) {
     const button = event.target.closest('.filter-button');
     if (button) {
         const allButtons = document.querySelectorAll('.filter-button');
@@ -55,11 +68,11 @@ function handleTagClick(event) {
         const buttonText = button.getAttribute('data-type').toLowerCase();
         getVocabulary(buttonText);
     }
-}
+} */
 
 // Add event listener for tag clicks
-const tags = document.getElementById('tags');
-tags.addEventListener('click', handleTagClick);
+/* const tags = document.getElementById('tags');
+tags.addEventListener('click', handleTagClick); */
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -72,3 +85,19 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+/* function activeFunction(allVocab) {
+    if (!category) return; // Early exit if no category
+
+    const lowerCaseCategory = category.toLowerCase();
+    const allButtons = document.querySelectorAll('.filter-button');
+
+
+    allButtons?.forEach((button) => {
+        const buttonText = button.getAttribute('data-type')?.toLowerCase();
+        button.classList.toggle
+        button.classList.toggle('active', buttonText === lowerCaseCategory);
+    });
+}
+activeFunction() */

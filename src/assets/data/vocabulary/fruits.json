@@ -1,113 +1,119 @@
-[
-    {
-        "__comment": "Start of fruits vocabulary section",
-        "_id": 39,
-        "word": "apple",
-        "meaning": "আপেল",
-        "image": "apple",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "She ate an apple for a quick snack."
+{
+    "header": {
+        "title": "hello world",
+        "image": "./assets/images/banner/banner2.png"
     },
-    {
-        "_id": 41,
-        "word": "mango",
-        "meaning": "আম",
-        "image": "mango",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "Mangoes are her favorite summer fruit."
-    },
-    {
-        "_id": 40,
-        "word": "grape",
-        "meaning": "আঙ্গুর",
-        "image": "grape",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "She bought a bunch of grapes from the market."
-    },
-    {
-        "_id": 8,
-        "word": "strawberry",
-        "meaning": "স্ট্রবেরি",
-        "image": "strawberry",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "She added fresh strawberries to her cereal."
-    },
-    {
-        "_id": 42,
-        "word": "pineapple",
-        "meaning": "আনারস",
-        "image": "pineapple",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "He loves the tangy taste of pineapple in his fruit salad."
-    },
-    {
-        "_id": 46,
-        "word": "watermelon",
-        "meaning": "তরমুজ",
-        "image": "watermelon",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "Watermelon is a great way to stay hydrated in the summer."
-    },
-    {
-        "_id": 54,
-        "word": "coconut",
-        "meaning": "নারিকেল",
-        "image": "coconut",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "Coconut water is a popular drink in many tropical regions."
-    },
-    {
-        "_id": 6,
-        "word": "banana",
-        "meaning": "কলা",
-        "image": "banana",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "He ate a banana after his workout."
-    },
-    {
-        "_id": 6,
-        "word": "lemon",
-        "meaning": "লেবু",
-        "image": "lemon",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "He ate a lemon after his workout."
-    },
-    {
-        "_id": 14,
-        "word": "orange",
-        "meaning": "কমলা",
-        "image": "orange",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "She drank a glass of fresh orange juice."
-    },
-    {
-        "_id": 14,
-        "word": "popcorn",
-        "meaning": "ভুট্টার খই",
-        "image": "popcorn",
-        "synonym": [],
-        "antonym": [],
-        "tags": "fruits",
-        "sentence": "He accidentally spilled the popcorn all over the couch."
-    }
-]
+    "vocabularies": [
+        {
+            "__comment": "Start of fruits vocabulary section",
+            "_id": 39,
+            "word": "apple",
+            "meaning": "আপেল",
+            "image": "apple",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "She ate an apple for a quick snack."
+        },
+        {
+            "_id": 41,
+            "word": "mango",
+            "meaning": "আম",
+            "image": "mango",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "Mangoes are her favorite summer fruit."
+        },
+        {
+            "_id": 40,
+            "word": "grape",
+            "meaning": "আঙ্গুর",
+            "image": "grape",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "She bought a bunch of grapes from the market."
+        },
+        {
+            "_id": 8,
+            "word": "strawberry",
+            "meaning": "স্ট্রবেরি",
+            "image": "strawberry",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "She added fresh strawberries to her cereal."
+        },
+        {
+            "_id": 42,
+            "word": "pineapple",
+            "meaning": "আনারস",
+            "image": "pineapple",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "He loves the tangy taste of pineapple in his fruit salad."
+        },
+        {
+            "_id": 46,
+            "word": "watermelon",
+            "meaning": "তরমুজ",
+            "image": "watermelon",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "Watermelon is a great way to stay hydrated in the summer."
+        },
+        {
+            "_id": 54,
+            "word": "coconut",
+            "meaning": "নারিকেল",
+            "image": "coconut",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "Coconut water is a popular drink in many tropical regions."
+        },
+        {
+            "_id": 6,
+            "word": "banana",
+            "meaning": "কলা",
+            "image": "banana",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "He ate a banana after his workout."
+        },
+        {
+            "_id": 6,
+            "word": "lemon",
+            "meaning": "লেবু",
+            "image": "lemon",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "He ate a lemon after his workout."
+        },
+        {
+            "_id": 14,
+            "word": "orange",
+            "meaning": "কমলা",
+            "image": "orange",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "She drank a glass of fresh orange juice."
+        },
+        {
+            "_id": 14,
+            "word": "popcorn",
+            "meaning": "ভুট্টার খই",
+            "image": "popcorn",
+            "synonym": [],
+            "antonym": [],
+            "tags": "fruits",
+            "sentence": "He accidentally spilled the popcorn all over the couch."
+        }
+    ]
+}

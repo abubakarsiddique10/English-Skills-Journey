@@ -9,11 +9,11 @@
     },
     {
         "name": "vocabulary",
-        "link": "./vocabulary.html"
+        "link": "vocabulary-category.html"
     },
     {
         "name": "verbs",
-        "link": "./verbs.html"
+        "link": "verbs-category.html"
     },
     {
         "name": "blog",

@@ -1,53 +1,59 @@
-[
-    {
-        "__comment": "Start of vehicles vocabulary section",
-        "_id": "0",
-        "word": "airplane",
-        "meaning": "বিমান",
-        "image": "airplane",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The airplane cracked up in landing.",
-        "tags": "vehicles"
+{
+    "header": {
+        "title": "hello world",
+        "image": "./assets/images/banner/banner2.png"
     },
-    {
-        "_id": "1",
-        "word": "car",
-        "meaning": "গাড়ি",
-        "image": "car",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "She drove her new car to work.",
-        "tags": "vehicles"
-    },
-    {
-        "_id": "2",
-        "word": "bicycle",
-        "meaning": "সাইকেল",
-        "image": "bicycle",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "I ride my bicycle to school every day.",
-        "tags": "vehicles"
-    },
-    {
-        "_id": "3",
-        "word": "bus",
-        "meaning": "বাস",
-        "image": "bus",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The bus arrived late, causing many commuters to be delayed.",
-        "tags": "vehicles"
-    },
-    {
-        "_id": "5",
-        "word": "motorcycle",
-        "meaning": "মোটরসাইকেল",
-        "image": "motorcycle",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "He rides his motorcycle to work every day, rain or shine.",
-        "tags": "vehicles"
-    }
-]
+    "vocabularies": [
+        {
+            "__comment": "Start of vehicles vocabulary section",
+            "_id": "0",
+            "word": "airplane",
+            "meaning": "বিমান",
+            "image": "airplane",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The airplane cracked up in landing.",
+            "tags": "vehicles"
+        },
+        {
+            "_id": "1",
+            "word": "car",
+            "meaning": "গাড়ি",
+            "image": "car",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "She drove her new car to work.",
+            "tags": "vehicles"
+        },
+        {
+            "_id": "2",
+            "word": "bicycle",
+            "meaning": "সাইকেল",
+            "image": "bicycle",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "I ride my bicycle to school every day.",
+            "tags": "vehicles"
+        },
+        {
+            "_id": "3",
+            "word": "bus",
+            "meaning": "বাস",
+            "image": "bus",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The bus arrived late, causing many commuters to be delayed.",
+            "tags": "vehicles"
+        },
+        {
+            "_id": "5",
+            "word": "motorcycle",
+            "meaning": "মোটরসাইকেল",
+            "image": "motorcycle",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "He rides his motorcycle to work every day, rain or shine.",
+            "tags": "vehicles"
+        }
+    ]
+}

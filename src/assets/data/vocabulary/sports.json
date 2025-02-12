@@ -1,163 +1,169 @@
-[
-    {
-        "__comment": "Start of sports vocabulary section",
-        "_id": "0",
-        "word": "player",
-        "meaning": "খেলোয়াড়",
-        "image": "player",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "Football is a team game",
-        "tags": "sports"
+{
+    "header": {
+        "title": "hello world",
+        "image": "./assets/images/banner/banner2.png"
     },
-    {
-        "_id": "1",
-        "word": "playground",
-        "meaning": "খেলার মাঠ",
-        "image": "playground",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "They came to blows on the playground.",
-        "tags": "sports"
-    },
-    {
-        "_id": "2",
-        "word": "coach",
-        "meaning": "কোচ",
-        "image": "coach",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The coach gave us some great advice before the match.",
-        "tags": "sports"
-    },
-    {
-        "_id": "3",
-        "word": "team",
-        "meaning": "দল",
-        "image": "team",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "Our team won the championship.",
-        "tags": "sports"
-    },
-    {
-        "_id": "4",
-        "word": "goal",
-        "meaning": "লক্ষ্য",
-        "image": "goal",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "Scoring a goal in the last minute was incredible.",
-        "tags": "sports"
-    },
-    {
-        "_id": "5",
-        "word": "referee",
-        "meaning": "দায়িত্বশীল বিতর্ক",
-        "image": "referee",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The referee blew the whistle to stop play.",
-        "tags": "sports"
-    },
-    {
-        "_id": "6",
-        "word": "score",
-        "meaning": "স্কোর",
-        "image": "score",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "We need to score two more goals to win.",
-        "tags": "sports"
-    },
-    {
-        "_id": "7",
-        "word": "tournament",
-        "meaning": "প্রতিযোগিতা",
-        "image": "tournament",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The tennis tournament attracts players from all over the world.",
-        "tags": "sports"
-    },
-    {
-        "_id": "8",
-        "word": "athlete",
-        "meaning": "ক্রীড়াবিদ",
-        "image": "athlete",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "She's a talented athlete who excels in multiple sports.",
-        "tags": "sports"
-    },
-    {
-        "_id": "9",
-        "word": "match",
-        "meaning": "ম্যাচ",
-        "image": "match",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The soccer match ended in a draw.",
-        "tags": "sports"
-    },
-    {
-        "_id": "10",
-        "word": "pitch",
-        "meaning": "মাটি",
-        "image": "pitch",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "The cricket pitch was perfect for batting.",
-        "tags": "sports"
-    },
-    {
-        "_id": "11",
-        "word": "victory",
-        "meaning": "বিজয়",
-        "image": "victory",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "Their victory was well-deserved after such hard work.",
-        "tags": "sports"
-    },
-    {
-        "_id": "12",
-        "word": "defeat",
-        "meaning": "পরাজয়",
-        "image": "defeat",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "We must learn from defeat and come back stronger.",
-        "tags": "sports"
-    },
-    {
-        "_id": "13",
-        "word": "scoreboard",
-        "meaning": "স্কোরবোর্ড",
-        "image": "scoreboard",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "Check the scoreboard for the latest updates on the game.",
-        "tags": "sports"
-    },
-    {
-        "_id": "14",
-        "word": "dribble",
-        "meaning": "ড্রিবল",
-        "image": "dribble",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "He has amazing dribbling skills on the basketball court.",
-        "tags": "sports"
-    },
-    {
-        "_id": "15",
-        "word": "champion",
-        "meaning": "চ্যাম্পিয়ন",
-        "image": "champion",
-        "synonym": [],
-        "antonym": [],
-        "sentence": "She's the reigning champion of the swimming competition.",
-        "tags": "sports"
-    }
-]
+    "vocabularies": [
+        {
+            "__comment": "Start of sports vocabulary section",
+            "_id": "0",
+            "word": "player",
+            "meaning": "খেলোয়াড়",
+            "image": "player",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "Football is a team game",
+            "tags": "sports"
+        },
+        {
+            "_id": "1",
+            "word": "playground",
+            "meaning": "খেলার মাঠ",
+            "image": "playground",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "They came to blows on the playground.",
+            "tags": "sports"
+        },
+        {
+            "_id": "2",
+            "word": "coach",
+            "meaning": "কোচ",
+            "image": "coach",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The coach gave us some great advice before the match.",
+            "tags": "sports"
+        },
+        {
+            "_id": "3",
+            "word": "team",
+            "meaning": "দল",
+            "image": "team",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "Our team won the championship.",
+            "tags": "sports"
+        },
+        {
+            "_id": "4",
+            "word": "goal",
+            "meaning": "লক্ষ্য",
+            "image": "goal",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "Scoring a goal in the last minute was incredible.",
+            "tags": "sports"
+        },
+        {
+            "_id": "5",
+            "word": "referee",
+            "meaning": "দায়িত্বশীল বিতর্ক",
+            "image": "referee",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The referee blew the whistle to stop play.",
+            "tags": "sports"
+        },
+        {
+            "_id": "6",
+            "word": "score",
+            "meaning": "স্কোর",
+            "image": "score",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "We need to score two more goals to win.",
+            "tags": "sports"
+        },
+        {
+            "_id": "7",
+            "word": "tournament",
+            "meaning": "প্রতিযোগিতা",
+            "image": "tournament",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The tennis tournament attracts players from all over the world.",
+            "tags": "sports"
+        },
+        {
+            "_id": "8",
+            "word": "athlete",
+            "meaning": "ক্রীড়াবিদ",
+            "image": "athlete",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "She's a talented athlete who excels in multiple sports.",
+            "tags": "sports"
+        },
+        {
+            "_id": "9",
+            "word": "match",
+            "meaning": "ম্যাচ",
+            "image": "match",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The soccer match ended in a draw.",
+            "tags": "sports"
+        },
+        {
+            "_id": "10",
+            "word": "pitch",
+            "meaning": "মাটি",
+            "image": "pitch",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "The cricket pitch was perfect for batting.",
+            "tags": "sports"
+        },
+        {
+            "_id": "11",
+            "word": "victory",
+            "meaning": "বিজয়",
+            "image": "victory",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "Their victory was well-deserved after such hard work.",
+            "tags": "sports"
+        },
+        {
+            "_id": "12",
+            "word": "defeat",
+            "meaning": "পরাজয়",
+            "image": "defeat",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "We must learn from defeat and come back stronger.",
+            "tags": "sports"
+        },
+        {
+            "_id": "13",
+            "word": "scoreboard",
+            "meaning": "স্কোরবোর্ড",
+            "image": "scoreboard",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "Check the scoreboard for the latest updates on the game.",
+            "tags": "sports"
+        },
+        {
+            "_id": "14",
+            "word": "dribble",
+            "meaning": "ড্রিবল",
+            "image": "dribble",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "He has amazing dribbling skills on the basketball court.",
+            "tags": "sports"
+        },
+        {
+            "_id": "15",
+            "word": "champion",
+            "meaning": "চ্যাম্পিয়ন",
+            "image": "champion",
+            "synonym": [],
+            "antonym": [],
+            "sentence": "She's the reigning champion of the swimming competition.",
+            "tags": "sports"
+        }
+    ]
+}

@@ -6,12 +6,6 @@ import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
 
 
-
-/* const getCategoryInHTML = document.querySelector('.categories');
-getCategoryInHTML.innerHTML = category */
-
-let allData = null;
-
 async function getVocabulary(category) {
     setLoading(true);
     const url = `././assets/data/vocabulary/${category}.json`;
@@ -22,27 +16,36 @@ async function getVocabulary(category) {
     } catch (error) {
         console.error(error)
     }
-
 }
-getVocabulary("animals");
+getVocabulary(category);
 
 
 // Display vocabularies in the UI
-const displayVocabularies = (vocabularies) => {
+const displayVocabularies = ({ header, vocabularies }) => {
+    const vocabularyHeader = document.getElementById('vocabulary-header');
     const vocabularyContainer = document.getElementById('vocabulary');
-    vocabularyContainer.innerHTML = "";
-    vocabularies.forEach(vocabulary => {
-        const vocabularyCardElement = createVocabulariesCard(vocabulary);
-        vocabularyContainer.appendChild(vocabularyCardElement)
-    });
-}
 
+    if (!vocabularyHeader || !vocabularyContainer) return;
+
+    vocabularyHeader.innerHTML = `
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${header.title}</h1>
+        <img src="${header.image}" class="border border-[#4755691a] object-cover" alt="">
+    `;
+    vocabularyContainer.innerHTML = ""; // Clear previous content
+
+    // Create a fragment to improve DOM performance
+    const fragment = document.createDocumentFragment();
+    vocabularies.forEach(vocabulary => {
+        fragment.appendChild(createVocabulariesCard(vocabulary));
+    });
+    vocabularyContainer.appendChild(fragment);
+};
 
 
 // Create a vocabulary card element: card-
 const createVocabulariesCard = ({ word, image, sentence }) => {
     const vocabularyCard = document.createElement('div');
-    vocabularyCard.className = 'min-h-[160px] h-full flex rounded-md sm:border border-[#F0F1F3]';
+    vocabularyCard.className = 'h-full flex rounded-md sm:border border-[#F0F1F3]';
     vocabularyCard.title = `Click for details about ${word}`;
     vocabularyCard.innerHTML = `
         <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full">
@@ -59,7 +62,7 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
 
 
 // Handle tag filtering
-function handleTagClick(event) {
+/* function handleTagClick(event) {
     const button = event.target.closest('.filter-button');
     if (button) {
         const allButtons = document.querySelectorAll('.filter-button');
@@ -69,13 +72,13 @@ function handleTagClick(event) {
         const buttonText = button.getAttribute('data-type').toLowerCase();
         getVocabulary(buttonText);
     }
-}
+} */
 
 
 
 // Add event listener for tag clicks
-const tags = document.getElementById('tags');
-tags.addEventListener('click', handleTagClick);
+/* const tags = document.getElementById('tags');
+tags.addEventListener('click', handleTagClick); */
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -90,5 +93,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+/* function activeFunction(allVocab) {
+    if (!category) return; // Early exit if no category
 
+    const lowerCaseCategory = category.toLowerCase();
+    const allButtons = document.querySelectorAll('.filter-button');
+
+    allButtons?.forEach((button) => {
+        const buttonText = button.innerText?.toLowerCase();
+        button.classList.toggle
+        button.classList.toggle('active', buttonText === lowerCaseCategory);
+    });
+}
+activeFunction() */
 

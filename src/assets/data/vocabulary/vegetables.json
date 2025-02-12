@@ -1,142 +1,148 @@
-[
-    {
-        "__comment": "Start of vegetables vocabulary section",
-        "_id": 6,
-        "word": "carrot",
-        "meaning": "গাজর",
-        "image": "carrot",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "Carrot cake is her favorite dessert."
+{
+    "header": {
+        "title": "hello world",
+        "image": "./assets/images/banner/banner2.png"
     },
-    {
-        "_id": 0,
-        "word": "cabbage",
-        "meaning": "বাঁধাকপি",
-        "image": "cabbage",
-        "synonym": [],
-        "tags": "vegetables",
-        "sentence": "Cabbage is a nutritious source of vitamins."
-    },
-    {
-        "_id": 1,
-        "word": "cauliflower",
-        "meaning": "ফুলকপি",
-        "image": "cauliflower",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "Cauliflower is rich in vitamins and antioxidants."
-    },
-    {
-        "_id": 2,
-        "word": "mushroom",
-        "meaning": "মাশরুম",
-        "image": "mushroom",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "After the rain, mushrooms sprouted in the damp soil."
-    },
-    {
-        "_id": 3,
-        "word": "potato",
-        "meaning": "আলু",
-        "image": "potato",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "The potato fields stretched out for miles under the blue sky."
-    },
-    {
-        "_id": 4,
-        "word": "tomato",
-        "meaning": "টমেটো",
-        "image": "tomato",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "She sliced a ripe tomato for her sandwich."
-    },
-    {
-        "_id": 5,
-        "word": "cucumber",
-        "meaning": "শসা",
-        "image": "cucumber",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "he sliced the cucumber thinly for the salad."
-    },
-    {
-        "_id": 7,
-        "word": "chili",
-        "meaning": "মরিচ",
-        "image": "chili",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "Chili con carne is a popular dish in many regions."
-    },
-    {
-        "_id": 8,
-        "word": "eggplant",
-        "meaning": "বেগুন",
-        "image": "eggplant",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "She grilled slices of eggplant for a healthy dinner."
-    },
-    {
-        "_id": 10,
-        "word": "onion",
-        "meaning": "পেঁয়াজ",
-        "image": "onion",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "She cried while cutting the onion."
-    },
-    {
-        "_id": 12,
-        "word": "pumpkin",
-        "meaning": "মিষ্টি কুমড়া",
-        "image": "pumpkin",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "He roasted pumpkin seeds with salt for a tasty snack."
-    },
-    {
-        "_id": 13,
-        "word": "radish",
-        "meaning": "মূলা",
-        "image": "radish",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "The radish harvest was bountiful this year."
-    },
-    {
-        "_id": 18,
-        "word": "broccoli",
-        "meaning": "ব্রকলি",
-        "image": "broccoli",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "Broccoli grows best in cool climates."
-    },
-    {
-        "_id": 21,
-        "word": "corn",
-        "meaning": "ভুট্টা",
-        "image": "corn",
-        "synonym": [],
-        "antonym": [],
-        "tags": "vegetables",
-        "sentence": "Farmers plant corn in the spring for a fall harvest."
-    }
-]
+    "vocabularies": [
+        {
+            "__comment": "Start of vegetables vocabulary section",
+            "_id": 6,
+            "word": "carrot",
+            "meaning": "গাজর",
+            "image": "carrot",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "Carrot cake is her favorite dessert."
+        },
+        {
+            "_id": 0,
+            "word": "cabbage",
+            "meaning": "বাঁধাকপি",
+            "image": "cabbage",
+            "synonym": [],
+            "tags": "vegetables",
+            "sentence": "Cabbage is a nutritious source of vitamins."
+        },
+        {
+            "_id": 1,
+            "word": "cauliflower",
+            "meaning": "ফুলকপি",
+            "image": "cauliflower",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "Cauliflower is rich in vitamins and antioxidants."
+        },
+        {
+            "_id": 2,
+            "word": "mushroom",
+            "meaning": "মাশরুম",
+            "image": "mushroom",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "After the rain, mushrooms sprouted in the damp soil."
+        },
+        {
+            "_id": 3,
+            "word": "potato",
+            "meaning": "আলু",
+            "image": "potato",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "The potato fields stretched out for miles under the blue sky."
+        },
+        {
+            "_id": 4,
+            "word": "tomato",
+            "meaning": "টমেটো",
+            "image": "tomato",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "She sliced a ripe tomato for her sandwich."
+        },
+        {
+            "_id": 5,
+            "word": "cucumber",
+            "meaning": "শসা",
+            "image": "cucumber",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "he sliced the cucumber thinly for the salad."
+        },
+        {
+            "_id": 7,
+            "word": "chili",
+            "meaning": "মরিচ",
+            "image": "chili",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "Chili con carne is a popular dish in many regions."
+        },
+        {
+            "_id": 8,
+            "word": "eggplant",
+            "meaning": "বেগুন",
+            "image": "eggplant",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "She grilled slices of eggplant for a healthy dinner."
+        },
+        {
+            "_id": 10,
+            "word": "onion",
+            "meaning": "পেঁয়াজ",
+            "image": "onion",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "She cried while cutting the onion."
+        },
+        {
+            "_id": 12,
+            "word": "pumpkin",
+            "meaning": "মিষ্টি কুমড়া",
+            "image": "pumpkin",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "He roasted pumpkin seeds with salt for a tasty snack."
+        },
+        {
+            "_id": 13,
+            "word": "radish",
+            "meaning": "মূলা",
+            "image": "radish",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "The radish harvest was bountiful this year."
+        },
+        {
+            "_id": 18,
+            "word": "broccoli",
+            "meaning": "ব্রকলি",
+            "image": "broccoli",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "Broccoli grows best in cool climates."
+        },
+        {
+            "_id": 21,
+            "word": "corn",
+            "meaning": "ভুট্টা",
+            "image": "corn",
+            "synonym": [],
+            "antonym": [],
+            "tags": "vegetables",
+            "sentence": "Farmers plant corn in the spring for a fall harvest."
+        }
+    ]
+}
