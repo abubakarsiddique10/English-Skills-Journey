@@ -1,93 +1,143 @@
-const queryParams = new URLSearchParams(window.location.search);
-const topic = queryParams.get('topic');
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 
-// Fetch presentation data and initialize the display
+const queryParams = new URLSearchParams(window.location.search);
+const topic = queryParams.get('topic');
+const presentationHeader = document.getElementById('presentation-header');
+const presentationSubheader = document.getElementById('presentation-subheader');
+const presentationContents = document.getElementById('presentation-contents');
+
+// Fetch and display presentation data
 async function getPresentation(category) {
-    setLoading(true)
+    setLoading(true);
     const url = `././assets/data/speaking/${category}.json`;
+
     try {
-        const response = await fetchData(url)
+        const response = await fetchData(url);
         const topicName = response.find((content) => content.topicName === topic);
-        displayPresentation(topicName);
-        setLoading(false)
+
+        if (topicName) {
+            displayPresentation(topicName);
+        } else {
+            throw new Error('Topic not found');
+        }
     } catch (error) {
-        console.error(error)
+        presentationContents.innerHTML = `<p class="error-message">Failed to load presentation. Please try again later.</p>`;
+    } finally {
+        setLoading(false);
     }
 }
 
 const displayPresentation = ({ title, image, contents }) => {
-    const presentationHeader = document.getElementById('presentation-header');
-    const presentationSubheader = document.getElementById('presentation-subheader');
-    const presentationContents = document.getElementById('presentation-contents');
     if (!presentationHeader || !presentationContents) return;
-
+    // Clear previous content
     presentationHeader.innerHTML = `
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${title}</h1>
-        <img src="${image}" class="border border-[#4755691a] object-cover" alt="">
+        <img src="${image}" class="border border-[#4755691a] object-cover" alt="${title}">
     `;
 
     presentationSubheader.innerHTML = `
         <button>
-            <img src="./assets/images/icons/share.svg" alt="">
+            <img src="./assets/images/icons/share.svg" alt="Share">
         </button>
         <button id="speak" data-id="1">
-            <img class="w-[22px] play cursor-pointer" src="./assets/images/icons/play-circle.svg" alt="">
-            <img class="w-[22px] pause hidden cursor-pointer" src="./assets/images/icons/pause-circle.svg" alt="">
+            <img class="w-[22px] play cursor-pointer" src="./assets/images/icons/play-circle.svg" alt="Play">
+            <img class="w-[22px] pause hidden cursor-pointer" src="./assets/images/icons/pause-circle.svg" alt="Pause">
         </button>
-    `
-    contents.forEach((content) => {
+    `;
+
+    // Clear previous contents
+    presentationContents.innerHTML = '';
+
+    contents.forEach(content => {
         const p = document.createElement('p');
-        p.className = 'text-[#242424] text-lg pb-6 text-[#242424] leading-7 lg:text-xl lg:leading-8'
+        p.className = 'text-[#242424] text-lg text-justify pb-6 leading-7 lg:text-xl lg:leading-8';
         p.innerText = content;
-        presentationContents.appendChild(p)
-    })
+        presentationContents.appendChild(p);
+    });
 };
 
 
 
 
+/* Text-to-Speech Initialization */
+const speechSynthesis = window.speechSynthesis;
+const utterance = new SpeechSynthesisUtterance();
+utterance.rate = 0.9; // Adjust speech rate
 
-function speak() {
-    const presentationContainer = document.getElementById('presentation-contents');
+let isPaused = false; // Track if speech is paused
+let charIndex = 0; // Track where speech was paused
+let textToSpeak = ""; // Store full text
 
-    presentationContainer.addEventListener('click', (event) => {
-        const speakButton = event.target.closest('#speak');
-        const isPlay = event.target.classList.contains('play');
-        const isPause = event.target.classList.contains('pause');
-        const dataId = speakButton?.dataset.id;
-        ;
-        if (isPlay) {
-            event.target.classList.add('hidden');
-            event.target.nextElementSibling.classList.remove('hidden');
-
-            speechSynthesis.cancel();
-
-            const allPause = document.querySelectorAll('.pause');
-            const allPlay = document.querySelectorAll('.play');
-            allPlay.forEach((element) => element.classList.remove('hidden'))
-            allPause.forEach((element) => element.classList.add('hidden'))
-
-            event.target.classList.add('hidden')
-            event.target.nextElementSibling.classList.remove('hidden');
-            const findTextContent = allData.find(({ id }) => id == dataId);
-            const removeParagraphTags = findTextContent.content.replace(/<\/?p>/g, '');
-            utterance.text = removeParagraphTags
-            speechSynthesis.speak(utterance);
-
-
-        } else if (isPause) {
-            event.target.classList.add('hidden');
-            event.target.previousElementSibling.classList.remove('hidden');
-
-            speechSynthesis.cancel();
-        }
-    })
+// Select a suitable voice once voices are available
+function setVoice() {
+    const voices = speechSynthesis.getVoices();
+    if (voices.length > 0) {
+        utterance.voice = voices.find(voice => voice.lang.startsWith("en")) || voices[0];
+    } else {
+        console.error("No voices available.");
+    }
 }
-speak()
 
+// Ensure voices are loaded before setting
+if (speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = setVoice;
+}
+
+// Event listener to track progress and store pause position
+utterance.onboundary = (event) => {
+    charIndex = event.charIndex; // Save the position of the spoken text
+};
+
+// Function to handle speech synthesis play/pause
+function handleSpeech(event) {
+    const target = event.target;
+    const isPlay = target.classList.contains('play');
+    const isPause = target.classList.contains('pause');
+
+    if (isPlay) {
+        // Reset all play/pause buttons
+        document.querySelectorAll('.play').forEach(btn => btn.classList.remove('hidden'));
+        document.querySelectorAll('.pause').forEach(btn => btn.classList.add('hidden'));
+
+        // Toggle current button
+        target.classList.add('hidden');
+        target.nextElementSibling.classList.remove('hidden');
+
+        if (isPaused) {
+            // Resume from paused position
+            utterance.text = textToSpeak.substring(charIndex);
+            isPaused = false;
+        } else {
+            // Start fresh
+            textToSpeak = document.getElementById('presentation-contents').innerText;
+            charIndex = 0;
+            utterance.text = textToSpeak;
+        }
+
+        speechSynthesis.cancel();
+        speechSynthesis.speak(utterance);
+
+    } else if (isPause) {
+        target.classList.add('hidden');
+        target.previousElementSibling.classList.remove('hidden');
+
+        // Pause speech
+        isPaused = true;
+        speechSynthesis.cancel();
+    }
+}
+// Attach event listener once
+document.getElementById('presentation-subheader')?.addEventListener('click', handleSpeech);
+
+// Stop speech when leaving the page
+window.addEventListener("beforeunload", () => {
+    speechSynthesis.cancel();
+});
+
+/* Text-to-Speech end */
 
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', getPresentation("speakingtopics"))
+

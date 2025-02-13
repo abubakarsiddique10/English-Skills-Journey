@@ -40,6 +40,16 @@ header,
     display: block;
 }
 
+#tags li:last-child {
+    margin-right: 0px;
+}
+
+#vocabulary-category #tags .active,
+#speaking-topics #tags .active {
+    background: #0f0f0f !important;
+    color: #fff !important;
+}
+
 /* common css end */
 
 /* hero section start */

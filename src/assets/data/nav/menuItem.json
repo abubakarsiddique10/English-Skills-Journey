@@ -4,10 +4,6 @@
         "link": "index.html"
     },
     {
-        "name": "Speaking",
-        "link": "./speaking.html"
-    },
-    {
         "name": "vocabulary",
         "link": "vocabulary-category.html"
     },
@@ -16,7 +12,7 @@
         "link": "verbs-category.html"
     },
     {
-        "name": "blog",
-        "link": "./blog.html"
+        "name": "speaking topics",
+        "link": "speaking-topics.html"
     }
 ]

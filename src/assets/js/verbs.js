@@ -58,22 +58,6 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
 }
 
 
-// Handle tag filtering
-/* function handleTagClick(event) {
-    const button = event.target.closest('.filter-button');
-    if (button) {
-        const allButtons = document.querySelectorAll('.filter-button');
-        allButtons.forEach((button) => button.classList.remove('active'));
-        button.classList.add('active');
-        const buttonText = button.getAttribute('data-type').toLowerCase();
-        getVocabulary(buttonText);
-    }
-} */
-
-// Add event listener for tag clicks
-/* const tags = document.getElementById('tags');
-tags.addEventListener('click', handleTagClick); */
-
 
 document.addEventListener('DOMContentLoaded', () => {
     const verb = document.getElementById('verb');
@@ -85,19 +69,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-
-/* function activeFunction(allVocab) {
-    if (!category) return; // Early exit if no category
-
-    const lowerCaseCategory = category.toLowerCase();
-    const allButtons = document.querySelectorAll('.filter-button');
-
-
-    allButtons?.forEach((button) => {
-        const buttonText = button.getAttribute('data-type')?.toLowerCase();
-        button.classList.toggle
-        button.classList.toggle('active', buttonText === lowerCaseCategory);
-    });
-}
-activeFunction() */

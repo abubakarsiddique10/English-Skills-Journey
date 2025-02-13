@@ -6,4 +6,17 @@ async function fetchData(url) {
     }
     return response.json()
 }
-export { fetchData }
+
+function createTags(tagName, index) {
+    const li = document.createElement('li');
+    li.className = `filter-button px-3 py-1.5 text-sm font-medium bg-[#0000000d] text-[#0f0f0f] rounded-md capitalize mr-3 text-nowrap cursor-pointer ${index === 0 ? 'active' : ""}`;
+    li.innerText = tagName;
+    return li
+}
+
+
+
+
+export { fetchData, createTags }
+
+
