@@ -1,0 +1,134 @@
+{
+    "metadata": {
+        "title": "Wild Animals Vocabulary",
+        "bannerImage": "./assets/images/banner/banner2.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "Deer",
+            "imagePath": "./assets/images/vocabulary/deer.png",
+            "exampleSentence": "The deer gracefully leaps through the forest."
+        },
+        {
+            "word": "Monkey",
+            "imagePath": "./assets/images/vocabulary/monkey.png",
+            "exampleSentence": "The monkey swings from tree to tree."
+        },
+        {
+            "word": "Leopard",
+            "imagePath": "./assets/images/vocabulary/leopard.png",
+            "exampleSentence": "The leopard is known for its speed and agility."
+        },
+        {
+            "word": "Squirrel",
+            "imagePath": "./assets/images/vocabulary/squirrel.png",
+            "exampleSentence": "The squirrel collects nuts for winter."
+        },
+        {
+            "word": "Giraffe",
+            "imagePath": "./assets/images/vocabulary/giraffe.png",
+            "exampleSentence": "The giraffe has a long neck to reach high leaves."
+        },
+        {
+            "word": "Tiger",
+            "imagePath": "./assets/images/vocabulary/tiger.png",
+            "exampleSentence": "The tiger is a fierce and powerful predator."
+        },
+        {
+            "word": "Lion",
+            "imagePath": "./assets/images/vocabulary/lion.png",
+            "exampleSentence": "The lion is known as the king of the jungle."
+        },
+        {
+            "word": "Elephant",
+            "imagePath": "./assets/images/vocabulary/elephant.png",
+            "exampleSentence": "The elephant has a strong memory."
+        },
+        {
+            "word": "Bear",
+            "imagePath": "./assets/images/vocabulary/bear.png",
+            "exampleSentence": "The bear hibernates during winter."
+        },
+        {
+            "word": "Wolf",
+            "imagePath": "./assets/images/vocabulary/wolf.png",
+            "exampleSentence": "The wolf howls at the moon at night."
+        },
+        {
+            "word": "Zebra",
+            "imagePath": "./assets/images/vocabulary/zebra.png",
+            "exampleSentence": "The zebra has black and white stripes."
+        },
+        {
+            "word": "Kangaroo",
+            "imagePath": "./assets/images/vocabulary/kangaroo.png",
+            "exampleSentence": "The kangaroo carries its baby in its pouch."
+        },
+        {
+            "word": "Wild Boar",
+            "imagePath": "./assets/images/vocabulary/wild_boar.png",
+            "exampleSentence": "The wild boar is a strong and fearless animal."
+        },
+        {
+            "word": "Hyena",
+            "imagePath": "./assets/images/vocabulary/hyena.png",
+            "exampleSentence": "The hyena is known for its laughter-like calls."
+        },
+        {
+            "word": "Mongoose",
+            "imagePath": "./assets/images/vocabulary/mongoose.png",
+            "exampleSentence": "The mongoose is a fast and agile hunter."
+        },
+        {
+            "word": "Gorilla",
+            "imagePath": "./assets/images/vocabulary/gorilla.png",
+            "exampleSentence": "The gorilla is a strong and intelligent primate."
+        },
+        {
+            "word": "Eagle",
+            "imagePath": "./assets/images/vocabulary/eagle.png",
+            "exampleSentence": "The eagle has sharp eyesight to spot prey from afar."
+        },
+        {
+            "word": "Bison",
+            "imagePath": "./assets/images/vocabulary/bison.png",
+            "exampleSentence": "The bison roams in large herds."
+        },
+        {
+            "word": "Crocodile",
+            "imagePath": "./assets/images/vocabulary/crocodile.png",
+            "exampleSentence": "The crocodile is a stealthy predator in the water."
+        },
+        {
+            "word": "Koala",
+            "imagePath": "./assets/images/vocabulary/koala.png",
+            "exampleSentence": "The koala loves to eat eucalyptus leaves."
+        },
+        {
+            "word": "Fox",
+            "imagePath": "./assets/images/vocabulary/fox.png",
+            "exampleSentence": "The fox is known for its cunning nature."
+        },
+        {
+            "word": "Vulture",
+            "imagePath": "./assets/images/vocabulary/vulture.png",
+            "exampleSentence": "The vulture feeds on carrion."
+        },
+        {
+            "word": "Emu",
+            "imagePath": "./assets/images/vocabulary/emu.png",
+            "exampleSentence": "The emu is a flightless bird native to Australia."
+        },
+        {
+            "word": "Rhinoceros",
+            "imagePath": "./assets/images/vocabulary/rhinoceros.png",
+            "exampleSentence": "The rhinoceros has a tough, armored body."
+        },
+        {
+            "word": "Hippopotamus",
+            "imagePath": "./assets/images/vocabulary/hippopotamus.png",
+            "exampleSentence": "The hippopotamus spends much of its time in the water."
+        }
+    ]
+}

@@ -21,21 +21,21 @@ getVocabulary(category);
 
 
 // Display vocabularies in the UI
-const displayVocabularies = ({ header, vocabularies }) => {
+const displayVocabularies = ({ metadata, vocabularyList }) => {
     const vocabularyHeader = document.getElementById('vocabulary-header');
     const vocabularyContainer = document.getElementById('vocabulary');
 
     if (!vocabularyHeader || !vocabularyContainer) return;
 
     vocabularyHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${header.title}</h1>
-        <img src="${header.image}" class="border border-[#4755691a] object-cover" alt="">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${metadata.title}</h1>
+        <img src="${metadata.bannerImage}" class="border border-[#4755691a] object-cover" alt="">
     `;
     vocabularyContainer.innerHTML = ""; // Clear previous content
 
     // Create a fragment to improve DOM performance
     const fragment = document.createDocumentFragment();
-    vocabularies.forEach(vocabulary => {
+    vocabularyList.forEach(vocabulary => {
         fragment.appendChild(createVocabulariesCard(vocabulary));
     });
     vocabularyContainer.appendChild(fragment);
@@ -43,18 +43,18 @@ const displayVocabularies = ({ header, vocabularies }) => {
 
 
 // Create a vocabulary card element: card-
-const createVocabulariesCard = ({ word, image, sentence }) => {
+const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
     const vocabularyCard = document.createElement('div');
     vocabularyCard.className = 'h-full flex rounded-md sm:border border-[#F0F1F3]';
     vocabularyCard.title = `Click for details about ${word}`;
     vocabularyCard.innerHTML = `
         <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full">
-            <img id="svg" class="w-16" src="./assets/images/vocabulary/${image}.png" alt="${image}">
+            <img id="svg" class="w-16" src="${imagePath}" alt="${word}">
             <div class="flex items-center mt-5 gap-1">
                 <span class="text-lg font-medium leading-6 capitalize text-center">${word}</span>
                 <img class="w-5 pronounce cursor-pointer" src="./assets/images/icons/volume_up.svg" title="Click for pronounced" alt="pronounce">
             </div>
-            <span class="mt-1 text-sm first-letter:capitalize">${sentence}</span>
+            <span class="mt-1 text-sm first-letter:capitalize">${exampleSentence}</span>
         </button>
     `;
     return vocabularyCard
@@ -74,3 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+/* const formattedDate = new Date("2024-11-07").toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+
+console.log(formattedDate); // Output: "Nov 7, 2024" */

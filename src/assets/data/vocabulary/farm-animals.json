@@ -1,0 +1,189 @@
+{
+    "metadata": {
+        "title": "Farm Animals Vocabulary",
+        "bannerImage": "./assets/images/banner/banner2.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "Goat",
+            "imagePath": "./assets/images/vocabulary/goat.png",
+            "exampleSentence": "The goat likes to eat grass."
+        },
+        {
+            "word": "Sheep",
+            "imagePath": "./assets/images/vocabulary/sheep.png",
+            "exampleSentence": "The sheep are grazing in the field."
+        },
+        {
+            "word": "Turkey",
+            "imagePath": "./assets/images/vocabulary/turkey.png",
+            "exampleSentence": "The turkey struts around the farm."
+        },
+        {
+            "word": "Rabbit",
+            "imagePath": "./assets/images/vocabulary/rabbit.png",
+            "exampleSentence": "The rabbit hops in the garden."
+        },
+        {
+            "word": "Donkey",
+            "imagePath": "./assets/images/vocabulary/donkey.png",
+            "exampleSentence": "The donkey carries heavy loads on the farm."
+        },
+        {
+            "word": "Alpaca",
+            "imagePath": "./assets/images/vocabulary/alpaca.png",
+            "exampleSentence": "The alpaca has soft wool."
+        },
+        {
+            "word": "Buffalo",
+            "imagePath": "./assets/images/vocabulary/buffalo.png",
+            "exampleSentence": "Buffalo roam freely across the plains."
+        },
+        {
+            "word": "Honeybee",
+            "imagePath": "./assets/images/vocabulary/honeybee.png",
+            "exampleSentence": "Honeybees help pollinate flowers."
+        },
+        {
+            "word": "Ostrich",
+            "imagePath": "./assets/images/vocabulary/ostrich.png",
+            "exampleSentence": "The ostrich runs faster than most animals."
+        },
+        {
+            "word": "Chicken",
+            "imagePath": "./assets/images/vocabulary/chicken.png",
+            "exampleSentence": "The chicken lays eggs every day."
+        },
+        {
+            "word": "Duck",
+            "imagePath": "./assets/images/vocabulary/duck.png",
+            "exampleSentence": "The duck swims in the pond."
+        },
+        {
+            "word": "Horse",
+            "imagePath": "./assets/images/vocabulary/horse.png",
+            "exampleSentence": "The horse gallops through the meadow."
+        },
+        {
+            "word": "Pig",
+            "imagePath": "./assets/images/vocabulary/pig.png",
+            "exampleSentence": "The pig loves to roll in the mud."
+        },
+        {
+            "word": "Goose",
+            "imagePath": "./assets/images/vocabulary/goose.png",
+            "exampleSentence": "The goose honks loudly when startled."
+        },
+        {
+            "word": "Pheasant",
+            "imagePath": "./assets/images/vocabulary/pheasant.png",
+            "exampleSentence": "The pheasant is known for its beautiful feathers."
+        },
+        {
+            "word": "Quail",
+            "imagePath": "./assets/images/vocabulary/quail.png",
+            "exampleSentence": "Quails often hide in tall grass."
+        },
+        {
+            "word": "Emu",
+            "imagePath": "./assets/images/vocabulary/emu.png",
+            "exampleSentence": "Emus are native to Australia and cannot fly."
+        },
+        {
+            "word": "Muscovy Duck",
+            "imagePath": "./assets/images/vocabulary/muscovy_duck.png",
+            "exampleSentence": "The muscovy duck has a distinctive red facial feature."
+        },
+        {
+            "word": "Guinea Fowl",
+            "imagePath": "./assets/images/vocabulary/guinea_fowl.png",
+            "exampleSentence": "Guinea fowl are often raised for their meat and eggs."
+        },
+        {
+            "word": "Swan",
+            "imagePath": "./assets/images/vocabulary/swan.png",
+            "exampleSentence": "The swan glides gracefully across the lake."
+        },
+        {
+            "word": "Pigeon",
+            "imagePath": "./assets/images/vocabulary/pigeon.png",
+            "exampleSentence": "The pigeon coos from the rooftop."
+        },
+        {
+            "word": "Pony",
+            "imagePath": "./assets/images/vocabulary/pony.png",
+            "exampleSentence": "The pony is smaller than a horse."
+        },
+        {
+            "word": "Yak",
+            "imagePath": "./assets/images/vocabulary/yak.png",
+            "exampleSentence": "Yaks are sturdy animals, used for their milk and wool."
+        },
+        {
+            "word": "Cow",
+            "imagePath": "./assets/images/vocabulary/cow.png",
+            "exampleSentence": "The cow gives us milk."
+        },
+        {
+            "word": "Bison",
+            "imagePath": "./assets/images/vocabulary/bison.png",
+            "exampleSentence": "The bison is a symbol of the American West."
+        },
+        {
+            "word": "Elk",
+            "imagePath": "./assets/images/vocabulary/elk.png",
+            "exampleSentence": "Elk can be found in forests and national parks."
+        },
+        {
+            "word": "Reindeer",
+            "imagePath": "./assets/images/vocabulary/reindeer.png",
+            "exampleSentence": "Reindeer are commonly associated with Christmas traditions."
+        },
+        {
+            "word": "Camel",
+            "imagePath": "./assets/images/vocabulary/camel.png",
+            "exampleSentence": "The camel is well-suited for desert environments."
+        },
+        {
+            "word": "Ram",
+            "imagePath": "./assets/images/vocabulary/ram.png",
+            "exampleSentence": "The ram has impressive curved horns."
+        },
+        {
+            "word": "Lamb",
+            "imagePath": "./assets/images/vocabulary/lamb.png",
+            "exampleSentence": "The lamb follows its mother closely."
+        },
+        {
+            "word": "Calf",
+            "imagePath": "./assets/images/vocabulary/calf.png",
+            "exampleSentence": "The calf is learning to walk beside its mother."
+        },
+        {
+            "word": "Hen",
+            "imagePath": "./assets/images/vocabulary/hen.png",
+            "exampleSentence": "The hen clucks while laying eggs."
+        },
+        {
+            "word": "Chick",
+            "imagePath": "./assets/images/vocabulary/chick.png",
+            "exampleSentence": "The chick chirps when it's hungry."
+        },
+        {
+            "word": "Duckling",
+            "imagePath": "./assets/images/vocabulary/duckling.png",
+            "exampleSentence": "The duckling waddles after its mother."
+        },
+        {
+            "word": "Goat Kid",
+            "imagePath": "./assets/images/vocabulary/goat_kid.png",
+            "exampleSentence": "The goat kid skips around the pasture."
+        },
+        {
+            "word": "Foal",
+            "imagePath": "./assets/images/vocabulary/foal.png",
+            "exampleSentence": "The foal trots alongside its mother."
+        }
+    ]
+}

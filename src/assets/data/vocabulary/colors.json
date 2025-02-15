@@ -1,159 +1,59 @@
 {
-    "header": {
-        "title": "hello world",
-        "image": "./assets/images/banner/banner2.png"
+    "metadata": {
+        "title": "Colors Vocabulary",
+        "bannerImage": "./assets/images/banner/banner2.png",
+        "datePublished": "2025-02-15"
     },
-    "vocabularies": [
+    "vocabularyList": [
         {
-            "__comment": "Start of colors vocabulary section",
-            "_id": "0",
-            "word": "black",
-            "meaning": "কালো",
-            "image": "black",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The kettle calls the pot black",
-            "tags": "colors"
+            "word": "Red",
+            "imagePath": "./assets/images/vocabulary/colors/red.png",
+            "exampleSentence": "The apple is red."
         },
         {
-            "_id": "1",
-            "word": "white",
-            "meaning": "সাদা",
-            "image": "white",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "She wore a beautiful white dress.",
-            "tags": "colors"
+            "word": "Black",
+            "imagePath": "./assets/images/vocabulary/colors/black.png",
+            "exampleSentence": "The night is black."
         },
         {
-            "_id": "2",
-            "word": "red",
-            "meaning": "লাল",
-            "image": "red",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The rose is red.",
-            "tags": "colors"
+            "word": "Magenta",
+            "imagePath": "./assets/images/vocabulary/colors/magenta.png",
+            "exampleSentence": "Her artwork has a magenta background."
         },
         {
-            "_id": "3",
-            "word": "blue",
-            "meaning": "নীল",
-            "image": "blue",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The sky is blue.",
-            "tags": "colors"
+            "word": "Orange",
+            "imagePath": "./assets/images/vocabulary/colors/orange.png",
+            "exampleSentence": "Oranges are orange in color."
         },
         {
-            "_id": "4",
-            "word": "green",
-            "meaning": "সবুজ",
-            "image": "green",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The grass is green.",
-            "tags": "colors"
+            "word": "Yellow",
+            "imagePath": "./assets/images/vocabulary/colors/yellow.png",
+            "exampleSentence": "The sun looks yellow."
         },
         {
-            "_id": "5",
-            "word": "yellow",
-            "meaning": "হলুদ",
-            "image": "yellow",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The sunflower is yellow.",
-            "tags": "colors"
+            "word": "Green",
+            "imagePath": "./assets/images/vocabulary/colors/green.png",
+            "exampleSentence": "The leaves are green."
         },
         {
-            "_id": "6",
-            "word": "orange",
-            "meaning": "কমলা",
-            "image": "orange-color",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "He wore an orange tie.",
-            "tags": "colors"
+            "word": "Aqua",
+            "imagePath": "./assets/images/vocabulary/colors/aqua.png",
+            "exampleSentence": "The ocean has a beautiful aqua color."
         },
         {
-            "_id": "7",
-            "word": "purple",
-            "meaning": "বেগুনি",
-            "image": "purple",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The curtains are purple.",
-            "tags": "colors"
+            "word": "Blue",
+            "imagePath": "./assets/images/vocabulary/colors/blue.png",
+            "exampleSentence": "The sky is blue."
         },
         {
-            "_id": "8",
-            "word": "pink",
-            "meaning": "গোলাপি",
-            "image": "pink",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "Her favorite color is pink.",
-            "tags": "colors"
+            "word": "Gray",
+            "imagePath": "./assets/images/vocabulary/colors/gray.png",
+            "exampleSentence": "The cat has gray fur."
         },
         {
-            "_id": "9",
-            "word": "brown",
-            "meaning": "বাদামি",
-            "image": "brown",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The bear is brown.",
-            "tags": "colors"
-        },
-        {
-            "_id": "10",
-            "word": "gray",
-            "meaning": "ধূসর",
-            "image": "gray",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "His hair is gray.",
-            "tags": "colors"
-        },
-        {
-            "_id": "12",
-            "word": "violet",
-            "meaning": "বেগুনি",
-            "image": "violet",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "Violet flowers bloomed in the garden.",
-            "tags": "colors"
-        },
-        {
-            "_id": "15",
-            "word": "cyan",
-            "meaning": "সায়ান",
-            "image": "cyan",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "Cyan is often used in printing.",
-            "tags": "colors"
-        },
-        {
-            "_id": "17",
-            "word": "silver",
-            "meaning": "রুপা",
-            "image": "silver",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "The moonlight reflected on the water, making it appear silver.",
-            "tags": "colors"
-        },
-        {
-            "_id": "18",
-            "word": "gold",
-            "meaning": "সোনা",
-            "image": "gold",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "She wore a necklace made of gold.",
-            "tags": "colors"
+            "word": "Pink",
+            "imagePath": "./assets/images/vocabulary/colors/pink.png",
+            "exampleSentence": "She wore a pink dress."
         }
     ]
 }

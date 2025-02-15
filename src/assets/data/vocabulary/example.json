@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "title": "Hello World",
+        "bannerImage": "./assets/images/banner/banner2.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "cow",
+            "imagePath": "./assets/images/vocabulary/cow.png",
+            "exampleSentence": "The cow gives us milk."
+        }
+    ]
+}

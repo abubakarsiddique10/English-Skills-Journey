@@ -16,14 +16,9 @@
             "tags": "animals"
         },
         {
-            "_id": "0",
             "word": "cow",
-            "meaning": "গাভী",
-            "image": "cow",
-            "synonym": [],
-            "antonym": [],
-            "sentence": "the cow gives us milk.",
-            "tags": "animals"
+            "image": "./assets/images/vocabulary/cow.png",
+            "sentence": "the cow gives us milk."
         },
         {
             "_id": "27",
