@@ -1,164 +1,149 @@
 {
     "metadata": {
-        "title": "Fruits Vocabulary",
-        "bannerImage": "./assets/images/banner/banner2.png",
+        "title": "Fruits Vocabulary – List of Fruit Names in English",
+        "bannerImage": "./assets/images/thumbnail/banner2.png",
         "datePublished": "2024-11-07"
     },
     "vocabularyList": [
         {
             "word": "Apple",
-            "imagePath": "./assets/images/vocabulary/apple.png",
+            "imagePath": "./assets/images/vocabulary/fruits/apple.png",
             "exampleSentence": "The apple is sweet and crunchy."
         },
         {
             "word": "Banana",
-            "imagePath": "./assets/images/vocabulary/banana.png",
+            "imagePath": "./assets/images/vocabulary/fruits/banana.png",
             "exampleSentence": "Bananas are rich in potassium."
         },
         {
             "word": "Orange",
-            "imagePath": "./assets/images/vocabulary/orange.png",
+            "imagePath": "./assets/images/vocabulary/fruits/orange.png",
             "exampleSentence": "I enjoy drinking fresh orange juice."
         },
         {
             "word": "Grapes",
-            "imagePath": "./assets/images/vocabulary/grapes.png",
+            "imagePath": "./assets/images/vocabulary/fruits/grapes.png",
             "exampleSentence": "Grapes can be eaten as a snack or used in wine-making."
         },
         {
             "word": "Strawberry",
-            "imagePath": "./assets/images/vocabulary/strawberry.png",
+            "imagePath": "./assets/images/vocabulary/fruits/strawberry.png",
             "exampleSentence": "Strawberries are perfect for making jam."
         },
         {
+            "word": "Watermelon",
+            "imagePath": "./assets/images/vocabulary/fruits/watermelon.png",
+            "exampleSentence": "Watermelon is perfect for summer picnics."
+        },
+        {
             "word": "Blueberry",
-            "imagePath": "./assets/images/vocabulary/blueberry.png",
+            "imagePath": "./assets/images/vocabulary/fruits/blueberry.png",
             "exampleSentence": "Blueberries are known for their antioxidants."
         },
         {
+            "word": "Mango",
+            "imagePath": "./assets/images/vocabulary/fruits/mango.png",
+            "exampleSentence": "Mangoes are a tropical fruit enjoyed worldwide."
+        },
+        {
+            "word": "Coconut",
+            "imagePath": "./assets/images/vocabulary/fruits/coconut.png",
+            "exampleSentence": "Coconut water is refreshing and hydrating."
+        },
+        {
             "word": "Raspberry",
-            "imagePath": "./assets/images/vocabulary/raspberry.png",
+            "imagePath": "./assets/images/vocabulary/fruits/raspberry.png",
             "exampleSentence": "Raspberries are great in smoothies."
         },
         {
             "word": "Blackberry",
-            "imagePath": "./assets/images/vocabulary/blackberry.png",
+            "imagePath": "./assets/images/vocabulary/fruits/blackberry.png",
             "exampleSentence": "Blackberries are packed with vitamins."
         },
         {
             "word": "Cherry",
-            "imagePath": "./assets/images/vocabulary/cherry.png",
+            "imagePath": "./assets/images/vocabulary/fruits/cherry.png",
             "exampleSentence": "Cherries are a great addition to desserts."
         },
         {
             "word": "Peach",
-            "imagePath": "./assets/images/vocabulary/peach.png",
+            "imagePath": "./assets/images/vocabulary/fruits/peach.png",
             "exampleSentence": "Peaches are juicy and soft in texture."
         },
         {
             "word": "Pear",
-            "imagePath": "./assets/images/vocabulary/pear.png",
+            "imagePath": "./assets/images/vocabulary/fruits/pear.png",
             "exampleSentence": "The pear is sweet and perfect for a healthy snack."
         },
         {
             "word": "Plum",
-            "imagePath": "./assets/images/vocabulary/plum.png",
+            "imagePath": "./assets/images/vocabulary/fruits/plum.png",
             "exampleSentence": "Plums are delicious when eaten fresh."
         },
         {
             "word": "Apricot",
-            "imagePath": "./assets/images/vocabulary/apricot.png",
+            "imagePath": "./assets/images/vocabulary/fruits/apricot.png",
             "exampleSentence": "Apricots are small and have a tangy taste."
         },
         {
-            "word": "Mango",
-            "imagePath": "./assets/images/vocabulary/mango.png",
-            "exampleSentence": "Mangoes are a tropical fruit enjoyed worldwide."
-        },
-        {
             "word": "Pineapple",
-            "imagePath": "./assets/images/vocabulary/pineapple.png",
+            "imagePath": "./assets/images/vocabulary/fruits/pineapple.png",
             "exampleSentence": "Pineapple is a tropical fruit that is both sweet and sour."
         },
         {
-            "word": "Watermelon",
-            "imagePath": "./assets/images/vocabulary/watermelon.png",
-            "exampleSentence": "Watermelon is perfect for summer picnics."
-        },
-        {
             "word": "Cantaloupe",
-            "imagePath": "./assets/images/vocabulary/cantaloupe.png",
+            "imagePath": "./assets/images/vocabulary/fruits/cantaloupe.png",
             "exampleSentence": "Cantaloupe is a type of melon that is sweet and juicy."
         },
         {
-            "word": "Coconut",
-            "imagePath": "./assets/images/vocabulary/coconut.png",
-            "exampleSentence": "Coconut water is refreshing and hydrating."
-        },
-        {
             "word": "Avocado",
-            "imagePath": "./assets/images/vocabulary/avocado.png",
+            "imagePath": "./assets/images/vocabulary/fruits/avocado.png",
             "exampleSentence": "Avocados are rich in healthy fats."
         },
         {
             "word": "Lemon",
-            "imagePath": "./assets/images/vocabulary/lemon.png",
+            "imagePath": "./assets/images/vocabulary/fruits/lemon.png",
             "exampleSentence": "Lemons are often used to add flavor to dishes."
         },
         {
             "word": "Lime",
-            "imagePath": "./assets/images/vocabulary/lime.png",
+            "imagePath": "./assets/images/vocabulary/fruits/lime.png",
             "exampleSentence": "Limes are frequently used in cocktails."
         },
         {
             "word": "Grapefruit",
-            "imagePath": "./assets/images/vocabulary/grapefruit.png",
+            "imagePath": "./assets/images/vocabulary/fruits/grapefruit.png",
             "exampleSentence": "Grapefruit is known for its tangy taste."
         },
         {
             "word": "Cranberry",
-            "imagePath": "./assets/images/vocabulary/cranberry.png",
+            "imagePath": "./assets/images/vocabulary/fruits/cranberry.png",
             "exampleSentence": "Cranberries are often used in making juice and sauce."
         },
         {
             "word": "Date",
-            "imagePath": "./assets/images/vocabulary/date.png",
+            "imagePath": "./assets/images/vocabulary/fruits/date.png",
             "exampleSentence": "Dates are naturally sweet and often used in desserts."
         },
         {
             "word": "Fig",
-            "imagePath": "./assets/images/vocabulary/fig.png",
+            "imagePath": "./assets/images/vocabulary/fruits/fig.png",
             "exampleSentence": "Figs are rich in fiber and perfect for a healthy snack."
         },
         {
             "word": "Guava",
-            "imagePath": "./assets/images/vocabulary/guava.png",
+            "imagePath": "./assets/images/vocabulary/fruits/guava.png",
             "exampleSentence": "Guavas have a sweet and slightly tangy flavor."
         },
         {
             "word": "Lychee",
-            "imagePath": "./assets/images/vocabulary/lychee.png",
+            "imagePath": "./assets/images/vocabulary/fruits/lychee.png",
             "exampleSentence": "Lychees are small and juicy with a floral flavor."
         },
         {
             "word": "Papaya",
-            "imagePath": "./assets/images/vocabulary/papaya.png",
+            "imagePath": "./assets/images/vocabulary/fruits/papaya.png",
             "exampleSentence": "Papaya is a tropical fruit known for its soft texture."
-        },
-        {
-            "word": "Passion Fruit",
-            "imagePath": "./assets/images/vocabulary/passionfruit.png",
-            "exampleSentence": "Passion fruit is tangy and often used in juices."
-        },
-        {
-            "word": "Persimmon",
-            "imagePath": "./assets/images/vocabulary/persimmon.png",
-            "exampleSentence": "Persimmons are sweet when ripe and can be eaten fresh."
-        },
-        {
-            "word": "Star Fruit",
-            "imagePath": "./assets/images/vocabulary/starfruit.png",
-            "exampleSentence": "Star fruit has a unique star-shaped appearance."
         }
     ]
 }

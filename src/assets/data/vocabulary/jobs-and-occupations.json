@@ -1,54 +1,59 @@
 {
     "metadata": {
-        "title": "Occupations List",
+        "title": "List of Jobs and Occupations – Learn with Examples & Pictures",
         "bannerImage": "./assets/images/banner/banner2.png",
         "datePublished": "2025-02-15"
     },
     "vocabularyList": [
         {
             "word": "Teacher",
-            "imagePath": "./assets/images/vocabulary/teacher.png",
+            "imagePath": "./assets/images/vocabulary/occupations/teacher.png",
             "exampleSentence": "The teacher instructs the class."
         },
         {
-            "word": "Writer",
-            "imagePath": "./assets/images/vocabulary/writer.png",
-            "exampleSentence": "The writer is working on a new book."
+            "word": "Dancer",
+            "imagePath": "./assets/images/vocabulary/occupations/dancer.png",
+            "exampleSentence": "The dancer performed an incredible routine."
         },
         {
-            "word": "Bookkeeper",
-            "imagePath": "./assets/images/vocabulary/bookkeeper.png",
-            "exampleSentence": "The bookkeeper manages the company's accounts."
+            "word": "Dentist",
+            "imagePath": "./assets/images/vocabulary/occupations/dentist.png",
+            "exampleSentence": "The dentist cleaned my teeth during the check-up."
         },
         {
-            "word": "Drycleaner",
-            "imagePath": "./assets/images/vocabulary/drycleaner.png",
-            "exampleSentence": "I dropped my coat at the drycleaner."
+            "word": "Painter",
+            "imagePath": "./assets/images/vocabulary/occupations/painter.png",
+            "exampleSentence": "The painter created a beautiful landscape."
         },
         {
-            "word": "Ecologist",
-            "imagePath": "./assets/images/vocabulary/ecologist.png",
-            "exampleSentence": "The ecologist studies environmental systems."
+            "word": "Singer",
+            "imagePath": "./assets/images/vocabulary/occupations/singer.png",
+            "exampleSentence": "The singer performed at the concert."
         },
         {
-            "word": "Astronaut",
-            "imagePath": "./assets/images/vocabulary/astronaut.png",
-            "exampleSentence": "The astronaut explored the moon."
+            "word": "Barber",
+            "imagePath": "./assets/images/vocabulary/occupations/barber.png",
+            "exampleSentence": "The barber gave me a haircut."
         },
         {
-            "word": "Astronomer",
-            "imagePath": "./assets/images/vocabulary/astronomer.png",
-            "exampleSentence": "The astronomer studied the stars."
+            "word": "Nurse",
+            "imagePath": "./assets/images/vocabulary/occupations/nurse.png",
+            "exampleSentence": "The nurse took care of the patients."
         },
         {
-            "word": "Accountant",
-            "imagePath": "./assets/images/vocabulary/accountant.png",
-            "exampleSentence": "The accountant keeps track of the financial records."
+            "word": "Artist",
+            "imagePath": "./assets/images/vocabulary/occupations/artist.png",
+            "exampleSentence": "The artist painted a masterpiece."
         },
         {
-            "word": "Actor",
-            "imagePath": "./assets/images/vocabulary/actor.png",
-            "exampleSentence": "The actor performed in a new movie."
+            "word": "Farmer",
+            "imagePath": "./assets/images/vocabulary/occupations/farmer.png",
+            "exampleSentence": "The farmer grew crops on his land."
+        },
+        {
+            "word": "Police",
+            "imagePath": "./assets/images/vocabulary/occupations/police.png",
+            "exampleSentence": "The police are investigating the crime."
         }
     ]
 }

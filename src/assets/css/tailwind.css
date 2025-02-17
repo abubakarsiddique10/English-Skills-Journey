@@ -658,6 +658,9 @@
   .min-h-\[100px\] {
     min-height: 100px;
   }
+  .min-h-\[202px\] {
+    min-height: 202px;
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }

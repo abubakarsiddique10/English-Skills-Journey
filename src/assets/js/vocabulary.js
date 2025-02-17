@@ -35,6 +35,7 @@ const displayVocabularies = ({ metadata, vocabularyList }) => {
 
     // Create a fragment to improve DOM performance
     const fragment = document.createDocumentFragment();
+    console.log(vocabularyList)
     vocabularyList.forEach(vocabulary => {
         fragment.appendChild(createVocabulariesCard(vocabulary));
     });
@@ -43,7 +44,7 @@ const displayVocabularies = ({ metadata, vocabularyList }) => {
 
 
 // Create a vocabulary card element: card-
-const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
+/* const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
     const vocabularyCard = document.createElement('div');
     vocabularyCard.className = 'h-full flex rounded-md sm:border border-[#F0F1F3]';
     vocabularyCard.title = `Click for details about ${word}`;
@@ -58,7 +59,56 @@ const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
         </button>
     `;
     return vocabularyCard
-}
+} */
+
+const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
+    const vocabularyCard = document.createElement('div');
+    vocabularyCard.classList.add('min-h-[202px]', 'flex', 'rounded-md', 'sm:border', 'border-[#F0F1F3]');
+    vocabularyCard.title = `Click for details about ${word}`;
+
+    // Create button element
+    const button = document.createElement('button');
+    button.classList.add('px-3', 'pt-8', 'pb-4', 'flex', 'flex-col', 'items-center', 'w-full');
+
+    // Create image element
+    const image = document.createElement('img');
+    image.classList.add('w-16');
+    image.src = imagePath;
+    image.alt = `Illustration of ${word}`;
+
+    // Create word container
+    const wordContainer = document.createElement('div');
+    wordContainer.classList.add('flex', 'items-center', 'mt-5', 'gap-1');
+
+    const wordText = document.createElement('span');
+    wordText.classList.add('text-lg', 'font-medium', 'leading-6', 'capitalize', 'text-center');
+    wordText.textContent = word;
+
+    // Create pronunciation button
+    const pronounceButton = document.createElement('img');
+    pronounceButton.classList.add('w-5', 'pronounce', 'cursor-pointer');
+    pronounceButton.src = './assets/images/icons/volume_up.svg';
+    pronounceButton.alt = `Play pronunciation for ${word}`;
+    pronounceButton.title = 'Click to hear pronunciation';
+    pronounceButton.setAttribute('role', 'button');
+    pronounceButton.setAttribute('aria-label', `Pronounce ${word}`);
+
+    // Create example sentence
+    const exampleText = document.createElement('span');
+    exampleText.classList.add('mt-1', 'text-sm', 'first-letter:capitalize');
+    exampleText.textContent = exampleSentence;
+
+    // Append elements
+    wordContainer.appendChild(wordText);
+    wordContainer.appendChild(pronounceButton);
+    button.appendChild(image);
+    button.appendChild(wordContainer);
+    button.appendChild(exampleText);
+    vocabularyCard.appendChild(button);
+
+    return vocabularyCard;
+};
+
 
 
 document.addEventListener('DOMContentLoaded', () => {

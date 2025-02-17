@@ -1,239 +1,209 @@
 {
     "metadata": {
-        "title": "Vegetables Vocabulary",
+        "title": "Vegetables Vocabulary – List of Vegetable Names in English",
         "bannerImage": "./assets/images/banner/banner2.png",
         "datePublished": "2024-11-07"
     },
     "vocabularyList": [
         {
             "word": "Cabbage",
-            "imagePath": "./assets/images/vocabulary/cabbage.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/cabbage.png",
             "exampleSentence": "Cabbage is rich in vitamins."
         },
         {
             "word": "Spinach",
-            "imagePath": "./assets/images/vocabulary/spinach.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/spinach.png",
             "exampleSentence": "Spinach is great for your iron levels."
         },
         {
             "word": "Carrot",
-            "imagePath": "./assets/images/vocabulary/carrot.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/carrot.png",
             "exampleSentence": "Carrots are good for your eyesight."
         },
         {
             "word": "Tomato",
-            "imagePath": "./assets/images/vocabulary/tomato.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/tomato.png",
             "exampleSentence": "Tomatoes are often used in sauces."
         },
         {
             "word": "Onion",
-            "imagePath": "./assets/images/vocabulary/onion.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/onion.png",
             "exampleSentence": "Onions add flavor to many dishes."
         },
         {
             "word": "Eggplant",
-            "imagePath": "./assets/images/vocabulary/eggplant.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/eggplant.png",
             "exampleSentence": "Eggplants are a popular ingredient in Mediterranean dishes."
         },
         {
             "word": "Radish",
-            "imagePath": "./assets/images/vocabulary/radish.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/radish.png",
             "exampleSentence": "Radishes are crunchy and spicy."
         },
         {
-            "word": "Garlic",
-            "imagePath": "./assets/images/vocabulary/garlic.png",
-            "exampleSentence": "Garlic adds a distinctive flavor to meals."
+            "word": "Pumpkin",
+            "imagePath": "./assets/images/vocabulary/vegetables/pumpkin.png",
+            "exampleSentence": "Pumpkin is commonly used in pies."
         },
         {
             "word": "Potato",
-            "imagePath": "./assets/images/vocabulary/potato.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/potato.png",
             "exampleSentence": "Potatoes are used to make fries."
         },
         {
+            "word": "Chili",
+            "imagePath": "./assets/images/vocabulary/vegetables/chili.png",
+            "exampleSentence": "Chili adds heat to your dishes."
+        },
+        {
+            "word": "Garlic",
+            "imagePath": "./assets/images/vocabulary/vegetables/garlic.png",
+            "exampleSentence": "Garlic adds a distinctive flavor to meals."
+        },
+        {
             "word": "Broccoli",
-            "imagePath": "./assets/images/vocabulary/broccoli.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/broccoli.png",
             "exampleSentence": "Broccoli is a healthy vegetable."
         },
         {
             "word": "Lettuce",
-            "imagePath": "./assets/images/vocabulary/lettuce.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/lettuce.png",
             "exampleSentence": "Lettuce is commonly used in salads."
         },
         {
-            "word": "Capsicum",
-            "imagePath": "./assets/images/vocabulary/capsicum.png",
-            "exampleSentence": "Capsicum is also known as bell pepper."
-        },
-        {
             "word": "Ginger",
-            "imagePath": "./assets/images/vocabulary/ginger.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/ginger.png",
             "exampleSentence": "Ginger is often used in cooking and tea."
         },
         {
             "word": "Mint",
-            "imagePath": "./assets/images/vocabulary/mint.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/mint.png",
             "exampleSentence": "Mint leaves add a refreshing flavor."
         },
         {
-            "word": "Corn",
-            "imagePath": "./assets/images/vocabulary/corn.png",
-            "exampleSentence": "Corn is often eaten as a side dish."
-        },
-        {
             "word": "Kohlrabi",
-            "imagePath": "./assets/images/vocabulary/kohlrabi.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/kohlrabi.png",
             "exampleSentence": "Kohlrabi has a mild and sweet flavor."
         },
         {
-            "word": "Pumpkin",
-            "imagePath": "./assets/images/vocabulary/pumpkin.png",
-            "exampleSentence": "Pumpkin is commonly used in pies."
-        },
-        {
             "word": "Turmeric",
-            "imagePath": "./assets/images/vocabulary/turmeric.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/turmeric.png",
             "exampleSentence": "Turmeric is known for its health benefits."
         },
         {
             "word": "Okra",
-            "imagePath": "./assets/images/vocabulary/okra.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/okra.png",
             "exampleSentence": "Okra is often used in gumbo."
         },
         {
             "word": "Mushroom",
-            "imagePath": "./assets/images/vocabulary/mushroom.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/mushroom.png",
             "exampleSentence": "Mushrooms are a popular topping for pizzas."
         },
         {
-            "word": "Chili",
-            "imagePath": "./assets/images/vocabulary/chili.png",
-            "exampleSentence": "Chili adds heat to your dishes."
-        },
-        {
             "word": "Beetroot",
-            "imagePath": "./assets/images/vocabulary/beetroot.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/beetroot.png",
             "exampleSentence": "Beetroot is often used in salads."
         },
         {
             "word": "Peas",
-            "imagePath": "./assets/images/vocabulary/peas.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/peas.png",
             "exampleSentence": "Peas are commonly added to stews."
         },
         {
             "word": "Bean",
-            "imagePath": "./assets/images/vocabulary/bean.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/bean.png",
             "exampleSentence": "Beans are a great source of protein."
         },
         {
             "word": "Kale",
-            "imagePath": "./assets/images/vocabulary/kale.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/kale.png",
             "exampleSentence": "Kale is a nutrient-dense leafy green."
         },
         {
             "word": "Cucumber",
-            "imagePath": "./assets/images/vocabulary/cucumber.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/cucumber.png",
             "exampleSentence": "Cucumbers are refreshing in summer salads."
         },
         {
             "word": "Turnip",
-            "imagePath": "./assets/images/vocabulary/turnip.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/turnip.png",
             "exampleSentence": "Turnips can be roasted or mashed."
         },
         {
             "word": "Zucchini",
-            "imagePath": "./assets/images/vocabulary/zucchini.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/zucchini.png",
             "exampleSentence": "Zucchini is often used in stir-fries."
         },
         {
             "word": "Sweet Potato",
-            "imagePath": "./assets/images/vocabulary/sweet_potato.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/sweet potato.png",
             "exampleSentence": "Sweet potatoes are sweeter than regular potatoes."
         },
         {
             "word": "Bitter Gourd",
-            "imagePath": "./assets/images/vocabulary/bitter_gourd.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/bitter gourd.png",
             "exampleSentence": "Bitter gourd is known for its strong taste."
         },
         {
             "word": "Bottle Gourd",
-            "imagePath": "./assets/images/vocabulary/bottle_gourd.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/bottle gourd.png",
             "exampleSentence": "Bottle gourd is used in many Indian dishes."
         },
         {
             "word": "Spring Onion",
-            "imagePath": "./assets/images/vocabulary/spring_onion.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/spring onion.png",
             "exampleSentence": "Spring onions are used as a garnish."
         },
         {
             "word": "Pointed Gourd",
-            "imagePath": "./assets/images/vocabulary/pointed_gourd.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/pointed gourd.png",
             "exampleSentence": "Pointed gourd is a common vegetable in South Asia."
         },
         {
             "word": "Ridge Gourd",
-            "imagePath": "./assets/images/vocabulary/ridge_gourd.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/ridge gourd.png",
             "exampleSentence": "Ridge gourd is often used in curries."
         },
         {
             "word": "Coriander Leaves",
-            "imagePath": "./assets/images/vocabulary/coriander_leaves.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/coriander leaves.png",
             "exampleSentence": "Coriander leaves are a popular garnish."
         },
         {
             "word": "Mustard Greens",
-            "imagePath": "./assets/images/vocabulary/mustard_greens.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/mustard greens.png",
             "exampleSentence": "Mustard greens are often used in southern cuisine."
         },
         {
             "word": "Malabar Spinach",
-            "imagePath": "./assets/images/vocabulary/malabar_spinach.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/malabar spinach.png",
             "exampleSentence": "Malabar spinach is used in many tropical dishes."
         },
         {
             "word": "Pumpkin Leaves",
-            "imagePath": "./assets/images/vocabulary/pumpkin_leaves.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/pumpkin leaves.png",
             "exampleSentence": "Pumpkin leaves are cooked in many cuisines."
         },
         {
             "word": "Water Spinach",
-            "imagePath": "./assets/images/vocabulary/water_spinach.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/water spinach.png",
             "exampleSentence": "Water spinach is a popular vegetable in Southeast Asia."
         },
         {
             "word": "Jute Leaves",
-            "imagePath": "./assets/images/vocabulary/jute_leaves.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/jute leaves.png",
             "exampleSentence": "Jute leaves are often used in Bengali dishes."
         },
         {
-            "word": "Taro Leaves",
-            "imagePath": "./assets/images/vocabulary/taro_leaves.png",
-            "exampleSentence": "Taro leaves are used in many Pacific island dishes."
-        },
-        {
-            "word": "Bok Choy",
-            "imagePath": "./assets/images/vocabulary/bok_choy.png",
-            "exampleSentence": "Bok Choy is a type of Chinese cabbage."
-        },
-        {
-            "word": "Basil",
-            "imagePath": "./assets/images/vocabulary/basil.png",
-            "exampleSentence": "Basil is commonly used in Italian cuisine."
-        },
-        {
             "word": "Radish Greens",
-            "imagePath": "./assets/images/vocabulary/radish_greens.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/radish greens.png",
             "exampleSentence": "Radish greens can be used in soups and salads."
         },
         {
             "word": "Red Amaranth",
-            "imagePath": "./assets/images/vocabulary/red_amaranth.png",
+            "imagePath": "./assets/images/vocabulary/vegetables/red amaranth.png",
             "exampleSentence": "Red amaranth is a leafy green vegetable."
-        },
-        {
-            "word": "Watercress",
-            "imagePath": "./assets/images/vocabulary/watercress.png",
-            "exampleSentence": "Watercress is a peppery salad green."
         }
     ]
 }
