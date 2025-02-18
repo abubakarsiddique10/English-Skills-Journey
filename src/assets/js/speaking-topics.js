@@ -4,7 +4,7 @@ const cardsContainer = document.getElementById('vocabulary-sections');
 const cards = cardsContainer.querySelectorAll('a');
 
 
-const tagNames = ["All", "Animals", "Vegetables"];
+const tagNames = ["All", "Speaking topic", "conversation", "Daily use sentences"];
 if (tags) {
     for (let index = 0; index < tagNames.length; index++) {
         tags.appendChild(createTags(tagNames[index], index));
@@ -24,7 +24,8 @@ function handleTagClick(event) {
 
     // Filter cards efficiently
     cards.forEach(card => {
-        const cardType = card.getAttribute('data-type');
+        const cardType = card.getAttribute('data-type').toLowerCase();
+
         const isMatch = buttonText === 'all' || cardType === buttonText;
         card.style.display = isMatch ? 'block' : 'none';
     });

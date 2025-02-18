@@ -1,80 +1,74 @@
 [
-    [
-        "all",
-        "basic",
-        "advance"
-    ],
-    [
-        {
-            "title": "Introduce Yourself in English.",
-            "img": "./assets/images/blog.webp",
-            "tag": "basic",
-            "contents": [
-                {
-                    "name": "Mark",
-                    "text": "Hello!"
-                },
-                {
-                    "name": "Peter",
-                    "text": "Hi!"
-                },
-                {
-                    "name": "Mark",
-                    "text": "My name is Mark. What's your name?"
-                },
-                {
-                    "name": "Peter",
-                    "text": "My name is Peter. Nice to meet you."
-                },
-                {
-                    "name": "Mark",
-                    "text": "Nice to meet you too!"
-                },
-                {
-                    "name": "Peter",
-                    "text": "Where are you from?"
-                },
-                {
-                    "name": "Mark",
-                    "text": "I'm from New York."
-                },
-                {
-                    "name": "Peter",
-                    "text": "New York? Are you American?"
-                },
-                {
-                    "name": "Mark",
-                    "text": "Yes, I am."
-                },
-                {
-                    "name": "Peter",
-                    "text": "Oh, that's cool!"
-                },
-                {
-                    "name": "Mark",
-                    "text": "What about you? Where are you from?"
-                },
-                {
-                    "name": "Peter",
-                    "text": "I'm from Paris, but I’m originally from Italy."
-                },
-                {
-                    "name": "Mark",
-                    "text": "Oh, you're Italian! That's amazing."
-                },
-                {
-                    "name": "Peter",
-                    "text": "Yes, I am. Italy is such a beautiful country."
-                },
-                {
-                    "name": "Mark",
-                    "text": "Absolutely! I’d love to visit someday."
-                },
-                {
-                    "name": "Peter",
-                    "text": "You should! There's so much to see."
-                }
-            ]
-        }
-    ]
+    {
+        "topicName": "basic",
+        "title": "Introduce Yourself in English.",
+        "img": "./assets/images/thumbnail/banner2.png",
+        "datePublished": "2025-02-15",
+        "contents": [
+            {
+                "name": "Mark",
+                "text": "Hello!"
+            },
+            {
+                "name": "Peter",
+                "text": "Hi!"
+            },
+            {
+                "name": "Mark",
+                "text": "My name is Mark. What's your name?"
+            },
+            {
+                "name": "Peter",
+                "text": "My name is Peter. Nice to meet you."
+            },
+            {
+                "name": "Mark",
+                "text": "Nice to meet you too!"
+            },
+            {
+                "name": "Peter",
+                "text": "Where are you from?"
+            },
+            {
+                "name": "Mark",
+                "text": "I'm from New York."
+            },
+            {
+                "name": "Peter",
+                "text": "New York? Are you American?"
+            },
+            {
+                "name": "Mark",
+                "text": "Yes, I am."
+            },
+            {
+                "name": "Peter",
+                "text": "Oh, that's cool!"
+            },
+            {
+                "name": "Mark",
+                "text": "What about you? Where are you from?"
+            },
+            {
+                "name": "Peter",
+                "text": "I'm from Paris, but I’m originally from Italy."
+            },
+            {
+                "name": "Mark",
+                "text": "Oh, you're Italian! That's amazing."
+            },
+            {
+                "name": "Peter",
+                "text": "Yes, I am. Italy is such a beautiful country."
+            },
+            {
+                "name": "Mark",
+                "text": "Absolutely! I’d love to visit someday."
+            },
+            {
+                "name": "Peter",
+                "text": "You should! There's so much to see."
+            }
+        ]
+    }
 ]

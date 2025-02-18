@@ -12,9 +12,10 @@ async function getVocabulary(category) {
     try {
         const vocabularies = await fetchData(url);
         displayVocabularies(vocabularies)
-        setLoading(false);
     } catch (error) {
         console.error(error)
+    } finally {
+        setLoading(false); // Ensure loading is set to false even if an error occurs
     }
 }
 getVocabulary(category);
@@ -63,7 +64,7 @@ const displayVocabularies = ({ metadata, vocabularyList }) => {
 
 const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
     const vocabularyCard = document.createElement('div');
-    vocabularyCard.classList.add('min-h-[202px]', 'flex', 'rounded-md', 'sm:border', 'border-[#F0F1F3]');
+    vocabularyCard.classList.add('h-full', "sm:min-h-[202px]", 'flex', 'rounded-md', 'sm:border', 'border-[#F0F1F3]');
     vocabularyCard.title = `Click for details about ${word}`;
 
     // Create button element

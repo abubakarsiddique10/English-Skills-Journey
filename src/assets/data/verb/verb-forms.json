@@ -1,0 +1,500 @@
+[
+    {
+        "present": "Accept",
+        "past": "Accepted",
+        "pastParticiple": "Accepted"
+    },
+    {
+        "present": "Account",
+        "past": "Accounted",
+        "pastParticiple": "Accounted"
+    },
+    {
+        "present": "Act",
+        "past": "Acted",
+        "pastParticiple": "Acted"
+    },
+    {
+        "present": "Adjust",
+        "past": "Adjusted",
+        "pastParticiple": "Adjusted"
+    },
+    {
+        "present": "Advise",
+        "past": "Advised",
+        "pastParticiple": "Advised"
+    },
+    {
+        "present": "Agree",
+        "past": "Agreed",
+        "pastParticiple": "Agreed"
+    },
+    {
+        "present": "Annoy",
+        "past": "Annoyed",
+        "pastParticiple": "Annoyed"
+    },
+    {
+        "present": "Apply",
+        "past": "Applied",
+        "pastParticiple": "Applied"
+    },
+    {
+        "present": "Argue",
+        "past": "Argued",
+        "pastParticiple": "Argued"
+    },
+    {
+        "present": "Arise",
+        "past": "Arose",
+        "pastParticiple": "Arisen"
+    },
+    {
+        "present": "Arrange",
+        "past": "Arranged",
+        "pastParticiple": "Arranged"
+    },
+    {
+        "present": "Arrest",
+        "past": "Arrested",
+        "pastParticiple": "Arrested"
+    },
+    {
+        "present": "Arrive",
+        "past": "Arrived",
+        "pastParticiple": "Arrived"
+    },
+    {
+        "present": "Ask",
+        "past": "Asked",
+        "pastParticiple": "Asked"
+    },
+    {
+        "present": "Assist",
+        "past": "Assisted",
+        "pastParticiple": "Assisted"
+    },
+    {
+        "present": "Attack",
+        "past": "Attacked",
+        "pastParticiple": "Attacked"
+    },
+    {
+        "present": "Attend",
+        "past": "Attended",
+        "pastParticiple": "Attended"
+    },
+    {
+        "present": "Authorize",
+        "past": "Authorized",
+        "pastParticiple": "Authorized"
+    },
+    {
+        "present": "Avoid",
+        "past": "Avoided",
+        "pastParticiple": "Avoided"
+    },
+    {
+        "present": "Abandon",
+        "past": "Abandoned",
+        "pastParticiple": "Abandoned"
+    },
+    {
+        "present": "Abate",
+        "past": "Abated",
+        "pastParticiple": "Abated"
+    },
+    {
+        "present": "Absent",
+        "past": "Absented",
+        "pastParticiple": "Absented"
+    },
+    {
+        "present": "Absorb",
+        "past": "Absorbed",
+        "pastParticiple": "Absorbed"
+    },
+    {
+        "present": "Abstain",
+        "past": "Abstained",
+        "pastParticiple": "Abstained"
+    },
+    {
+        "present": "Abuse",
+        "past": "Abused",
+        "pastParticiple": "Abused"
+    },
+    {
+        "present": "Accede",
+        "past": "Acceded",
+        "pastParticiple": "Acceded"
+    },
+    {
+        "present": "Accommodate",
+        "past": "Accommodated",
+        "pastParticiple": "Accommodated"
+    },
+    {
+        "present": "Accompany",
+        "past": "Accompanied",
+        "pastParticiple": "Accompanied"
+    },
+    {
+        "present": "Accost",
+        "past": "Accosted",
+        "pastParticiple": "Accosted"
+    },
+    {
+        "present": "Accuse",
+        "past": "Accused",
+        "pastParticiple": "Accused"
+    },
+    {
+        "present": "Ache",
+        "past": "Ached",
+        "pastParticiple": "Ached"
+    },
+    {
+        "present": "Achieve",
+        "past": "Achieved",
+        "pastParticiple": "Achieved"
+    },
+    {
+        "comment": "1 end",
+        "present": "Acquaint",
+        "past": "Acquainted",
+        "pastParticiple": "Acquainted"
+    },
+    {
+        "present": "Acquire",
+        "past": "Acquired",
+        "pastParticiple": "Acquired"
+    },
+    {
+        "present": "Add",
+        "past": "Added",
+        "pastParticiple": "Added"
+    },
+    {
+        "present": "Addict",
+        "past": "Addicted",
+        "pastParticiple": "Addicted"
+    },
+    {
+        "present": "Administer",
+        "past": "Administered",
+        "pastParticiple": "Administered"
+    },
+    {
+        "present": "Admire",
+        "past": "Admired",
+        "pastParticiple": "Admired"
+    },
+    {
+        "present": "Admit",
+        "past": "Admitted",
+        "pastParticiple": "Admitted"
+    },
+    {
+        "present": "Adopt",
+        "past": "Adopted",
+        "pastParticiple": "Adopted"
+    },
+    {
+        "present": "Adore",
+        "past": "Adored",
+        "pastParticiple": "Adored"
+    },
+    {
+        "present": "Adulterate",
+        "past": "Adulterated",
+        "pastParticiple": "Adulterated"
+    },
+    {
+        "present": "Advance",
+        "past": "Advanced",
+        "pastParticiple": "Advanced"
+    },
+    {
+        "present": "Adventure",
+        "past": "Adventured",
+        "pastParticiple": "Adventured"
+    },
+    {
+        "present": "Age",
+        "past": "Aged",
+        "pastParticiple": "Aged"
+    },
+    {
+        "present": "Aid",
+        "past": "Aided",
+        "pastParticiple": "Aided"
+    },
+    {
+        "present": "Aim",
+        "past": "Aimed",
+        "pastParticiple": "Aimed"
+    },
+    {
+        "present": "Allege",
+        "past": "Alleged",
+        "pastParticiple": "Alleged"
+    },
+    {
+        "present": "Allow",
+        "past": "Allowed",
+        "pastParticiple": "Allowed"
+    },
+    {
+        "present": "Amend",
+        "past": "Amended",
+        "pastParticiple": "Amended"
+    },
+    {
+        "present": "Amuse",
+        "past": "Amused",
+        "pastParticiple": "Amused"
+    },
+    {
+        "present": "Analyse",
+        "past": "Analysed",
+        "pastParticiple": "Analysed"
+    },
+    {
+        "present": "Announce",
+        "past": "Announced",
+        "pastParticiple": "Announced"
+    },
+    {
+        "present": "Apologize",
+        "past": "Apologized",
+        "pastParticiple": "Apologized"
+    },
+    {
+        "present": "Appeal",
+        "past": "Appealed",
+        "pastParticiple": "Appealed"
+    },
+    {
+        "present": "Appear",
+        "past": "Appeared",
+        "pastParticiple": "Appeared"
+    },
+    {
+        "present": "Applaud",
+        "past": "Applauded",
+        "pastParticiple": "Applauded"
+    },
+    {
+        "present": "Appoint",
+        "past": "Appointed",
+        "pastParticiple": "Appointed"
+    },
+    {
+        "present": "Apprehend",
+        "past": "Apprehended",
+        "pastParticiple": "Apprehended"
+    },
+    {
+        "present": "Approve",
+        "past": "Approved",
+        "pastParticiple": "Approved"
+    },
+    {
+        "present": "Articulate",
+        "past": "Articulated",
+        "pastParticiple": "Articulated"
+    },
+    {
+        "present": "Ascend",
+        "past": "Ascended",
+        "pastParticiple": "Ascended"
+    },
+    {
+        "present": "Ascertain",
+        "past": "Ascertained",
+        "pastParticiple": "Ascertained"
+    },
+    {
+        "present": "Assemble",
+        "past": "Assembled",
+        "pastParticiple": "Assembled"
+    },
+    {
+        "present": "Assent",
+        "past": "Assented",
+        "pastParticiple": "Assented"
+    },
+    {
+        "comment": "2 end",
+        "present": "Assume",
+        "past": "Assumed",
+        "pastParticiple": "Assumed"
+    },
+    {
+        "present": "Assure",
+        "past": "Assured",
+        "pastParticiple": "Assured"
+    },
+    {
+        "present": "Astonish",
+        "past": "Astonished",
+        "pastParticiple": "Astonished"
+    },
+    {
+        "present": "Atone",
+        "past": "Atoned",
+        "pastParticiple": "Atoned"
+    },
+    {
+        "present": "Attain",
+        "past": "Attained",
+        "pastParticiple": "Attained"
+    },
+    {
+        "present": "Attempt",
+        "past": "Attempted",
+        "pastParticiple": "Attempted"
+    },
+    {
+        "present": "Attract",
+        "past": "Attracted",
+        "pastParticiple": "Attracted"
+    },
+    {
+        "present": "Attune",
+        "past": "Attuned",
+        "pastParticiple": "Attuned"
+    },
+    {
+        "present": "Avenge",
+        "past": "Avenged",
+        "pastParticiple": "Avenged"
+    },
+    {
+        "present": "Awake",
+        "past": "Awoke",
+        "pastParticiple": "Awoken"
+    },
+    {
+        "present": "Award",
+        "past": "Awarded",
+        "pastParticiple": "Awarded"
+    },
+    {
+        "present": "Assess",
+        "past": "Assessed",
+        "pastParticiple": "Assessed"
+    },
+    {
+        "present": "Back",
+        "past": "Backed",
+        "pastParticiple": "Backed"
+    },
+    {
+        "present": "Backbite",
+        "past": "Backbit",
+        "pastParticiple": "Backbitten"
+    },
+    {
+        "present": "Bag",
+        "past": "Bagged",
+        "pastParticiple": "Bagged"
+    },
+    {
+        "present": "Bake",
+        "past": "Baked",
+        "pastParticiple": "Baked"
+    },
+    {
+        "present": "Bargain",
+        "past": "Bargained",
+        "pastParticiple": "Bargained"
+    },
+    {
+        "present": "Bark",
+        "past": "Barked",
+        "pastParticiple": "Barked"
+    },
+    {
+        "present": "Beat",
+        "past": "Beat",
+        "pastParticiple": "Beaten"
+    },
+    {
+        "present": "Become",
+        "past": "Became",
+        "pastParticiple": "Become"
+    },
+    {
+        "present": "Beg",
+        "past": "Begged",
+        "pastParticiple": "Begged"
+    },
+    {
+        "present": "Begin",
+        "past": "Began",
+        "pastParticiple": "Begun"
+    },
+    {
+        "present": "Behave",
+        "past": "Behaved",
+        "pastParticiple": "Behaved"
+    },
+    {
+        "present": "Believe",
+        "past": "Believed",
+        "pastParticiple": "Believed"
+    },
+    {
+        "present": "Bend",
+        "past": "Bent",
+        "pastParticiple": "Bent"
+    },
+    {
+        "present": "Bet",
+        "past": "Bet",
+        "pastParticiple": "Bet"
+    },
+    {
+        "present": "Betray",
+        "past": "Betrayed",
+        "pastParticiple": "Betrayed"
+    },
+    {
+        "present": "Bite",
+        "past": "Bit",
+        "pastParticiple": "Bitten"
+    },
+    {
+        "present": "Blame",
+        "past": "Blamed",
+        "pastParticiple": "Blamed"
+    },
+    {
+        "present": "Bless",
+        "past": "Blessed",
+        "pastParticiple": "Blessed"
+    },
+    {
+        "present": "Boil",
+        "past": "Boiled",
+        "pastParticiple": "Boiled"
+    },
+    {
+        "present": "Borrow",
+        "past": "Borrowed",
+        "pastParticiple": "Borrowed"
+    },
+    {
+        "present": "Bother",
+        "past": "Bothered",
+        "pastParticiple": "Bothered"
+    },
+    {
+        "comment": "3 end",
+        "present": "Break",
+        "past": "Broke",
+        "pastParticiple": "Broken"
+    }
+]

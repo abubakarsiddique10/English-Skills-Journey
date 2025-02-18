@@ -7,19 +7,19 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>speaking</title>
+    <title>English Skills Journey</title>
 </head>
 
-<body class="overflow-y-scroll">
+<body>
     <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
         <div class="container xl:!px-0">
             <nav class="lg:flex items-center justify-between py-4 z-10">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center gap-2">
-                        <a class="navbar-brand text-2xl leading-none font-bold z-10" href="index.html">English
-                            Infinity</a>
+                        <a class="navbar-brand text-2xl leading-none font-bold z-10" href="index.html">English Skills
+                            Journey</a>
                     </div>
-                    <button class="navbar-toggler p-0 border-0 lg:hidden" type="button">
+                    <button class="navbar-toggler p-0 border-0 lg:hidden cursor-pointer" type="button">
                         <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
                         <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
                     </button>
@@ -32,24 +32,35 @@
             </nav>
         </div>
     </header>
+
     <main>
-        <section class="mt-[57px]">
-            <div class="container xl:!px-0">
-                <div class="w-full max-w-[850px] mx-auto">
-                    <div id="presentation-header" class="pt-5 md:pt-8">
 
-                    </div>
-                    <div id="presentation-subheader"
-                        class="flex items-center justify-between mt-8 border-y border-[#4755691a] py-2 px-2">
+        <section>
+            <div class="w-full max-w-[850px] px-[18px] xl:!px-0 mx-auto">
+                <div class="mt-[90px] mb-8">
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center my-4">Master Verb Forms
+                    </h1>
 
-                    </div>
-                    <div id="presentation-contents" class="my-8">
-
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
+                            <thead>
+                                <tr class="bg-gray-200 text-gray-700">
+                                    <th class="py-2 px-4 border border-[#4755691a] text-left">Present (V1)</th>
+                                    <th class="py-2 px-4 border border-[#4755691a] text-left">Past (V2)</th>
+                                    <th class="py-2 px-4 border border-[#4755691a] text-left">Past Participle (V3)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body">
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
+
+
 
     <div id="preloader" class="h-screen w-full bg-white fixed top-0 z-[100] hidden">
         <div class="w-full h-full flex justify-center items-center">
@@ -57,10 +68,9 @@
         </div>
     </div>
 
-
-
     <script src="./assets/js/main.js" type="module"></script>
-    <script src="./assets/js/speaking.js" type="module"></script>
+    <script src="./assets/js/common.js" type="module"></script>
+    <script src="./assets/js/verb-forms.js" type="module"></script>
 </body>
 
 </html>

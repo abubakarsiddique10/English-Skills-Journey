@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>English Skills Journey</title>
+</head>
+
+<body class="select-none">
+    <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
+        <div class="container xl:!px-0">
+            <nav class="lg:flex items-center justify-between py-4 z-10">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <a class="navbar-brand text-2xl leading-none font-bold z-10" href="index.html">English Skills
+                            Journey</a>
+                    </div>
+                    <button class="navbar-toggler p-0 border-0 lg:hidden cursor-pointer" type="button">
+                        <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
+                        <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
+                    </button>
+                </div>
+                <div class="hidden lg:block nav__items mt-2 lg:mt-0">
+                    <ul id="menuItem" class=" flex flex-col lg:flex-row lg:space-x-8">
+                        <!-- menu item will be dynamically inserted here -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container xl:!px-0">
+                <div class="mt-32">
+                    <div class="text-center">
+                        <img class="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto"
+                            src="./assets/images/blust/Bust1.png" alt="Vocabulary Categories Image">
+                        <h2 class="text-2xl md:text-3xl font-bold">Choose a Category</h2>
+                    </div>
+                    <div id="categories"
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 mt-11 mb-4">
+                        <!-- Category cards will be dynamically inserted here -->
+                        <a href="./verb-forms.html"
+                            class="border border-[#4755691a] rounded-lg flex items-center gap-4 p-4 py-3.5 cursor-pointer select-none"
+                            data-type="speaking topics">
+                            <figure class="w-7 flex items-center justify-center rounded">
+                                <img class="w-full" src="./assets/images/icons/daily-use-sentence.svg">
+                            </figure>
+                            <h3 class="font-inter font-semibold leading-6 text-lg text-[#2a2a52] capitalize">
+                                verb forms
+                            </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!--     <footer class="bg-white pt-[100px] pb-8">
+        <div class="container">
+            <div class="grid grid-cols-3 justify-between gap-6">
+                <div class="mb-6 md:mb-0 flex flex-col ">
+                    <a href="https://flowbite.com/" class="flex flex-col">
+                        <img src="./assets/images/banner/English Skills Journey.png" class="size-16 rounded-lg"
+                            alt="FlowBite Logo" />
+                        <span class="text-xl font-semibold dark:text-white mt-2">English
+                            <br>
+                            Skills Journey</span>
+                    </a>
+                </div>
+                <div class="">
+                    <h3 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Useful Links
+                    </h3>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                        <li>
+                            <a href="https://flowbite.com/" class="hover:underline">Vocabulary</a>
+                        </li>
+                        <li>
+                            <a href="https://tailwindcss.com/" class="hover:underline">Verbs</a>
+                        </li>
+                        <li>
+                            <a href="https://tailwindcss.com/" class="hover:underline">Speaking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Follow Us</h3>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
+                        <li>
+                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div
+                class="flex justify-center items-center mt-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:mt-10 ">
+                <span class="text-sm text-gray-500 text-center dark:text-gray-400">Copyright © 2024 English Skills
+                    Journey. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer> -->
+
+
+
+
+
+    <script src="./assets/js/main.js" type="module"></script>
+    <script src="./assets/js/common.js" type="module"></script>
+
+</body>
+
+</html>

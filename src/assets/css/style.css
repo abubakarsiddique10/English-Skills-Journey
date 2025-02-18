@@ -93,6 +93,13 @@ header,
 
 /* section vocabulary end*/
 
+/* speaking section start */
+#presentation-contents>p:last-child {
+    padding-bottom: 0;
+}
+
+/* speaking section end */
+
 
 
 /* css media query */

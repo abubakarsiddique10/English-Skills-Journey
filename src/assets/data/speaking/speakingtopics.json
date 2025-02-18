@@ -2,7 +2,8 @@
     {
         "topicName": "myself",
         "title": "about myself",
-        "image": "./assets/images/banner/banner2.png",
+        "image": "./assets/images/thumbnail/banner2.png",
+        "datePublished": "2025-02-15",
         "contents": [
             "Hello, my name is Sam. I'm ten years old, and I live in England. There are six people in my family: my parents, two sisters, a brother, and me. My father, William, is an engineer, and my mother, Emma, is a school teacher. I enjoy spending time with my family, especially during holidays when we visit new places. I love learning English and reading books, especially stories about adventures and mysteries. My favorite subjects in school are Math and Computer Science because I enjoy solving problems and creating things. I also like coding and exploring new technologies, trying to build small apps and websites. In my free time, I play football with my friends at the local park, and I’m also learning how to swim. I have a pet dog named Bogey, who is very playful and loves running around in the garden. One day, I hope to become a software engineer. That's all about me.",
             "Hello world how are yout"
@@ -13,8 +14,7 @@
         "title": "about school",
         "image": "./assets/images/banner/banner2.png",
         "contents": [
-            "Hello, my name is Sam. I'm ten years old, and I live in England. There are six people in my family: my parents, two sisters, a brother, and me. My father, William, is an engineer, and my mother, Emma, is a school teacher. I enjoy spending time with my family, especially during holidays when we visit new places. I love learning English and reading books, especially stories about adventures and mysteries. My favorite subjects in school are Math and Computer Science because I enjoy solving problems and creating things. I also like coding and exploring new technologies, trying to build small apps and websites. In my free time, I play football with my friends at the local park, and I’m also learning how to swim. I have a pet dog named Bogey, who is very playful and loves running around in the garden. One day, I hope to become a software engineer. That's all about me.",
-            "Hello world how are yout"
+            "Hello world"
         ]
     }
 ]
