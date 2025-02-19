@@ -1,6 +1,6 @@
 [
     {
-        "topicName": "myself",
+        "topicName": "myself2",
         "title": "about myself",
         "image": "./assets/images/thumbnail/banner2.png",
         "datePublished": "2025-02-15",
@@ -10,11 +10,12 @@
         ]
     },
     {
-        "topicName": "school",
-        "title": "about school",
-        "image": "./assets/images/banner/banner2.png",
+        "topicName": "myself",
+        "title": "How to Introduce Yourself in English",
+        "image": "./assets/images/thumbnail/banner2.png",
+        "datePublished": "2025-02-15",
         "contents": [
-            "Hello world"
+            "Hello! My name is Sarah Johnson. I am 14 years old. I am a student at Greenfield High School. My favorite subject is English because I enjoy reading stories and writing. In my free time, I like playing soccer, drawing, and hanging out with my friends. I also love to watch movies and listen to music. I have two younger sisters, Emma and Lily, and we always play board games or video games together. I live in a small town called Springfield. I want to become a scientist in the future and discover new things."
         ]
     }
 ]

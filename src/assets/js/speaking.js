@@ -48,13 +48,11 @@ const displayPresentation = ({ title, image, contents, datePublished }) => {
     `;
 
     presentationSubheader.innerHTML = `
-        <div>
+        <div class="flex items-center">
+            <img class="mr-2" src="./assets/images/icons/calendar.svg" alt="Share">
             <time class="text-[#6b6b6b] text-base">${new Date(datePublished).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}</time>
         </div>
         <div class="flex items-center">
-        <button class="mr-6 cursor-pointer" aria-label="Share">
-            <img src="./assets/images/icons/share.svg" alt="Share">
-        </button>
         <button id="speak" class="cursor-pointer" aria-label="Play/Pause">
             <img class="w-[22px] play" src="./assets/images/icons/play-circle.svg" alt="Play">
             <img class="w-[22px] pause hidden" src="./assets/images/icons/pause-circle.svg" alt="Pause">
@@ -82,6 +80,7 @@ const displayConversation = ({ title, img, contents, datePublished }) => {
         <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${title}</h1>
         <img src="${img}" class="border border-[#4755691a] object-cover" alt="${title}">
     `;
+    console.log(datePublished)
 
     presentationSubheader.innerHTML = `
         <div>

@@ -29,7 +29,7 @@ const displayVocabularies = ({ metadata, vocabularyList }) => {
     if (!vocabularyHeader || !vocabularyContainer) return;
 
     vocabularyHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${metadata.title}</h1>
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold pb-4 md:pb-6 leading-tight">${metadata.title}</h1>
         <img src="${metadata.bannerImage}" class="border border-[#4755691a] object-cover" alt="">
     `;
     vocabularyContainer.innerHTML = ""; // Clear previous content

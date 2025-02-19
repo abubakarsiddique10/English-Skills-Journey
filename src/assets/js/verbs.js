@@ -27,7 +27,7 @@ const displayVerbs = ({ header, verbs }) => {
 
     if (!verbHeader || !verbsContainer) return;
     verbHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold pb-4 md:pb-6 leading-tight">${header.title}</h1>
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold pb-4 md:pb-6 leading-tight">${header.title}</h1>
         <img src="${header.image}" class="border border-[#4755691a] object-cover" alt="">
     `;
 

@@ -496,5 +496,335 @@
         "present": "Break",
         "past": "Broke",
         "pastParticiple": "Broken"
+    },
+    {
+        "present": "Bribe",
+        "past": "Bribed",
+        "pastParticiple": "Bribed"
+    },
+    {
+        "present": "Bring",
+        "past": "Brought",
+        "pastParticiple": "Brought"
+    },
+    {
+        "present": "Build",
+        "past": "Built",
+        "pastParticiple": "Built"
+    },
+    {
+        "present": "Bury",
+        "past": "Buried",
+        "pastParticiple": "Buried"
+    },
+    {
+        "present": "Buy",
+        "past": "Bought",
+        "pastParticiple": "Bought"
+    },
+    {
+        "present": "Babble",
+        "past": "Babbled",
+        "pastParticiple": "Babbled"
+    },
+    {
+        "present": "Badger",
+        "past": "Badgered",
+        "pastParticiple": "Badgered"
+    },
+    {
+        "present": "Bail",
+        "past": "Bailed",
+        "pastParticiple": "Bailed"
+    },
+    {
+        "present": "Ballot",
+        "past": "Balloted",
+        "pastParticiple": "Balloted"
+    },
+    {
+        "present": "Ban",
+        "past": "Banned",
+        "pastParticiple": "Banned"
+    },
+    {
+        "present": "Bare",
+        "past": "Bared",
+        "pastParticiple": "Bared"
+    },
+    {
+        "present": "Bastardize",
+        "past": "Bastardized",
+        "pastParticiple": "Bastardized"
+    },
+    {
+        "present": "Battle",
+        "past": "Battled",
+        "pastParticiple": "Battled"
+    },
+    {
+        "present": "Beautify",
+        "past": "Beautified",
+        "pastParticiple": "Beautified"
+    },
+    {
+        "present": "Beckon",
+        "past": "Beckoned",
+        "pastParticiple": "Beckoned"
+    },
+    {
+        "present": "Belch",
+        "past": "Belched",
+        "pastParticiple": "Belched"
+    },
+    {
+        "present": "Belly",
+        "past": "Bellied",
+        "pastParticiple": "Bellied"
+    },
+    {
+        "present": "Belong",
+        "past": "Belonged",
+        "pastParticiple": "Belonged"
+    },
+    {
+        "present": "Bemoan",
+        "past": "Bemoaned",
+        "pastParticiple": "Bemoaned"
+    },
+    {
+        "present": "Bind",
+        "past": "Bound",
+        "pastParticiple": "Bound"
+    },
+    {
+        "present": "Blab",
+        "past": "Blabbed",
+        "pastParticiple": "Blabbed"
+    },
+    {
+        "present": "Blandish",
+        "past": "Blandished",
+        "pastParticiple": "Blandished"
+    },
+    {
+        "present": "Bleed",
+        "past": "Bled",
+        "pastParticiple": "Bled"
+    },
+    {
+        "present": "Block",
+        "past": "Blocked",
+        "pastParticiple": "Blocked"
+    },
+    {
+        "present": "Bluff",
+        "past": "Bluffed",
+        "pastParticiple": "Bluffed"
+    },
+    {
+        "present": "Boast",
+        "past": "Boasted",
+        "pastParticiple": "Boasted"
+    },
+    {
+        "present": "Bob",
+        "past": "Bobbed",
+        "pastParticiple": "Bobbed"
+    },
+    {
+        "present": "Bomb",
+        "past": "Bombed",
+        "pastParticiple": "Bombed"
+    },
+    {
+        "present": "Bore",
+        "past": "Bored",
+        "pastParticiple": "Bored"
+    },
+    {
+        "present": "Boss",
+        "past": "Bossed",
+        "pastParticiple": "Bossed"
+    },
+    {
+        "present": "Bow",
+        "past": "Bowed",
+        "pastParticiple": "Bowed"
+    },
+    {
+        "present": "Box",
+        "past": "Boxed",
+        "pastParticiple": "Boxed"
+    },
+    {
+        "present": "Boycott",
+        "past": "Boycotted",
+        "pastParticiple": "Boycotted"
+    },
+    {
+        "present": "Brag",
+        "past": "Bragged",
+        "pastParticiple": "Bragged"
+    },
+    {
+        "present": "Breed",
+        "past": "Bred",
+        "pastParticiple": "Bred"
+    },
+    {
+        "present": "Brighten",
+        "past": "Brightened",
+        "pastParticiple": "Brightened"
+    },
+    {
+        "present": "Broadcast",
+        "past": "Broadcasted",
+        "pastParticiple": "Broadcasted"
+    },
+    {
+        "present": "Browse",
+        "past": "Browsed",
+        "pastParticiple": "Browsed"
+    },
+    {
+        "present": "Brush",
+        "past": "Brushed",
+        "pastParticiple": "Brushed"
+    },
+    {
+        "present": "Bump",
+        "past": "Bumped",
+        "pastParticiple": "Bumped"
+    },
+    {
+        "present": "Bundle",
+        "past": "Bundled",
+        "pastParticiple": "Bundled"
+    },
+    {
+        "present": "Burden",
+        "past": "Burdened",
+        "pastParticiple": "Burdened"
+    },
+    {
+        "present": "Burnish",
+        "past": "Burnished",
+        "pastParticiple": "Burnished"
+    },
+    {
+        "present": "Burst",
+        "past": "Burst",
+        "pastParticiple": "Burst"
+    },
+    {
+        "present": "Bust",
+        "past": "Bust",
+        "pastParticiple": "Bust"
+    },
+    {
+        "present": "Butcher",
+        "past": "Butchered",
+        "pastParticiple": "Butchered"
+    },
+    {
+        "present": "Buzz",
+        "past": "Buzzed",
+        "pastParticiple": "Buzzed"
+    },
+    {
+        "present": "Call",
+        "past": "Called",
+        "pastParticiple": "Called"
+    },
+    {
+        "present": "Cap",
+        "past": "Caped",
+        "pastParticiple": "Caped"
+    },
+    {
+        "present": "Care",
+        "past": "Cared",
+        "pastParticiple": "Cared"
+    },
+    {
+        "present": "Carry",
+        "past": "Carried",
+        "pastParticiple": "Carried"
+    },
+    {
+        "present": "Cash",
+        "past": "Cashed",
+        "pastParticiple": "Cashed"
+    },
+    {
+        "present": "Catch",
+        "past": "Caught",
+        "pastParticiple": "Caught"
+    },
+    {
+        "present": "Celebrate",
+        "past": "Celebrated",
+        "pastParticiple": "Celebrated"
+    },
+    {
+        "present": "Change",
+        "past": "Changed",
+        "pastParticiple": "Changed"
+    },
+    {
+        "present": "Charge",
+        "past": "Charged",
+        "pastParticiple": "Charged"
+    },
+    {
+        "present": "Chat",
+        "past": "Chatted",
+        "pastParticiple": "Chatted"
+    },
+    {
+        "present": "Choose",
+        "past": "Chose",
+        "pastParticiple": "Chosen"
+    },
+    {
+        "present": "Clap",
+        "past": "Clapped",
+        "pastParticiple": "Clapped"
+    },
+    {
+        "present": "Class",
+        "past": "Classed",
+        "pastParticiple": "Classed"
+    },
+    {
+        "present": "Classify",
+        "past": "Classified",
+        "pastParticiple": "Classified"
+    },
+    {
+        "present": "Clean",
+        "past": "Cleaned",
+        "pastParticiple": "Cleaned"
+    },
+    {
+        "present": "Close",
+        "past": "Closed",
+        "pastParticiple": "Closed"
+    },
+    {
+        "present": "Coach",
+        "past": "Coached",
+        "pastParticiple": "Coached"
+    },
+    {
+        "present": "Collect",
+        "past": "Collected",
+        "pastParticiple": "Collected"
+    },
+    {
+        "present": "Color",
+        "past": "Colored",
+        "pastParticiple": "Colored"
     }
 ]
