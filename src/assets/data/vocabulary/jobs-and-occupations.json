@@ -6,9 +6,109 @@
     },
     "vocabularyList": [
         {
+            "word": "Accountant",
+            "imagePath": "./assets/images/vocabulary/occupations/accountant.png",
+            "exampleSentence": "The accountant keeps track of the financial records."
+        },
+        {
+            "word": "Singer",
+            "imagePath": "./assets/images/vocabulary/occupations/singer.png",
+            "exampleSentence": "The singer performed at the concert."
+        },
+        {
+            "word": "Barber",
+            "imagePath": "./assets/images/vocabulary/occupations/barber.png",
+            "exampleSentence": "The barber gave me a haircut."
+        },
+        {
             "word": "Teacher",
             "imagePath": "./assets/images/vocabulary/occupations/teacher.png",
             "exampleSentence": "The teacher instructs the class."
+        },
+        {
+            "word": "Doctor",
+            "imagePath": "./assets/images/vocabulary/occupations/doctor.png",
+            "exampleSentence": "The doctor treats patients in the hospital."
+        },
+        {
+            "word": "Writer",
+            "imagePath": "./assets/images/vocabulary/occupations/writer.png",
+            "exampleSentence": "The writer is working on a new book."
+        },
+        {
+            "word": "Student",
+            "imagePath": "./assets/images/vocabulary/occupations/student.png",
+            "exampleSentence": "The student studied for the final exam."
+        },
+        {
+            "word": "Astronaut",
+            "imagePath": "./assets/images/vocabulary/occupations/astronaut.png",
+            "exampleSentence": "The astronaut explored the moon."
+        },
+        {
+            "word": "Photographer",
+            "imagePath": "./assets/images/vocabulary/occupations/photographer.png",
+            "exampleSentence": "The photographer captured a beautiful sunset."
+        },
+        {
+            "word": "Mechanic",
+            "imagePath": "./assets/images/vocabulary/occupations/mechanic.png",
+            "exampleSentence": "The mechanic fixed the broken car engine."
+        },
+        {
+            "word": "Architect",
+            "imagePath": "./assets/images/vocabulary/occupations/architect.png",
+            "exampleSentence": "The architect designed a modern skyscraper."
+        },
+        {
+            "word": "Chef",
+            "imagePath": "./assets/images/vocabulary/occupations/chef.png",
+            "exampleSentence": "The chef prepared a delicious gourmet meal."
+        },
+        {
+            "word": "Coach",
+            "imagePath": "./assets/images/vocabulary/occupations/coach.png",
+            "exampleSentence": "The coach motivated the team to win the match."
+        },
+        {
+            "word": "Florist",
+            "imagePath": "./assets/images/vocabulary/occupations/florist.png",
+            "exampleSentence": "The florist arranged a beautiful bouquet of roses."
+        },
+        {
+            "word": "Judge",
+            "imagePath": "./assets/images/vocabulary/occupations/judge.png",
+            "exampleSentence": "The judge listened carefully before making a decision."
+        },
+        {
+            "word": "Psychologist",
+            "imagePath": "./assets/images/vocabulary/occupations/psychologist.png",
+            "exampleSentence": "The psychologist helped patients overcome anxiety."
+        },
+        {
+            "word": "Astronomer",
+            "imagePath": "./assets/images/vocabulary/occupations/astronomer.png",
+            "exampleSentence": "The astronomer studied the stars."
+        },
+        {
+            "word": "Actor",
+            "imagePath": "./assets/images/vocabulary/occupations/actor.png",
+            "exampleSentence": "The actor performed in a new movie."
+        },
+        {
+            "word": "Golfer",
+            "imagePath": "./assets/images/vocabulary/occupations/golfer.png",
+            "exampleSentence": "The golfer hit a hole-in-one."
+        },
+        {
+            "word": "Handyman",
+            "imagePath": "./assets/images/vocabulary/occupations/handyman.png",
+            "exampleSentence": "The handyman fixed the broken door."
+        },
+        {
+            "word": "Captain",
+            "imagePath": "./assets/images/vocabulary/occupations/captain.png",
+            "exampleSentence": "The captain led the ship across the sea."
         },
         {
             "word": "Dancer",
@@ -26,14 +126,49 @@
             "exampleSentence": "The painter created a beautiful landscape."
         },
         {
-            "word": "Singer",
-            "imagePath": "./assets/images/vocabulary/occupations/singer.png",
-            "exampleSentence": "The singer performed at the concert."
+            "word": "Security Guard",
+            "imagePath": "./assets/images/vocabulary/occupations/security-guard.png",
+            "exampleSentence": "The security guard monitored the building entrance."
         },
         {
-            "word": "Barber",
-            "imagePath": "./assets/images/vocabulary/occupations/barber.png",
-            "exampleSentence": "The barber gave me a haircut."
+            "word": "Zoologist",
+            "imagePath": "./assets/images/vocabulary/occupations/zoologist.png",
+            "exampleSentence": "The zoologist researched animal behavior."
+        },
+        {
+            "word": "Waiter",
+            "imagePath": "./assets/images/vocabulary/occupations/waiter.png",
+            "exampleSentence": "The waiter took our order at the restaurant."
+        },
+        {
+            "word": "Electrician",
+            "imagePath": "./assets/images/vocabulary/occupations/electrician.png",
+            "exampleSentence": "The electrician fixed the broken circuit."
+        },
+        {
+            "word": "Engineer",
+            "imagePath": "./assets/images/vocabulary/occupations/engineer.png",
+            "exampleSentence": "The engineer designed the new building."
+        },
+        {
+            "word": "Entertainer",
+            "imagePath": "./assets/images/vocabulary/occupations/entertainer.png",
+            "exampleSentence": "The entertainer kept the crowd engaged all night."
+        },
+        {
+            "word": "Baker",
+            "imagePath": "./assets/images/vocabulary/occupations/baker.png",
+            "exampleSentence": "The baker made fresh bread every morning."
+        },
+        {
+            "word": "Banker",
+            "imagePath": "./assets/images/vocabulary/occupations/banker.png",
+            "exampleSentence": "The banker offered a loan to the client."
+        },
+        {
+            "word": "Gardener",
+            "imagePath": "./assets/images/vocabulary/occupations/gardener.png",
+            "exampleSentence": "The gardener trimmed the hedges."
         },
         {
             "word": "Nurse",
@@ -41,9 +176,129 @@
             "exampleSentence": "The nurse took care of the patients."
         },
         {
-            "word": "Artist",
-            "imagePath": "./assets/images/vocabulary/occupations/artist.png",
-            "exampleSentence": "The artist painted a masterpiece."
+            "word": "Mathematician",
+            "imagePath": "./assets/images/vocabulary/occupations/mathematician.png",
+            "exampleSentence": "The mathematician solved the complex equation."
+        },
+        {
+            "word": "Jester",
+            "imagePath": "./assets/images/vocabulary/occupations/jester.png",
+            "exampleSentence": "The jester entertained the king with jokes."
+        },
+        {
+            "word": "Hunter",
+            "imagePath": "./assets/images/vocabulary/occupations/hunter.png",
+            "exampleSentence": "The hunter tracked the animal in the forest."
+        },
+        {
+            "word": "Director",
+            "imagePath": "./assets/images/vocabulary/occupations/director.png",
+            "exampleSentence": "The director planned the entire movie shoot."
+        },
+        {
+            "word": "Archer",
+            "imagePath": "./assets/images/vocabulary/occupations/archer.png",
+            "exampleSentence": "The archer aimed carefully before shooting the arrow."
+        },
+        {
+            "word": "Athlete",
+            "imagePath": "./assets/images/vocabulary/occupations/athlete.png",
+            "exampleSentence": "The athlete trained for the upcoming race."
+        },
+        {
+            "word": "Miner",
+            "imagePath": "./assets/images/vocabulary/occupations/miner.png",
+            "exampleSentence": "The miner worked deep underground."
+        },
+        {
+            "word": "Librarian",
+            "imagePath": "./assets/images/vocabulary/occupations/librarian.png",
+            "exampleSentence": "The librarian helped me find the book."
+        },
+        {
+            "word": "Lifeguard",
+            "imagePath": "./assets/images/vocabulary/occupations/lifeguard.png",
+            "exampleSentence": "The lifeguard watched over the swimmers at the beach."
+        },
+        {
+            "word": "Grocer",
+            "imagePath": "./assets/images/vocabulary/occupations/grocer.png",
+            "exampleSentence": "The grocer sold fresh produce."
+        },
+        {
+            "word": "Politician",
+            "imagePath": "./assets/images/vocabulary/occupations/politician.png",
+            "exampleSentence": "The politician gave a speech about the election."
+        },
+        {
+            "word": "Trader",
+            "imagePath": "./assets/images/vocabulary/occupations/trader.png",
+            "exampleSentence": "The trader bought and sold stocks."
+        },
+        {
+            "word": "Trainer",
+            "imagePath": "./assets/images/vocabulary/occupations/trainer.png",
+            "exampleSentence": "The trainer helped me improve my performance."
+        },
+        {
+            "word": "Watchmaker",
+            "imagePath": "./assets/images/vocabulary/occupations/watchmaker.png",
+            "exampleSentence": "The watchmaker repaired my antique watch."
+        },
+        {
+            "word": "Welder",
+            "imagePath": "./assets/images/vocabulary/occupations/welder.png",
+            "exampleSentence": "The welder worked on the construction site."
+        },
+        {
+            "word": "Tutor",
+            "imagePath": "./assets/images/vocabulary/occupations/tutor.png",
+            "exampleSentence": "The tutor helped the student with their homework."
+        },
+        {
+            "word": "Programmer",
+            "imagePath": "./assets/images/vocabulary/occupations/programmer.png",
+            "exampleSentence": "The programmer wrote the software code."
+        },
+        {
+            "word": "Professor",
+            "imagePath": "./assets/images/vocabulary/occupations/professor.png",
+            "exampleSentence": "The professor lectured on history."
+        },
+        {
+            "word": "Pianist",
+            "imagePath": "./assets/images/vocabulary/occupations/pianist.png",
+            "exampleSentence": "The pianist played a beautiful melody."
+        },
+        {
+            "word": "Instructor",
+            "imagePath": "./assets/images/vocabulary/occupations/instructor.png",
+            "exampleSentence": "The instructor taught the students how to swim."
+        },
+        {
+            "word": "Firefighter",
+            "imagePath": "./assets/images/vocabulary/occupations/firefighter.png",
+            "exampleSentence": "The firefighter rescued the cat from the tree."
+        },
+        {
+            "word": "Fisherman",
+            "imagePath": "./assets/images/vocabulary/occupations/fisherman.png",
+            "exampleSentence": "The fisherman caught a big fish."
+        },
+        {
+            "word": "Carpenter",
+            "imagePath": "./assets/images/vocabulary/occupations/carpenter.png",
+            "exampleSentence": "The carpenter built a wooden chair."
+        },
+        {
+            "word": "Biologist",
+            "imagePath": "./assets/images/vocabulary/occupations/biologist.png",
+            "exampleSentence": "The biologist studied marine life."
+        },
+        {
+            "word": "Builder",
+            "imagePath": "./assets/images/vocabulary/occupations/builder.png",
+            "exampleSentence": "The builder constructed a new house."
         },
         {
             "word": "Farmer",
@@ -51,9 +306,59 @@
             "exampleSentence": "The farmer grew crops on his land."
         },
         {
+            "word": "Artist",
+            "imagePath": "./assets/images/vocabulary/occupations/artist.png",
+            "exampleSentence": "The artist painted a masterpiece."
+        },
+        {
+            "word": "Reporter",
+            "imagePath": "./assets/images/vocabulary/occupations/reporter.png",
+            "exampleSentence": "The reporter covered the breaking news story."
+        },
+        {
+            "word": "Plumber",
+            "imagePath": "./assets/images/vocabulary/occupations/plumber.png",
+            "exampleSentence": "The plumber fixed the leaking pipe."
+        },
+        {
             "word": "Police",
             "imagePath": "./assets/images/vocabulary/occupations/police.png",
             "exampleSentence": "The police are investigating the crime."
+        },
+        {
+            "word": "Surgeon",
+            "imagePath": "./assets/images/vocabulary/occupations/surgeon.png",
+            "exampleSentence": "The surgeon performs complex operations."
+        },
+        {
+            "word": "Postman",
+            "imagePath": "./assets/images/vocabulary/occupations/postman.png",
+            "exampleSentence": "The postman delivers letters every morning."
+        },
+        {
+            "word": "Magician",
+            "imagePath": "./assets/images/vocabulary/occupations/magician.png",
+            "exampleSentence": "The magician amazed the audience with tricks."
+        },
+        {
+            "word": "Businessman",
+            "imagePath": "./assets/images/vocabulary/occupations/businessman.png",
+            "exampleSentence": "The businessman attended an important meeting."
+        },
+        {
+            "word": "Scientist",
+            "imagePath": "./assets/images/vocabulary/occupations/scientist.png",
+            "exampleSentence": "The scientist conducted experiments in the lab."
+        },
+        {
+            "word": "Calligrapher",
+            "imagePath": "./assets/images/vocabulary/occupations/calligrapher.png",
+            "exampleSentence": "The calligrapher wrote elegant invitations."
+        },
+        {
+            "word": "Jeweler",
+            "imagePath": "./assets/images/vocabulary/occupations/jeweler.png",
+            "exampleSentence": "The jeweler crafted a beautiful ring."
         }
     ]
 }

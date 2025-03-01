@@ -1,0 +1,219 @@
+{
+    "metadata": {
+        "title": "Human Body Parts",
+        "bannerImage": "./assets/images/thumbnail/wild-animals.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "ears",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/ears.png",
+            "exampleSentence": "My ears caught a strange noise."
+        },
+        {
+            "word": "Nose",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/nose.png",
+            "exampleSentence": "He has a strong sense of smell thanks to his nose."
+        },
+        {
+            "word": "Shoulder",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/shoulder.png",
+            "exampleSentence": "She carried her bag on her shoulder."
+        },
+        {
+            "word": "Arm",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/arm.png",
+            "exampleSentence": "He lifted his arm to wave."
+        },
+        {
+            "word": "Elbow",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/elbow.png",
+            "exampleSentence": "He rested his elbow on the table."
+        },
+        {
+            "word": "Thigh",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/thigh.png",
+            "exampleSentence": "She felt pain in her thigh after running."
+        },
+        {
+            "word": "Head",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/head.png",
+            "exampleSentence": "He nodded his head in agreement."
+        },
+        {
+            "word": "Hair",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/hair.png",
+            "exampleSentence": "She combed her long hair."
+        },
+        {
+            "word": "Face",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/face.png",
+            "exampleSentence": "He washed his face in the morning."
+        },
+        {
+            "word": "Forehead",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/forehead.png",
+            "exampleSentence": "Sweat dripped from his forehead."
+        },
+        {
+            "word": "Eyebrow",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/eyebrow.png",
+            "exampleSentence": "She raised her eyebrow in surprise."
+        },
+        {
+            "word": "Eyelash",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/eyelash.png",
+            "exampleSentence": "An eyelash fell onto her cheek."
+        },
+        {
+            "word": "Eyes",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/eyes.png",
+            "exampleSentence": "Her eyes sparkled with excitement."
+        },
+        {
+            "word": "Cheek",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/cheek.png",
+            "exampleSentence": "She kissed him on the cheek."
+        },
+        {
+            "word": "Leg",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/leg.png",
+            "exampleSentence": "He injured his leg while playing soccer."
+        },
+        {
+            "word": "Mouth",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/mouth.png",
+            "exampleSentence": "He opened his mouth to speak."
+        },
+        {
+            "word": "Lip",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/lips.png",
+            "exampleSentence": "She applied lipstick to her lip."
+        },
+        {
+            "word": "Teeth",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/teeth.png",
+            "exampleSentence": "He brushed his teeth twice a day."
+        },
+        {
+            "word": "Tongue",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/tongue.png",
+            "exampleSentence": "He stuck out his tongue playfully."
+        },
+        {
+            "word": "Chin",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/chin.png",
+            "exampleSentence": "He rested his chin on his hand."
+        },
+        {
+            "word": "Neck",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/neck.png",
+            "exampleSentence": "She wore a scarf around her neck."
+        },
+        {
+            "word": "Stomach",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/stomach.png",
+            "exampleSentence": "His stomach growled from hunger."
+        },
+        {
+            "word": "Navel",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/navel.png",
+            "exampleSentence": "She had a small scar near her navel."
+        },
+        {
+            "word": "Foot",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/foot.png",
+            "exampleSentence": "She stepped on his foot by accident."
+        },
+        {
+            "word": "Hand",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/hand.png",
+            "exampleSentence": "He raised his hand to ask a question."
+        },
+        {
+            "word": "Wrist",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/wrist.png",
+            "exampleSentence": "She wore a watch on her wrist."
+        },
+        {
+            "word": "Knee",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/knee.png",
+            "exampleSentence": "He scraped his knee while playing."
+        },
+        {
+            "word": "Ankle",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/ankle.png",
+            "exampleSentence": "She twisted her ankle while running."
+        },
+        {
+            "word": "Toe",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/toes.png",
+            "exampleSentence": "She stubbed her toe on the table."
+        },
+        {
+            "word": "Sole",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/sole.png",
+            "exampleSentence": "The sole of his shoe was worn out."
+        },
+        {
+            "word": "Nail",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/nail.png",
+            "exampleSentence": "She painted her nail bright red."
+        },
+        {
+            "word": "Muscle",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/muscle.png",
+            "exampleSentence": "He stretched to relax his muscle."
+        },
+        {
+            "word": "Finger",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/finger.png",
+            "exampleSentence": "She pointed with her index finger."
+        },
+        {
+            "word": "Thumb",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/thumb.png",
+            "exampleSentence": "He gave a thumbs-up to show approval."
+        },
+        {
+            "word": "Index finger",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/index-finger.png",
+            "exampleSentence": "He pointed at the board with his index finger."
+        },
+        {
+            "word": "Middle finger",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/middle-finger.png",
+            "exampleSentence": "She accidentally hurt her middle finger."
+        },
+        {
+            "word": "Ring finger",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/ring-finger.png",
+            "exampleSentence": "He wears a gold ring on his ring finger."
+        },
+        {
+            "word": "Little finger",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/little-finger.png",
+            "exampleSentence": "She raised her little finger while drinking tea."
+        },
+        {
+            "word": "Palm",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/palm.png",
+            "exampleSentence": "He placed the coin in his palm."
+        },
+        {
+            "word": "Stomach",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/stomach.png",
+            "exampleSentence": "I had a pain in my stomach after eating too much."
+        },
+        {
+            "word": "Navel",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/navel.png",
+            "exampleSentence": "The baby’s navel was carefully cleaned."
+        },
+        {
+            "word": "Thigh",
+            "imagePath": "./assets/images/vocabulary/external-body-parts/thigh.png",
+            "exampleSentence": "She felt a cramp in her thigh after running."
+        }
+    ]
+}

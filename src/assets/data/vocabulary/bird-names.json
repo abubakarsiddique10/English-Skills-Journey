@@ -1,0 +1,254 @@
+{
+    "metadata": {
+        "title": "Bird Vocabulary: List of Bird Names",
+        "bannerImage": "./assets/images/thumbnail/color-names.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "Sparrow",
+            "imagePath": "./assets/images/vocabulary/bird-names/sparrow.png",
+            "exampleSentence": "The sparrow is chirping in the tree."
+        },
+        {
+            "word": "Eagle",
+            "imagePath": "./assets/images/vocabulary/bird-names/eagle.png",
+            "exampleSentence": "The eagle soars high in the sky."
+        },
+        {
+            "word": "Robin",
+            "imagePath": "./assets/images/vocabulary/bird-names/robin.png",
+            "exampleSentence": "A robin built a nest in our backyard."
+        },
+        {
+            "word": "Pigeon",
+            "imagePath": "./assets/images/vocabulary/bird-names/pigeon.png",
+            "exampleSentence": "Pigeons gather in the city square."
+        },
+        {
+            "word": "Hummingbird",
+            "imagePath": "./assets/images/vocabulary/bird-names/hummingbird.png",
+            "exampleSentence": "A hummingbird hovers near the flowers."
+        },
+        {
+            "word": "Owl",
+            "imagePath": "./assets/images/vocabulary/bird-names/owl.png",
+            "exampleSentence": "The owl hoots at night."
+        },
+        {
+            "word": "Peacock",
+            "imagePath": "./assets/images/vocabulary/bird-names/peacock.png",
+            "exampleSentence": "The peacock spreads its colorful feathers."
+        },
+        {
+            "word": "Woodpecker",
+            "imagePath": "./assets/images/vocabulary/bird-names/woodpecker.png",
+            "exampleSentence": "A woodpecker is pecking at the tree trunk."
+        },
+        {
+            "word": "Flamingo",
+            "imagePath": "./assets/images/vocabulary/bird-names/flamingo.png",
+            "exampleSentence": "Flamingos stand on one leg in the water."
+        },
+        {
+            "word": "Albatross",
+            "imagePath": "./assets/images/vocabulary/bird-names/albatross.png",
+            "exampleSentence": "The albatross glides effortlessly over the ocean."
+        },
+        {
+            "word": "Falcon",
+            "imagePath": "./assets/images/vocabulary/bird-names/falcon.png",
+            "exampleSentence": "A falcon flies at incredible speed."
+        },
+        {
+            "word": "Nightingale",
+            "imagePath": "./assets/images/vocabulary/bird-names/nightingale.png",
+            "exampleSentence": "The nightingale sings beautifully at dusk."
+        },
+        {
+            "word": "Swan",
+            "imagePath": "./assets/images/vocabulary/bird-names/swan.png",
+            "exampleSentence": "Swans glide gracefully across the lake."
+        },
+        {
+            "word": "Puffin",
+            "imagePath": "./assets/images/vocabulary/bird-names/puffin.png",
+            "exampleSentence": "A puffin carries fish in its beak."
+        },
+        {
+            "word": "Heron",
+            "imagePath": "./assets/images/vocabulary/bird-names/heron.png",
+            "exampleSentence": "A heron stands still in the water, waiting for fish."
+        },
+        {
+            "word": "Kingfisher",
+            "imagePath": "./assets/images/vocabulary/bird-names/kingfisher.png",
+            "exampleSentence": "The kingfisher dives swiftly to catch a fish."
+        },
+        {
+            "word": "Magpie",
+            "imagePath": "./assets/images/vocabulary/bird-names/magpie.png",
+            "exampleSentence": "A magpie collects shiny objects."
+        },
+        {
+            "word": "Toucan",
+            "imagePath": "./assets/images/vocabulary/bird-names/toucan.png",
+            "exampleSentence": "The toucan has a colorful beak."
+        },
+        {
+            "word": "Cuckoo",
+            "imagePath": "./assets/images/vocabulary/bird-names/cuckoo.png",
+            "exampleSentence": "A cuckoo lays eggs in another bird’s nest."
+        },
+        {
+            "word": "Jay",
+            "imagePath": "./assets/images/vocabulary/bird-names/jay.png",
+            "exampleSentence": "The jay is known for its intelligence."
+        },
+        {
+            "word": "Pheasant",
+            "imagePath": "./assets/images/vocabulary/bird-names/pheasant.png",
+            "exampleSentence": "The pheasant has colorful feathers."
+        },
+        {
+            "word": "Egret",
+            "imagePath": "./assets/images/vocabulary/bird-names/egret.png",
+            "exampleSentence": "An egret wades through the shallow water."
+        },
+        {
+            "word": "Ostrich",
+            "imagePath": "./assets/images/vocabulary/bird-names/ostrich.png",
+            "exampleSentence": "The ostrich is the largest bird in the world."
+        },
+        {
+            "word": "Vulture",
+            "imagePath": "./assets/images/vocabulary/bird-names/vulture.png",
+            "exampleSentence": "A vulture circles in the sky, searching for food."
+        },
+        {
+            "word": "Parrot",
+            "imagePath": "./assets/images/vocabulary/bird-names/parrot.png",
+            "exampleSentence": "The parrot can mimic human speech."
+        },
+        {
+            "word": "Seagull",
+            "imagePath": "./assets/images/vocabulary/bird-names/seagull.png",
+            "exampleSentence": "Seagulls fly over the ocean waves."
+        },
+        {
+            "word": "Finch",
+            "imagePath": "./assets/images/vocabulary/bird-names/finch.png",
+            "exampleSentence": "A finch sings a melodious song."
+        },
+        {
+            "word": "Woodcock",
+            "imagePath": "./assets/images/vocabulary/bird-names/woodcock.png",
+            "exampleSentence": "A woodcock camouflages well in the forest."
+        },
+        {
+            "word": "Starling",
+            "imagePath": "./assets/images/vocabulary/bird-names/starling.png",
+            "exampleSentence": "Starlings form large flocks in the sky."
+        },
+        {
+            "word": "Cormorant",
+            "imagePath": "./assets/images/vocabulary/bird-names/cormorant.png",
+            "exampleSentence": "A cormorant dives underwater to catch fish."
+        },
+        {
+            "word": "Ibis",
+            "imagePath": "./assets/images/vocabulary/bird-names/ibis.png",
+            "exampleSentence": "An ibis has a long, curved beak."
+        },
+        {
+            "word": "Wren",
+            "imagePath": "./assets/images/vocabulary/bird-names/wren.png",
+            "exampleSentence": "A wren is a small but lively bird."
+        },
+        {
+            "word": "Stork",
+            "imagePath": "./assets/images/vocabulary/bird-names/stork.png",
+            "exampleSentence": "Storks are often associated with bringing babies."
+        },
+        {
+            "word": "Spoonbill",
+            "imagePath": "./assets/images/vocabulary/bird-names/spoonbill.png",
+            "exampleSentence": "The spoonbill has a distinctive beak shape."
+        },
+        {
+            "word": "Grebe",
+            "imagePath": "./assets/images/vocabulary/bird-names/grebe.png",
+            "exampleSentence": "A grebe is an expert swimmer and diver."
+        },
+        {
+            "word": "Curlew",
+            "imagePath": "./assets/images/vocabulary/bird-names/curlew.png",
+            "exampleSentence": "Curlews have long, downward-curved beaks."
+        },
+        {
+            "word": "Buzzard",
+            "imagePath": "./assets/images/vocabulary/bird-names/buzzard.png",
+            "exampleSentence": "A buzzard soars in search of prey."
+        },
+        {
+            "word": "Plover",
+            "imagePath": "./assets/images/vocabulary/bird-names/plover.png",
+            "exampleSentence": "Plovers run quickly along the beach."
+        },
+        {
+            "word": "Oriole",
+            "imagePath": "./assets/images/vocabulary/bird-names/oriole.png",
+            "exampleSentence": "An oriole has bright yellow and black plumage."
+        },
+        {
+            "word": "Shrike",
+            "imagePath": "./assets/images/vocabulary/bird-names/shrike.png",
+            "exampleSentence": "The shrike is known for impaling its prey."
+        },
+        {
+            "word": "Skylark",
+            "imagePath": "./assets/images/vocabulary/bird-names/skylark.png",
+            "exampleSentence": "A skylark sings while flying high."
+        },
+        {
+            "word": "Coot",
+            "imagePath": "./assets/images/vocabulary/bird-names/coot.png",
+            "exampleSentence": "The coot is a water bird with a white beak."
+        },
+        {
+            "word": "Thrush",
+            "imagePath": "./assets/images/vocabulary/bird-names/thrush.png",
+            "exampleSentence": "The thrush has a sweet, melodious song."
+        },
+        {
+            "word": "Dove",
+            "imagePath": "./assets/images/vocabulary/bird-names/dove.png",
+            "exampleSentence": "The dove is a symbol of peace."
+        },
+        {
+            "word": "Pintail",
+            "imagePath": "./assets/images/vocabulary/bird-names/pintail.png",
+            "exampleSentence": "A pintail is a graceful duck."
+        },
+        {
+            "word": "Cockatoo",
+            "imagePath": "./assets/images/vocabulary/bird-names/cockatoo.png",
+            "exampleSentence": "A cockatoo can be very playful and noisy."
+        },
+        {
+            "word": "Meadowlark",
+            "imagePath": "./assets/images/vocabulary/bird-names/meadowlark.png",
+            "exampleSentence": "A meadowlark sings a cheerful song in the fields."
+        },
+        {
+            "word": "Yellowhammer",
+            "imagePath": "./assets/images/vocabulary/bird-names/yellowhammer.png",
+            "exampleSentence": "A yellowhammer has bright yellow plumage."
+        },
+        {
+            "word": "Quetzal",
+            "imagePath": "./assets/images/vocabulary/bird-names/quetzal.png",
+            "exampleSentence": "The quetzal is known for its stunning colors."
+        }
+    ]
+}

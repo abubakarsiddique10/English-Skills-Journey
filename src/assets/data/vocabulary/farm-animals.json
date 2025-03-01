@@ -69,6 +69,71 @@
             "word": "Pigeon",
             "imagePath": "./assets/images/vocabulary/farm/pigeon.png",
             "exampleSentence": "The pigeon coos from the rooftop."
+        },
+        {
+            "word": "Llama",
+            "imagePath": "./assets/images/vocabulary/farm/llama.png",
+            "exampleSentence": "The llama has soft and warm wool."
+        },
+        {
+            "word": "Peacock",
+            "imagePath": "./assets/images/vocabulary/farm/peacock.png",
+            "exampleSentence": "The peacock spread its colorful feathers."
+        },
+        {
+            "word": "Rabbit",
+            "imagePath": "./assets/images/vocabulary/farm/rabbit.png",
+            "exampleSentence": "The rabbit hops around the garden."
+        },
+        {
+            "word": "Shrimp",
+            "imagePath": "./assets/images/vocabulary/farm/shrimp.png",
+            "exampleSentence": "The shrimp swims in the ocean."
+        },
+        {
+            "word": "Bee",
+            "imagePath": "./assets/images/vocabulary/farm/bee.png",
+            "exampleSentence": "The bee collects nectar from flowers."
+        },
+        {
+            "word": "Fish",
+            "imagePath": "./assets/images/vocabulary/farm/fish.png",
+            "exampleSentence": "The fish swims in the pond."
+        },
+        {
+            "word": "Llama",
+            "imagePath": "./assets/images/vocabulary/farm/llama.png",
+            "exampleSentence": "The llama has a thick woolly coat."
+        },
+        {
+            "word": "Reindeer",
+            "imagePath": "./assets/images/vocabulary/farm/reindeer.png",
+            "exampleSentence": "The reindeer lives in cold regions."
+        },
+        {
+            "word": "Hen",
+            "imagePath": "./assets/images/vocabulary/farm/hen.png",
+            "exampleSentence": "The hen lays eggs in the coop."
+        },
+        {
+            "word": "Chick",
+            "imagePath": "./assets/images/vocabulary/farm/chick.png",
+            "exampleSentence": "The chick follows its mother closely."
+        },
+        {
+            "word": "Calf",
+            "imagePath": "./assets/images/vocabulary/farm/calf.png",
+            "exampleSentence": "The calf stays near its mother."
+        },
+        {
+            "word": "Duckling",
+            "imagePath": "./assets/images/vocabulary/farm/duckling.png",
+            "exampleSentence": "The duckling swims in the lake."
+        },
+        {
+            "word": "Goose",
+            "imagePath": "./assets/images/vocabulary/farm/goose.png",
+            "exampleSentence": "The goose honks loudly near the pond."
         }
     ]
 }

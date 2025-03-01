@@ -43,7 +43,7 @@ const displayPresentation = ({ title, image, contents, datePublished }) => {
     if (!presentationHeader || !presentationContents) return;
     // Clear previous content
     presentationHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${title}</h1>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold pb-4 md:pb-6 leading-tight">${title}</h1>
         <img src="${image}" class="border border-[#4755691a] object-cover" alt="${title}">
     `;
 

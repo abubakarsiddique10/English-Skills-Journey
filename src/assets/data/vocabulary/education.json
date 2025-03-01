@@ -1,249 +1,184 @@
 {
-    "header": {
-        "title": "hello world",
-        "image": "./assets/images/banner/banner2.png"
+    "metadata": {
+        "title": "Human Body Parts",
+        "bannerImage": "./assets/images/thumbnail/wild-animals.png",
+        "datePublished": "2024-11-07"
     },
-    "vocabularies": [
+    "vocabularyList": [
         {
-            "__comment": "Start of education vocabulary section",
-            "_id": "0",
-            "word": "teacher",
-            "meaning": "শিক্ষক",
-            "image": "teacher",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The teacher told us a funny story."
+            "word": "Desk",
+            "imagePath": "./assets/images/vocabulary/education-items/desk.png",
+            "exampleSentence": "She placed her books on the desk."
         },
         {
-            "_id": "1",
-            "word": "textbook",
-            "meaning": "পাঠ্যবই",
-            "image": "textbook",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The textbook contains all the necessary information for the course."
+            "word": "Chair",
+            "imagePath": "./assets/images/vocabulary/education-items/chair.png",
+            "exampleSentence": "He sat on the chair by the window."
         },
         {
-            "_id": "2",
-            "word": "student",
-            "meaning": "ছাত্র/ছাত্রী",
-            "image": "student",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The student scored the highest marks in the class."
+            "word": "Book",
+            "imagePath": "./assets/images/vocabulary/education-items/book.png",
+            "exampleSentence": "She borrowed a book from the library."
         },
         {
-            "_id": "3",
-            "word": "school",
-            "meaning": "স্কুল",
-            "image": "school",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "She goes to a private school."
+            "word": "Notebook",
+            "imagePath": "./assets/images/vocabulary/education-items/notebook.png",
+            "exampleSentence": "He wrote notes in his notebook."
         },
         {
-            "_id": "4",
-            "word": "college",
-            "meaning": "কলেজ",
-            "image": "college",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "He graduated from a prestigious college."
+            "word": "Blackboard",
+            "imagePath": "./assets/images/vocabulary/education-items/blackboard.png",
+            "exampleSentence": "The teacher wrote the lesson on the blackboard."
         },
         {
-            "_id": "5",
-            "word": "university",
-            "meaning": "বিশ্ববিদ্যালয়",
-            "image": "university",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "She attends a renowned university."
+            "word": "Globe",
+            "imagePath": "./assets/images/vocabulary/education-items/globe.png",
+            "exampleSentence": "They used the globe to learn about different countries."
         },
         {
-            "_id": "6",
-            "word": "classroom",
-            "meaning": "শ্রেণীকক্ষ",
-            "image": "classroom",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The classroom was spacious and well-lit."
+            "word": "Pen",
+            "imagePath": "./assets/images/vocabulary/education-items/pen.png",
+            "exampleSentence": "She signed the document with a pen."
         },
         {
-            "_id": "8",
-            "word": "homework",
-            "meaning": "গৃহকার্য",
-            "image": "homework",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "He always completes his homework on time."
+            "word": "Highlighter",
+            "imagePath": "./assets/images/vocabulary/education-items/highlighter.png",
+            "exampleSentence": "He used a highlighter to mark important text."
         },
         {
-            "_id": "9",
-            "word": "test",
-            "meaning": "পরীক্ষা",
-            "image": "test",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "She studied hard for the test."
+            "word": "Eraser",
+            "imagePath": "./assets/images/vocabulary/education-items/eraser.png",
+            "exampleSentence": "She erased the mistake with an eraser."
         },
         {
-            "_id": "10",
-            "word": "grade",
-            "meaning": "শ্রেণী",
-            "image": "grade",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "He received an A grade in math."
+            "word": "Pencil sharpener",
+            "imagePath": "./assets/images/vocabulary/education-items/pencil-sharpener.png",
+            "exampleSentence": "He sharpened his pencil with a pencil sharpener."
         },
         {
-            "_id": "11",
-            "word": "principal",
-            "meaning": "প্রধান শিক্ষক",
-            "image": "principal",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The principal addressed the students during assembly."
+            "word": "Stapler",
+            "imagePath": "./assets/images/vocabulary/education-items/stapler.png",
+            "exampleSentence": "She stapled the pages together with a stapler."
         },
         {
-            "_id": "13",
-            "word": "subject",
-            "meaning": "বিষয়",
-            "image": "subject",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "Math is her favorite subject."
+            "word": "Calculator",
+            "imagePath": "./assets/images/vocabulary/education-items/calculator.png",
+            "exampleSentence": "He used a calculator to solve the equation."
         },
         {
-            "_id": "14",
-            "word": "lecture",
-            "meaning": "লেকচার",
-            "image": "lecture",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The professor gave an informative lecture on history."
+            "word": "Compass",
+            "imagePath": "./assets/images/vocabulary/education-items/compass.png",
+            "exampleSentence": "She drew a perfect circle with a compass."
         },
         {
-            "_id": "15",
-            "word": "textbook",
-            "meaning": "পাঠ্যবই",
-            "image": "textbook",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The textbook contains all the necessary information for the course."
+            "word": "Push Pin",
+            "imagePath": "./assets/images/vocabulary/education-items/push_pin.png",
+            "exampleSentence": "He used a push pin to attach the paper to the board."
         },
         {
-            "_id": "16",
-            "word": "library",
-            "meaning": "লাইব্রেরি",
-            "image": "library",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "He spends hours studying in the library."
+            "word": "Clip",
+            "imagePath": "./assets/images/vocabulary/education-items/clip.png",
+            "exampleSentence": "She secured the documents with a clip."
         },
         {
-            "_id": "17",
-            "word": "knowledge",
-            "meaning": "জ্ঞান",
-            "image": "knowledge",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "Reading books broadens your knowledge."
+            "word": "Pencil",
+            "imagePath": "./assets/images/vocabulary/education-items/pencil.png",
+            "exampleSentence": "He sketched a drawing with a pencil."
         },
         {
-            "_id": "18",
-            "word": "learning",
-            "meaning": "শেখা",
-            "image": "learning",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "Continuous learning is important for personal development."
+            "word": "Pencil case",
+            "imagePath": "./assets/images/vocabulary/education-items/pencil-case.png",
+            "exampleSentence": "She kept all her pens and pencils in a pencil case."
         },
         {
-            "_id": "20",
-            "word": "scholarship",
-            "meaning": "বৃত্তি",
-            "image": "scholarship",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "He received a scholarship for his outstanding academic performance."
+            "word": "Backpack",
+            "imagePath": "./assets/images/vocabulary/education-items/backpack.png",
+            "exampleSentence": "He packed his books into his backpack."
         },
         {
-            "_id": "21",
-            "word": "assignment",
-            "meaning": "অ্যাসাইনমেন্ট",
-            "image": "assignment",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The professor assigned a challenging assignment to the students."
+            "word": "Protractor",
+            "imagePath": "./assets/images/vocabulary/education-items/protractor.png",
+            "exampleSentence": "She measured the angle with a protractor."
         },
         {
-            "_id": "22",
-            "word": "classmate",
-            "meaning": "শ্রেণীবন্ধু",
-            "image": "classmate",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "She discussed the project with her classmates."
+            "word": "Scissors",
+            "imagePath": "./assets/images/vocabulary/education-items/scissors.png",
+            "exampleSentence": "He cut the paper with scissors."
         },
         {
-            "_id": "23",
-            "word": "diploma",
-            "meaning": "ডিপ্লোমা",
-            "image": "diploma",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "He received a diploma in computer science."
+            "word": "Binder",
+            "imagePath": "./assets/images/vocabulary/education-items/binder.png",
+            "exampleSentence": "She organized her notes in a binder."
         },
         {
-            "_id": "24",
-            "word": "lecture hall",
-            "meaning": "লেকচার হল",
-            "image": "lecture hall",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "The lecture hall was packed with students."
+            "word": "Colored pencil",
+            "imagePath": "./assets/images/vocabulary/education-items/colored-pencil.png",
+            "exampleSentence": "He colored the picture with a colored pencil."
         },
         {
-            "_id": "25",
-            "word": "tutor",
-            "meaning": "শিক্ষক",
-            "image": "tutor",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "She hired a tutor to help her with math."
+            "word": "Magnifying glass",
+            "imagePath": "./assets/images/vocabulary/education-items/magnifying-glass.png",
+            "exampleSentence": "She examined the insect with a magnifying glass."
         },
         {
-            "_id": "29",
-            "word": "attendance",
-            "meaning": "উপস্থিতি",
-            "image": "attendance",
-            "synonym": [],
-            "antonym": [],
-            "tags": "education",
-            "sentence": "Regular attendance is required for all students."
+            "word": "Ruler",
+            "imagePath": "./assets/images/vocabulary/education-items/ruler.png",
+            "exampleSentence": "He measured the length with a ruler."
+        },
+        {
+            "word": "Glue",
+            "imagePath": "./assets/images/vocabulary/education-items/glue.png",
+            "exampleSentence": "She used glue to stick the pieces together."
+        },
+        {
+            "word": "Paper",
+            "imagePath": "./assets/images/vocabulary/education-items/paper.png",
+            "exampleSentence": "He wrote a letter on a piece of paper."
+        },
+        {
+            "word": "Pen",
+            "imagePath": "./assets/images/vocabulary/education-items/pen.png",
+            "exampleSentence": "She bought a set of colored pens."
+        },
+        {
+            "word": "Highlighter",
+            "imagePath": "./assets/images/vocabulary/education-items/highlighter.png",
+            "exampleSentence": "He used different highlighters for each section."
+        },
+        {
+            "word": "Markers",
+            "imagePath": "./assets/images/vocabulary/education-items/markers.png",
+            "exampleSentence": "She drew a poster using markers."
+        },
+        {
+            "word": "Whiteboard Markers",
+            "imagePath": "./assets/images/vocabulary/education-items/whiteboard-markers.png",
+            "exampleSentence": "The teacher used whiteboard markers for the lesson."
+        },
+        {
+            "word": "Graph Paper",
+            "imagePath": "./assets/images/vocabulary/education-items/graph-paper.png",
+            "exampleSentence": "He plotted the data on graph paper."
+        },
+        {
+            "word": "Hole Punch",
+            "imagePath": "./assets/images/vocabulary/education-items/hole-punch.png",
+            "exampleSentence": "She used a hole punch to prepare the sheets for the binder."
+        },
+        {
+            "word": "Chalk",
+            "imagePath": "./assets/images/vocabulary/education-items/chalk.png",
+            "exampleSentence": "He wrote on the board with chalk."
+        },
+        {
+            "word": "Whiteboard",
+            "imagePath": "./assets/images/vocabulary/education-items/whiteboard.png",
+            "exampleSentence": "She explained the concept on the whiteboard."
+        },
+        {
+            "word": "Clipboard",
+            "imagePath": "./assets/images/vocabulary/education-items/clipboard.png",
+            "exampleSentence": "He took notes on a clipboard."
         }
     ]
 }

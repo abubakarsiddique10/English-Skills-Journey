@@ -1,0 +1,659 @@
+{
+    "metadata": {
+        "title": "Household Items",
+        "bannerImage": "./assets/images/thumbnail/wild-animals.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "Bed",
+            "imagePath": "./assets/images/vocabulary/household-items/bed.png",
+            "exampleSentence": "She lay down on the bed to rest."
+        },
+        {
+            "word": "Sofa",
+            "imagePath": "./assets/images/vocabulary/household-items/sofa.png",
+            "exampleSentence": "They sat on the sofa and watched a movie."
+        },
+        {
+            "word": "Table",
+            "imagePath": "./assets/images/vocabulary/household-items/table.png",
+            "exampleSentence": "We had dinner at the dining table."
+        },
+        {
+            "word": "Chair",
+            "imagePath": "./assets/images/vocabulary/household-items/chair.png",
+            "exampleSentence": "He pulled out a chair and sat down."
+        },
+        {
+            "word": "Armchair",
+            "imagePath": "./assets/images/vocabulary/household-items/armchair.png",
+            "exampleSentence": "Grandpa loves reading in his armchair."
+        },
+        {
+            "word": "Television",
+            "imagePath": "./assets/images/vocabulary/household-items/television.png",
+            "exampleSentence": "The children watched cartoons on television."
+        },
+        {
+            "word": "Lamp",
+            "imagePath": "./assets/images/vocabulary/household-items/lamp.png",
+            "exampleSentence": "She turned on the lamp to read a book."
+        },
+        {
+            "word": "Bookshelf",
+            "imagePath": "./assets/images/vocabulary/household-items/bookshelf.png",
+            "exampleSentence": "The bookshelf was full of interesting books."
+        },
+        {
+            "word": "Curtains",
+            "imagePath": "./assets/images/vocabulary/household-items/curtains.png",
+            "exampleSentence": "She opened the curtains to let in the sunlight."
+        },
+        {
+            "word": "Rug",
+            "imagePath": "./assets/images/vocabulary/household-items/rug.png",
+            "exampleSentence": "The rug made the living room feel cozy."
+        },
+        {
+            "word": "Mirror",
+            "imagePath": "./assets/images/vocabulary/household-items/mirror.png",
+            "exampleSentence": "She checked her reflection in the mirror."
+        },
+        {
+            "word": "Blanket",
+            "imagePath": "./assets/images/vocabulary/household-items/blanket.png",
+            "exampleSentence": "He wrapped himself in a warm blanket."
+        },
+        {
+            "word": "Clock",
+            "imagePath": "./assets/images/vocabulary/household-items/clock.png",
+            "exampleSentence": "The clock on the wall struck midnight."
+        },
+        {
+            "word": "Alarm clock",
+            "imagePath": "./assets/images/vocabulary/household-items/alarm_clock.png",
+            "exampleSentence": "His alarm clock woke him up at 6 AM."
+        },
+        {
+            "word": "Laundry Basket",
+            "imagePath": "./assets/images/vocabulary/household-items/laundry_basket.png",
+            "exampleSentence": "She put her dirty clothes in the laundry basket."
+        },
+        {
+            "word": "Vacuum Cleaner",
+            "imagePath": "./assets/images/vocabulary/household-items/vacuum_cleaner.png",
+            "exampleSentence": "He used the vacuum cleaner to clean the carpet."
+        },
+        {
+            "word": "Broom",
+            "imagePath": "./assets/images/vocabulary/household-items/broom.png",
+            "exampleSentence": "She swept the floor with a broom."
+        },
+        {
+            "word": "Trash Can",
+            "imagePath": "./assets/images/vocabulary/household-items/trash_can.png",
+            "exampleSentence": "He threw the wrappers in the trash can."
+        },
+        {
+            "word": "Plant pot",
+            "imagePath": "./assets/images/vocabulary/household-items/plant_pot.png",
+            "exampleSentence": "She watered the plant in the plant pot."
+        },
+        {
+            "word": "Coat rack",
+            "imagePath": "./assets/images/vocabulary/household-items/coat_rack.png",
+            "exampleSentence": "He hung his jacket on the coat rack."
+        },
+        {
+            "word": "Shoe rack",
+            "imagePath": "./assets/images/vocabulary/household-items/shoe_rack.png",
+            "exampleSentence": "She arranged her shoes neatly on the shoe rack."
+        },
+        {
+            "word": "Tissue box",
+            "imagePath": "./assets/images/vocabulary/household-items/tissue_box.png",
+            "exampleSentence": "She grabbed a tissue from the tissue box."
+        },
+        {
+            "word": "Remote control",
+            "imagePath": "./assets/images/vocabulary/household-items/remote_control.png",
+            "exampleSentence": "He used the remote control to change the channel."
+        },
+        {
+            "word": "Binder clip",
+            "imagePath": "./assets/images/vocabulary/household-items/binder_clip.png",
+            "exampleSentence": "She used a binder clip to hold the papers together."
+        },
+        {
+            "word": "Tape dispenser",
+            "imagePath": "./assets/images/vocabulary/household-items/tape_dispenser.png",
+            "exampleSentence": "He pulled a piece of tape from the tape dispenser."
+        },
+        {
+            "word": "Stapler",
+            "imagePath": "./assets/images/vocabulary/household-items/stapler.png",
+            "exampleSentence": "She stapled the pages together using a stapler."
+        },
+        {
+            "word": "Scissors",
+            "imagePath": "./assets/images/vocabulary/household-items/scissors.png",
+            "exampleSentence": "He cut the paper with a pair of scissors."
+        },
+        {
+            "word": "Stationery",
+            "imagePath": "./assets/images/vocabulary/household-items/stationery.png",
+            "exampleSentence": "She bought some stationery for school."
+        },
+        {
+            "word": "Calculator",
+            "imagePath": "./assets/images/vocabulary/household-items/calculator.png",
+            "exampleSentence": "He used a calculator to solve the math problem."
+        },
+        {
+            "word": "Flashlight",
+            "imagePath": "./assets/images/vocabulary/household-items/flashlight.png",
+            "exampleSentence": "She used a flashlight during the power outage."
+        },
+        {
+            "word": "Screwdriver",
+            "imagePath": "./assets/images/vocabulary/household-items/screwdriver.png",
+            "exampleSentence": "He fixed the chair with a screwdriver."
+        },
+        {
+            "word": "Hammer",
+            "imagePath": "./assets/images/vocabulary/household-items/hammer.png",
+            "exampleSentence": "He used a hammer to drive the nail into the wall."
+        },
+        {
+            "word": "Wrench",
+            "imagePath": "./assets/images/vocabulary/household-items/wrench.png",
+            "exampleSentence": "He tightened the bolt using a wrench."
+        },
+        {
+            "word": "Pliers",
+            "imagePath": "./assets/images/vocabulary/household-items/pliers.png",
+            "exampleSentence": "She gripped the wire with pliers."
+        },
+        {
+            "word": "Ladder",
+            "imagePath": "./assets/images/vocabulary/household-items/ladder.png",
+            "exampleSentence": "He climbed the ladder to reach the top shelf."
+        },
+        {
+            "word": "Hair dryer",
+            "imagePath": "./assets/images/vocabulary/household-items/hair_dryer.png",
+            "exampleSentence": "She used a hair dryer to dry her hair quickly."
+        },
+        {
+            "word": "Basket",
+            "imagePath": "./assets/images/vocabulary/household-items/basket.png",
+            "exampleSentence": "She placed the fresh fruits in a basket."
+        },
+        {
+            "word": "Umbrella",
+            "imagePath": "./assets/images/vocabulary/household-items/umbrella.png",
+            "exampleSentence": "He took an umbrella because it was raining."
+        },
+        {
+            "word": "Table Fan",
+            "imagePath": "./assets/images/vocabulary/household-items/table_fan.png",
+            "exampleSentence": "The table fan kept the room cool."
+        },
+        {
+            "word": "Teapot",
+            "imagePath": "./assets/images/vocabulary/household-items/teapot.png",
+            "exampleSentence": "She poured hot tea from the teapot."
+        },
+        {
+            "word": "Raincoat",
+            "imagePath": "./assets/images/vocabulary/household-items/raincoat.png",
+            "exampleSentence": "He wore a raincoat to stay dry in the rain."
+        },
+        {
+            "word": "Radio",
+            "imagePath": "./assets/images/vocabulary/household-items/radio.png",
+            "exampleSentence": "He listened to the news on the radio."
+        },
+        {
+            "word": "Pestle",
+            "imagePath": "./assets/images/vocabulary/household-items/pestle.png",
+            "exampleSentence": "She ground the spices with a pestle and mortar."
+        },
+        {
+            "word": "Wardrobe",
+            "imagePath": "./assets/images/vocabulary/household-items/wardrobe.png",
+            "exampleSentence": "She arranged her clothes in the wardrobe."
+        },
+        {
+            "word": "Desk",
+            "imagePath": "./assets/images/vocabulary/household-items/desk.png",
+            "exampleSentence": "He placed his laptop on the desk."
+        },
+        {
+            "word": "Stool",
+            "imagePath": "./assets/images/vocabulary/household-items/stool.png",
+            "exampleSentence": "He sat on a stool at the counter."
+        },
+        {
+            "word": "Cabinet",
+            "imagePath": "./assets/images/vocabulary/household-items/cabinet.png",
+            "exampleSentence": "She stored dishes in the kitchen cabinet."
+        },
+        {
+            "word": "Fan",
+            "imagePath": "./assets/images/vocabulary/household-items/fan.png",
+            "exampleSentence": "The fan circulated air around the room."
+        },
+        {
+            "word": "Refrigerator",
+            "imagePath": "./assets/images/vocabulary/household-items/refrigerator.png",
+            "exampleSentence": "She kept the vegetables fresh in the refrigerator."
+        },
+        {
+            "word": "Oven",
+            "imagePath": "./assets/images/vocabulary/household-items/oven.png",
+            "exampleSentence": "He baked a cake in the oven."
+        },
+        {
+            "word": "Microwave",
+            "imagePath": "./assets/images/vocabulary/household-items/microwave.png",
+            "exampleSentence": "She heated the leftovers in the microwave."
+        },
+        {
+            "word": "Sink",
+            "imagePath": "./assets/images/vocabulary/household-items/sink.png",
+            "exampleSentence": "She washed the dishes in the sink."
+        },
+        {
+            "word": "Faucet",
+            "imagePath": "./assets/images/vocabulary/household-items/faucet.png",
+            "exampleSentence": "She turned off the dripping faucet."
+        },
+        {
+            "word": "Bathtub",
+            "imagePath": "./assets/images/vocabulary/household-items/bathtub.png",
+            "exampleSentence": "She filled the bathtub with warm water."
+        },
+        {
+            "word": "Shower",
+            "imagePath": "./assets/images/vocabulary/household-items/shower.png",
+            "exampleSentence": "He took a quick shower before work."
+        },
+        {
+            "word": "Pillow",
+            "imagePath": "./assets/images/vocabulary/household-items/pillow.png",
+            "exampleSentence": "She rested her head on a soft pillow."
+        },
+        {
+            "word": "Towel",
+            "imagePath": "./assets/images/vocabulary/household-items/towel.png",
+            "exampleSentence": "He dried his hands with a clean towel."
+        },
+        {
+            "word": "Clock",
+            "imagePath": "./assets/images/vocabulary/household-items/clock.png",
+            "exampleSentence": "The clock on the wall struck noon."
+        },
+        {
+            "word": "Dresser",
+            "imagePath": "./assets/images/vocabulary/household-items/dresser.png",
+            "exampleSentence": "She kept her jewelry in the dresser drawer."
+        },
+        {
+            "word": "Mattress",
+            "imagePath": "./assets/images/vocabulary/household-items/mattress.png",
+            "exampleSentence": "He bought a new mattress for better sleep."
+        },
+        {
+            "word": "Carpet",
+            "imagePath": "./assets/images/vocabulary/household-items/carpet.png",
+            "exampleSentence": "The carpet made the room feel cozy."
+        },
+        {
+            "word": "Ceiling Fan",
+            "imagePath": "./assets/images/vocabulary/household-items/ceiling_fan.png",
+            "exampleSentence": "The ceiling fan kept the air moving."
+        },
+        {
+            "word": "Door",
+            "imagePath": "./assets/images/vocabulary/household-items/door.png",
+            "exampleSentence": "She knocked on the wooden door."
+        },
+        {
+            "word": "Window",
+            "imagePath": "./assets/images/vocabulary/household-items/window.png",
+            "exampleSentence": "He opened the window for fresh air."
+        },
+        {
+            "word": "Doormat",
+            "imagePath": "./assets/images/vocabulary/household-items/doormat.png",
+            "exampleSentence": "She wiped her shoes on the doormat."
+        },
+        {
+            "word": "Hanger",
+            "imagePath": "./assets/images/vocabulary/household-items/hanger.png",
+            "exampleSentence": "She hung her dress on a hanger."
+        },
+        {
+            "word": "Iron",
+            "imagePath": "./assets/images/vocabulary/household-items/iron.png",
+            "exampleSentence": "He used an iron to remove wrinkles."
+        },
+        {
+            "word": "Ironing Board",
+            "imagePath": "./assets/images/vocabulary/household-items/ironing_board.png",
+            "exampleSentence": "She placed the shirt on the ironing board."
+        },
+        {
+            "word": "Mop",
+            "imagePath": "./assets/images/vocabulary/household-items/mop.png",
+            "exampleSentence": "He cleaned the floor with a mop."
+        },
+        {
+            "word": "Bucket",
+            "imagePath": "./assets/images/vocabulary/household-items/bucket.png",
+            "exampleSentence": "She filled the bucket with water."
+        },
+        {
+            "word": "Soap Dispenser",
+            "imagePath": "./assets/images/vocabulary/household-items/soap_dispenser.png",
+            "exampleSentence": "She pressed the soap dispenser for liquid soap."
+        },
+        {
+            "word": "Toothbrush",
+            "imagePath": "./assets/images/vocabulary/household-items/toothbrush.png",
+            "exampleSentence": "He brushed his teeth with a toothbrush."
+        },
+        {
+            "word": "Toothpaste",
+            "imagePath": "./assets/images/vocabulary/household-items/toothpaste.png",
+            "exampleSentence": "She squeezed some toothpaste onto her toothbrush."
+        },
+        {
+            "word": "Razor",
+            "imagePath": "./assets/images/vocabulary/household-items/razor.png",
+            "exampleSentence": "He shaved his beard with a razor."
+        },
+        {
+            "word": "Shampoo",
+            "imagePath": "./assets/images/vocabulary/household-items/shampoo.png",
+            "exampleSentence": "She washed her hair with shampoo."
+        },
+        {
+            "word": "Conditioner",
+            "imagePath": "./assets/images/vocabulary/household-items/conditioner.png",
+            "exampleSentence": "She applied conditioner to her hair after shampooing."
+        },
+        {
+            "word": "Hairdryer",
+            "imagePath": "./assets/images/vocabulary/household-items/hairdryer.png",
+            "exampleSentence": "She used a hairdryer to dry her hair quickly."
+        },
+        {
+            "word": "Tissues",
+            "imagePath": "./assets/images/vocabulary/household-items/tissues.png",
+            "exampleSentence": "He reached for a tissue to wipe his nose."
+        },
+        {
+            "word": "Napkins",
+            "imagePath": "./assets/images/vocabulary/household-items/napkins.png",
+            "exampleSentence": "Please pass the napkins to the guests at the table."
+        },
+        {
+            "word": "Plunger",
+            "imagePath": "./assets/images/vocabulary/household-items/plunger.png",
+            "exampleSentence": "He used the plunger to unclog the drain."
+        },
+        {
+            "word": "Dish Rack",
+            "imagePath": "./assets/images/vocabulary/household-items/dishrack.png",
+            "exampleSentence": "She placed the clean dishes on the dish rack to dry."
+        },
+        {
+            "word": "Frying Pan",
+            "imagePath": "./assets/images/vocabulary/household-items/fryingpan.png",
+            "exampleSentence": "She cooked eggs in the frying pan for breakfast."
+        },
+        {
+            "word": "Saucepan",
+            "imagePath": "./assets/images/vocabulary/household-items/saucepan.png",
+            "exampleSentence": "He boiled water in the saucepan for tea."
+        },
+        {
+            "word": "Blender",
+            "imagePath": "./assets/images/vocabulary/household-items/blender.png",
+            "exampleSentence": "She used the blender to make a smoothie."
+        },
+        {
+            "word": "Toaster",
+            "imagePath": "./assets/images/vocabulary/household-items/toaster.png",
+            "exampleSentence": "He toasted bread in the toaster for breakfast."
+        },
+        {
+            "word": "Kettle",
+            "imagePath": "./assets/images/vocabulary/household-items/kettle.png",
+            "exampleSentence": "She filled the kettle with water to make tea."
+        },
+        {
+            "word": "Coffee Maker",
+            "imagePath": "./assets/images/vocabulary/household-items/coffeemaker.png",
+            "exampleSentence": "He brewed fresh coffee in the coffee maker."
+        },
+        {
+            "word": "Cutting Board",
+            "imagePath": "./assets/images/vocabulary/household-items/cuttingboard.png",
+            "exampleSentence": "She chopped vegetables on the cutting board."
+        },
+        {
+            "word": "Rolling Pin",
+            "imagePath": "./assets/images/vocabulary/household-items/rollingpin.png",
+            "exampleSentence": "She rolled out the dough with a rolling pin."
+        },
+        {
+            "word": "Strainer",
+            "imagePath": "./assets/images/vocabulary/household-items/strainer.png",
+            "exampleSentence": "She used a strainer to drain the pasta."
+        },
+        {
+            "word": "Thermos",
+            "imagePath": "./assets/images/vocabulary/household-items/thermos.png",
+            "exampleSentence": "He filled the thermos with hot coffee for the trip."
+        },
+        {
+            "word": "Spatula",
+            "imagePath": "./assets/images/vocabulary/household-items/spatula.png",
+            "exampleSentence": "She flipped the pancakes with a spatula."
+        },
+        {
+            "word": "Whisk",
+            "imagePath": "./assets/images/vocabulary/household-items/whisk.png",
+            "exampleSentence": "She whisked the eggs for the omelette."
+        },
+        {
+            "word": "Measuring Cups",
+            "imagePath": "./assets/images/vocabulary/household-items/measuringcups.png",
+            "exampleSentence": "He used measuring cups to add the right amount of flour."
+        },
+        {
+            "word": "Ladle",
+            "imagePath": "./assets/images/vocabulary/household-items/ladle.png",
+            "exampleSentence": "She served the soup with a ladle."
+        },
+        {
+            "word": "Tongs",
+            "imagePath": "./assets/images/vocabulary/household-items/tongs.png",
+            "exampleSentence": "He used tongs to flip the burgers on the grill."
+        },
+        {
+            "word": "Peeler",
+            "imagePath": "./assets/images/vocabulary/household-items/peeler.png",
+            "exampleSentence": "She peeled the potatoes with a peeler."
+        },
+        {
+            "word": "Grater",
+            "imagePath": "./assets/images/vocabulary/household-items/grater.png",
+            "exampleSentence": "He grated cheese with a fine grater."
+        },
+        {
+            "word": "Can Opener",
+            "imagePath": "./assets/images/vocabulary/household-items/canopener.png",
+            "exampleSentence": "She used a can opener to open the tuna can."
+        },
+        {
+            "word": "Bottle Opener",
+            "imagePath": "./assets/images/vocabulary/household-items/bottleopener.png",
+            "exampleSentence": "He opened the bottle with a bottle opener."
+        },
+        {
+            "word": "Ice Tray",
+            "imagePath": "./assets/images/vocabulary/household-items/icetray.png",
+            "exampleSentence": "She filled the ice tray with water and put it in the freezer."
+        },
+        {
+            "word": "Oven Mitts",
+            "imagePath": "./assets/images/vocabulary/household-items/ovenmitts.png",
+            "exampleSentence": "She wore oven mitts to remove the hot dish from the oven."
+        },
+        {
+            "word": "Coasters",
+            "imagePath": "./assets/images/vocabulary/household-items/coasters.png",
+            "exampleSentence": "Please use coasters to protect the table from water rings."
+        },
+        {
+            "word": "Plates",
+            "imagePath": "./assets/images/vocabulary/household-items/plates.png",
+            "exampleSentence": "She set the table with plates for dinner."
+        },
+        {
+            "word": "Bowls",
+            "imagePath": "./assets/images/vocabulary/household-items/bowls.png",
+            "exampleSentence": "He served the salad in large bowls."
+        },
+        {
+            "word": "Glasses",
+            "imagePath": "./assets/images/vocabulary/household-items/glasses.png",
+            "exampleSentence": "She filled the glasses with cold water."
+        },
+        {
+            "word": "Cups",
+            "imagePath": "./assets/images/vocabulary/household-items/cups.png",
+            "exampleSentence": "They used cups to drink the hot tea."
+        },
+        {
+            "word": "Mugs",
+            "imagePath": "./assets/images/vocabulary/household-items/mugs.png",
+            "exampleSentence": "He enjoyed his coffee in a big mug."
+        },
+        {
+            "word": "Silverware",
+            "imagePath": "./assets/images/vocabulary/household-items/silverware.png",
+            "exampleSentence": "The table was set with silverware for the meal."
+        },
+        {
+            "word": "Chopsticks",
+            "imagePath": "./assets/images/vocabulary/household-items/chopsticks.png",
+            "exampleSentence": "She used chopsticks to eat sushi."
+        },
+        {
+            "word": "Napkin Holder",
+            "imagePath": "./assets/images/vocabulary/household-items/napkinholder.png",
+            "exampleSentence": "The napkin holder was placed in the center of the table."
+        },
+        {
+            "word": "Dining Table",
+            "imagePath": "./assets/images/vocabulary/household-items/diningtable.png",
+            "exampleSentence": "The family gathered around the dining table for dinner."
+        },
+        {
+            "word": "High Chair",
+            "imagePath": "./assets/images/vocabulary/household-items/highchair.png",
+            "exampleSentence": "She placed the baby in the high chair during mealtime."
+        },
+        {
+            "word": "Sofa Bed",
+            "imagePath": "./assets/images/vocabulary/household-items/sofabed.png",
+            "exampleSentence": "He unfolded the sofa bed for the guest to sleep on."
+        },
+        {
+            "word": "Recliner",
+            "imagePath": "./assets/images/vocabulary/household-items/recliner.png",
+            "exampleSentence": "He relaxed in his favorite recliner after a long day."
+        },
+        {
+            "word": "Ottoman",
+            "imagePath": "./assets/images/vocabulary/household-items/ottoman.png",
+            "exampleSentence": "She placed her feet up on the ottoman while watching TV."
+        },
+        {
+            "word": "Side Table",
+            "imagePath": "./assets/images/vocabulary/household-items/sideTable.png",
+            "exampleSentence": "The lamp was placed on the side table next to the couch."
+        },
+        {
+            "word": "Floor Lamp",
+            "imagePath": "./assets/images/vocabulary/household-items/floorlamp.png",
+            "exampleSentence": "He turned on the floor lamp to brighten the room."
+        },
+        {
+            "word": "Chandelier",
+            "imagePath": "./assets/images/vocabulary/household-items/chandelier.png",
+            "exampleSentence": "The chandelier hung elegantly over the dining table."
+        },
+        {
+            "word": "Wall Clock",
+            "imagePath": "./assets/images/vocabulary/household-items/wallclock.png",
+            "exampleSentence": "She checked the time on the wall clock."
+        },
+        {
+            "word": "Picture Frame",
+            "imagePath": "./assets/images/vocabulary/household-items/pictureframe.png",
+            "exampleSentence": "He hung the picture frame on the wall."
+        },
+        {
+            "word": "Vase",
+            "imagePath": "./assets/images/vocabulary/household-items/vase.png",
+            "exampleSentence": "The vase held a bouquet of fresh flowers."
+        },
+        {
+            "word": "Candle",
+            "imagePath": "./assets/images/vocabulary/household-items/candle.png",
+            "exampleSentence": "She lit a candle to create a cozy atmosphere."
+        },
+        {
+            "word": "Air Freshener",
+            "imagePath": "./assets/images/vocabulary/household-items/airfreshener.png",
+            "exampleSentence": "The air freshener made the room smell pleasant."
+        },
+        {
+            "word": "Storage Box",
+            "imagePath": "./assets/images/vocabulary/household-items/storagebox.png",
+            "exampleSentence": "He stored the holiday decorations in a storage box."
+        },
+        {
+            "word": "Toolbox",
+            "imagePath": "./assets/images/vocabulary/household-items/toolbox.png",
+            "exampleSentence": "He kept his tools organized in the toolbox."
+        },
+        {
+            "word": "Extension Cord",
+            "imagePath": "./assets/images/vocabulary/household-items/extensioncord.png",
+            "exampleSentence": "She plugged the lamp into the extension cord."
+        },
+        {
+            "word": "Batteries",
+            "imagePath": "./assets/images/vocabulary/household-items/batteries.png",
+            "exampleSentence": "He replaced the old batteries in the remote control."
+        },
+        {
+            "word": "Light Bulb",
+            "imagePath": "./assets/images/vocabulary/household-items/lightbulb.png",
+            "exampleSentence": "She changed the light bulb in the kitchen."
+        },
+        {
+            "word": "First Aid Kit",
+            "imagePath": "./assets/images/vocabulary/household-items/firstaidkit.png",
+            "exampleSentence": "The first aid kit was kept in the bathroom for emergencies."
+        }
+    ]
+}

@@ -11,26 +11,22 @@ async function loadVerbForms() {
         }
 
         const data = await response.json();
-        const tableBody = document.getElementById("table-body");
+        const verbsList = document.getElementById("verbs-list");
 
         // Use DocumentFragment for better performance
         const fragment = document.createDocumentFragment();
 
         data.forEach(({ present, past, pastParticiple }) => {
-            const row = document.createElement("tr");
-            row.classList.add("border-b");
 
             [present, past, pastParticiple].forEach(value => {
-                const cell = document.createElement("td");
-                cell.classList.add("py-2", "px-4", "border", "border-[#4755691a]", "text-left");
-                cell.textContent = value;
-                row.appendChild(cell);
+                const li = document.createElement("li");
+                li.classList.add("py-2", "px-4", "border-b", "border-l", "border-[#4755691a]", "text-left");
+                li.textContent = value;
+                fragment.appendChild(li);
             });
-
-            fragment.appendChild(row);
         });
 
-        tableBody.appendChild(fragment); // Append all rows at once for better performance
+        verbsList.appendChild(fragment);
     } catch (error) {
         console.error("Error loading data:", error);
     } finally {
