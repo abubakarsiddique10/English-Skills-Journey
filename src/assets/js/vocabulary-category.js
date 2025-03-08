@@ -9,7 +9,7 @@ window.onload = () => {
     const cardsContainer = document.getElementById('category-cards');
     const cards = cardsContainer.querySelectorAll('a');
 
-    const tagNames = ["All", "Animals", "Vegetables", "Fruits", "Jobs and Occupations", "Colors", "Body Parts", "Education", "Household Items", "Birds"];
+    const tagNames = ["All", "Animals", "Vegetables", "Fruits", "Jobs and Occupations", "Colors", "Body Parts", "Education", "Household Items", "Birds", "Vehicle & Transport", "Tools"];
 
     if (tags) {
         tagNames.forEach((tag, index) => {

@@ -20,7 +20,7 @@ async function getVocabulary(category) {
 }
 getVocabulary(category);
 
-
+/* 
 // Display vocabularies in the UI
 const displayVocabularies = ({ metadata, vocabularyList }) => {
     const vocabularyHeader = document.getElementById('vocabulary-header');
@@ -40,7 +40,49 @@ const displayVocabularies = ({ metadata, vocabularyList }) => {
         fragment.appendChild(createVocabulariesCard(vocabulary));
     });
     vocabularyContainer.appendChild(fragment);
+}; */
+
+// Display vocabularies in the UI
+const displayVocabularies = ({ metadata, vocabularyList }) => {
+    const vocabularyHeader = document.getElementById('vocabulary-header');
+    const vocabularyContainer = document.getElementById('vocabulary');
+
+    // Early return if elements do not exist
+    if (!vocabularyHeader || !vocabularyContainer || !metadata || !vocabularyList) {
+        console.warn("Missing required data or DOM elements.");
+        return;
+    }
+
+    // Clear existing content before appending new data
+    vocabularyHeader.innerHTML = '';
+
+    // Create header element
+    const headerTitle = document.createElement('h1');
+    headerTitle.classList.add('text-3xl', 'md:text-4xl', 'lg:text-5xl', 'font-bold', 'pb-4', 'md:pb-6', 'leading-tight');
+    headerTitle.textContent = metadata.title;
+
+    // Create banner image element
+    const bannerImage = document.createElement('img');
+    bannerImage.src = metadata.bannerImage;
+    bannerImage.alt = 'Vocabulary Banner';
+    bannerImage.classList.add('border', 'border-[#4755691a]', 'object-cover');
+    bannerImage.loading = "lazy"; // Lazy loading for better performance
+
+    vocabularyHeader.appendChild(headerTitle);
+    vocabularyHeader.appendChild(bannerImage);
+
+    vocabularyContainer.innerHTML = ''; // Clear previous content
+
+    // Create a fragment for better DOM performance
+    const fragment = document.createDocumentFragment();
+    vocabularyList.forEach(vocabulary => {
+        fragment.appendChild(createVocabulariesCard(vocabulary));
+    });
+
+    // Append the fragment to the container
+    vocabularyContainer.appendChild(fragment);
 };
+
 
 
 // Create a vocabulary card element: card-

@@ -1,8 +1,16 @@
-const queryParams = new URLSearchParams(window.location.search);
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
-const category = queryParams.get('verbs');
+
+const queryParams = new URLSearchParams(window.location.search);
+const category = queryParams.get("verbs");
+
+if (category) {
+    getVocabulary(category);
+} else {
+    console.warn("No category specified in the query parameters.");
+}
+
 
 
 // Load vocabularies for a given category
@@ -11,62 +19,128 @@ async function getVocabulary(category) {
     const url = `././assets/data/verb/${category}.json`;
     try {
         const response = await fetchData(url);
+
         displayVerbs(response)
-        setLoading(false)
+
     } catch (error) {
-        console.error(error)
+        console.error(`Error fetching vocabulary for category "${category}":`, error);
+    } finally {
+        setLoading(false); // Ensure loading state resets even if an error occurs
     }
 }
-getVocabulary(category);
 
-// Display vocabularies in the UI
+
 const displayVerbs = ({ header, verbs }) => {
+    if (!verbs?.length) return; // Ensure verbs exist before proceeding
     console.log(verbs.length)
-    const verbHeader = document.getElementById('verb-header');
-    const verbsContainer = document.getElementById('verb');
+    const verbHeader = document.getElementById("verb-header");
+    const verbsContainer = document.getElementById("verb");
 
     if (!verbHeader || !verbsContainer) return;
-    verbHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold pb-4 md:pb-6 leading-tight">${header.title}</h1>
-        <img src="${header.image}" class="border border-[#4755691a] object-cover" alt="">
-    `;
 
+    // Set header content safely
+    verbHeader.innerHTML = ""; // Clear previous content
+
+    // Create header element
+    const headerTitle = document.createElement("h1");
+    headerTitle.className = "text-3xl md:text-4xl lg:text-5xl font-bold pb-4 md:pb-6 leading-tight";
+    headerTitle.textContent = header.title;
+
+    // Create header image element
+    const headerImage = document.createElement("img");
+    headerImage.className = "border border-[#4755691a] object-cover";
+    headerImage.src = header.image;
+    headerImage.alt = `Illustration of ${header.title}`;
+    headerImage.loading = "lazy"; // Lazy loading for performance
+
+    verbHeader.append(headerTitle, headerImage);
+
+    // Clear previous vocabulary list
     verbsContainer.innerHTML = "";
-    // Create a fragment to improve DOM performance
+
+    // Use a document fragment to optimize rendering
     const fragment = document.createDocumentFragment();
+    verbs.forEach(verb => fragment.appendChild(createVocabulariesCard(verb)));
 
-    verbs.forEach(verb => {
-        fragment.appendChild(createVocabulariesCard(verb));
-    });
     verbsContainer.appendChild(fragment);
-}
+};
 
-// Create a vocabulary card element: card-
+
 const createVocabulariesCard = ({ word, image, sentence }) => {
-    const verbCard = document.createElement('article');
-    verbCard.className = 'h-full flex rounded-md sm:border border-[#F0F1F3]';
-    verbCard.innerHTML = `
-        <button class="p-5 flex flex-col items-center w-full" aria-label="Details about camel">
-            <img id="svg" class="w-[100px] bg-transparent" src="./assets/images/verbs/${image}.png" alt="${image}">
-            <div class="flex items-center mt-4 gap-1">
-                <span class="text-lg font-medium leading-6 capitalize text-center">${word}</span>
-                <img class="w-5 pronounce cursor-pointer" src="./assets/images/icons/volume_up.svg" title="Click for pronounced" alt="pronounce">
-            </div>
-            <span class="mt-1 text-sm text-center first-letter:capitalize">${sentence}</span>
-        </button>
-    `;
-    return verbCard
-}
+    // Create main article element
+    const verbCard = document.createElement("article");
+    verbCard.className = "h-full flex rounded-md sm:border border-[#F0F1F3]";
+
+    // Create button
+    const button = document.createElement("button");
+    button.className = "p-5 flex flex-col items-center w-full";
+    button.setAttribute("aria-label", `Details about ${word}`);
+
+    // Create image element
+    const img = document.createElement("img");
+    img.className = "w-[100px] bg-transparent";
+    img.src = image
+    img.alt = `Illustration of ${word}`;
+    img.loading = "lazy"; // Lazy loading for better performance
+
+    // Create text container
+    const textContainer = document.createElement("div");
+    textContainer.className = "flex items-center mt-4 gap-1";
+
+    // Create word span
+    const wordSpan = document.createElement("span");
+    wordSpan.className = "text-lg font-medium leading-6 capitalize text-center";
+    wordSpan.textContent = word;
+
+    // Create pronunciation icon
+    const pronounceIcon = document.createElement("img");
+    pronounceIcon.className = "w-5 pronounce cursor-pointer";
+    pronounceIcon.src = "./assets/images/icons/volume_up.svg";
+    pronounceIcon.title = "Click to hear pronunciation";
+    pronounceIcon.alt = "pronounce";
+    pronounceIcon.dataset.word = word; // Store word for event listener
+
+    // Create sentence span
+    const sentenceSpan = document.createElement("span");
+    sentenceSpan.className = "mt-1 text-sm text-center first-letter:capitalize";
+    sentenceSpan.textContent = sentence;
+
+    // Assemble elements
+    textContainer.appendChild(wordSpan);
+    textContainer.appendChild(pronounceIcon);
+    button.appendChild(img);
+    button.appendChild(textContainer);
+    button.appendChild(sentenceSpan);
+    verbCard.appendChild(button);
+
+    return verbCard;
+};
 
 
 
 document.addEventListener('DOMContentLoaded', () => {
     const verb = document.getElementById('verb');
+
+    if (!verb) {
+        console.warn("Element with ID 'verb' not found.");
+        return;
+    }
+
     verb.addEventListener('click', (e) => {
-        const isTrue = e.target.classList.contains('pronounce');
-        if (isTrue) {
-            let text = e.target.previousElementSibling.innerText;
-            textToSpeech(text)
+        const pronounceBtn = e.target.closest('.pronounce'); // Ensures only elements with .pronounce class trigger
+        if (!pronounceBtn) return;
+
+        const textElement = pronounceBtn.previousElementSibling;
+        if (!textElement) {
+            console.warn("No text element found before the button.");
+            return;
         }
+        let text = textElement.innerText.trim();
+        if (!text) {
+            console.warn("Text is empty or invalid.");
+            return;
+        }
+        textToSpeech(text);
     });
 });
+

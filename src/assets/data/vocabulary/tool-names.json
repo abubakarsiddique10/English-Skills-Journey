@@ -1,0 +1,229 @@
+{
+    "metadata": {
+        "title": "Tool Vocabulary: List of Tool Names",
+        "bannerImage": "./assets/images/thumbnail/tools.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "Hammer",
+            "imagePath": "./assets/images/vocabulary/tools/hammer.png",
+            "exampleSentence": "He used a hammer to drive the nail into the wall."
+        },
+        {
+            "word": "Screwdriver",
+            "imagePath": "./assets/images/vocabulary/tools/screwdriver.png",
+            "exampleSentence": "She tightened the screw with a screwdriver."
+        },
+        {
+            "word": "Wrench",
+            "imagePath": "./assets/images/vocabulary/tools/wrench.png",
+            "exampleSentence": "The mechanic adjusted the bolt using a wrench."
+        },
+        {
+            "word": "Pliers",
+            "imagePath": "./assets/images/vocabulary/tools/pliers.png",
+            "exampleSentence": "Use pliers to grip and twist the wire."
+        },
+        {
+            "word": "Saw",
+            "imagePath": "./assets/images/vocabulary/tools/saw.png",
+            "exampleSentence": "The carpenter cut the wood with a saw."
+        },
+        {
+            "word": "Drill",
+            "imagePath": "./assets/images/vocabulary/tools/drill.png",
+            "exampleSentence": "He drilled a hole in the wall."
+        },
+        {
+            "word": "Chisel",
+            "imagePath": "./assets/images/vocabulary/tools/chisel.png",
+            "exampleSentence": "The sculptor carved the stone with a chisel."
+        },
+        {
+            "word": "Tape measure",
+            "imagePath": "./assets/images/vocabulary/tools/tape_measure.png",
+            "exampleSentence": "She measured the table using a tape measure."
+        },
+        {
+            "word": "Hacksaw",
+            "imagePath": "./assets/images/vocabulary/tools/hacksaw.png",
+            "exampleSentence": "He cut the metal pipe with a hacksaw."
+        },
+        {
+            "word": "Utility Knife",
+            "imagePath": "./assets/images/vocabulary/tools/utility_knife.png",
+            "exampleSentence": "A utility knife is handy for cutting cardboard."
+        },
+        {
+            "word": "Staple Gun",
+            "imagePath": "./assets/images/vocabulary/tools/staple_gun.png",
+            "exampleSentence": "She used a staple gun to secure the fabric."
+        },
+        {
+            "word": "Angle Grinder",
+            "imagePath": "./assets/images/vocabulary/tools/angle_grinder.png",
+            "exampleSentence": "He used an angle grinder to smooth the edges of the metal."
+        },
+        {
+            "word": "Sledgehammer",
+            "imagePath": "./assets/images/vocabulary/tools/sledgehammer.png",
+            "exampleSentence": "The worker broke the concrete with a sledgehammer."
+        },
+        {
+            "word": "Crowbar",
+            "imagePath": "./assets/images/vocabulary/tools/crowbar.png",
+            "exampleSentence": "He pried open the wooden crate with a crowbar."
+        },
+        {
+            "word": "Bolt Cutter",
+            "imagePath": "./assets/images/vocabulary/tools/bolt_cutter.png",
+            "exampleSentence": "He used a bolt cutter to cut through the chain."
+        },
+        {
+            "word": "Pipe Wrench",
+            "imagePath": "./assets/images/vocabulary/tools/pipe_wrench.png",
+            "exampleSentence": "The plumber adjusted the pipes using a pipe wrench."
+        },
+        {
+            "word": "Trowel",
+            "imagePath": "./assets/images/vocabulary/tools/trowel.png",
+            "exampleSentence": "The gardener used a trowel to plant flowers."
+        },
+        {
+            "word": "Paintbrush",
+            "imagePath": "./assets/images/vocabulary/tools/paintbrush.png",
+            "exampleSentence": "She painted the wall using a paintbrush."
+        },
+        {
+            "word": "Scraper",
+            "imagePath": "./assets/images/vocabulary/tools/scraper.png",
+            "exampleSentence": "He removed old paint using a scraper."
+        },
+        {
+            "word": "Sandpaper",
+            "imagePath": "./assets/images/vocabulary/tools/sandpaper.png",
+            "exampleSentence": "She smoothed the surface using sandpaper."
+        },
+        {
+            "word": "Mallet",
+            "imagePath": "./assets/images/vocabulary/tools/mallet.png",
+            "exampleSentence": "He tapped the chisel with a mallet."
+        },
+        {
+            "word": "Soldering Iron",
+            "imagePath": "./assets/images/vocabulary/tools/soldering_iron.png",
+            "exampleSentence": "He repaired the circuit using a soldering iron."
+        },
+        {
+            "word": "Heat Gun",
+            "imagePath": "./assets/images/vocabulary/tools/heat_gun.png",
+            "exampleSentence": "She used a heat gun to remove old paint."
+        },
+        {
+            "word": "Glue Gun",
+            "imagePath": "./assets/images/vocabulary/tools/glue_gun.png",
+            "exampleSentence": "She secured the craft pieces using a glue gun."
+        },
+        {
+            "word": "Plunger",
+            "imagePath": "./assets/images/vocabulary/tools/plunger.png",
+            "exampleSentence": "He unclogged the sink with a plunger."
+        },
+        {
+            "word": "Circular Saw",
+            "imagePath": "./assets/images/vocabulary/tools/circular_saw.png",
+            "exampleSentence": "The carpenter cut plywood using a circular saw."
+        },
+        {
+            "word": "Jackhammer",
+            "imagePath": "./assets/images/vocabulary/tools/jackhammer.png",
+            "exampleSentence": "The worker broke up concrete using a jackhammer."
+        },
+        {
+            "word": "Spirit Level",
+            "imagePath": "./assets/images/vocabulary/tools/spirit_level.png",
+            "exampleSentence": "He checked the alignment using a spirit level."
+        },
+        {
+            "word": "Needle-nose Pliers",
+            "imagePath": "./assets/images/vocabulary/tools/needle_nose_pliers.png",
+            "exampleSentence": "He used needle-nose pliers to bend the wire."
+        },
+        {
+            "word": "Staple Remover",
+            "imagePath": "./assets/images/vocabulary/tools/staple_remover.png",
+            "exampleSentence": "She used a staple remover to take out the staples."
+        },
+        {
+            "word": "Nail",
+            "imagePath": "./assets/images/vocabulary/tools/nail.png",
+            "exampleSentence": "He hammered the nail into the wood."
+        },
+        {
+            "word": "Screw",
+            "imagePath": "./assets/images/vocabulary/tools/screw.png",
+            "exampleSentence": "She fixed the shelf using a screw."
+        },
+        {
+            "word": "Toolbox",
+            "imagePath": "./assets/images/vocabulary/tools/toolbox.png",
+            "exampleSentence": "He kept his tools organized in a toolbox."
+        },
+        {
+            "word": "Stepladder",
+            "imagePath": "./assets/images/vocabulary/tools/stepladder.png",
+            "exampleSentence": "She used a stepladder to reach the top shelf."
+        },
+        {
+            "word": "Multimeter",
+            "imagePath": "./assets/images/vocabulary/tools/multimeter.png",
+            "exampleSentence": "He checked the voltage using a multimeter."
+        },
+        {
+            "word": "Carpenter’s Square",
+            "imagePath": "./assets/images/vocabulary/tools/carpenters_square.png",
+            "exampleSentence": "He measured the angles with a carpenter’s_square."
+        },
+        {
+            "word": "Fire Extinguisher",
+            "imagePath": "./assets/images/vocabulary/tools/fire_extinguisher.png",
+            "exampleSentence": "She used a fire extinguisher to put out the flames."
+        },
+        {
+            "word": "Shovel",
+            "imagePath": "./assets/images/vocabulary/tools/shovel.png",
+            "exampleSentence": "He dug a hole with a shovel."
+        },
+        {
+            "word": "Gloves",
+            "imagePath": "./assets/images/vocabulary/tools/gloves.png",
+            "exampleSentence": "She wore gloves to protect her hands."
+        },
+        {
+            "word": "Hoe",
+            "imagePath": "./assets/images/vocabulary/tools/hoe.png",
+            "exampleSentence": "The farmer tilled the soil using a hoe."
+        },
+        {
+            "word": "Watering Can",
+            "imagePath": "./assets/images/vocabulary/tools/watering_can.png",
+            "exampleSentence": "She watered the plants using a watering can."
+        },
+        {
+            "word": "Garden Fork",
+            "imagePath": "./assets/images/vocabulary/tools/garden_fork.png",
+            "exampleSentence": "She used a garden fork to loosen the soil."
+        },
+        {
+            "word": "Pruning",
+            "imagePath": "./assets/images/vocabulary/tools/pruning.png",
+            "exampleSentence": "He did some pruning to shape the bushes."
+        },
+        {
+            "word": "Tongs",
+            "imagePath": "./assets/images/vocabulary/tools/tongs.png",
+            "exampleSentence": "She used tongs to turn the food on the grill."
+        }
+    ]
+}

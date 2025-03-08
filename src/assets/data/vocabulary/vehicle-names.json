@@ -1,0 +1,224 @@
+{
+    "metadata": {
+        "title": "Transportation Vocabulary: List of Vehicle Names",
+        "bannerImage": "./assets/images/thumbnail/vehicles.png",
+        "datePublished": "2024-11-07"
+    },
+    "vocabularyList": [
+        {
+            "word": "Car",
+            "imagePath": "./assets/images/vocabulary/vehicles/car.png",
+            "exampleSentence": "The car is parked in the driveway."
+        },
+        {
+            "word": "Bicycle",
+            "imagePath": "./assets/images/vocabulary/vehicles/bicycle.png",
+            "exampleSentence": "She rides her bicycle to school every day."
+        },
+        {
+            "word": "Train",
+            "imagePath": "./assets/images/vocabulary/vehicles/train.png",
+            "exampleSentence": "The train arrives at the station on time."
+        },
+        {
+            "word": "Boat",
+            "imagePath": "./assets/images/vocabulary/vehicles/boat.png",
+            "exampleSentence": "They sailed the boat across the lake."
+        },
+        {
+            "word": "Airplane",
+            "imagePath": "./assets/images/vocabulary/vehicles/airplane.png",
+            "exampleSentence": "The airplane took off smoothly."
+        },
+        {
+            "word": "Motorcycle",
+            "imagePath": "./assets/images/vocabulary/vehicles/motorcycle.png",
+            "exampleSentence": "He enjoys riding his motorcycle on weekends."
+        },
+        {
+            "word": "Bus",
+            "imagePath": "./assets/images/vocabulary/vehicles/bus.png",
+            "exampleSentence": "The bus is crowded during rush hour."
+        },
+        {
+            "word": "Truck",
+            "imagePath": "./assets/images/vocabulary/vehicles/truck.png",
+            "exampleSentence": "The truck delivered fresh vegetables to the market."
+        },
+        {
+            "word": "Helicopter",
+            "imagePath": "./assets/images/vocabulary/vehicles/helicopter.png",
+            "exampleSentence": "The helicopter landed on the rooftop."
+        },
+        {
+            "word": "Scooter",
+            "imagePath": "./assets/images/vocabulary/vehicles/scooter.png",
+            "exampleSentence": "He bought a new scooter for commuting."
+        },
+        {
+            "word": "Skateboard",
+            "imagePath": "./assets/images/vocabulary/vehicles/skateboard.png",
+            "exampleSentence": "She performed a trick on her skateboard."
+        },
+        {
+            "word": "Tram",
+            "imagePath": "./assets/images/vocabulary/vehicles/tram.png",
+            "exampleSentence": "The tram moves through the city streets."
+        },
+        {
+            "word": "Jet ski",
+            "imagePath": "./assets/images/vocabulary/vehicles/jet_ski.png",
+            "exampleSentence": "They enjoyed riding a jet ski at the beach."
+        },
+        {
+            "word": "Ferry",
+            "imagePath": "./assets/images/vocabulary/vehicles/ferry.png",
+            "exampleSentence": "The ferry crosses the river every hour."
+        },
+        {
+            "word": "Taxi",
+            "imagePath": "./assets/images/vocabulary/vehicles/taxi.png",
+            "exampleSentence": "We hailed a taxi to get home quickly."
+        },
+        {
+            "word": "Jet",
+            "imagePath": "./assets/images/vocabulary/vehicles/jet.png",
+            "exampleSentence": "The jet flew at high speed."
+        },
+        {
+            "word": "Paraglider",
+            "imagePath": "./assets/images/vocabulary/vehicles/paraglider.png",
+            "exampleSentence": "He soared through the sky with his paraglider."
+        },
+        {
+            "word": "Rickshaw",
+            "imagePath": "./assets/images/vocabulary/vehicles/rickshaw.png",
+            "exampleSentence": "A rickshaw ride is a fun way to explore the city."
+        },
+        {
+            "word": "Wheelbarrow",
+            "imagePath": "./assets/images/vocabulary/vehicles/wheelbarrow.png",
+            "exampleSentence": "He used a wheelbarrow to carry the soil."
+        },
+        {
+            "word": "Cattle Cart",
+            "imagePath": "./assets/images/vocabulary/vehicles/cattle_cart.png",
+            "exampleSentence": "Farmers still use a cattle cart in some areas."
+        },
+        {
+            "word": "Carriage",
+            "imagePath": "./assets/images/vocabulary/vehicles/carriage.png",
+            "exampleSentence": "They took a horse-drawn carriage ride through the park."
+        },
+        {
+            "word": "Lorry",
+            "imagePath": "./assets/images/vocabulary/vehicles/lorry.png",
+            "exampleSentence": "The lorry transported goods across the country."
+        },
+        {
+            "word": "Yacht",
+            "imagePath": "./assets/images/vocabulary/vehicles/yacht.png",
+            "exampleSentence": "They spent the weekend on a luxurious yacht."
+        },
+        {
+            "word": "Double-decker bus",
+            "imagePath": "./assets/images/vocabulary/vehicles/double_decker_bus.png",
+            "exampleSentence": "London is famous for its red double-decker buses."
+        },
+        {
+            "word": "Tractor",
+            "imagePath": "./assets/images/vocabulary/vehicles/tractor.png",
+            "exampleSentence": "The tractor plowed the field."
+        },
+        {
+            "word": "Kayak",
+            "imagePath": "./assets/images/vocabulary/vehicles/kayak.png",
+            "exampleSentence": "She paddled her kayak down the river."
+        },
+        {
+            "word": "Subway",
+            "imagePath": "./assets/images/vocabulary/vehicles/subway.png",
+            "exampleSentence": "The subway is the fastest way to travel downtown."
+        },
+        {
+            "word": "Excavator",
+            "imagePath": "./assets/images/vocabulary/vehicles/excavator.png",
+            "exampleSentence": "The excavator dug a deep hole for construction."
+        },
+        {
+            "word": "Rocket",
+            "imagePath": "./assets/images/vocabulary/vehicles/rocket.png",
+            "exampleSentence": "The rocket launched into space."
+        },
+        {
+            "word": "Fire truck",
+            "imagePath": "./assets/images/vocabulary/vehicles/fire_truck.png",
+            "exampleSentence": "The fire truck arrived quickly at the scene."
+        },
+        {
+            "word": "Ambulance",
+            "imagePath": "./assets/images/vocabulary/vehicles/ambulance.png",
+            "exampleSentence": "The ambulance rushed to the hospital."
+        },
+        {
+            "word": "Police car",
+            "imagePath": "./assets/images/vocabulary/vehicles/police_car.png",
+            "exampleSentence": "The police car chased the suspect."
+        },
+        {
+            "word": "Dump truck",
+            "imagePath": "./assets/images/vocabulary/vehicles/dump_truck.png",
+            "exampleSentence": "The dump truck carried gravel to the site."
+        },
+        {
+            "word": "Cargo ship",
+            "imagePath": "./assets/images/vocabulary/vehicles/cargo_ship.png",
+            "exampleSentence": "The cargo ship transported goods across the ocean."
+        },
+        {
+            "word": "Bullet train",
+            "imagePath": "./assets/images/vocabulary/vehicles/bullet_train.png",
+            "exampleSentence": "The bullet train travels at high speed."
+        },
+        {
+            "word": "Micro car",
+            "imagePath": "./assets/images/vocabulary/vehicles/micro_car.png",
+            "exampleSentence": "A micro car is perfect for city driving."
+        },
+        {
+            "word": "Sedan car",
+            "imagePath": "./assets/images/vocabulary/vehicles/sedan_car.png",
+            "exampleSentence": "He bought a new sedan car for his family."
+        },
+        {
+            "word": "Hatchback car",
+            "imagePath": "./assets/images/vocabulary/vehicles/hatchback_car.png",
+            "exampleSentence": "A hatchback car is compact and efficient."
+        },
+        {
+            "word": "Station wagon",
+            "imagePath": "./assets/images/vocabulary/vehicles/station_wagon.png",
+            "exampleSentence": "The station wagon has plenty of cargo space."
+        },
+        {
+            "word": "Race car",
+            "imagePath": "./assets/images/vocabulary/vehicles/race_car.png",
+            "exampleSentence": "The race car zoomed past the finish line."
+        },
+        {
+            "word": "Sport Car",
+            "imagePath": "./assets/images/vocabulary/vehicles/sport_car.png",
+            "exampleSentence": "A sport car is designed for high performance."
+        },
+        {
+            "word": "Bulldozer",
+            "imagePath": "./assets/images/vocabulary/vehicles/bulldozer.png",
+            "exampleSentence": "The bulldozer cleared the construction site."
+        },
+        {
+            "word": "Road roller",
+            "imagePath": "./assets/images/vocabulary/vehicles/road_roller.png",
+            "exampleSentence": "The road roller flattened the asphalt."
+        }
+    ]
+}
