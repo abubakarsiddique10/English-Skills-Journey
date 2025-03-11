@@ -39,6 +39,7 @@ window.onload = () => {
     const tags = document.getElementById('tags');
 
     leftArrow.addEventListener('click', () => {
+        console.log(tags)
         tags.scrollLeft -= 200
     })
     rightArrow.addEventListener('click', () => {

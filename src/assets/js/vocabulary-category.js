@@ -9,7 +9,7 @@ window.onload = () => {
     const cardsContainer = document.getElementById('category-cards');
     const cards = cardsContainer.querySelectorAll('a');
 
-    const tagNames = ["All", "Animals", "Vegetables", "Fruits", "Jobs and Occupations", "Colors", "Body Parts", "Education", "Household Items", "Birds", "Vehicle & Transport", "Tools"];
+    const tagNames = ["All", "Animals", "Vegetables", "Fruits", "Jobs and Occupations", "Colors", "Body Parts", "Education", "Household Items", "Birds", "Vehicle & Transport", "Hello world", "Tools",];
 
     if (tags) {
         tagNames.forEach((tag, index) => {
@@ -29,8 +29,31 @@ window.onload = () => {
             card.style.display = buttonText === 'all' || card.getAttribute('data-type').toLowerCase() === buttonText ? 'block' : 'none';
         });
     }
-
     tags.addEventListener('click', handleTagClick);
+
+
+
+    // this code click scroll left
+    const vocabLeftArrow = document.getElementById('vocab-left-arrow');
+    const vocabRightArrow = document.getElementById('vocab-right-arrow');
+
+    vocabLeftArrow.addEventListener('click', () => {
+        tags.scrollLeft -= 200;
+    })
+    vocabRightArrow.addEventListener('click', () => {
+        tags.scrollLeft += 200
+    })
+
+    // this code for slide shadow
+    const slideShow = () => {
+        const scrollLeft = tags.scrollLeft;
+        vocabLeftArrow.style.setProperty("--colorBefore", scrollLeft > 0 ? "#fefefe" : "");
+        vocabRightArrow.style.setProperty("--colorAfter", tags.scrollLeft + tags.clientWidth >= tags.scrollWidth - 1 ? "" : "#fefefe")
+        vocabLeftArrow.style.zIndex = scrollLeft > 0 ? 1 : -1;
+    }
+    slideShow()
+
+    tags.addEventListener('scroll', slideShow)
 
     setLoading(false); // Hide loading when everything is loaded
 };

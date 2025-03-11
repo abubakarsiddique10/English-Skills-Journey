@@ -72,9 +72,8 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
     verbCard.className = "h-full flex rounded-md sm:border border-[#F0F1F3]";
 
     // Create button
-    const button = document.createElement("button");
-    button.className = "p-5 flex flex-col items-center w-full";
-    button.setAttribute("aria-label", `Details about ${word}`);
+    const div = document.createElement("div");
+    div.className = "p-5 flex flex-col items-center w-full";
 
     // Create image element
     const img = document.createElement("img");
@@ -108,10 +107,10 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
     // Assemble elements
     textContainer.appendChild(wordSpan);
     textContainer.appendChild(pronounceIcon);
-    button.appendChild(img);
-    button.appendChild(textContainer);
-    button.appendChild(sentenceSpan);
-    verbCard.appendChild(button);
+    div.appendChild(img);
+    div.appendChild(textContainer);
+    div.appendChild(sentenceSpan);
+    verbCard.appendChild(div);
 
     return verbCard;
 };

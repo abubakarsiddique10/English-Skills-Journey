@@ -55,7 +55,18 @@ header,
 /* hero section start */
 .hero__section #tags a div {
     background-color: #f2f3f5;
+    background-color: fefefe;
 }
+
+
+
+/* #vocab-left-arrow::after {
+    width: 30px;
+} */
+
+/* #vocab-right-arrow {
+    width: 100px;
+} */
 
 /* hero section end */
 
@@ -63,10 +74,40 @@ header,
 
 
 /* vocabulary category start */
+#vocab-right-arrow::before {
+    top: 0;
+    right: 20px;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 100%;
+    border-radius: 4px;
+    display: inline-block;
+    background: linear-gradient(-90deg, var(--colorAfter), 70%, transparent);
+}
+
+#vocab-left-arrow::after {
+    top: 0;
+    left: 20px;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 100%;
+    border-radius: 4px;
+    display: inline-block;
+    background: linear-gradient(90deg, var(--colorBefore), 70%, transparent);
+}
 
 .published_data {
     color: #202224
 }
+
+/* #vocab-right-arrow {
+    top: 50%;
+    transform: translate(0, -32%);
+    height: 32px;
+} */
+
 
 /* vocabulary category end */
 

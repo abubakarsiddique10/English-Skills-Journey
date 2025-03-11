@@ -11,7 +11,7 @@
     <title>English Skills Journey</title>
 </head>
 
-<body>
+<body class="overflow-y-scroll">
     <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
         <div class="container xl:!px-0">
             <nav class="lg:flex items-center justify-between py-4 z-10">
@@ -38,17 +38,36 @@
         <!-- vocabulary section start -->
         <section id="vocabulary-category" class="mt-[57px]">
             <div class="container xl:!px-0">
-                <ul id="tags"
-                    class="select-none mx-auto flex overflow-auto w-full sticky top-[56px] bg-white pt-[12px]">
-
-                </ul>
+                <div class="relative">
+                    <ul id="tags"
+                        class="select-none mx-auto flex overflow-auto w-full sticky top-[56px] bg-white pt-[12px] scroll-smooth">
+                        <!-- dynimacally tag render here -->
+                    </ul>
+                    <button id="vocab-left-arrow"
+                        class="absolute bottom-0 left-[-25px] cursor-pointer transition-opacity duration-300 ease-in top-1/2 -translate-y-1/3 h-full z-[-1]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill="currentColor"
+                                d="m14.8 16.382-4.205-4.205a.25.25 0 0 1 0-.354L14.8 7.618a.75.75 0 0 0-1.06-1.06l-4.206 4.204a1.75 1.75 0 0 0 0 2.475l4.206 4.205a.75.75 0 0 0 1.06-1.06">
+                            </path>
+                        </svg>
+                    </button>
+                    <button id="vocab-right-arrow"
+                        class="bakar absolute right-[-25px]  cursor-pointer  transition-opacity duration-300 ease-in top-1/2 -translate-y-1/3 h-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill="currentColor"
+                                d="m9.216 7.619 4.204 4.204a.25.25 0 0 1 0 .354l-4.204 4.204a.75.75 0 0 0 1.06 1.061l4.205-4.204a1.75 1.75 0 0 0 0-2.475l-4.204-4.205a.75.75 0 0 0-1.061 1.06">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
 
                 <div>
                     <div class="mt-6 mb-4 flex items-center justify-between">
                         <h1 class="text-2xl sm:text-3xl font-bold capitalize leading-tight">
                             Learn English Vocabulary</h1>
                     </div>
-                    <div id="category-cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+                    <div id="category-cards"
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-x-4 sm:gap-y-5">
 
                         <a href="vocabulary.html?category=farm-animals" data-type="animals">
                             <div class="flex sm:flex-col">
@@ -117,61 +136,61 @@
                         <a href="vocabulary.html?category=external-body-parts" data-type="body parts">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/color-names.png" alt=""
+                                    <img src="./assets/images/thumbnail/body-parts-names.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                    Human body parts</h3>
+                                    External Human Body Parts with Names & Pictures</h3>
                             </div>
                         </a>
                         <a href="vocabulary.html?category=household-items" data-type="household items">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/color-names.png" alt=""
+                                    <img src="./assets/images/thumbnail/household-items.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                    Househole Items</h3>
+                                    Household item names in English with pictures</h3>
                             </div>
                         </a>
                         <a href="vocabulary.html?category=education" data-type="education">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/color-names.png" alt=""
+                                    <img src="./assets/images/thumbnail/educational-item-names.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                    education Items</h3>
+                                    Educational Elements Names in English With Pictures</h3>
                             </div>
                         </a>
                         <a href="vocabulary.html?category=bird-names" data-type="birds">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/color-names.png" alt=""
+                                    <img src="./assets/images/thumbnail/bird-names.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                    Bird Names</h3>
+                                    List of Bird Names in English with Pictures</h3>
                             </div>
                         </a>
-                        <a href="vocabulary.html?category=vehicle-names" data-type="Vehicle & Transport">
+                        <a href="vocabulary.html?category=transport-names" data-type="Vehicle & Transport">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/color-names.png" alt=""
+                                    <img src="./assets/images/thumbnail/transport-names.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                    Vehicle Names</h3>
+                                    Common Transport Names in English with Pictures</h3>
                             </div>
                         </a>
                         <a href="vocabulary.html?category=tool-names" data-type="tools">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/color-names.png" alt=""
+                                    <img src="./assets/images/thumbnail/tool-names.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                    Tool Names</h3>
+                                    Different Types of Tools Names in English with Pictures</h3>
                             </div>
                         </a>
                     </div>

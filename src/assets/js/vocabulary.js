@@ -108,9 +108,9 @@ const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
     vocabularyCard.classList.add('h-full', "sm:min-h-[202px]", 'flex', 'rounded-md', 'sm:border', 'border-[#F0F1F3]');
     vocabularyCard.title = `Click for details about ${word}`;
 
-    // Create button element
-    const button = document.createElement('button');
-    button.classList.add('px-3', 'pt-8', 'pb-4', 'flex', 'flex-col', 'items-center', 'w-full');
+    // Create div element
+    const div = document.createElement('div');
+    div.classList.add('px-3', 'pt-8', 'pb-4', 'flex', 'flex-col', 'items-center', 'w-full');
 
     // Create image element
     const image = document.createElement('img');
@@ -137,16 +137,16 @@ const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
 
     // Create example sentence
     const exampleText = document.createElement('span');
-    exampleText.classList.add('mt-1', 'text-sm', 'first-letter:capitalize');
+    exampleText.classList.add('mt-1', 'text-sm', 'text-center', 'first-letter:capitalize');
     exampleText.textContent = exampleSentence;
 
     // Append elements
     wordContainer.appendChild(wordText);
     wordContainer.appendChild(pronounceButton);
-    button.appendChild(image);
-    button.appendChild(wordContainer);
-    button.appendChild(exampleText);
-    vocabularyCard.appendChild(button);
+    div.appendChild(image);
+    div.appendChild(wordContainer);
+    div.appendChild(exampleText);
+    vocabularyCard.appendChild(div);
 
     return vocabularyCard;
 };
