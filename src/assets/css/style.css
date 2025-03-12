@@ -72,31 +72,33 @@ header,
 
 
 
-
 /* vocabulary category start */
-#vocab-right-arrow::before {
-    top: 0;
-    right: 20px;
-    position: absolute;
-    content: "";
-    width: 30px;
-    height: 100%;
-    border-radius: 4px;
-    display: inline-block;
-    background: linear-gradient(-90deg, var(--colorAfter), 70%, transparent);
-}
 
 #vocab-left-arrow::after {
     top: 0;
     left: 20px;
     position: absolute;
     content: "";
-    width: 30px;
+    width: 20px;
     height: 100%;
     border-radius: 4px;
     display: inline-block;
     background: linear-gradient(90deg, var(--colorBefore), 70%, transparent);
 }
+
+#vocab-right-arrow::before {
+    top: 0;
+    right: 20px;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 100%;
+    border-radius: 4px;
+    display: inline-block;
+    background: linear-gradient(-90deg, var(--colorAfter), 70%, transparent);
+}
+
+
 
 .published_data {
     color: #202224

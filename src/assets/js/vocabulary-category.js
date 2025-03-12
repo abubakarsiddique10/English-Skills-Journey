@@ -3,6 +3,7 @@ import { setLoading } from "./main.js";
 
 setLoading(true); // Show loading immediately
 
+
 window.onload = () => {
 
     const tags = document.getElementById('tags');
@@ -36,24 +37,110 @@ window.onload = () => {
     // this code click scroll left
     const vocabLeftArrow = document.getElementById('vocab-left-arrow');
     const vocabRightArrow = document.getElementById('vocab-right-arrow');
+    const tagsContainer = document.querySelector('.tags_container');
 
     vocabLeftArrow.addEventListener('click', () => {
-        tags.scrollLeft -= 200;
+        tags.scrollLeft -= 100;
     })
+
     vocabRightArrow.addEventListener('click', () => {
-        tags.scrollLeft += 200
+        tags.scrollLeft += 100;
     })
+
+
+
+    /* let globalWidth = document.documentElement.clientWidth; // Initial width
+    function updateWidth() {
+        globalWidth = document.documentElement.clientWidth; // Update globally
+        const { scrollLeft, scrollWidth, clientWidth } = tags;
+        const isAtStart = scrollLeft === 0;
+        const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 1;
+        // Update arrow visibility
+        vocabLeftArrow.style.display = isAtStart || globalWidth < 768 ? "none" : "block";
+        vocabRightArrow.style.display = isAtEnd || globalWidth < 768 ? "none" : "block";
+
+        // Adjust margins
+        tagsContainer.style.marginLeft = isAtStart || globalWidth < 768 ? 0 : "16px";
+        tagsContainer.style.marginRight = isAtEnd || globalWidth < 768 ? 0 : "16px";
+
+    }
+    window.addEventListener("resize", updateWidth);
 
     // this code for slide shadow
     const slideShow = () => {
-        const scrollLeft = tags.scrollLeft;
-        vocabLeftArrow.style.setProperty("--colorBefore", scrollLeft > 0 ? "#fefefe" : "");
-        vocabRightArrow.style.setProperty("--colorAfter", tags.scrollLeft + tags.clientWidth >= tags.scrollWidth - 1 ? "" : "#fefefe")
-        vocabLeftArrow.style.zIndex = scrollLeft > 0 ? 1 : -1;
-    }
-    slideShow()
+        const { scrollLeft, scrollWidth, clientWidth } = tags;
+        const isAtStart = scrollLeft === 0;
+        const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 1;
+        // Update arrow visibility
+        vocabLeftArrow.style.display = isAtStart || globalWidth < 768 ? "none" : "block";
+        vocabRightArrow.style.display = isAtEnd || globalWidth < 768 ? "none" : "block";
 
-    tags.addEventListener('scroll', slideShow)
+
+        // Update shadow color
+        vocabLeftArrow.style.setProperty("--colorBefore", isAtStart ? "" : "#fefefe");
+        vocabRightArrow.style.setProperty("--colorAfter", isAtEnd ? "" : "#fefefe");
+
+        // Adjust margins
+        tagsContainer.style.marginLeft = isAtStart || globalWidth < 768 ? 0 : "16px";
+        tagsContainer.style.marginRight = isAtEnd || globalWidth < 768 ? 0 : "16px";
+
+        // Set z-index
+        vocabLeftArrow.style.zIndex = isAtStart ? -1 : 1;
+    };
+
+    // Use requestAnimationFrame for performance optimization
+    const handleScroll = () => requestAnimationFrame(slideShow);
+
+
+    slideShow(); // Initial call
+    tags.addEventListener("scroll", handleScroll); */
+
+
+
+
+    let globalWidth = document.documentElement.clientWidth; // Initial width
+
+    // Function to update the global width
+    const updateWidth = () => {
+        globalWidth = document.documentElement.clientWidth;
+        updateArrowsAndStyles(); // Call the function when resizing
+    };
+
+    // Function to update arrow visibility, shadows, and margins
+    const updateArrowsAndStyles = () => {
+        const { scrollLeft, scrollWidth, clientWidth } = tags;
+        const isAtStart = scrollLeft === 0;
+        const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 1;
+        const isSmallScreen = globalWidth < 768;
+
+        // Toggle visibility using classes
+        vocabLeftArrow.classList.toggle("hidden", isAtStart || isSmallScreen);
+        vocabRightArrow.classList.toggle("hidden", isAtEnd || isSmallScreen);
+
+        // Update shadow color
+        vocabLeftArrow.style.setProperty("--colorBefore", isAtStart ? "" : "#fefefe");
+        vocabRightArrow.style.setProperty("--colorAfter", isAtEnd ? "" : "#fefefe");
+
+        // Adjust margins
+        tagsContainer.style.marginLeft = isAtStart || isSmallScreen ? "0px" : "16px";
+        tagsContainer.style.marginRight = isAtEnd || isSmallScreen ? "0px" : "16px";
+
+        // Set z-index
+        vocabLeftArrow.style.zIndex = isAtStart ? "-1" : "1";
+    };
+
+    // Function to handle scroll smoothly
+    const handleScroll = () => requestAnimationFrame(updateArrowsAndStyles);
+
+    // Event Listeners
+    window.addEventListener("resize", updateWidth);
+    tags.addEventListener("scroll", handleScroll);
+
+    // Initial function calls
+    updateWidth();
+    updateArrowsAndStyles();
+
+
 
     setLoading(false); // Hide loading when everything is loaded
 };
