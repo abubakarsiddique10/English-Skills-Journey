@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://kit.fontawesome.com/f23b08ee3a.js" crossorigin="anonymous"></script> -->
+
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -37,72 +37,49 @@
 
     <main>
         <!-- vocabulary section start -->
-        <section class="mt-[56px]">
+        <section id="speaking-topics" class="mt-[56px]">
             <div class="container xl:!px-0">
-                <div>
-                    <div class="pt-6 pb-4 flex items-center justify-between">
-                        <h1 class="text-2xl sm:text-3xl font-bold capitalize leading-tight">
-                            Learn English verbs</h1>
-                    </div>
-                    <div id="vocabulary-sections"
-                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-x-4 sm:gap-y-5">
+                <ul id="tags"
+                    class="select-none mx-auto flex overflow-auto w-full sticky top-[56px] bg-white pt-[12px]">
+                </ul>
 
-                        <a href="verbs.html?verbs=part-1">
+                <div>
+                    <div class="mt-6 mb-4 flex items-center justify-between">
+                        <h1 class="text-2xl sm:text-3xl font-bold capitalize leading-tight">Learn English speaking</h1>
+                    </div>
+                    <div id="vocabulary-sections" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+
+                        <a href="speaking.html?category=dailyusesentences&topic=thanks" data-type="Daily use sentences">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/verb-part-1.png" alt="verb part 1"
+                                    <img src="./assets/images/thumbnail/thank-you.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
-                                    Learn Common English Action Verbs with Pictures – Part 1
+                                    Different ways to say “Thank You” in English
                                 </h3>
                             </div>
                         </a>
-                        <a href="verbs.html?verbs=part-2">
+
+                        <a href="speaking.html?category=dailyusesentences&topic=welcome"
+                            data-type="Daily use sentences">
                             <div class="flex sm:flex-col">
                                 <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/verb-part-2.png" alt="verb part 2"
+                                    <img src="./assets/images/thumbnail/welcome.png" alt=""
                                         class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                                 </div>
                                 <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
-                                    Learn Common English Action Verbs with Pictures – Part 2
+                                    Different ways to say “You're Welcome” in English
                                 </h3>
                             </div>
                         </a>
-                        <a href="verbs.html?verbs=part-3">
-                            <div class="flex sm:flex-col">
-                                <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/verb-part-3.png" alt="verb part 3"
-                                        class="rounded-lg w-full max-w-[150px] sm:max-w-full">
-                                </div>
-                                <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
-                                    Learn Common English Action Verbs with Pictures – Part 3
-                                </h3>
-                            </div>
-                        </a>
-                        <a href="verbs.html?verbs=part-4">
-                            <div class="flex sm:flex-col">
-                                <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                    <img src="./assets/images/thumbnail/verb-part-4.png" alt="verb part 4"
-                                        class="rounded-lg w-full max-w-[150px] sm:max-w-full">
-                                </div>
-                                <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
-                                    Learn Common English Action Verbs with Pictures – Part 4
-                                </h3>
-                            </div>
-                        </a>
+
 
                     </div>
                 </div>
             </div>
         </section>
         <!-- vocabulary section end -->
-
-
-        <!-- testing section -->
-        <section class="py-10">
-
-        </section>
     </main>
 
 
@@ -115,11 +92,7 @@
 
     <script src="./assets/js/main.js" type="module"></script>
     <script src="./assets/js/common.js" type="module"></script>
-    <script src="./assets/js/verbs-category.js" type="module"></script>
-
+    <script src="./assets/js/daily-use-sentences.js" type="module"></script>
 </body>
 
 </html>
-
-<!-- #0f0f0f;
-#6B6B6B; -->

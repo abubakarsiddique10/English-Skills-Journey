@@ -4,7 +4,7 @@ setLoading(true); // Show loading immediately
 
 window.onload = () => {
 
-    /* section vocabulary start */
+    /* // section vocabulary start
     //click slider
     const vocabularySlider = document.querySelector('#vocabulary_slider');
     const vocabArrows = document.querySelectorAll('#vocabulary .arrow');
@@ -15,11 +15,11 @@ window.onload = () => {
             vocabularySlider.scrollLeft += arrow == "right" ? + 196 : - 196
         })
     })
-    /* section vocabulary end */
+    // section vocabulary end
 
 
 
-    /* section speaking start */
+    // section speaking start
     //click slider
     const speakingSlider = document.querySelector('#speaking_slider');
     const speakingbArrows = document.querySelectorAll('#speaking .arrow');
@@ -30,10 +30,10 @@ window.onload = () => {
             speakingSlider.scrollLeft += arrow == "right" ? + 196 : - 196
         })
     })
-    /* section speaking end */
+    // section speaking end
 
 
-    /* hero section start */
+    // hero section start
     const leftArrow = document.getElementById('left-arrow');
     const rightArrow = document.getElementById('right-arrow');
     const tags = document.getElementById('tags');
@@ -53,7 +53,63 @@ window.onload = () => {
         rightArrow.style.opacity = (tags.scrollLeft + tags.clientWidth >= tags.scrollWidth) ? 0 : 1;
     });
 
-    /* hero section end */
+    // hero section end */
+
+    // this code click scroll left
+    const tags = document.getElementById('tags');
+    const vocabLeftArrow = document.getElementById('vocab-left-arrow');
+    const vocabRightArrow = document.getElementById('vocab-right-arrow');
+    const tagsContainer = document.querySelector('.tags_container');
+
+    vocabLeftArrow.addEventListener('click', () => {
+        tags.scrollLeft -= 120;
+    })
+
+    vocabRightArrow.addEventListener('click', () => {
+        tags.scrollLeft += 120;
+    })
+
+    let globalWidth = document.documentElement.clientWidth; // Initial width
+
+    // Function to update the global width
+    const updateWidth = () => {
+        globalWidth = document.documentElement.clientWidth;
+        updateArrowsAndStyles(); // Call the function when resizing
+    };
+
+    // Function to update arrow visibility, shadows, and margins
+    const updateArrowsAndStyles = () => {
+        const { scrollLeft, scrollWidth, clientWidth } = tags;
+        const isAtStart = scrollLeft === 0;
+        const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 1;
+        const isSmallScreen = globalWidth < 768;
+
+        // Toggle visibility using classes
+        vocabLeftArrow.classList.toggle("hidden", isAtStart || isSmallScreen);
+        vocabRightArrow.classList.toggle("hidden", isAtEnd || isSmallScreen);
+
+        // Update shadow color
+        vocabLeftArrow.style.setProperty("--colorBefore", isAtStart ? "" : "#fefefe");
+        vocabRightArrow.style.setProperty("--colorAfter", isAtEnd ? "" : "#fefefe");
+        console.log(isAtStart)
+        // Adjust margins
+        tagsContainer.style.paddingLeft = isAtStart || isSmallScreen ? "0" : "24px";
+        tagsContainer.style.paddingRight = isAtEnd || isSmallScreen ? "0" : "24px";
+
+        // Set z-index
+        vocabLeftArrow.style.zIndex = isAtStart ? "-1" : "1";
+    };
+
+    // Function to handle scroll smoothly
+    const handleScroll = () => requestAnimationFrame(updateArrowsAndStyles);
+
+    // Event Listeners
+    window.addEventListener("resize", updateWidth);
+    tags.addEventListener("scroll", handleScroll);
+
+    // Initial function calls
+    updateWidth();
+    updateArrowsAndStyles();
 
 
     setLoading(false); // Hide loading when everything is loaded

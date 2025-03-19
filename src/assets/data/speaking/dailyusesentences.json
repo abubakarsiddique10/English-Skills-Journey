@@ -1,8 +1,8 @@
 [
     {
         "topicName": "thanks",
-        "title": "10 Ways to Say 'Thank You'",
-        "img": "./assets/images/thumbnail/banner2.png",
+        "title": "Different ways to say “Thank You” in English",
+        "img": "./assets/images/thumbnail/thank-you.png",
         "datePublished": "2025-02-15",
         "contents": [
             {
@@ -17,7 +17,7 @@
             },
             {
                 "icon": "🔰",
-                "text": "I appreciate your help.",
+                "text": "Thank you for your help.",
                 "example": "I appreciate your help with the presentation."
             },
             {
@@ -54,6 +54,69 @@
                 "icon": "🔰",
                 "text": "Thank you for your consideration.",
                 "example": "Thank you for your consideration regarding my application."
+            },
+            {
+                "icon": "🔰",
+                "text": "I am grateful to you.",
+                "example": "Thank you for your consideration regarding my application."
+            },
+            {
+                "icon": "🔰",
+                "text": "Thanks a lot for your help.",
+                "example": "Thank you for your consideration regarding my application."
+            },
+            {
+                "icon": "🔰",
+                "text": "Thank you, brother.",
+                "example": "Thank you for your consideration regarding my application."
+            }
+        ]
+    },
+    {
+        "topicName": "welcome",
+        "title": "Different ways to say “You're Welcome” in English",
+        "img": "./assets/images/thumbnail/welcome.png",
+        "datePublished": "2025-02-15",
+        "contents": [
+            {
+                "icon": "🔰",
+                "text": "You’re welcome.",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "Not at all",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "Happy to help",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "Don’t mention it",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "It’s nothing",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "It’s ok",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "Don’t worry about it",
+                "example": ""
+            },
+            {
+                "icon": "🔰",
+                "text": "No problem.",
+                "example": ""
             }
         ]
     },

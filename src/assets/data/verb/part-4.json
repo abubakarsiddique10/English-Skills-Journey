@@ -1,6 +1,6 @@
 {
     "header": {
-        "title": "Common English Action Verbs with Pictures – Part 4",
+        "title": "Learn Common English Action Verbs with Pictures – Part 4",
         "image": "./assets/images/thumbnail/verb-part-4.png"
     },
     "verbs": [
@@ -63,6 +63,24 @@
             "word": "wish",
             "image": "./assets/images/verbs/part-2/wish.png",
             "sentence": "I wish I could travel more often."
+        },
+        {
+            "_id": "203",
+            "word": "Rest",
+            "image": "./assets/images/verbs/part-2/rest.png",
+            "sentence": "She took a rest after a long day."
+        },
+        {
+            "_id": "204",
+            "word": "Discuss",
+            "image": "./assets/images/verbs/part-2/discuss.png",
+            "sentence": "They discussed the project in detail."
+        },
+        {
+            "_id": "105",
+            "word": "flip",
+            "image": "./assets/images/verbs/part-2/flip.png",
+            "sentence": "I can flip the pancakes without burning them."
         },
         {
             "_id": "62",
@@ -255,24 +273,6 @@
             "word": "hope",
             "image": "./assets/images/verbs/part-2/hope.png",
             "sentence": "We hope for good weather this weekend."
-        },
-        {
-            "_id": "203",
-            "word": "Rest",
-            "image": "./assets/images/verbs/part-2/rest.png",
-            "sentence": "She took a rest after a long day."
-        },
-        {
-            "_id": "204",
-            "word": "Discuss",
-            "image": "./assets/images/verbs/part-2/discuss.png",
-            "sentence": "They discussed the project in detail."
-        },
-        {
-            "_id": "105",
-            "word": "flip",
-            "image": "./assets/images/verbs/part-2/flip.png",
-            "sentence": "I can flip the pancakes without burning them."
         },
         {
             "_id": "106",

@@ -5,17 +5,43 @@
         "image": "./assets/images/thumbnail/banner2.png",
         "datePublished": "2025-02-15",
         "contents": [
-            "Hello, my name is Sam. I'm ten years old, and I live in England. There are six people in my family: my parents, two sisters, a brother, and me. My father, William, is an engineer, and my mother, Emma, is a school teacher. I enjoy spending time with my family, especially during holidays when we visit new places. I love learning English and reading books, especially stories about adventures and mysteries. My favorite subjects in school are Math and Computer Science because I enjoy solving problems and creating things. I also like coding and exploring new technologies, trying to build small apps and websites. In my free time, I play football with my friends at the local park, and I’m also learning how to swim. I have a pet dog named Bogey, who is very playful and loves running around in the garden. One day, I hope to become a software engineer. That's all about me.",
-            "Hello world how are yout"
+            "Hello, my name is Sam. I'm ten years old, and I live in England. There are six people in my family: my parents, two sisters, a brother, and me. My father, William, is an engineer, and my mother, Emma, is a school teacher. I enjoy spending time with my family, especially during holidays when we visit new places. I love learning English and reading books, especially stories about adventures and mysteries. My favorite subjects in school are Math and Computer Science because I enjoy solving problems and creating things. I also like coding and exploring new technologies, trying to build small apps and websites. In my free time, I play football with my friends at the local park, and I’m also learning how to swim. I have a pet dog named Bogey, who is very playful and loves running around in the garden. One day, I hope to become a software engineer. That's all about me."
         ]
     },
     {
         "topicName": "myself",
-        "title": "How to Introduce Yourself in English",
-        "image": "./assets/images/thumbnail/banner2.png",
+        "title": "How to talk about yourself in English",
+        "image": "./assets/images/thumbnail/about-myself.png",
         "datePublished": "2025-02-15",
         "contents": [
-            "Hello! My name is Sarah Johnson. I am 14 years old. I am a student at Greenfield High School. My favorite subject is English because I enjoy reading stories and writing. In my free time, I like playing soccer, drawing, and hanging out with my friends. I also love to watch movies and listen to music. I have two younger sisters, Emma and Lily, and we always play board games or video games together. I live in a small town called Springfield. I want to become a scientist in the future and discover new things."
+            "Hello! My name is Sam. I am 14 years old. I am a student at Greenfield High School. My favorite subject is English because I enjoy reading stories and writing. In my free time, I like playing soccer, drawing, and hanging out with my friends. I also love to watch movies and listen to music. I have two younger sisters, Emma and Lily, and we always play board games or video games together. I live in a small town called Springfield. I want to become a scientist in the future and discover new things."
+        ]
+    },
+    {
+        "title": "How to talk about your mother in English",
+        "image": "./assets/images/thumbnail/my-mother.png",
+        "topicName": "my-mother",
+        "datePublished": "2025-02-15",
+        "contents": [
+            "My mother's name is Emma. She is 48 years old. She is a housewife. She takes care of our family. She cooks food for us every day. She washes our clothes and cleans our house. She also takes care of my studies and helps me when needed. On holidays, she makes special dishes for us. She loves us and takes care of us when we are sick. She always teaches us good manners and tells us interesting stories. She is very kind, loving, and hardworking. I love my mother very much and respect her a lot."
+        ]
+    },
+    {
+        "title": "How to talk about your father in English",
+        "image": "./assets/images/thumbnail/my-father.png",
+        "topicName": "my-father",
+        "datePublished": "2025-02-15",
+        "contents": [
+            "My father's name is John William. He is 52 years old. He is a hardworking man. He works to support our family. He always takes care of us and fulfills our needs. In his free time, he likes to spend time with us. He helps me with my studies and gives me good advice. He is kind, loving, and responsible. On holidays, he takes us to different places and buys us gifts. He enjoys helping others and often does community work. He always teaches us to be honest, respectful, and kind to others. I love my father very much and respect him a lot."
+        ]
+    },
+    {
+        "title": "How to talk about your parents in English",
+        "image": "./assets/images/thumbnail/my-parents.png",
+        "topicName": "my-parents",
+        "datePublished": "2025-02-15",
+        "contents": [
+            "My parents are the most important people to me. My father's name is John William. He is about 40 years old and works as a teacher at a local school. My mother's name is Emma. She is 32 years old. She is a housewife. She takes care of our family and cooks food for us every day. My father helps me with my schoolwork and always gives me good advice. They both love me and support me in everything. On holidays, we enjoy visiting our relatives and spending time with them. I am truly grateful for their love and care, and I love them very much."
         ]
     }
 ]

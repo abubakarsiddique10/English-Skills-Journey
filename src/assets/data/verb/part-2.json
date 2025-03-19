@@ -11,10 +11,10 @@
             "sentence": "She knows how to account for every expense."
         },
         {
-            "_id": "104",
-            "word": "Adjust",
-            "image": "./assets/images/verbs/part-3/adjust.png",
-            "sentence": "He needs to adjust his watch."
+            "_id": "112",
+            "word": "Bless",
+            "image": "./assets/images/verbs/part-3/bless.png",
+            "sentence": "The priest will bless the congregation."
         },
         {
             "_id": "105",
@@ -23,10 +23,10 @@
             "sentence": "The doctor will advise you on your diet."
         },
         {
-            "_id": "106",
-            "word": "Annoy",
-            "image": "./assets/images/verbs/part-3/annoy.png",
-            "sentence": "Loud noises annoy me."
+            "_id": "110",
+            "word": "Become",
+            "image": "./assets/images/verbs/part-3/become.png",
+            "sentence": "She wants to become a doctor."
         },
         {
             "_id": "107",
@@ -35,10 +35,28 @@
             "sentence": "They argue about politics all the time."
         },
         {
+            "_id": "104",
+            "word": "Adjust",
+            "image": "./assets/images/verbs/part-3/adjust.png",
+            "sentence": "He needs to adjust his watch."
+        },
+        {
             "_id": "108",
             "word": "Assist",
             "image": "./assets/images/verbs/part-3/assist.png",
             "sentence": "Can you assist me with this project?"
+        },
+        {
+            "_id": "149",
+            "word": "Calculate",
+            "image": "./assets/images/verbs/part-3/calculate.png",
+            "sentence": "She calculates the expenses carefully."
+        },
+        {
+            "_id": "150",
+            "word": "Laugh",
+            "image": "./assets/images/verbs/part-3/laugh.png",
+            "sentence": "They laugh at the funny joke."
         },
         {
             "_id": "109",
@@ -47,22 +65,10 @@
             "sentence": "The dog will bark at strangers."
         },
         {
-            "_id": "110",
-            "word": "Become",
-            "image": "./assets/images/verbs/part-3/become.png",
-            "sentence": "She wants to become a doctor."
-        },
-        {
             "_id": "111",
             "word": "Bite",
             "image": "./assets/images/verbs/part-3/bite.png",
             "sentence": "Be careful, the dog might bite."
-        },
-        {
-            "_id": "112",
-            "word": "Bless",
-            "image": "./assets/images/verbs/part-3/bless.png",
-            "sentence": "The priest will bless the congregation."
         },
         {
             "_id": "113",
@@ -141,6 +147,12 @@
             "word": "Exercise",
             "image": "./assets/images/verbs/part-3/exercise.png",
             "sentence": "He exercises every morning."
+        },
+        {
+            "_id": "106",
+            "word": "Annoy",
+            "image": "./assets/images/verbs/part-3/annoy.png",
+            "sentence": "Loud noises annoy me."
         },
         {
             "_id": "126",
@@ -279,18 +291,6 @@
             "word": "Repair",
             "image": "./assets/images/verbs/part-3/repair.png",
             "sentence": "He will repair the broken chair."
-        },
-        {
-            "_id": "149",
-            "word": "Calculate",
-            "image": "./assets/images/verbs/part-3/calculate.png",
-            "sentence": "She calculates the expenses carefully."
-        },
-        {
-            "_id": "150",
-            "word": "Laugh",
-            "image": "./assets/images/verbs/part-3/laugh.png",
-            "sentence": "They laugh at the funny joke."
         },
         {
             "_id": "151",

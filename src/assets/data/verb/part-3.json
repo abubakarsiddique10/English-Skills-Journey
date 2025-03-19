@@ -17,10 +17,10 @@
             "sentence": "He waters the plants every morning."
         },
         {
-            "_id": "156",
-            "word": "Point",
-            "image": "./assets/images/verbs/part-4/point.png",
-            "sentence": "She pointed at the whiteboard."
+            "_id": "195",
+            "word": "Massage",
+            "image": "./assets/images/verbs/part-4/massage.png",
+            "sentence": "He gave her a relaxing massage."
         },
         {
             "_id": "157",
@@ -29,10 +29,10 @@
             "sentence": "He dries his hands with a towel."
         },
         {
-            "_id": "158",
-            "word": "Whisper",
-            "image": "./assets/images/verbs/part-4/whisper.png",
-            "sentence": "She whispered a secret to her friend."
+            "_id": "200",
+            "word": "Skip",
+            "image": "./assets/images/verbs/part-4/skip.png",
+            "sentence": "She skipped down the road happily."
         },
         {
             "_id": "159",
@@ -51,6 +51,12 @@
             "word": "Sew",
             "image": "./assets/images/verbs/part-4/sew.png",
             "sentence": "She is learning how to sew."
+        },
+        {
+            "_id": "156",
+            "word": "Point",
+            "image": "./assets/images/verbs/part-4/point.png",
+            "sentence": "She pointed at the whiteboard."
         },
         {
             "_id": "162",
@@ -129,6 +135,12 @@
             "word": "Plant",
             "image": "./assets/images/verbs/part-4/plant.png",
             "sentence": "They planted a tree in the backyard."
+        },
+        {
+            "_id": "158",
+            "word": "Whisper",
+            "image": "./assets/images/verbs/part-4/whisper.png",
+            "sentence": "She whispered a secret to her friend."
         },
         {
             "_id": "173",
@@ -263,12 +275,6 @@
             "sentence": "She shouted for help."
         },
         {
-            "_id": "195",
-            "word": "Massage",
-            "image": "./assets/images/verbs/part-4/massage.png",
-            "sentence": "He gave her a relaxing massage."
-        },
-        {
             "_id": "196",
             "word": "Tickle",
             "image": "./assets/images/verbs/part-4/tickle.png",
@@ -291,12 +297,6 @@
             "word": "Knock",
             "image": "./assets/images/verbs/part-4/knock.png",
             "sentence": "He knocked on the door before entering."
-        },
-        {
-            "_id": "200",
-            "word": "Skip",
-            "image": "./assets/images/verbs/part-4/skip.png",
-            "sentence": "She skipped down the road happily."
         },
         {
             "_id": "201",

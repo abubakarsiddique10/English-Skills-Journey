@@ -5,10 +5,64 @@
     },
     "verbs": [
         {
+            "_id": "7",
+            "word": "draw",
+            "image": "./assets/images/verbs/part-1/draw.png",
+            "sentence": "She likes to draw landscapes."
+        },
+        {
+            "_id": "18",
+            "word": "make",
+            "image": "./assets/images/verbs/part-1/make.png",
+            "sentence": "I will make some coffee."
+        },
+        {
+            "_id": "20",
+            "word": "take",
+            "image": "./assets/images/verbs/part-1/take.png",
+            "sentence": "He will take the test tomorrow."
+        },
+        {
+            "_id": "27",
+            "word": "find",
+            "image": "./assets/images/verbs/part-1/find.png",
+            "sentence": "I need to find my keys."
+        },
+        {
+            "_id": "12",
+            "word": "smell",
+            "image": "./assets/images/verbs/part-1/smell.png",
+            "sentence": "I can smell fresh bread from the bakery."
+        },
+        {
+            "_id": "34",
+            "word": "help",
+            "image": "./assets/images/verbs/part-1/help.png",
+            "sentence": "He helped me with my project."
+        },
+        {
+            "_id": "10",
+            "word": "dance",
+            "image": "./assets/images/verbs/part-1/dance.png",
+            "sentence": "They love to dance at parties."
+        },
+        {
+            "_id": "11",
+            "word": "fly",
+            "image": "./assets/images/verbs/part-1/fly.png",
+            "sentence": "Birds fly high in the sky."
+        },
+        {
             "_id": "1",
             "word": "cook",
             "image": "./assets/images/verbs/part-1/cook.png",
             "sentence": "I love to cook pasta."
+        },
+        {
+            "_id": "13",
+            "word": "cry",
+            "image": "./assets/images/verbs/part-1/cry.png",
+            "sentence": "The baby started to cry when it was hungry."
         },
         {
             "_id": "2",
@@ -41,12 +95,6 @@
             "sentence": "I always sleep early on weekdays."
         },
         {
-            "_id": "7",
-            "word": "draw",
-            "image": "./assets/images/verbs/part-1/draw.png",
-            "sentence": "She likes to draw landscapes."
-        },
-        {
             "_id": "8",
             "word": "paint",
             "image": "./assets/images/verbs/part-1/paint.png",
@@ -57,30 +105,6 @@
             "word": "play",
             "image": "./assets/images/verbs/part-1/play.png",
             "sentence": "Let's play a game."
-        },
-        {
-            "_id": "10",
-            "word": "dance",
-            "image": "./assets/images/verbs/part-1/dance.png",
-            "sentence": "They love to dance at parties."
-        },
-        {
-            "_id": "11",
-            "word": "fly",
-            "image": "./assets/images/verbs/part-1/fly.png",
-            "sentence": "Birds fly high in the sky."
-        },
-        {
-            "_id": "12",
-            "word": "smell",
-            "image": "./assets/images/verbs/part-1/smell.png",
-            "sentence": "I can smell fresh bread from the bakery."
-        },
-        {
-            "_id": "13",
-            "word": "cry",
-            "image": "./assets/images/verbs/part-1/cry.png",
-            "sentence": "The baby started to cry when it was hungry."
         },
         {
             "_id": "14",
@@ -107,22 +131,10 @@
             "sentence": "Can you get the book for me?"
         },
         {
-            "_id": "18",
-            "word": "make",
-            "image": "./assets/images/verbs/part-1/make.png",
-            "sentence": "I will make some coffee."
-        },
-        {
             "_id": "19",
             "word": "go",
             "image": "./assets/images/verbs/part-1/go.png",
             "sentence": "Let's go to the park."
-        },
-        {
-            "_id": "20",
-            "word": "take",
-            "image": "./assets/images/verbs/part-1/take.png",
-            "sentence": "He will take the test tomorrow."
         },
         {
             "_id": "21",
@@ -161,12 +173,6 @@
             "sentence": "I use my phone for everything."
         },
         {
-            "_id": "27",
-            "word": "find",
-            "image": "./assets/images/verbs/part-1/find.png",
-            "sentence": "I need to find my keys."
-        },
-        {
             "_id": "28",
             "word": "tell",
             "image": "./assets/images/verbs/part-1/tell.png",
@@ -201,12 +207,6 @@
             "word": "call",
             "image": "./assets/images/verbs/part-1/call.png",
             "sentence": "I'll call you later."
-        },
-        {
-            "_id": "34",
-            "word": "help",
-            "image": "./assets/images/verbs/part-1/help.png",
-            "sentence": "He helped me with my project."
         },
         {
             "_id": "35",
@@ -308,7 +308,7 @@
             "_id": "51",
             "word": "come",
             "image": "./assets/images/verbs/part-1/come.png",
-            "sentence": "I will come to your party."
+            "sentence": "Come in, it’s cold outside."
         }
     ]
 }

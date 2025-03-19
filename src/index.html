@@ -19,9 +19,10 @@
                         <a class="navbar-brand text-2xl leading-none font-bold z-10" href="index.html">English Skills
                             Journey</a>
                     </div>
-                    <button class="navbar-toggler p-0 border-0 cursor-pointer lg:hidden" type="button">
-                        <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
-                        <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
+                    <button class="navbar-toggler p-0 border-0 cursor-pointer lg:hidden" type="button"
+                        aria-label="Toggle navigation">
+                        <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="Open Menu" loading="lazy">
+                        <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="Close Menu" loading="lazy">
                     </button>
                 </div>
                 <div class="hidden lg:block nav__items mt-2 lg:mt-0">
@@ -34,71 +35,82 @@
     </header>
 
     <main>
-
         <section class="mt-[67px] hero__section">
-            <div class="container xl:!px-0 relative">
+            <div class="container xl:!px-0 relative flex flex-col items-center">
                 <div
-                    class="min-h-[100px] border flex flex-col items-center justify-center bg-[#52B69A] text-white rounded-lg p-3">
+                    class="min-h-[100px] w-full flex flex-col items-center justify-center bg-[#52B69A] text-white rounded-lg px-6 py-3 lg:p-5">
                     <h1 class="text-3xl font-bold text-center">What will you learn today?</h1>
                     <h3 class="text-lg">Choose a Topic</h3>
                 </div>
-                <div id="tags"
-                    class="gap-8 lg:gap-10 max-w-fit flex overflow-auto pt-6 w-full mx-auto select-none relative scroll-smooth">
-                    <a href="./vocabulary-category.html" class="min-w-fit items-center justify-center">
-                        <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-                            <img src="./assets/images/banner/vocabulary.png" alt="" class="size-7">
-                        </div>
-                        <span
-                            class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">vocabulary</span>
-                    </a>
-                    <a href="verbs-category.html" class="min-w-fit items-center justify-center">
-                        <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-                            <img src="./assets/images/banner/verbs.png" alt="" class="size-7">
-                        </div>
-                        <span
-                            class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Verbs</span>
-                    </a>
+                <div class="tags_container relative w-full max-w-fit">
 
-                    <a href="speaking-topics.html" class="min-w-fit items-center justify-center">
-                        <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-                            <img src="./assets/images/banner/abbreviation.png" alt="" class="size-7">
-                        </div>
-                        <span
-                            class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Speaking</span>
-                    </a>
-                    <a href="grammar-category.html" class="min-w-fit items-center justify-center">
-                        <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-                            <img src="./assets/images/banner/symbols.png" alt="" class="size-7">
-                        </div>
-                        <span
-                            class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Grammar</span>
-                    </a>
-                    <!-- <a href="surah.html" class="min-w-fit items-center justify-center">
-                        <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
-                            <img src="./assets/images/banner/abbreviation.png" alt="" class="size-7">
-                        </div>
-                        <span
-                            class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Abbreviations</span>
-                    </a> -->
+                    <div id="tags" class="gap-8 lg:gap-10 flex overflow-auto pt-6  select-none relative scroll-smooth">
+
+                        <a href="./vocabulary-category.html" class="min-w-fit items-center justify-center">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <img src="./assets/images/banner/vocabulary.png" alt="vocabulary icon" class="size-7">
+                            </div>
+                            <span
+                                class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">vocabulary</span>
+                        </a>
+
+                        <a href="verbs-category.html" class="min-w-fit items-center justify-center">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <img src="./assets/images/banner/verbs.png" alt="verbs icon" class="size-7">
+                            </div>
+                            <span
+                                class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Verbs</span>
+                        </a>
+
+                        <a href="speaking-topics.html" class="min-w-fit items-center justify-center">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <img src="./assets/images/banner/speaking.png" alt="Speaking icon" class="size-7">
+                            </div>
+                            <span class=" text-sm font-medium text-center block font-sans text-[#000000cc] ">Speaking
+                                topics</span>
+                        </a>
+                        <a href="conversation.html" class="min-w-fit items-center justify-center">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <img src="./assets/images/banner/conversation2.png" alt="grammar icon" class="size-7">
+                            </div>
+                            <span
+                                class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Conversation</span>
+                        </a>
+                        <a href="grammar-category.html" class="min-w-fit items-center justify-center">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <img src="./assets/images/banner/grammar.png" alt="Speaking
+                            Topics icon" class="size-7">
+                            </div>
+                            <span
+                                class=" text-sm font-medium text-center block font-sans text-[#000000cc] capitalize">Grammar</span>
+                        </a>
+
+                        <a href="daily-use-sentences.html" class="min-w-fit items-center justify-center">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-2">
+                                <img src="./assets/images/banner/daily-sentences.png" alt="grammar icon" class="size-7">
+                            </div>
+                            <span class=" text-sm font-medium text-center block font-sans text-[#000000cc]">Daily
+                                use sentences</span>
+                        </a>
+                    </div>
+
+                    <button id="vocab-left-arrow"
+                        class="absolute bottom-0 left-0 cursor-pointer transition-opacity duration-300 ease-in top-1/2 -translate-y-1/3 h-full z-[-1]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill="currentColor"
+                                d="m14.8 16.382-4.205-4.205a.25.25 0 0 1 0-.354L14.8 7.618a.75.75 0 0 0-1.06-1.06l-4.206 4.204a1.75 1.75 0 0 0 0 2.475l4.206 4.205a.75.75 0 0 0 1.06-1.06">
+                            </path>
+                        </svg>
+                    </button>
+                    <button id="vocab-right-arrow"
+                        class="absolute right-0 cursor-pointer  transition-opacity duration-300 ease-in top-1/2 -translate-y-1/3 h-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill="currentColor"
+                                d="m9.216 7.619 4.204 4.204a.25.25 0 0 1 0 .354l-4.204 4.204a.75.75 0 0 0 1.06 1.061l4.205-4.204a1.75 1.75 0 0 0 0-2.475l-4.204-4.205a.75.75 0 0 0-1.061 1.06">
+                            </path>
+                        </svg>
+                    </button>
                 </div>
-
-                <button id="left-arrow"
-                    class="absolute bottom-0 left-[9px] h-[78px] cursor-pointer hidden lg:hidden opacity-0 transition-opacity duration-300 ease-in">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path fill="currentColor"
-                            d="m14.8 16.382-4.205-4.205a.25.25 0 0 1 0-.354L14.8 7.618a.75.75 0 0 0-1.06-1.06l-4.206 4.204a1.75 1.75 0 0 0 0 2.475l4.206 4.205a.75.75 0 0 0 1.06-1.06">
-                        </path>
-                    </svg>
-                </button>
-                <button id="right-arrow"
-                    class="absolute bottom-0 right-[9px] h-[78px] cursor-pointer opacity-[1] transition-opacity duration-300 ease-in lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path fill="currentColor"
-                            d="m9.216 7.619 4.204 4.204a.25.25 0 0 1 0 .354l-4.204 4.204a.75.75 0 0 0 1.06 1.061l4.205-4.204a1.75 1.75 0 0 0 0-2.475l-4.204-4.205a.75.75 0 0 0-1.061 1.06">
-                        </path>
-                    </svg>
-                </button>
-
             </div>
         </section>
 
@@ -112,88 +124,88 @@
                 </div>
                 <div id="vocabulary-sections"
                     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-x-4 sm:gap-y-5">
+
                     <a href="vocabulary.html?category=fruits" data-type="fruits">
                         <div class="flex sm:flex-col">
                             <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/fruit-names.png" alt=""
+                                <img src="./assets/images/thumbnail/fruit-names.png" alt="fruit thumbnail"
                                     class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                             </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
                                 Fruits Vocabulary – List of Fruit Names in English
                             </h3>
                         </div>
                     </a>
-
-                    <a href="vocabulary.html?category=farm-animals" data-type="animals">
-                        <div class="flex sm:flex-col">
-                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/farm-animals.png" alt=""
-                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
-                            </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                Farm Animal Vocabulary - List of Farm Animal Names
-                            </h3>
-                        </div>
-                    </a>
-
                     <a href="vocabulary.html?category=jobs-and-occupations" data-type="Jobs and occupations">
                         <div class="flex sm:flex-col">
                             <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/jobs-&-occupations.png" alt=""
+                                <img src="./assets/images/thumbnail/jobs-&-occupations.png" alt="occupations thumbnail"
                                     class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                             </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
                                 List of Jobs and Occupations – Learn with Examples & Pictures</h3>
-                        </div>
-                    </a>
-                    <a href="vocabulary.html?category=colors" data-type="colors">
-                        <div class="flex sm:flex-col">
-                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/color-names.png" alt=""
-                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
-                            </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                Learn the Different Names of Colors in English</h3>
                         </div>
                     </a>
                     <a href="vocabulary.html?category=household-items" data-type="household items">
                         <div class="flex sm:flex-col">
                             <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/household-items.png" alt=""
+                                <img src="./assets/images/thumbnail/household-items.png" alt="household thumbnail"
                                     class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                             </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
                                 Household item names in English with pictures</h3>
-                        </div>
-                    </a>
-                    <a href="vocabulary.html?category=education" data-type="education">
-                        <div class="flex sm:flex-col">
-                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/educational-item-names.png" alt=""
-                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
-                            </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                Educational Elements Names in English With Pictures</h3>
                         </div>
                     </a>
                     <a href="vocabulary.html?category=transport-names" data-type="Vehicle & Transport">
                         <div class="flex sm:flex-col">
                             <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/transport-names.png" alt=""
+                                <img src="./assets/images/thumbnail/transport-names.png" alt="transport thumbnail"
                                     class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                             </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
                                 Common Transport Names in English with Pictures</h3>
                         </div>
                     </a>
-                    <a href="vocabulary.html?category=tool-names" data-type="tools">
+                    <a href="vocabulary.html?category=colors" data-type="colors">
                         <div class="flex sm:flex-col">
                             <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
-                                <img src="./assets/images/thumbnail/tool-names.png" alt=""
+                                <img src="./assets/images/thumbnail/color-names.png" alt="color thumbnail"
                                     class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                             </div>
-                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
-                                Different Types of Tools Names in English with Pictures</h3>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
+                                Learn the Different Names of Colors in English</h3>
+                        </div>
+                    </a>
+                    <a href="vocabulary.html?category=education" data-type="education">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/educational-item-names.png"
+                                    alt="education thumbnail" class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
+                                Educational Elements Names in English With Pictures</h3>
+                        </div>
+                    </a>
+                    <a href="vocabulary.html?category=farm-animals" data-type="animals" class="hidden sm:block">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/farm-animals.png" alt="farm animals thumbnail"
+                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
+                                Farm Animal Vocabulary - List of Farm Animal Names
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="vocabulary.html?category=vegetables" data-type="vegetables" class="hidden sm:block">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/vegetable-names.png" alt="vegetables thumbnail"
+                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
+                                Vegetables Vocabulary – List of Vegetable Names in English
+                            </h3>
                         </div>
                     </a>
                 </div>
@@ -202,7 +214,7 @@
         <!-- vocabulary section end -->
 
         <!-- verb section start -->
-        <section class="mt-8 lg:mt-14 ">
+        <section class="mt-8 lg:mt-14">
             <div class="container xl:!px-0">
                 <div class="mb-4 flex items-center justify-between">
                     <h2 class="text-2xl font-semibold">Verbs</h2>
@@ -252,7 +264,7 @@
                                     class="rounded-lg w-full max-w-[150px] sm:max-w-full">
                             </div>
                             <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
-                                Common English Action Verbs with Pictures – Part 4
+                                Learn Common English Action Verbs with Pictures – Part 4
                             </h3>
                         </div>
                     </a>
@@ -260,61 +272,131 @@
                 </div>
             </div>
         </section>
-        <!-- verb section end -->
 
+        <!-- speaking topics start -->
+        <section class="mt-8 lg:mt-14">
+            <div class="container xl:!px-0">
+                <div class="mb-4 flex items-center justify-between">
+                    <h2 class="text-2xl font-semibold">Speaking
+                        Topics</h2>
+                    <a href="./speaking-topics.html" class="  font-medium text-sm sm:text-[15px]">See
+                        all</a>
+                </div>
+                <div id="vocabulary-sections"
+                    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-x-4 sm:gap-y-5">
+
+                    <a href="speaking.html?category=speakingtopics&topic=myself" data-type="Speaking topic">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/about-myself.png" alt=""
+                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1">
+                                How to talk about yourself in English
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="speaking.html?category=speakingtopics&topic=my-mother" data-type="Speaking topic">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/my-mother.png" alt=""
+                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  flex-1">
+                                How to talk about your mother in English
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="speaking.html?category=speakingtopics&topic=my-father" data-type="Speaking topic">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/my-father.png" alt=""
+                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  flex-1">
+                                How to talk about your father in English
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="speaking.html?category=speakingtopics&topic=my-parents" data-type="Speaking topic">
+                        <div class="flex sm:flex-col">
+                            <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                <img src="./assets/images/thumbnail/my-parents.png" alt=""
+                                    class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                            </div>
+                            <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  flex-1">
+                                How to talk about your parents in English
+                            </h3>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <!-- speaking topics end -->
     </main>
 
-
-    <footer class="bg-white pt-[100px] pb-8">
-        <div class="container">
-            <div class="grid grid-cols-3 justify-between gap-6">
-                <div class="mb-6 md:mb-0 flex flex-col ">
-                    <a href="https://flowbite.com/" class="flex flex-col">
+    <!-- Footer Start -->
+    <footer class="w-full pt-16 pb-10 mt-8 lg:mt-[80px] bg-[#FAF9FE] ">
+        <div class="container xl:!px-0">
+            <!--Grid-->
+            <div
+                class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 gap-y-8 md:gap-8 pb-10 max-w-sm mx-auto sm:max-w-3xl lg:max-w-full">
+                <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
+                    <a href="https://pagedone.io/" class="flex justify-center lg:justify-start">
                         <img src="./assets/images/banner/English Skills Journey.png" class="size-16 rounded-lg"
                             alt="FlowBite Logo" />
-                        <span class="text-xl font-semibold dark:text-white mt-2">English
-                            <br>
-                            Skills Journey</span>
                     </a>
+                    <p class="pt-6 lg:py-6 text-xl font-semibold lg:max-w-xs text-center lg:text-left">English
+                        Skills Journey
+                    </p>
                 </div>
-                <div class="">
-                    <h3 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Useful Links
-                    </h3>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
-                        <li>
-                            <a href="https://flowbite.com/" class="hover:underline">Vocabulary</a>
+                <!--End Col-->
+                <div class="lg:mx-auto text-left ">
+                    <h4 class="text-lg text-gray-900 font-medium mb-7">Useful Links</h4>
+                    <ul class="text-sm  transition-all duration-500">
+                        <li class="mb-4"><a href="./vocabulary-category.html" class=" text-gray-600
+                                hover:text-gray-900">Vocabulary</a>
                         </li>
-                        <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Verbs</a>
+                        <li class="mb-4"><a href="./verbs-category.html"
+                                class=" text-gray-600 hover:text-gray-900">Verbs</a>
                         </li>
-                        <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Speaking</a>
+                        <li class="mb-4"><a href="./speaking-topics.html"
+                                class=" text-gray-600 hover:text-gray-900">Speaking</a>
+                        </li>
+                        <li><a href="./grammar-category.html" class=" text-gray-600 hover:text-gray-900">Grammar</a>
                         </li>
                     </ul>
                 </div>
-                <div class="">
-                    <h3 class="mb-6 font-semibold text-gray-900 capitalize dark:text-white">Follow Us</h3>
-                    <ul class="text-gray-500 dark:text-gray-400 font-medium space-y-2">
-                        <li>
-                            <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Youtube</a>
+                <!--End Col-->
+                <div class="lg:mx-auto text-left ">
+                    <h4 class="text-lg text-gray-900 font-medium mb-7">Follow Us</h4>
+                    <ul class="text-sm  transition-all duration-500">
+                        <li class="mb-4"><a href="https://www.youtube.com/channel/UCLNwUEAMXRst5Nt4mieg7aw"
+                                target="_blank" class="text-gray-600 hover:text-gray-900">Youtube</a>
                         </li>
-                        <li>
-                            <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Facebook</a>
+                        <li class="mb-4"><a href="https://web.facebook.com/engskillsjourney/" target="_blank"
+                                class=" text-gray-600 hover:text-gray-900">Facebook</a>
                         </li>
+                        <li class="mb-4"><a href="https://tiktok.com/@englishskillsjourney" target="_blank"
+                                class=" text-gray-600 hover:text-gray-900">TikTok</a>
+                        </li>
+                        <li><a href="https://www.instagram.com/englishskillsjourney?igsh=MXNxOTUybHVzd3MxYw=="
+                                target="_blank" class=" text-gray-600 hover:text-gray-900">Instagram</a></li>
                     </ul>
                 </div>
-
+                <!--End Col-->
             </div>
-            <div
-                class="flex justify-center items-center mt-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:mt-10 ">
+
+            <div class="flex justify-center items-center border-gray-200 sm:mx-auto dark:border-gray-700  ">
                 <span class="text-sm text-gray-500 text-center dark:text-gray-400">Copyright © 2024 English Skills
                     Journey. All Rights Reserved.
                 </span>
             </div>
+
         </div>
     </footer>
-
-
+    <!-- Footer End -->
 
     <div id="preloader" class="h-screen w-full bg-white fixed top-0 z-[100] hidden">
         <div class="w-full h-full flex justify-center items-center">
@@ -325,7 +407,6 @@
     <script src="./assets/js/main.js" type="module"></script>
     <script src="./assets/js/common.js" type="module"></script>
     <script src="./assets/js/index.js" type="module"></script>
-
 </body>
 
 </html>

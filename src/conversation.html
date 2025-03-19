@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>English Skills Journey</title>
 </head>
 
-<body class=" overflow-y-scroll">
+<body>
     <header id="header" class="fixed w-full top-0 border-b bg-white z-50">
         <div class="container xl:!px-0">
             <nav class="lg:flex items-center justify-between py-4 z-10">
@@ -35,20 +36,37 @@
     </header>
 
     <main>
-        <section class="mt-[57px]">
+        <!-- vocabulary section start -->
+        <section id="speaking-topics" class="mt-[56px]">
             <div class="container xl:!px-0">
-                <div class="w-full max-w-[850px] mx-auto">
-                    <div id="vocabulary-header" class="pt-5 md:pt-8">
-                        <!--  vocabulary title and image will be dynamically inserted here -->
+                <ul id="tags"
+                    class="select-none mx-auto flex overflow-auto w-full sticky top-[56px] bg-white pt-[12px]">
+                </ul>
+
+                <div>
+                    <div class="mt-6 mb-4 flex items-center justify-between">
+                        <h1 class="text-2xl sm:text-3xl font-bold capitalize leading-tight">Learn English speaking</h1>
                     </div>
-                    <div id="vocabulary"
-                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6 lg:mt-10 mb-6">
-                        <!--  vocabulary cards will be dynamically inserted here -->
+                    <div id="vocabulary-sections" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+
+                        <a href="speaking.html?category=conversation&topic=basic" data-type="conversation">
+                            <div class="flex sm:flex-col">
+                                <div class="border border-[#4755691a] rounded-lg mr-3 sm:mr-0">
+                                    <img src="./assets/images/thumbnail/banner2.png" alt=""
+                                        class="rounded-lg w-full max-w-[150px] sm:max-w-full">
+                                </div>
+                                <h3 class="font-medium text-base sm:text-lg sm:mt-3 leading-6  capitalize flex-1">
+                                    conversation
+                                </h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- vocabulary section end -->
     </main>
+
 
     <div id="preloader" class="h-screen w-full bg-white fixed top-0 z-[100] hidden">
         <div class="w-full h-full flex justify-center items-center">
@@ -56,8 +74,10 @@
         </div>
     </div>
 
+
     <script src="./assets/js/main.js" type="module"></script>
-    <script src="./assets/js/vocabulary.js" type="module"></script>
+    <script src="./assets/js/common.js" type="module"></script>
+    <script src="./assets/js/conversation.js" type="module"></script>
 </body>
 
 </html>
