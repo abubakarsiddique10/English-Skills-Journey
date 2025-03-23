@@ -1,5 +1,105 @@
 [
     {
+        "topicName": "family",
+        "title": "English Conversation Practice: Talking About Family",
+        "img": "./assets/images/thumbnail/family-conversation.png",
+        "datePublished": "2025-03-22",
+        "contents": [
+            {
+                "name": "Mark",
+                "text": "Hi Sarah! How are you?"
+            },
+            {
+                "name": "Peter",
+                "text": "I’m good. How about you?"
+            },
+            {
+                "name": "Mark",
+                "text": "I’m great! Can I ask you about your family?"
+            },
+            {
+                "name": "Peter",
+                "text": "Definitely!"
+            },
+            {
+                "name": "Mark",
+                "text": "How many people are there in your family?"
+            },
+            {
+                "name": "Peter",
+                "text": "There are five people in my family."
+            },
+            {
+                "name": "Mark",
+                "text": "Does your family live in a house or an apartment?"
+            },
+            {
+                "name": "Peter",
+                "text": "We live in a house in a rural area."
+            },
+            {
+                "name": "Mark",
+                "text": "What do your parents do?"
+            },
+            {
+                "name": "Peter",
+                "text": "My father is a doctor, and my mother is a teacher. What about your parents?"
+            },
+            {
+                "name": "Mark",
+                "text": "My father works in an IT company, and my mother is a homemaker."
+            },
+            {
+                "name": "Peter",
+                "text": "That’s nice! Do you have any siblings?"
+            },
+            {
+                "name": "Mark",
+                "text": "Yes, I have one older brother. He works as a software engineer. How about you?"
+            },
+            {
+                "name": "Peter",
+                "text": "I have a younger brother and an older sister."
+            },
+            {
+                "name": "Mark",
+                "text": "That’s cool! What do you like to do with your family?"
+            },
+            {
+                "name": "Peter",
+                "text": "We like to watch movies together. What about you?"
+            },
+            {
+                "name": "Mark",
+                "text": "We play games and sometimes go for walks."
+            },
+            {
+                "name": "Peter",
+                "text": "That sounds fun! It’s great to spend time with family."
+            },
+            {
+                "name": "Mark",
+                "text": "Absolutely! Family time is always the best."
+            },
+            {
+                "name": "Peter",
+                "text": "Thanks for sharing about your family."
+            },
+            {
+                "name": "Mark",
+                "text": "No problem. It was nice talking to you about it!"
+            },
+            {
+                "name": "Peter",
+                "text": "Have a great day!"
+            },
+            {
+                "name": "Mark",
+                "text": "You too. Take care!"
+            }
+        ]
+    },
+    {
         "topicName": "basic",
         "title": "Introduce Yourself in English.",
         "img": "./assets/images/thumbnail/banner2.png",
@@ -7,19 +107,11 @@
         "contents": [
             {
                 "name": "Mark",
-                "text": "Hello!"
+                "text": "Hi! I’m Mark. What's your name?"
             },
             {
                 "name": "Peter",
-                "text": "Hi!"
-            },
-            {
-                "name": "Mark",
-                "text": "My name is Mark. What's your name?"
-            },
-            {
-                "name": "Peter",
-                "text": "My name is Peter. Nice to meet you."
+                "text": "I’m Peter. Nice to meet you!"
             },
             {
                 "name": "Mark",
@@ -31,27 +123,11 @@
             },
             {
                 "name": "Mark",
-                "text": "I'm from New York."
+                "text": "I’m from the United Kingdom. Are you from Canada?"
             },
             {
                 "name": "Peter",
-                "text": "New York? Are you American?"
-            },
-            {
-                "name": "Mark",
-                "text": "Yes, I am."
-            },
-            {
-                "name": "Peter",
-                "text": "Oh, that's cool!"
-            },
-            {
-                "name": "Mark",
-                "text": "What about you? Where are you from?"
-            },
-            {
-                "name": "Peter",
-                "text": "I'm from Paris, but I’m originally from Italy."
+                "text": "No, I’m from Italy."
             },
             {
                 "name": "Mark",
@@ -59,7 +135,7 @@
             },
             {
                 "name": "Peter",
-                "text": "Yes, I am. Italy is such a beautiful country."
+                "text": "Yes, I am. Italy is a beautiful country!"
             },
             {
                 "name": "Mark",
@@ -68,6 +144,14 @@
             {
                 "name": "Peter",
                 "text": "You should! There's so much to see."
+            },
+            {
+                "name": "Peter",
+                "text": "Have a good day."
+            },
+            {
+                "name": "Peter",
+                "text": "Have a nice day."
             }
         ]
     }

@@ -7,7 +7,7 @@ const presentationContents = document.getElementById('presentation-contents');
 // Display conversation in the UI
 const displayConversation = ({ title, img, contents, datePublished }) => {
     presentationHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${title}</h1>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold pb-4 md:pb-6 leading-tight">${title}</h1>
         <img src="${img}" class="border border-[#4755691a] object-cover" alt="${title}">
     `;
 
@@ -23,7 +23,7 @@ const createConversationCard = ({ name, text }) => {
     const presentationCard = document.createElement('p');
     presentationCard.className = "flex gap-6 mb-1"
     presentationCard.innerHTML = `
-        <strong class="min-w-fit text-lg">${name} :</strong>
+        <span class="min-w-fit text-lg font-medium">${name} :</span>
         <span class="text-lg">${text}</span>
     `;
     return presentationCard
@@ -72,7 +72,7 @@ const displayPresentation = ({ title, image, contents, datePublished }) => {
 function displayDailyUseSentences({ title, img, contents, datePublished }) {
 
     presentationHeader.innerHTML = `
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold capitalize pb-4 md:pb-6 leading-tight">${title}</h1>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold pb-4 md:pb-6 leading-tight">${title}</h1>
         <img src="${img}" class="border border-[#4755691a] object-cover" alt="${title}">
     `;
 
@@ -83,18 +83,20 @@ function displayDailyUseSentences({ title, img, contents, datePublished }) {
 }
 
 // Create a presentation card element
-const createDailyUseSentencesCard = ({ icon, text }) => {
+const createDailyUseSentencesCard = ({ icon, text, color }) => {
     const presentationCard = document.createElement('div');
     presentationCard.className = "flex gap-3 items-start mb-2.5"
     presentationCard.innerHTML = `
-        <span class="min-w-fit lg:text-lg">${icon}</span>
+        <span class="min-w-fit text-lg size-3.5 rounded-full my-auto" style="background-color: ${color};"></span>
         <div class="flex flex-col">
-            <p class="font-medium lg:text-lg">${text}</p>
+            <p class="font-medium text-lg ">${text}</p>
         </div>
     `;
     return presentationCard
 }
 
-
+{/* <span class="min-w-fit lg:text-lg">${icon}</span> */ }
 // export all functions
 export { displayConversation, displayPresentation, displayDailyUseSentences }
+
+

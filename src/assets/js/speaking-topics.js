@@ -10,7 +10,7 @@ window.onload = () => {
     const cards = cardsContainer.querySelectorAll('a');
 
 
-    const tagNames = ["All", "Basic", "Intermediate ", "Advanced"];
+    const tagNames = ["All", "Basic"];
     if (tags) {
         for (let index = 0; index < tagNames.length; index++) {
             tags.appendChild(createTags(tagNames[index], index));

@@ -6,67 +6,67 @@
         "datePublished": "2025-02-15",
         "contents": [
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thank you.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thanks a lot!",
                 "example": "Thanks a lot for the quick response!"
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thank you for your help.",
                 "example": "I appreciate your help with the presentation."
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thank you for your time.",
                 "example": "Thank you for your time today."
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thanks a bunch!",
                 "example": "Thanks a bunch for the recommendation!"
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thanks for that.",
                 "example": "Thanks for that! I really needed it"
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thanks a million!",
                 "example": "Thanks a million for your support at the event!"
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thank you so much.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "I’m grateful for your support.",
                 "example": "I’m grateful for your support during the conference."
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thank you for your consideration.",
                 "example": "Thank you for your consideration regarding my application."
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "I am grateful to you.",
                 "example": "Thank you for your consideration regarding my application."
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thanks a lot for your help.",
                 "example": "Thank you for your consideration regarding my application."
             },
             {
-                "icon": "🔰",
+                "color": "#EF3A5E",
                 "text": "Thank you, brother.",
                 "example": "Thank you for your consideration regarding my application."
             }
@@ -79,42 +79,42 @@
         "datePublished": "2025-02-15",
         "contents": [
             {
-                "icon": "🔰",
+                "color": "#11BB96",
                 "text": "You’re welcome.",
                 "example": ""
             },
             {
-                "icon": "🔰",
-                "text": "Not at all",
+                "color": "#11BB96",
+                "text": "Not at all.",
                 "example": ""
             },
             {
-                "icon": "🔰",
-                "text": "Happy to help",
+                "color": "#11BB96",
+                "text": "Happy to help.",
                 "example": ""
             },
             {
-                "icon": "🔰",
-                "text": "Don’t mention it",
+                "color": "#11BB96",
+                "text": "Don’t mention it.",
                 "example": ""
             },
             {
-                "icon": "🔰",
-                "text": "It’s nothing",
+                "color": "#11BB96",
+                "text": "It’s nothing.",
                 "example": ""
             },
             {
-                "icon": "🔰",
-                "text": "It’s ok",
+                "color": "#11BB96",
+                "text": "It’s ok.",
                 "example": ""
             },
             {
-                "icon": "🔰",
-                "text": "Don’t worry about it",
+                "color": "#11BB96",
+                "text": "Don’t worry about it.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "#11BB96",
                 "text": "No problem.",
                 "example": ""
             }
@@ -126,57 +126,57 @@
         "tag": "greetings",
         "contents": [
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "What's up?",
                 "example": "Hello, it’s nice to meet you."
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "How are you?",
                 "example": "Good morning, how can I assist you?"
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Good morning.",
                 "example": "How are you today?"
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Good afternoon.",
                 "example": "Bye! Take care!"
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Good evening.",
                 "example": "See you later, have a great day!"
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Nice to meet you!",
                 "example": "It’s great to see you at this meeting."
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Good to see you.",
                 "example": "Glad to see you! What’s up?"
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "How’s everything?",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "How are you doing?",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Long time no see!",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "What’s happening?",
                 "example": ""
             }
@@ -188,42 +188,42 @@
         "tag": "goodbye",
         "contents": [
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Bye!",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Goodbye.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Have a great day.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Take care.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "See you later!",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "See you soon.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "Talk to you later.",
                 "example": ""
             },
             {
-                "icon": "🔰",
+                "color": "black",
                 "text": "See you next time!",
                 "example": ""
             }

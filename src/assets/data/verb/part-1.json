@@ -8,7 +8,7 @@
             "_id": "7",
             "word": "draw",
             "image": "./assets/images/verbs/part-1/draw.png",
-            "sentence": "She likes to draw landscapes."
+            "sentence": "He draws different shapes."
         },
         {
             "_id": "18",
@@ -20,37 +20,37 @@
             "_id": "20",
             "word": "take",
             "image": "./assets/images/verbs/part-1/take.png",
-            "sentence": "He will take the test tomorrow."
+            "sentence": "She takes pictures with her camera."
         },
         {
             "_id": "27",
             "word": "find",
             "image": "./assets/images/verbs/part-1/find.png",
-            "sentence": "I need to find my keys."
+            "sentence": "She finds answers in the book."
         },
         {
             "_id": "12",
             "word": "smell",
             "image": "./assets/images/verbs/part-1/smell.png",
-            "sentence": "I can smell fresh bread from the bakery."
+            "sentence": "The flower smells sweet."
         },
         {
             "_id": "34",
             "word": "help",
             "image": "./assets/images/verbs/part-1/help.png",
-            "sentence": "He helped me with my project."
+            "sentence": "The boy helps the old woman."
         },
         {
             "_id": "10",
             "word": "dance",
             "image": "./assets/images/verbs/part-1/dance.png",
-            "sentence": "They love to dance at parties."
+            "sentence": "I love to dance at parties."
         },
         {
             "_id": "11",
             "word": "fly",
             "image": "./assets/images/verbs/part-1/fly.png",
-            "sentence": "Birds fly high in the sky."
+            "sentence": "The boy flies a kite."
         },
         {
             "_id": "1",
@@ -98,7 +98,7 @@
             "_id": "8",
             "word": "paint",
             "image": "./assets/images/verbs/part-1/paint.png",
-            "sentence": "They are painting the walls blue."
+            "sentence": "She paints a bright sun on the canvas."
         },
         {
             "_id": "9",
@@ -140,13 +140,13 @@
             "_id": "21",
             "word": "see",
             "image": "./assets/images/verbs/part-1/see.png",
-            "sentence": "Did you see the movie last night?"
+            "sentence": "He sees through binoculars."
         },
         {
             "_id": "22",
             "word": "think",
             "image": "./assets/images/verbs/part-1/think.png",
-            "sentence": "I think it's going to rain."
+            "sentence": "He thinks about the future."
         },
         {
             "_id": "23",
