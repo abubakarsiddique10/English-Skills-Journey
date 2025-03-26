@@ -7,307 +7,307 @@
         {
             "_id": "52",
             "word": "read",
-            "image": "./assets/images/verbs/part-2/read.png",
+            "image": "./assets/images/verbs/part-4/read.png",
             "sentence": "I like to read books before bed."
         },
         {
             "_id": "53",
             "word": "sing",
-            "image": "./assets/images/verbs/part-2/sing.png",
+            "image": "./assets/images/verbs/part-4/sing.png",
             "sentence": "She loves to sing in the choir."
         },
         {
             "_id": "54",
             "word": "follow",
-            "image": "./assets/images/verbs/part-2/follow.png",
+            "image": "./assets/images/verbs/part-4/follow.png",
             "sentence": "Please follow the rules."
         },
         {
             "_id": "55",
             "word": "speak",
-            "image": "./assets/images/verbs/part-2/speak.png",
+            "image": "./assets/images/verbs/part-4/speak.png",
             "sentence": "Can you speak louder?"
         },
         {
             "_id": "56",
             "word": "carry",
-            "image": "./assets/images/verbs/part-2/carry.png",
+            "image": "./assets/images/verbs/part-4/carry.png",
             "sentence": "Can you carry this bag for me?"
         },
         {
             "_id": "57",
             "word": "catch",
-            "image": "./assets/images/verbs/part-2/catch.png",
+            "image": "./assets/images/verbs/part-4/catch.png",
             "sentence": "He managed to catch the bus on time."
         },
         {
             "_id": "58",
             "word": "pull",
-            "image": "./assets/images/verbs/part-2/pull.png",
+            "image": "./assets/images/verbs/part-4/pull.png",
             "sentence": "He pulled the rope hard."
         },
         {
             "_id": "59",
             "word": "teach",
-            "image": "./assets/images/verbs/part-2/teach.png",
+            "image": "./assets/images/verbs/part-4/teach.png",
             "sentence": "She teaches math at the school."
         },
         {
             "_id": "60",
             "word": "sell",
-            "image": "./assets/images/verbs/part-2/sell.png",
+            "image": "./assets/images/verbs/part-4/sell.png",
             "sentence": "She is selling fruit."
         },
         {
             "_id": "61",
             "word": "wish",
-            "image": "./assets/images/verbs/part-2/wish.png",
+            "image": "./assets/images/verbs/part-4/wish.png",
             "sentence": "I wish I could travel more often."
         },
         {
             "_id": "203",
             "word": "Rest",
-            "image": "./assets/images/verbs/part-2/rest.png",
+            "image": "./assets/images/verbs/part-4/rest.png",
             "sentence": "She took a rest after a long day."
         },
         {
             "_id": "204",
             "word": "Discuss",
-            "image": "./assets/images/verbs/part-2/discuss.png",
+            "image": "./assets/images/verbs/part-4/discuss.png",
             "sentence": "They discussed the project in detail."
         },
         {
             "_id": "105",
             "word": "flip",
-            "image": "./assets/images/verbs/part-2/flip.png",
+            "image": "./assets/images/verbs/part-4/flip.png",
             "sentence": "I can flip the pancakes without burning them."
         },
         {
             "_id": "62",
             "word": "throw",
-            "image": "./assets/images/verbs/part-2/throw.png",
+            "image": "./assets/images/verbs/part-4/throw.png",
             "sentence": "Can you throw the ball to me?"
         },
         {
             "_id": "63",
             "word": "understand",
-            "image": "./assets/images/verbs/part-2/understand.png",
+            "image": "./assets/images/verbs/part-4/understand.png",
             "sentence": "I don't understand the instructions."
         },
         {
             "_id": "64",
             "word": "change",
-            "image": "./assets/images/verbs/part-2/change.png",
+            "image": "./assets/images/verbs/part-4/change.png",
             "sentence": "You need to change your password regularly."
         },
         {
             "_id": "65",
             "word": "watch",
-            "image": "./assets/images/verbs/part-2/watch.png",
+            "image": "./assets/images/verbs/part-4/watch.png",
             "sentence": "Let's watch a movie tonight."
         },
         {
             "_id": "66",
             "word": "stop",
-            "image": "./assets/images/verbs/part-2/stop.png",
+            "image": "./assets/images/verbs/part-4/stop.png",
             "sentence": "Stop talking and listen."
         },
         {
             "_id": "67",
             "word": "buy",
-            "image": "./assets/images/verbs/part-2/buy.png",
+            "image": "./assets/images/verbs/part-4/buy.png",
             "sentence": "I need to buy some groceries."
         },
         {
             "_id": "68",
             "word": "drive",
-            "image": "./assets/images/verbs/part-2/drive.png",
+            "image": "./assets/images/verbs/part-4/drive.png",
             "sentence": "He drives to work every day."
         },
         {
             "_id": "69",
             "word": "open",
-            "image": "./assets/images/verbs/part-2/open.png",
+            "image": "./assets/images/verbs/part-4/open.png",
             "sentence": "Can you open the window?"
         },
         {
             "_id": "70",
             "word": "close",
-            "image": "./assets/images/verbs/part-2/close.png",
+            "image": "./assets/images/verbs/part-4/close.png",
             "sentence": "Please close the door."
         },
         {
             "_id": "71",
             "word": "build",
-            "image": "./assets/images/verbs/part-2/build.png",
+            "image": "./assets/images/verbs/part-4/build.png",
             "sentence": "They are building a new house."
         },
         {
             "_id": "72",
             "word": "cut",
-            "image": "./assets/images/verbs/part-2/cut.png",
+            "image": "./assets/images/verbs/part-4/cut.png",
             "sentence": "I cut the paper into small pieces."
         },
         {
             "_id": "73",
             "word": "win",
-            "image": "./assets/images/verbs/part-2/win.png",
+            "image": "./assets/images/verbs/part-4/win.png",
             "sentence": "Our team won the match."
         },
         {
             "_id": "74",
             "word": "reach",
-            "image": "./assets/images/verbs/part-2/reach.png",
+            "image": "./assets/images/verbs/part-4/reach.png",
             "sentence": "We finally reached the top of the mountain."
         },
         {
             "_id": "75",
             "word": "choose",
-            "image": "./assets/images/verbs/part-2/choose.png",
+            "image": "./assets/images/verbs/part-4/choose.png",
             "sentence": "You can choose any option you like."
         },
         {
             "_id": "76",
             "word": "save",
-            "image": "./assets/images/verbs/part-2/save.png",
+            "image": "./assets/images/verbs/part-4/save.png",
             "sentence": "I am trying to save money for a vacation."
         },
         {
             "_id": "77",
             "word": "fall",
-            "image": "./assets/images/verbs/part-2/fall.png",
+            "image": "./assets/images/verbs/part-4/fall.png",
             "sentence": "Be careful not to fall."
         },
         {
             "_id": "78",
             "word": "push",
-            "image": "./assets/images/verbs/part-2/push.png",
+            "image": "./assets/images/verbs/part-4/push.png",
             "sentence": "You need to push the door to open it."
         },
         {
             "_id": "79",
             "word": "fix",
-            "image": "./assets/images/verbs/part-2/fix.png",
+            "image": "./assets/images/verbs/part-4/fix.png",
             "sentence": "I need to fix my computer."
         },
         {
             "_id": "80",
             "word": "break",
-            "image": "./assets/images/verbs/part-2/break.png",
+            "image": "./assets/images/verbs/part-4/break.png",
             "sentence": "Be careful not to break the glass."
         },
         {
             "_id": "81",
             "word": "hit",
-            "image": "./assets/images/verbs/part-2/hit.png",
+            "image": "./assets/images/verbs/part-4/hit.png",
             "sentence": "He accidentally hit the table."
         },
         {
             "_id": "82",
             "word": "grow",
-            "image": "./assets/images/verbs/part-2/grow.png",
+            "image": "./assets/images/verbs/part-4/grow.png",
             "sentence": "They are growing vegetables in their garden."
         },
         {
             "_id": "83",
             "word": "raise",
-            "image": "./assets/images/verbs/part-2/raise.png",
+            "image": "./assets/images/verbs/part-4/raise.png",
             "sentence": "They raised their hands in agreement."
         },
         {
             "_id": "84",
             "word": "hold",
-            "image": "./assets/images/verbs/part-2/hold.png",
+            "image": "./assets/images/verbs/part-4/hold.png",
             "sentence": "Can you hold this for a second?"
         },
         {
             "_id": "85",
             "word": "offer",
-            "image": "./assets/images/verbs/part-2/offer.png",
+            "image": "./assets/images/verbs/part-4/offer.png",
             "sentence": "He offered me a job at his company."
         },
         {
             "_id": "86",
             "word": "join",
-            "image": "./assets/images/verbs/part-2/join.png",
+            "image": "./assets/images/verbs/part-4/join.png",
             "sentence": "Would you like to join us for dinner?"
         },
         {
             "_id": "87",
             "word": "discover",
-            "image": "./assets/images/verbs/part-2/discover.png",
+            "image": "./assets/images/verbs/part-4/discover.png",
             "sentence": "She discovered a new café in town."
         },
         {
             "_id": "88",
             "word": "agree",
-            "image": "./assets/images/verbs/part-2/agree.png",
+            "image": "./assets/images/verbs/part-4/agree.png",
             "sentence": "They agreed to the terms."
         },
         {
             "_id": "89",
             "word": "accept",
-            "image": "./assets/images/verbs/part-2/accept.png",
+            "image": "./assets/images/verbs/part-4/accept.png",
             "sentence": "She accepted the invitation."
         },
         {
             "_id": "90",
             "word": "refuse",
-            "image": "./assets/images/verbs/part-2/refuse.png",
+            "image": "./assets/images/verbs/part-4/refuse.png",
             "sentence": "He refused to answer the question."
         },
         {
             "_id": "91",
             "word": "surprise",
-            "image": "./assets/images/verbs/part-2/surprise.png",
+            "image": "./assets/images/verbs/part-4/surprise.png",
             "sentence": "They surprised me with a birthday party."
         },
         {
             "_id": "92",
             "word": "plan",
-            "image": "./assets/images/verbs/part-2/plan.png",
+            "image": "./assets/images/verbs/part-4/plan.png",
             "sentence": "We plan to visit the museum tomorrow."
         },
         {
             "_id": "93",
             "word": "hope",
-            "image": "./assets/images/verbs/part-2/hope.png",
+            "image": "./assets/images/verbs/part-4/hope.png",
             "sentence": "We hope for good weather this weekend."
         },
         {
             "_id": "106",
             "word": "wring",
-            "image": "./assets/images/verbs/part-2/wring.png",
+            "image": "./assets/images/verbs/part-4/wring.png",
             "sentence": "You need to wring out the towel before hanging it."
         },
         {
             "_id": "107",
             "word": "spill",
-            "image": "./assets/images/verbs/part-2/spill.png",
+            "image": "./assets/images/verbs/part-4/spill.png",
             "sentence": "Be careful not to spill the water on the floor."
         },
         {
             "_id": "108",
             "word": "burn",
-            "image": "./assets/images/verbs/part-2/burn.png",
+            "image": "./assets/images/verbs/part-4/burn.png",
             "sentence": "Don't burn yourself while cooking the potatoes."
         },
         {
             "_id": "109",
             "word": "mop",
-            "image": "./assets/images/verbs/part-2/mop.png",
+            "image": "./assets/images/verbs/part-4/mop.png",
             "sentence": "I have to mop the kitchen after spilling the juice."
         },
         {
             "_id": "110",
             "word": "melt",
-            "image": "./assets/images/verbs/part-2/melt.png",
+            "image": "./assets/images/verbs/part-4/melt.png",
             "sentence": "The chocolate will melt if left in the sun."
         },
         {
             "_id": "111",
             "word": "solve",
-            "image": "./assets/images/verbs/part-2/solve.png",
+            "image": "./assets/images/verbs/part-4/solve.png",
             "sentence": "I need to solve this math problem before the exam."
         }
     ]

@@ -1,313 +1,313 @@
 {
     "header": {
-        "title": "Learn Common English Action Verbs with Pictures – Part 1",
+        "title": "Learn Common English Action Verbs with Pictures – Part 2",
         "image": "./assets/images/thumbnail/verb-part-2.png"
     },
     "verbs": [
         {
             "_id": "103",
             "word": "Account",
-            "image": "./assets/images/verbs/part-3/account.png",
-            "sentence": "She knows how to account for every expense."
+            "image": "./assets/images/verbs/part-2/account.png",
+            "sentence": "She accounts carefully using a calculator."
         },
         {
             "_id": "112",
             "word": "Bless",
-            "image": "./assets/images/verbs/part-3/bless.png",
-            "sentence": "The priest will bless the congregation."
+            "image": "./assets/images/verbs/part-2/bless.png",
+            "sentence": "The grandmother blesses the child."
         },
         {
             "_id": "105",
             "word": "Advise",
-            "image": "./assets/images/verbs/part-3/advise.png",
-            "sentence": "The doctor will advise you on your diet."
+            "image": "./assets/images/verbs/part-2/advise.png",
+            "sentence": "She advises them to respect others."
         },
         {
             "_id": "110",
             "word": "Become",
-            "image": "./assets/images/verbs/part-3/become.png",
-            "sentence": "She wants to become a doctor."
+            "image": "./assets/images/verbs/part-2/become.png",
+            "sentence": "He became a scientist after years of study."
         },
         {
             "_id": "107",
             "word": "Argue",
-            "image": "./assets/images/verbs/part-3/argue.png",
+            "image": "./assets/images/verbs/part-2/argue.png",
             "sentence": "They argue about politics all the time."
         },
         {
             "_id": "104",
             "word": "Adjust",
-            "image": "./assets/images/verbs/part-3/adjust.png",
-            "sentence": "He needs to adjust his watch."
+            "image": "./assets/images/verbs/part-2/adjust.png",
+            "sentence": "He adjusts the settings on the screen."
         },
         {
             "_id": "108",
             "word": "Assist",
-            "image": "./assets/images/verbs/part-3/assist.png",
-            "sentence": "Can you assist me with this project?"
+            "image": "./assets/images/verbs/part-2/assist.png",
+            "sentence": "He assists the elderly man in walking."
         },
         {
             "_id": "149",
             "word": "Calculate",
-            "image": "./assets/images/verbs/part-3/calculate.png",
-            "sentence": "She calculates the expenses carefully."
+            "image": "./assets/images/verbs/part-2/calculate.png",
+            "sentence": "She calculates her earnings."
         },
         {
             "_id": "150",
             "word": "Laugh",
-            "image": "./assets/images/verbs/part-3/laugh.png",
-            "sentence": "They laugh at the funny joke."
+            "image": "./assets/images/verbs/part-2/laugh.png",
+            "sentence": "He laughs at the funny story."
         },
         {
             "_id": "109",
             "word": "Bark",
-            "image": "./assets/images/verbs/part-3/bark.png",
-            "sentence": "The dog will bark at strangers."
+            "image": "./assets/images/verbs/part-2/bark.png",
+            "sentence": "The dog barks at strangers."
         },
         {
             "_id": "111",
             "word": "Bite",
-            "image": "./assets/images/verbs/part-3/bite.png",
+            "image": "./assets/images/verbs/part-2/bite.png",
             "sentence": "Be careful, the dog might bite."
         },
         {
             "_id": "113",
             "word": "Boil",
-            "image": "./assets/images/verbs/part-3/boil.png",
+            "image": "./assets/images/verbs/part-2/boil.png",
             "sentence": "Boil the water before adding pasta."
         },
         {
             "_id": "114",
             "word": "Care",
-            "image": "./assets/images/verbs/part-3/care.png",
+            "image": "./assets/images/verbs/part-2/care.png",
             "sentence": "She will care for the baby."
         },
         {
             "_id": "115",
             "word": "Celebrate",
-            "image": "./assets/images/verbs/part-3/celebrate.png",
+            "image": "./assets/images/verbs/part-2/celebrate.png",
             "sentence": "We will celebrate his birthday."
         },
         {
             "_id": "116",
             "word": "Clap",
-            "image": "./assets/images/verbs/part-3/clap.png",
-            "sentence": "They clap after the performance."
+            "image": "./assets/images/verbs/part-2/clap.png",
+            "sentence": "He claps to encourage his friend."
         },
         {
             "_id": "117",
             "word": "Clean",
-            "image": "./assets/images/verbs/part-3/clean.png",
-            "sentence": "She will clean the house today."
+            "image": "./assets/images/verbs/part-2/clean.png",
+            "sentence": "They clean the room together."
         },
         {
             "_id": "118",
             "word": "Collect",
-            "image": "./assets/images/verbs/part-3/collect.png",
-            "sentence": "He likes to collect stamps."
+            "image": "./assets/images/verbs/part-2/collect.png",
+            "sentence": "He collects the trash in a large bag."
         },
         {
             "_id": "119",
             "word": "Debate",
-            "image": "./assets/images/verbs/part-3/debate.png",
-            "sentence": "They will debate the issue tomorrow."
+            "image": "./assets/images/verbs/part-2/debate.png",
+            "sentence": "They debate on an important topic."
         },
         {
             "_id": "120",
             "word": "Decide",
-            "image": "./assets/images/verbs/part-3/decide.png",
-            "sentence": "She will decide later."
+            "image": "./assets/images/verbs/part-2/decide.png",
+            "sentence": "He decides which answer is correct."
         },
         {
             "_id": "121",
             "word": "Deposit",
-            "image": "./assets/images/verbs/part-3/deposit.png",
+            "image": "./assets/images/verbs/part-2/deposit.png",
             "sentence": "He needs to deposit some money."
         },
         {
             "_id": "122",
             "word": "Describe",
-            "image": "./assets/images/verbs/part-3/describe.png",
-            "sentence": "Can you describe your experience?"
+            "image": "./assets/images/verbs/part-2/describe.png",
+            "sentence": "She describes the topic to the audience."
         },
         {
             "_id": "123",
             "word": "Encourage",
-            "image": "./assets/images/verbs/part-3/encourage.png",
-            "sentence": "Teachers encourage students to learn."
+            "image": "./assets/images/verbs/part-2/encourage.png",
+            "sentence": "THe encourages his friend."
         },
         {
             "_id": "124",
             "word": "Erase",
-            "image": "./assets/images/verbs/part-3/erase.png",
+            "image": "./assets/images/verbs/part-2/erase.png",
             "sentence": "Please erase the board."
         },
         {
             "_id": "125",
             "word": "Exercise",
-            "image": "./assets/images/verbs/part-3/exercise.png",
-            "sentence": "He exercises every morning."
+            "image": "./assets/images/verbs/part-2/exercise.png",
+            "sentence": "They exercise every morning."
         },
         {
             "_id": "106",
             "word": "Annoy",
-            "image": "./assets/images/verbs/part-3/annoy.png",
+            "image": "./assets/images/verbs/part-2/annoy.png",
             "sentence": "Loud noises annoy me."
         },
         {
             "_id": "126",
             "word": "Explain",
-            "image": "./assets/images/verbs/part-3/explain.png",
-            "sentence": "Can you explain this to me?"
+            "image": "./assets/images/verbs/part-2/explain.png",
+            "sentence": "The doctor explains the report."
         },
         {
             "_id": "127",
             "word": "Fear",
-            "image": "./assets/images/verbs/part-3/fear.png",
+            "image": "./assets/images/verbs/part-2/fear.png",
             "sentence": "She fears spiders."
         },
         {
             "_id": "128",
             "word": "Feed",
-            "image": "./assets/images/verbs/part-3/feed.png",
+            "image": "./assets/images/verbs/part-2/feed.png",
             "sentence": "He feeds the dog every day."
         },
         {
             "_id": "129",
             "word": "Flee",
-            "image": "./assets/images/verbs/part-3/flee.png",
+            "image": "./assets/images/verbs/part-2/flee.png",
             "sentence": "They flee from danger."
         },
         {
             "_id": "130",
             "word": "Fold",
-            "image": "./assets/images/verbs/part-3/fold.png",
+            "image": "./assets/images/verbs/part-2/fold.png",
             "sentence": "Fold your clothes neatly."
         },
         {
             "_id": "131",
             "word": "Forget",
-            "image": "./assets/images/verbs/part-3/forget.png",
+            "image": "./assets/images/verbs/part-2/forget.png",
             "sentence": "Don't forget your keys."
         },
         {
             "_id": "132",
             "word": "Forgive",
-            "image": "./assets/images/verbs/part-3/forgive.png",
+            "image": "./assets/images/verbs/part-2/forgive.png",
             "sentence": "She will forgive him."
         },
         {
             "_id": "133",
             "word": "Guard",
-            "image": "./assets/images/verbs/part-3/guard.png",
+            "image": "./assets/images/verbs/part-2/guard.png",
             "sentence": "The officer will guard the building."
         },
         {
             "_id": "134",
             "word": "Greet",
-            "image": "./assets/images/verbs/part-3/greet.png",
+            "image": "./assets/images/verbs/part-2/greet.png",
             "sentence": "She greets her guests warmly."
         },
         {
             "_id": "135",
             "word": "Hire",
-            "image": "./assets/images/verbs/part-3/hire.png",
+            "image": "./assets/images/verbs/part-2/hire.png",
             "sentence": "The company will hire new employees."
         },
         {
             "_id": "136",
             "word": "Wrap",
-            "image": "./assets/images/verbs/part-3/wrap.png",
+            "image": "./assets/images/verbs/part-2/wrap.png",
             "sentence": "Please wrap the gift neatly."
         },
         {
             "_id": "137",
             "word": "Wipe",
-            "image": "./assets/images/verbs/part-3/wipe.png",
+            "image": "./assets/images/verbs/part-2/wipe.png",
             "sentence": "She will wipe the table clean."
         },
         {
             "_id": "138",
             "word": "Wash",
-            "image": "./assets/images/verbs/part-3/wash.png",
+            "image": "./assets/images/verbs/part-2/wash.png",
             "sentence": "He washes his hands before eating."
         },
         {
             "_id": "139",
             "word": "Wear",
-            "image": "./assets/images/verbs/part-3/wear.png",
+            "image": "./assets/images/verbs/part-2/wear.png",
             "sentence": "She wears a beautiful dress."
         },
         {
             "_id": "140",
             "word": "Wait",
-            "image": "./assets/images/verbs/part-3/wait.png",
+            "image": "./assets/images/verbs/part-2/wait.png",
             "sentence": "Please wait for me at the entrance."
         },
         {
             "_id": "141",
             "word": "Protect",
-            "image": "./assets/images/verbs/part-3/protect.png",
+            "image": "./assets/images/verbs/part-2/protect.png",
             "sentence": "A helmet protects your head."
         },
         {
             "_id": "142",
             "word": "Protest",
-            "image": "./assets/images/verbs/part-3/protest.png",
+            "image": "./assets/images/verbs/part-2/protest.png",
             "sentence": "They protest against unfair laws."
         },
         {
             "_id": "143",
             "word": "Punch",
-            "image": "./assets/images/verbs/part-3/punch.png",
+            "image": "./assets/images/verbs/part-2/punch.png",
             "sentence": "The boxer throws a strong punch."
         },
         {
             "_id": "144",
             "word": "Climb",
-            "image": "./assets/images/verbs/part-3/climb.png",
+            "image": "./assets/images/verbs/part-2/climb.png",
             "sentence": "He climbs the mountain."
         },
         {
             "_id": "145",
             "word": "Listen",
-            "image": "./assets/images/verbs/part-3/listen.png",
+            "image": "./assets/images/verbs/part-2/listen.png",
             "sentence": "She listens to music every day."
         },
         {
             "_id": "146",
             "word": "Swing",
-            "image": "./assets/images/verbs/part-3/swing.png",
+            "image": "./assets/images/verbs/part-2/swing.png",
             "sentence": "The kids love to swing at the park."
         },
         {
             "_id": "147",
             "word": "Walk",
-            "image": "./assets/images/verbs/part-3/walk.png",
+            "image": "./assets/images/verbs/part-2/walk.png",
             "sentence": "He walks to work every morning."
         },
         {
             "_id": "148",
             "word": "Repair",
-            "image": "./assets/images/verbs/part-3/repair.png",
+            "image": "./assets/images/verbs/part-2/repair.png",
             "sentence": "He will repair the broken chair."
         },
         {
             "_id": "151",
             "word": "Fish",
-            "image": "./assets/images/verbs/part-3/fish.png",
+            "image": "./assets/images/verbs/part-2/fish.png",
             "sentence": "He loves to fish by the lake."
         },
         {
             "_id": "152",
             "word": "Wink",
-            "image": "./assets/images/verbs/part-3/wink.png",
+            "image": "./assets/images/verbs/part-2/wink.png",
             "sentence": "She winks playfully at him."
         },
         {
             "_id": "153",
             "word": "Kick",
-            "image": "./assets/images/verbs/part-3/kick.png",
+            "image": "./assets/images/verbs/part-2/kick.png",
             "sentence": "He kicks the ball with great force."
         }
     ]

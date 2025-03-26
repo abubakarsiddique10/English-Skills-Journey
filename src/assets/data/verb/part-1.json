@@ -152,19 +152,19 @@
             "_id": "23",
             "word": "look",
             "image": "./assets/images/verbs/part-1/look.png",
-            "sentence": "Look at this beautiful painting."
+            "sentence": "She looks at the clipboard."
         },
         {
             "_id": "24",
             "word": "want",
             "image": "./assets/images/verbs/part-1/want.png",
-            "sentence": "I want to travel the world."
+            "sentence": "They want to visit new cities."
         },
         {
             "_id": "25",
             "word": "give",
             "image": "./assets/images/verbs/part-1/give.png",
-            "sentence": "Can you give me some advice?"
+            "sentence": "He gives me a document."
         },
         {
             "_id": "26",
@@ -176,13 +176,13 @@
             "_id": "28",
             "word": "tell",
             "image": "./assets/images/verbs/part-1/tell.png",
-            "sentence": "Can you tell me the time?"
+            "sentence": "She tells a fun story."
         },
         {
             "_id": "29",
             "word": "ask",
             "image": "./assets/images/verbs/part-1/ask.png",
-            "sentence": "A young boy is helping an elderly woman cross the street."
+            "sentence": "She asks the audience something."
         },
         {
             "_id": "30",
@@ -200,7 +200,7 @@
             "_id": "32",
             "word": "try",
             "image": "./assets/images/verbs/part-1/try.png",
-            "sentence": "I'll try to fix it."
+            "sentence": "She tries on a dress."
         },
         {
             "_id": "33",
@@ -212,13 +212,13 @@
             "_id": "35",
             "word": "show",
             "image": "./assets/images/verbs/part-1/show.png",
-            "sentence": "Can you show me the way?"
+            "sentence": "He shows his painting."
         },
         {
             "_id": "36",
             "word": "hear",
             "image": "./assets/images/verbs/part-1/hear.png",
-            "sentence": "Did you hear that noise?"
+            "sentence": "She hears carefully."
         },
         {
             "_id": "37",
@@ -236,7 +236,7 @@
             "_id": "39",
             "word": "bring",
             "image": "./assets/images/verbs/part-1/bring.png",
-            "sentence": "Can you bring me a glass of water?"
+            "sentence": "He brings fish from the market."
         },
         {
             "_id": "40",
@@ -254,7 +254,7 @@
             "_id": "42",
             "word": "stand",
             "image": "./assets/images/verbs/part-1/stand.png",
-            "sentence": "He stood up when she entered the room."
+            "sentence": "She stands in front of the chair."
         },
         {
             "_id": "43",
@@ -272,13 +272,13 @@
             "_id": "45",
             "word": "meet",
             "image": "./assets/images/verbs/part-1/meet.png",
-            "sentence": "We will meet tomorrow."
+            "sentence": "They meet for the first time."
         },
         {
             "_id": "46",
             "word": "continue",
             "image": "./assets/images/verbs/part-1/continue.png",
-            "sentence": "They will continue the discussion later."
+            "sentence": "TThey continue the discussion."
         },
         {
             "_id": "47",
@@ -302,7 +302,7 @@
             "_id": "50",
             "word": "create",
             "image": "./assets/images/verbs/part-1/create.png",
-            "sentence": "She loves to create new recipes."
+            "sentence": "He creates a list for shopping."
         },
         {
             "_id": "51",
