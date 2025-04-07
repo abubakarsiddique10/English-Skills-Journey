@@ -47,57 +47,6 @@ window.onload = () => {
         tags.scrollLeft += 100;
     })
 
-
-
-    /* let globalWidth = document.documentElement.clientWidth; // Initial width
-    function updateWidth() {
-        globalWidth = document.documentElement.clientWidth; // Update globally
-        const { scrollLeft, scrollWidth, clientWidth } = tags;
-        const isAtStart = scrollLeft === 0;
-        const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 1;
-        // Update arrow visibility
-        vocabLeftArrow.style.display = isAtStart || globalWidth < 768 ? "none" : "block";
-        vocabRightArrow.style.display = isAtEnd || globalWidth < 768 ? "none" : "block";
-
-        // Adjust margins
-        tagsContainer.style.marginLeft = isAtStart || globalWidth < 768 ? 0 : "16px";
-        tagsContainer.style.marginRight = isAtEnd || globalWidth < 768 ? 0 : "16px";
-
-    }
-    window.addEventListener("resize", updateWidth);
-
-    // this code for slide shadow
-    const slideShow = () => {
-        const { scrollLeft, scrollWidth, clientWidth } = tags;
-        const isAtStart = scrollLeft === 0;
-        const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 1;
-        // Update arrow visibility
-        vocabLeftArrow.style.display = isAtStart || globalWidth < 768 ? "none" : "block";
-        vocabRightArrow.style.display = isAtEnd || globalWidth < 768 ? "none" : "block";
-
-
-        // Update shadow color
-        vocabLeftArrow.style.setProperty("--colorBefore", isAtStart ? "" : "#fefefe");
-        vocabRightArrow.style.setProperty("--colorAfter", isAtEnd ? "" : "#fefefe");
-
-        // Adjust margins
-        tagsContainer.style.marginLeft = isAtStart || globalWidth < 768 ? 0 : "16px";
-        tagsContainer.style.marginRight = isAtEnd || globalWidth < 768 ? 0 : "16px";
-
-        // Set z-index
-        vocabLeftArrow.style.zIndex = isAtStart ? -1 : 1;
-    };
-
-    // Use requestAnimationFrame for performance optimization
-    const handleScroll = () => requestAnimationFrame(slideShow);
-
-
-    slideShow(); // Initial call
-    tags.addEventListener("scroll", handleScroll); */
-
-
-
-
     let globalWidth = document.documentElement.clientWidth; // Initial width
 
     // Function to update the global width

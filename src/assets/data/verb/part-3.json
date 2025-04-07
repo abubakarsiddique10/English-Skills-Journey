@@ -8,7 +8,7 @@
             "_id": "154",
             "word": "Iron",
             "image": "./assets/images/verbs/part-3/iron.png",
-            "sentence": "She likes to iron her clothes."
+            "sentence": "He likes to iron her clothes."
         },
         {
             "_id": "155",
@@ -20,13 +20,13 @@
             "_id": "195",
             "word": "Massage",
             "image": "./assets/images/verbs/part-3/massage.png",
-            "sentence": "He gave her a relaxing massage."
+            "sentence": "She massages his shoulders."
         },
         {
             "_id": "157",
             "word": "Dry",
             "image": "./assets/images/verbs/part-3/dry.png",
-            "sentence": "He dries his hands with a towel."
+            "sentence": "She dries her hair."
         },
         {
             "_id": "200",

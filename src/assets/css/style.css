@@ -19,15 +19,12 @@ body {
 }
 
 .active {
-    /* background: #F2F2F2; */
-    /* border-bottom: 1px solid black; */
     border-color: black;
 }
 
 header,
 .vocabulary__category,
 #tags {
-    /* border-color: #f2f2f2; */
     border-color: #0f172a1a;
 }
 
@@ -57,16 +54,6 @@ header,
     background-color: #f2f3f5;
     background-color: fefefe;
 }
-
-
-
-/* #vocab-left-arrow::after {
-    width: 30px;
-} */
-
-/* #vocab-right-arrow {
-    width: 100px;
-} */
 
 /* hero section end */
 
@@ -98,27 +85,9 @@ header,
     background: linear-gradient(-90deg, var(--colorAfter), 70%, transparent);
 }
 
-
-
 .published_data {
     color: #202224
 }
-
-/* #vocab-right-arrow {
-    top: 50%;
-    transform: translate(0, -32%);
-    height: 32px;
-} */
-
-
-/* vocabulary category end */
-
-
-/* blog css start */
-
-/* blog css end */
-
-
 
 /* section vocabulary start*/
 #vocabulary_slider::-webkit-scrollbar,
@@ -172,16 +141,9 @@ header,
         row-gap: 40px;
     }
 
-    .speaking .active {
-        /* border-color: white;
-        background-color: #f8fafc; */
-    }
+    .speaking .active {}
 }
 
 @media (min-width: 1024px) {
-    .active {
-        /* background-color: var(--active-bg-color); */
-        /* border-bottom: none;
-        background: #f8fafc */
-    }
+    .active {}
 }

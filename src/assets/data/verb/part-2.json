@@ -242,13 +242,13 @@
             "_id": "140",
             "word": "Wait",
             "image": "./assets/images/verbs/part-2/wait.png",
-            "sentence": "Please wait for me at the entrance."
+            "sentence": "He waits at the station for the train."
         },
         {
             "_id": "141",
             "word": "Protect",
             "image": "./assets/images/verbs/part-2/protect.png",
-            "sentence": "A helmet protects your head."
+            "sentence": "He protects his friend from danger."
         },
         {
             "_id": "142",
@@ -266,7 +266,7 @@
             "_id": "144",
             "word": "Climb",
             "image": "./assets/images/verbs/part-2/climb.png",
-            "sentence": "He climbs the mountain."
+            "sentence": "He climbs the tree."
         },
         {
             "_id": "145",
@@ -290,7 +290,7 @@
             "_id": "148",
             "word": "Repair",
             "image": "./assets/images/verbs/part-2/repair.png",
-            "sentence": "He will repair the broken chair."
+            "sentence": "He repairs the broken laptop."
         },
         {
             "_id": "151",
@@ -302,7 +302,7 @@
             "_id": "152",
             "word": "Wink",
             "image": "./assets/images/verbs/part-2/wink.png",
-            "sentence": "She winks playfully at him."
+            "sentence": "The girl winks at her friend."
         },
         {
             "_id": "153",
