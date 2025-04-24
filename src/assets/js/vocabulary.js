@@ -1,11 +1,10 @@
-
 const queryParams = new URLSearchParams(window.location.search);
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
 
-
+setLoading(true)
 async function getVocabulary(category) {
     setLoading(true);
     const url = `././assets/data/vocabulary/${category}.json`;
@@ -21,9 +20,10 @@ async function getVocabulary(category) {
 getVocabulary(category);
 
 // Display vocabularies in the UI
-const displayVocabularies = ({ metadata, vocabularyList }) => {
+const displayVocabularies = ({ metadata, vocabularyList, recommends = [] }) => {
     const vocabularyHeader = document.getElementById('vocabulary-header');
     const vocabularyContainer = document.getElementById('vocabulary');
+    const container = document.getElementById("recommends");
 
     // Early return if elements do not exist
     if (!vocabularyHeader || !vocabularyContainer || !metadata || !vocabularyList) {
@@ -59,6 +59,18 @@ const displayVocabularies = ({ metadata, vocabularyList }) => {
 
     // Append the fragment to the container
     vocabularyContainer.appendChild(fragment);
+
+    // Create a fragment and append all recommended cards
+    const recommendedTitle = document.getElementById('recommended-title');
+    recommendedTitle.textContent = "Recommended Vocabulary";
+    const cardFragment = document.createDocumentFragment();
+    recommends.forEach(item => {
+        const recommendCard = createRecommendedCard(item);
+        cardFragment.appendChild(recommendCard);
+    });
+    // Append all cards to the container at once
+    container.appendChild(cardFragment);
+
 };
 
 const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
@@ -110,6 +122,38 @@ const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
 };
 
 
+const createRecommendedCard = ({ image, title, url }) => {
+    const container = document.createElement('div')
+
+    const link = document.createElement("a");
+    link.href = url;
+
+    const flexDiv = document.createElement("div");
+    flexDiv.className = "flex sm:flex-col";
+
+    const imageWrapper = document.createElement("div");
+    imageWrapper.className = "border border-[#4755691a] rounded-lg mr-3 sm:mr-0";
+
+    const img = document.createElement("img");
+    img.src = image
+    img.alt = "fruit thumbnail";
+    img.className = "rounded-lg w-full max-w-[150px] sm:max-w-full";
+
+    imageWrapper.appendChild(img);
+
+    const heading = document.createElement("h3");
+    heading.className = "font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1";
+    heading.textContent = title
+
+    flexDiv.appendChild(imageWrapper);
+    flexDiv.appendChild(heading);
+
+    link.appendChild(flexDiv);
+    container.appendChild(link);
+    return container
+}
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const vocabulary = document.getElementById('vocabulary');
@@ -122,8 +166,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-
-/* const formattedDate = new Date("2024-11-07").toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
-
-console.log(formattedDate); // Output: "Nov 7, 2024" */

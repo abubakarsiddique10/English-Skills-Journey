@@ -250,5 +250,22 @@
             "imagePath": "./assets/images/vocabulary/bird-names/quetzal.png",
             "exampleSentence": "The quetzal is known for its stunning colors."
         }
+    ],
+    "recommends": [
+        {
+            "image": "./assets/images/thumbnail/fruit-names.png",
+            "title": "Fruits Vocabulary – List of Fruit Names in English",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=fruits"
+        },
+        {
+            "image": "./assets/images/thumbnail/household-items.png",
+            "title": "Household item names in English with pictures",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=household-items"
+        },
+        {
+            "image": "./assets/images/thumbnail/transport-names.png",
+            "title": "Common Transport Names in English with Pictures",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        }
     ]
 }

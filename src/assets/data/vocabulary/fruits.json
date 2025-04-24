@@ -145,5 +145,22 @@
             "imagePath": "./assets/images/vocabulary/fruits/papaya.png",
             "exampleSentence": "Papaya is a tropical fruit known for its soft texture."
         }
+    ],
+    "recommends": [
+        {
+            "image": "./assets/images/thumbnail/jobs-&-occupations.png",
+            "title": "List of Jobs and Occupations – Learn with Examples & Pictures",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=jobs-and-occupations"
+        },
+        {
+            "image": "./assets/images/thumbnail/household-items.png",
+            "title": "Household item names in English with pictures",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=household-items"
+        },
+        {
+            "image": "./assets/images/thumbnail/transport-names.png",
+            "title": "Common Transport Names in English with Pictures",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        }
     ]
 }

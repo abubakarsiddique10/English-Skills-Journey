@@ -14,7 +14,7 @@
             "_id": "53",
             "word": "sing",
             "image": "./assets/images/verbs/part-4/sing.png",
-            "sentence": "She loves to sing in the choir."
+            "sentence": "He loves to sing on stage."
         },
         {
             "_id": "54",
@@ -32,19 +32,19 @@
             "_id": "56",
             "word": "carry",
             "image": "./assets/images/verbs/part-4/carry.png",
-            "sentence": "Can you carry this bag for me?"
+            "sentence": "She carries many shopping bags."
         },
         {
             "_id": "57",
             "word": "catch",
             "image": "./assets/images/verbs/part-4/catch.png",
-            "sentence": "He managed to catch the bus on time."
+            "sentence": "He tries to catch the ball."
         },
         {
             "_id": "58",
             "word": "pull",
             "image": "./assets/images/verbs/part-4/pull.png",
-            "sentence": "He pulled the rope hard."
+            "sentence": "He pulls the box with a rope."
         },
         {
             "_id": "59",
@@ -62,13 +62,13 @@
             "_id": "61",
             "word": "wish",
             "image": "./assets/images/verbs/part-4/wish.png",
-            "sentence": "I wish I could travel more often."
+            "sentence": "I wish I could sing like her."
         },
         {
             "_id": "203",
             "word": "Rest",
             "image": "./assets/images/verbs/part-4/rest.png",
-            "sentence": "She took a rest after a long day."
+            "sentence": "He is resting after work."
         },
         {
             "_id": "204",
@@ -80,7 +80,7 @@
             "_id": "105",
             "word": "flip",
             "image": "./assets/images/verbs/part-4/flip.png",
-            "sentence": "I can flip the pancakes without burning them."
+            "sentence": "He flips the pancake."
         },
         {
             "_id": "62",
@@ -92,7 +92,7 @@
             "_id": "63",
             "word": "understand",
             "image": "./assets/images/verbs/part-4/understand.png",
-            "sentence": "I don't understand the instructions."
+            "sentence": "Do you understand this question?"
         },
         {
             "_id": "64",
@@ -104,7 +104,7 @@
             "_id": "65",
             "word": "watch",
             "image": "./assets/images/verbs/part-4/watch.png",
-            "sentence": "Let's watch a movie tonight."
+            "sentence": "We watch cartoons every evening."
         },
         {
             "_id": "66",
@@ -116,7 +116,7 @@
             "_id": "67",
             "word": "buy",
             "image": "./assets/images/verbs/part-4/buy.png",
-            "sentence": "I need to buy some groceries."
+            "sentence": "She wants to buy some vegetables."
         },
         {
             "_id": "68",
@@ -128,7 +128,7 @@
             "_id": "69",
             "word": "open",
             "image": "./assets/images/verbs/part-4/open.png",
-            "sentence": "Can you open the window?"
+            "sentence": "He opens the window to see the sky."
         },
         {
             "_id": "70",
@@ -140,7 +140,7 @@
             "_id": "71",
             "word": "build",
             "image": "./assets/images/verbs/part-4/build.png",
-            "sentence": "They are building a new house."
+            "sentence": "He builds walls for houses."
         },
         {
             "_id": "72",
@@ -152,13 +152,13 @@
             "_id": "73",
             "word": "win",
             "image": "./assets/images/verbs/part-4/win.png",
-            "sentence": "Our team won the match."
+            "sentence": "They win after hard work."
         },
         {
             "_id": "74",
             "word": "reach",
             "image": "./assets/images/verbs/part-4/reach.png",
-            "sentence": "We finally reached the top of the mountain."
+            "sentence": "He reaches the final step."
         },
         {
             "_id": "75",
@@ -182,13 +182,13 @@
             "_id": "78",
             "word": "push",
             "image": "./assets/images/verbs/part-4/push.png",
-            "sentence": "You need to push the door to open it."
+            "sentence": "She pushes the box."
         },
         {
             "_id": "79",
             "word": "fix",
             "image": "./assets/images/verbs/part-4/fix.png",
-            "sentence": "I need to fix my computer."
+            "sentence": "He fixes the laptop settings."
         },
         {
             "_id": "80",
@@ -200,13 +200,13 @@
             "_id": "81",
             "word": "hit",
             "image": "./assets/images/verbs/part-4/hit.png",
-            "sentence": "He accidentally hit the table."
+            "sentence": "The car hit the boy."
         },
         {
             "_id": "82",
             "word": "grow",
             "image": "./assets/images/verbs/part-4/grow.png",
-            "sentence": "They are growing vegetables in their garden."
+            "sentence": "Lettuce grows well in cool weather."
         },
         {
             "_id": "83",
@@ -230,13 +230,13 @@
             "_id": "86",
             "word": "join",
             "image": "./assets/images/verbs/part-4/join.png",
-            "sentence": "Would you like to join us for dinner?"
+            "sentence": "Join our team today!"
         },
         {
-            "_id": "87",
-            "word": "discover",
-            "image": "./assets/images/verbs/part-4/discover.png",
-            "sentence": "She discovered a new café in town."
+            "_id": "53",
+            "word": "sink",
+            "image": "./assets/images/verbs/part-4/sink.png",
+            "sentence": "The boat began to sink slowly."
         },
         {
             "_id": "88",
@@ -260,7 +260,7 @@
             "_id": "91",
             "word": "surprise",
             "image": "./assets/images/verbs/part-4/surprise.png",
-            "sentence": "They surprised me with a birthday party."
+            "sentence": "She surprises her friend."
         },
         {
             "_id": "92",
@@ -284,31 +284,31 @@
             "_id": "107",
             "word": "spill",
             "image": "./assets/images/verbs/part-4/spill.png",
-            "sentence": "Be careful not to spill the water on the floor."
+            "sentence": "The oil spills on the ground."
         },
         {
             "_id": "108",
             "word": "burn",
             "image": "./assets/images/verbs/part-4/burn.png",
-            "sentence": "Don't burn yourself while cooking the potatoes."
+            "sentence": "He burns the wood in the fire."
         },
         {
             "_id": "109",
             "word": "mop",
             "image": "./assets/images/verbs/part-4/mop.png",
-            "sentence": "I have to mop the kitchen after spilling the juice."
+            "sentence": "I mop the kitchen every day."
         },
         {
             "_id": "110",
             "word": "melt",
             "image": "./assets/images/verbs/part-4/melt.png",
-            "sentence": "The chocolate will melt if left in the sun."
+            "sentence": "The ice cube begins to melt."
         },
         {
             "_id": "111",
             "word": "solve",
             "image": "./assets/images/verbs/part-4/solve.png",
-            "sentence": "I need to solve this math problem before the exam."
+            "sentence": "He solves the math problem."
         }
     ]
 }

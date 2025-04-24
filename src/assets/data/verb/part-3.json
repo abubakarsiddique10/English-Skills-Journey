@@ -32,7 +32,7 @@
             "_id": "200",
             "word": "Skip",
             "image": "./assets/images/verbs/part-3/skip.png",
-            "sentence": "She skipped down the road happily."
+            "sentence": "She skips happily in the yard."
         },
         {
             "_id": "159",
@@ -50,7 +50,7 @@
             "_id": "161",
             "word": "Sew",
             "image": "./assets/images/verbs/part-3/sew.png",
-            "sentence": "She is learning how to sew."
+            "sentence": "She sews a new dress."
         },
         {
             "_id": "156",
@@ -62,31 +62,31 @@
             "_id": "162",
             "word": "Shave",
             "image": "./assets/images/verbs/part-3/shave.png",
-            "sentence": "He shaves his beard every morning."
+            "sentence": "The barber shaves him carefully."
         },
         {
             "_id": "163",
             "word": "Announce",
             "image": "./assets/images/verbs/part-3/announce.png",
-            "sentence": "They announced the winner of the contest."
+            "sentence": "He announces the winner"
         },
         {
             "_id": "164",
             "word": "Whistle",
             "image": "./assets/images/verbs/part-3/whistle.png",
-            "sentence": "He can whistle a tune."
+            "sentence": "She loves to whistle while walking."
         },
         {
             "_id": "165",
             "word": "Speak",
             "image": "./assets/images/verbs/part-3/speak.png",
-            "sentence": "She speaks three languages fluently."
+            "sentence": "They speak loudly."
         },
         {
             "_id": "166",
             "word": "Slip",
             "image": "./assets/images/verbs/part-3/slip.png",
-            "sentence": "Be careful not to slip on the wet floor."
+            "sentence": "He slips on the wet floor."
         },
         {
             "_id": "167",
@@ -98,25 +98,25 @@
             "_id": "166",
             "word": "Pray",
             "image": "./assets/images/verbs/part-3/pray.png",
-            "sentence": "She prays every morning."
+            "sentence": "He prays every morning."
         },
         {
             "_id": "167",
             "word": "Ride",
             "image": "./assets/images/verbs/part-3/ride.png",
-            "sentence": "He loves to ride his bicycle."
+            "sentence": "She rides a white horse."
         },
         {
             "_id": "168",
             "word": "Roar",
             "image": "./assets/images/verbs/part-3/roar.png",
-            "sentence": "The lion roared loudly."
+            "sentence": "The tiger roars loudly."
         },
         {
             "_id": "169",
             "word": "Scream",
             "image": "./assets/images/verbs/part-3/scream.png",
-            "sentence": "She screamed in excitement."
+            "sentence": "They scream in fear."
         },
         {
             "_id": "170",
@@ -128,13 +128,13 @@
             "_id": "171",
             "word": "Peel",
             "image": "./assets/images/verbs/part-3/peel.png",
-            "sentence": "She peeled an apple for lunch."
+            "sentence": "She peels the potato."
         },
         {
             "_id": "172",
             "word": "Plant",
             "image": "./assets/images/verbs/part-3/plant.png",
-            "sentence": "They planted a tree in the backyard."
+            "sentence": "They plant trees every weekend."
         },
         {
             "_id": "158",
@@ -146,19 +146,19 @@
             "_id": "173",
             "word": "Guide",
             "image": "./assets/images/verbs/part-3/guide.png",
-            "sentence": "He guided them through the forest."
+            "sentence": "She guides the children through the path."
         },
         {
             "_id": "174",
             "word": "Hide",
             "image": "./assets/images/verbs/part-3/hide.png",
-            "sentence": "The kids hid behind the sofa."
+            "sentence": "She hides behind the tree."
         },
         {
             "_id": "175",
             "word": "Introduce",
             "image": "./assets/images/verbs/part-3/introduce.png",
-            "sentence": "She introduced her friend to the group."
+            "sentence": "She introduces the team members."
         },
         {
             "_id": "176",
@@ -170,13 +170,13 @@
             "_id": "177",
             "word": "Crawl",
             "image": "./assets/images/verbs/part-3/crawl.png",
-            "sentence": "The baby crawled across the floor."
+            "sentence": "The boy crawls on the floor."
         },
         {
             "_id": "178",
             "word": "Deliver",
             "image": "./assets/images/verbs/part-3/deliver.png",
-            "sentence": "The courier delivered the package."
+            "sentence": "He delivers on time."
         },
         {
             "_id": "179",
@@ -194,19 +194,19 @@
             "_id": "181",
             "word": "Blow",
             "image": "./assets/images/verbs/part-3/blow.png",
-            "sentence": "He blew out the candles."
+            "sentence": "She blows bubbles happily."
         },
         {
             "_id": "182",
             "word": "Fry",
             "image": "./assets/images/verbs/part-3/fry.png",
-            "sentence": "She fried some eggs for breakfast."
+            "sentence": "He fries some eggs for breakfast."
         },
         {
             "_id": "183",
             "word": "Taste",
             "image": "./assets/images/verbs/part-3/taste.png",
-            "sentence": "She tasted the soup to check the flavor."
+            "sentence": "He tastes the soup with a spoon."
         },
         {
             "_id": "184",
@@ -224,31 +224,31 @@
             "_id": "186",
             "word": "Fail",
             "image": "./assets/images/verbs/part-3/fail.png",
-            "sentence": "He failed the test but will try again."
+            "sentence": "He fails to get the right result."
         },
         {
             "_id": "187",
             "word": "Study",
             "image": "./assets/images/verbs/part-3/study.png",
-            "sentence": "She studies for her exams every night."
+            "sentence": "She studies for her exams."
         },
         {
             "_id": "188",
             "word": "Touch",
             "image": "./assets/images/verbs/part-3/touch.png",
-            "sentence": "Don't touch the hot stove!"
+            "sentence": "She touches the cactus carefully."
         },
         {
             "_id": "189",
             "word": "Spin",
             "image": "./assets/images/verbs/part-3/spin.png",
-            "sentence": "The dancer can spin very fast."
+            "sentence": "He loves to spin the top."
         },
         {
             "_id": "190",
             "word": "Roll",
             "image": "./assets/images/verbs/part-3/roll.png",
-            "sentence": "He rolled the ball across the field."
+            "sentence": "She rolled until it was thin."
         },
         {
             "_id": "191",
