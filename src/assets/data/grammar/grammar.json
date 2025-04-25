@@ -1,0 +1,34 @@
+[
+    {
+        "category": "noun",
+        "blogs": [
+            {
+                "id": "196527075fdae",
+                "title": "Fruits Vocabulary – List of Fruit Names in English",
+                "tags": [
+                    "religion",
+                    "namaz"
+                ],
+                "blogImg": "./assets/images/thumbnail/fruit-names.png",
+                "createdAt": "1745137743545",
+                "readTime": "10 min read",
+                "contents": [
+                    {
+                        "type": "paragraph",
+                        "title": "",
+                        "items": [
+                            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type"
+                        ]
+                    },
+                    {
+                        "type": "image",
+                        "title": "Hello world",
+                        "items": [
+                            "./assets/images/banner/apple.png"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

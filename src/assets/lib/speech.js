@@ -32,4 +32,6 @@ function textToSpeech(text) {
     speechSynthesis.speak(utterance);
 }
 
+
+
 export { textToSpeech };

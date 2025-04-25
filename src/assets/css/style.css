@@ -114,6 +114,41 @@ header,
 
 
 
+
+
+/* grammar blog css start */
+#grammar article div,
+#grammar article ul {
+    margin-bottom: 24px;
+}
+
+#grammar article div a {
+    color: red;
+}
+
+#grammar article p {
+    margin-bottom: 18px;
+}
+
+#grammar article h2 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#grammar ul li:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+#grammar h3::first-letter {
+    text-transform: uppercase;
+}
+
+/* grammar blog css end */
+
+
+
 /* css media query */
 @media (max-width: 400px) {
     #vocabulary {

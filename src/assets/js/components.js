@@ -19,6 +19,7 @@ const displayConversation = ({ title, img, contents, datePublished }) => {
     });
     presentationContents.appendChild(createCard)
 }
+
 const createConversationCard = ({ name, text }) => {
     const presentationCard = document.createElement('p');
     presentationCard.className = "flex gap-6 mb-1"
@@ -28,8 +29,6 @@ const createConversationCard = ({ name, text }) => {
     `;
     return presentationCard
 }
-
-
 
 // Display presentaion in the UI
 const displayPresentation = ({ title, image, contents, datePublished }) => {
@@ -66,8 +65,6 @@ const displayPresentation = ({ title, image, contents, datePublished }) => {
     });
 };
 
-
-
 // Display sentences in the UI
 function displayDailyUseSentences({ title, img, contents, datePublished }) {
 
@@ -95,8 +92,39 @@ const createDailyUseSentencesCard = ({ icon, text, color }) => {
     return presentationCard
 }
 
-{/* <span class="min-w-fit lg:text-lg">${icon}</span> */ }
+const createContentCard = ({ id, title, blogImg, }) => {
+    const container = document.createElement('div')
+
+    const link = document.createElement("a");
+    link.href = `grammar.html?topic=${title.split(' ').join('-')}-${id}`
+
+    const flexDiv = document.createElement("div");
+    flexDiv.className = "flex sm:flex-col";
+
+    const imageWrapper = document.createElement("div");
+    imageWrapper.className = "border border-[#4755691a] rounded-lg mr-3 sm:mr-0";
+
+    const img = document.createElement("img");
+    img.src = blogImg
+    img.alt = "fruit thumbnail";
+    img.className = "rounded-lg w-full max-w-[150px] sm:max-w-full";
+
+    imageWrapper.appendChild(img);
+
+    const heading = document.createElement("h3");
+    heading.className = "font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1";
+    heading.textContent = title
+
+    flexDiv.appendChild(imageWrapper);
+    flexDiv.appendChild(heading);
+
+    link.appendChild(flexDiv);
+    container.appendChild(link);
+    return container
+}
+
+
 // export all functions
-export { displayConversation, displayPresentation, displayDailyUseSentences }
+export { displayConversation, displayPresentation, displayDailyUseSentences, createContentCard }
 
 

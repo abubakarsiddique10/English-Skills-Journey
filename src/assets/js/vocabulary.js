@@ -4,7 +4,6 @@ import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
 
-setLoading(true)
 async function getVocabulary(category) {
     setLoading(true);
     const url = `././assets/data/vocabulary/${category}.json`;

@@ -620,11 +620,8 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
-  .mt-11 {
-    margin-top: calc(var(--spacing) * 11);
-  }
-  .mt-32 {
-    margin-top: calc(var(--spacing) * 32);
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
   }
   .mt-\[56px\] {
     margin-top: 56px;
@@ -683,6 +680,9 @@
   .hidden {
     display: none;
   }
+  .inline-block {
+    display: inline-block;
+  }
   .table {
     display: table;
   }
@@ -701,11 +701,8 @@
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
-  .h-\[100px\] {
-    height: 100px;
-  }
-  .h-dvh {
-    height: 100dvh;
+  .h-auto {
+    height: auto;
   }
   .h-full {
     height: 100%;
@@ -719,9 +716,6 @@
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
-  .w-7 {
-    width: calc(var(--spacing) * 7);
-  }
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
@@ -734,14 +728,17 @@
   .w-\[100px\] {
     width: 100px;
   }
+  .w-auto {
+    width: auto;
+  }
   .w-full {
     width: 100%;
   }
-  .max-w-\[100px\] {
-    max-width: 100px;
-  }
   .max-w-\[150px\] {
     max-width: 150px;
+  }
+  .max-w-\[680px\] {
+    max-width: 680px;
   }
   .max-w-\[850px\] {
     max-width: 850px;
@@ -819,12 +816,8 @@
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
-  .space-y-2 {
-    :where(& > :not(:last-child)) {
-      --tw-space-y-reverse: 0;
-      margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
-      margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
-    }
+  .gap-x-1\.5 {
+    column-gap: calc(var(--spacing) * 1.5);
   }
   .gap-y-8 {
     row-gap: calc(var(--spacing) * 8);
@@ -840,9 +833,6 @@
   }
   .scroll-smooth {
     scroll-behavior: smooth;
-  }
-  .rounded {
-    border-radius: 0.25rem;
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
@@ -913,9 +903,6 @@
   .p-0 {
     padding: calc(var(--spacing) * 0);
   }
-  .p-4 {
-    padding: calc(var(--spacing) * 4);
-  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -927,6 +914,9 @@
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
@@ -943,9 +933,6 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
-  .py-3\.5 {
-    padding-block: calc(var(--spacing) * 3.5);
-  }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
@@ -961,9 +948,6 @@
   .pt-16 {
     padding-top: calc(var(--spacing) * 16);
   }
-  .pt-\[100px\] {
-    padding-top: 100px;
-  }
   .pt-\[12px\] {
     padding-top: 12px;
   }
@@ -972,9 +956,6 @@
   }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
-  }
-  .pb-8 {
-    padding-bottom: calc(var(--spacing) * 8);
   }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
@@ -1015,6 +996,12 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+  .text-\[17px\] {
+    font-size: 17px;
+  }
+  .text-\[32px\] {
+    font-size: 32px;
+  }
   .leading-5 {
     --tw-leading: calc(var(--spacing) * 5);
     line-height: calc(var(--spacing) * 5);
@@ -1026,6 +1013,10 @@
   .leading-7 {
     --tw-leading: calc(var(--spacing) * 7);
     line-height: calc(var(--spacing) * 7);
+  }
+  .leading-\[46px\] {
+    --tw-leading: 46px;
+    line-height: 46px;
   }
   .leading-none {
     --tw-leading: 1;
@@ -1051,6 +1042,9 @@
     --tw-tracking: -0.45px;
     letter-spacing: -0.45px;
   }
+  .text-nowrap {
+    text-wrap: nowrap;
+  }
   .whitespace-nowrap {
     white-space: nowrap;
   }
@@ -1060,14 +1054,11 @@
   .text-\[\#0f0f0f\] {
     color: #0f0f0f;
   }
-  .text-\[\#242424\] {
-    color: #242424;
-  }
-  .text-\[\#2a2a52\] {
-    color: #2a2a52;
-  }
   .text-\[\#6b6b6b\] {
     color: #6b6b6b;
+  }
+  .text-\[\#242424\] {
+    color: #242424;
   }
   .text-gray-500 {
     color: var(--color-gray-500);
@@ -1086,6 +1077,9 @@
   }
   .capitalize {
     text-transform: capitalize;
+  }
+  .uppercase {
+    text-transform: uppercase;
   }
   .ring {
     --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentColor);
@@ -1134,13 +1128,6 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-900);
-      }
-    }
-  }
-  .hover\:underline {
-    &:hover {
-      @media (hover: hover) {
-        text-decoration-line: underline;
       }
     }
   }
@@ -1204,11 +1191,6 @@
       gap: calc(var(--spacing) * 5);
     }
   }
-  .sm\:gap-6 {
-    @media (width >= 40rem) {
-      gap: calc(var(--spacing) * 6);
-    }
-  }
   .sm\:gap-x-4 {
     @media (width >= 40rem) {
       column-gap: calc(var(--spacing) * 4);
@@ -1240,26 +1222,6 @@
   .sm\:text-\[15px\] {
     @media (width >= 40rem) {
       font-size: 15px;
-    }
-  }
-  .md\:mb-0 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
-  .md\:h-\[110px\] {
-    @media (width >= 48rem) {
-      height: 110px;
-    }
-  }
-  .md\:max-w-\[110px\] {
-    @media (width >= 48rem) {
-      max-width: 110px;
-    }
-  }
-  .md\:grid-cols-2 {
-    @media (width >= 48rem) {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   .md\:grid-cols-3 {
@@ -1398,6 +1360,11 @@
       padding: calc(var(--spacing) * 5);
     }
   }
+  .lg\:px-0 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 0);
+    }
+  }
   .lg\:py-0 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 0);
@@ -1437,10 +1404,27 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .lg\:text-\[40px\] {
+    @media (width >= 64rem) {
+      font-size: 40px;
+    }
+  }
   .lg\:leading-8 {
     @media (width >= 64rem) {
       --tw-leading: calc(var(--spacing) * 8);
       line-height: calc(var(--spacing) * 8);
+    }
+  }
+  .lg\:leading-\[30px\] {
+    @media (width >= 64rem) {
+      --tw-leading: 30px;
+      line-height: 30px;
+    }
+  }
+  .lg\:leading-\[56px\] {
+    @media (width >= 64rem) {
+      --tw-leading: 56px;
+      line-height: 56px;
     }
   }
   .xl\:\!px-0 {
@@ -1456,11 +1440,6 @@
   .dark\:text-gray-400 {
     @media (prefers-color-scheme: dark) {
       color: var(--color-gray-400);
-    }
-  }
-  .dark\:text-white {
-    @media (prefers-color-scheme: dark) {
-      color: var(--color-white);
     }
   }
 }
@@ -1534,11 +1513,6 @@
   syntax: "*";
   inherits: false;
   initial-value: skewY(0);
-}
-@property --tw-space-y-reverse {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0;
 }
 @property --tw-border-style {
   syntax: "*";
