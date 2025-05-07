@@ -1,0 +1,344 @@
+{
+    "header": {
+        "title": "Learn Common English Action Verbs with Pictures – Part 5",
+        "image": "./assets/images/thumbnail/verb-part-5.png",
+        "createdAt": "1746331547023",
+        "subtitle": "Common Action Verbs List :",
+        "description": "Scare, Add, Move, Research, Pick, Memorize, Put, Talk, Share, Worry, Visit, Spit, Send, Receive, Recite, Shoot, Smile, Search, Submit, and more."
+    },
+    "verbs": [
+        {
+            "_id": "15",
+            "word": "scare",
+            "image": "./assets/images/verbs/part-5/scare.png",
+            "sentence": "He was scared of the snake."
+        },
+        {
+            "_id": "36",
+            "word": "add",
+            "image": "./assets/images/verbs/part-5/add.png",
+            "sentence": "She adds salt to the food."
+        },
+        {
+            "_id": "46",
+            "word": "move",
+            "image": "./assets/images/verbs/part-5/move.png",
+            "sentence": "He moves his arms and legs."
+        },
+        {
+            "_id": "38",
+            "word": "research",
+            "image": "./assets/images/verbs/part-5/research.png",
+            "sentence": "He researches new chemicals."
+        },
+        {
+            "_id": "28",
+            "word": "pick",
+            "image": "./assets/images/verbs/part-5/pick.png",
+            "sentence": "She picks flowers in the garden."
+        },
+        {
+            "_id": "30",
+            "word": "memorize",
+            "image": "./assets/images/verbs/part-5/memorize.png",
+            "sentence": "Try to memorize the poem tonight."
+        },
+        {
+            "_id": "27",
+            "word": "put",
+            "image": "./assets/images/verbs/part-5/put.png",
+            "sentence": "He puts clothes in the washing machine."
+        },
+        {
+            "_id": "7",
+            "word": "talk",
+            "image": "./assets/images/verbs/part-5/talk.png",
+            "sentence": "He talks to his friend."
+        },
+        {
+            "_id": "39",
+            "word": "experiment",
+            "image": "./assets/images/verbs/part-5/experiment.png",
+            "sentence": "He experiments with different liquids."
+        },
+        {
+            "_id": "1",
+            "word": "broadcast",
+            "image": "./assets/images/verbs/part-5/broadcast.png",
+            "sentence": "I love to broadcast stories."
+        },
+        {
+            "_id": "13",
+            "word": "salute",
+            "image": "./assets/images/verbs/part-5/salute.png",
+            "sentence": "Salute with your right hand."
+        },
+        {
+            "_id": "49",
+            "word": "share",
+            "image": "./assets/images/verbs/part-5/share.png",
+            "sentence": "He shares a cookie with his friend."
+        },
+        {
+            "_id": "50",
+            "word": "lock",
+            "image": "./assets/images/verbs/part-5/lock.png",
+            "sentence": "Don’t forget to lock the door."
+        },
+        {
+            "_id": "51",
+            "word": "relax",
+            "image": "./assets/images/verbs/part-5/relax.png",
+            "sentence": "Let’s relax and watch a movie."
+        },
+        {
+            "_id": "44",
+            "word": "support",
+            "image": "./assets/images/verbs/part-5/support.png",
+            "sentence": "She supports her friend."
+        },
+        {
+            "_id": "25",
+            "word": "quarrel",
+            "image": "./assets/images/verbs/part-5/quarrel.png",
+            "sentence": "They quarrel over small things."
+        },
+        {
+            "_id": "24",
+            "word": "question",
+            "image": "./assets/images/verbs/part-5/question.png",
+            "sentence": "She questions him about the event."
+        },
+        {
+            "_id": "3",
+            "word": "command",
+            "image": "./assets/images/verbs/part-5/command.png",
+            "sentence": "He commands the workers."
+        },
+        {
+            "_id": "4",
+            "word": "worry",
+            "image": "./assets/images/verbs/part-5/worry.png",
+            "sentence": "Don’t worry about the little things."
+        },
+        {
+            "_id": "5",
+            "word": "visit",
+            "image": "./assets/images/verbs/part-5/visit.png",
+            "sentence": "They visit a new house."
+        },
+        {
+            "_id": "6",
+            "word": "train",
+            "image": "./assets/images/verbs/part-5/train.png",
+            "sentence": "He trains new workers."
+        },
+        {
+            "_id": "8",
+            "word": "success",
+            "image": "./assets/images/verbs/part-5/success.png",
+            "sentence": "Hard work brings success eventually."
+        },
+        {
+            "_id": "9",
+            "word": "stumble",
+            "image": "./assets/images/verbs/part-5/stumble.png",
+            "sentence": "He stumbles on a rock."
+        },
+        {
+            "_id": "10",
+            "word": "struggle",
+            "image": "./assets/images/verbs/part-5/struggle.png",
+            "sentence": "He struggles to lift the heavy cans."
+        },
+        {
+            "_id": "11",
+            "word": "spit",
+            "image": "./assets/images/verbs/part-5/spit.png",
+            "sentence": "Please don’t spit here"
+        },
+        {
+            "_id": "14",
+            "word": "send",
+            "image": "./assets/images/verbs/part-5/send.png",
+            "sentence": "Please send me the email today."
+        },
+        {
+            "_id": "16",
+            "word": "receive",
+            "image": "./assets/images/verbs/part-5/receive.png",
+            "sentence": "Did you receive the package?"
+        },
+        {
+            "_id": "17",
+            "word": "recite",
+            "image": "./assets/images/verbs/part-5/recite.png",
+            "sentence": "She recites the holy Quran."
+        },
+        {
+            "_id": "18",
+            "word": "steal",
+            "image": "./assets/images/verbs/part-5/steal.png",
+            "sentence": "He steals and runs away."
+        },
+        {
+            "_id": "19",
+            "word": "shoot",
+            "image": "./assets/images/verbs/part-5/shoot.png",
+            "sentence": "He shoots at the target."
+        },
+        {
+            "_id": "20",
+            "word": "smile",
+            "image": "./assets/images/verbs/part-5/smile.png",
+            "sentence": "He smiles at his friends."
+        },
+        {
+            "_id": "21",
+            "word": "search",
+            "image": "./assets/images/verbs/part-5/search.png",
+            "sentence": "He searches with a magnifying glass."
+        },
+        {
+            "_id": "22",
+            "word": "stock",
+            "image": "./assets/images/verbs/part-5/stock.png",
+            "sentence": "He stocks products for customers."
+        },
+        {
+            "_id": "23",
+            "word": "submit",
+            "image": "./assets/images/verbs/part-5/submit.png",
+            "sentence": "He submits the application today."
+        },
+        {
+            "_id": "26",
+            "word": "participate",
+            "image": "./assets/images/verbs/part-5/participate.png",
+            "sentence": "They participate in the race."
+        },
+        {
+            "_id": "29",
+            "word": "order",
+            "image": "./assets/images/verbs/part-5/order.png",
+            "sentence": "He orders a coffee."
+        },
+        {
+            "_id": "31",
+            "word": "measure",
+            "image": "./assets/images/verbs/part-5/measure.png",
+            "sentence": "She measures the wall with a tape."
+        },
+        {
+            "_id": "32",
+            "word": "mistake",
+            "image": "./assets/images/verbs/part-5/mistake.png",
+            "sentence": "We should learn from mistakes."
+        },
+        {
+            "_id": "33",
+            "word": "marry",
+            "image": "./assets/images/verbs/part-5/marry.png",
+            "sentence": "They are happy to marry soon."
+        },
+        {
+            "_id": "34",
+            "word": "love",
+            "image": "./assets/images/verbs/part-5/love.png",
+            "sentence": "They love each other"
+        },
+        {
+            "_id": "35",
+            "word": "arrive",
+            "image": "./assets/images/verbs/part-5/arrive.png",
+            "sentence": "The plane just arrived."
+        },
+        {
+            "_id": "37",
+            "word": "coach",
+            "image": "./assets/images/verbs/part-5/coach.png",
+            "sentence": "He coaches the player every day."
+        },
+        {
+            "_id": "40",
+            "word": "breathe",
+            "image": "./assets/images/verbs/part-5/breathe.png",
+            "sentence": "He breathes in slowly."
+        },
+        {
+            "_id": "41",
+            "word": "respect",
+            "image": "./assets/images/verbs/part-5/respect.png",
+            "sentence": "They respect their teacher."
+        },
+        {
+            "_id": "42",
+            "word": "need",
+            "image": "./assets/images/verbs/part-5/need.png",
+            "sentence": "I need your help."
+        },
+        {
+            "_id": "43",
+            "word": "achieve",
+            "image": "./assets/images/verbs/part-5/achieve.png",
+            "sentence": "He achieved his goal."
+        },
+        {
+            "_id": "47",
+            "word": "fight",
+            "image": "./assets/images/verbs/part-5/fight.png",
+            "sentence": "They fight with pillows."
+        },
+        {
+            "_id": "48",
+            "word": "kiss",
+            "image": "./assets/images/verbs/part-5/kiss.png",
+            "sentence": "She kisses him on the cheek."
+        },
+        {
+            "_id": "2",
+            "word": "cash",
+            "image": "./assets/images/verbs/part-5/cash.png",
+            "sentence": "She cashed her payment."
+        },
+        {
+            "_id": "45",
+            "word": "donate",
+            "image": "./assets/images/verbs/part-5/donate.png",
+            "sentence": "They donate money to help others."
+        },
+        {
+            "_id": "12",
+            "word": "sow",
+            "image": "./assets/images/verbs/part-5/sow.png",
+            "sentence": "Farmers sow seeds in the spring."
+        }
+    ],
+    "recommends": [
+        {
+            "image": "./assets/images/thumbnail/verb-part-1.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 1",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=fruits"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-2.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 2",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=household-items"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-3.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 3",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-4.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 4",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-5.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 5",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        }
+    ]
+}

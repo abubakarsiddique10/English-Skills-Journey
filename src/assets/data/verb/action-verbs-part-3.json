@@ -1,7 +1,10 @@
 {
     "header": {
         "title": "Learn Common English Action Verbs with Pictures – Part 3",
-        "image": "./assets/images/thumbnail/verb-part-3.png"
+        "image": "./assets/images/thumbnail/verb-part-3.png",
+        "createdAt": "1746331547023",
+        "subtitle": "Common Action Verbs List :",
+        "description": "Iron, Water, Massage, Dry, Skip, Pour, Sweep, Sew, Speak, Slip, Type, Pray, Scream, Peel, Hide, Comb, Slice, Study, Shout, Cough, and more."
     },
     "verbs": [
         {
@@ -309,6 +312,33 @@
             "word": "Brush",
             "image": "./assets/images/verbs/part-3/brush.png",
             "sentence": "He brushes his teeth every morning."
+        }
+    ],
+    "recommends": [
+        {
+            "image": "./assets/images/thumbnail/verb-part-1.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 1",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=fruits"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-2.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 2",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=household-items"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-3.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 3",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-4.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 4",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
+        },
+        {
+            "image": "./assets/images/thumbnail/verb-part-5.png",
+            "title": "Learn Common English Action Verbs with Pictures – Part 5",
+            "url": "https://www.englishskillsjourney.com/vocabulary.html?category=transport-names"
         }
     ]
 }

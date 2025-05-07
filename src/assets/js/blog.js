@@ -1,5 +1,5 @@
 import { fetchData } from "./common.js";
-// import { loading } from "./main.js"
+import { setLoading } from "./main.js"
 
 const queryParams = new URLSearchParams(window.location.search);
 const slug = queryParams.get('topic');
@@ -7,15 +7,17 @@ const blogId = slug.split('-').pop();
 
 // Fetch Namaz Niyat data
 async function getBlogData() {
-    const url = `././assets/data/grammar/grammar.json`;
+    setLoading(true)
+    const url = `././assets/data/blogs/blogs.json`;
     try {
         const response = await fetchData(url);
         const blogArray = response.reduce((acc, curr) => acc.concat(curr.blogs), []);
         const filterData = blogArray.find(({ id }) => id == blogId);
         blogDetailsDisplay(filterData);
-        // loading(false)
     } catch (error) {
         console.error(error);
+    } finally {
+        setLoading(false)
     }
 }
 

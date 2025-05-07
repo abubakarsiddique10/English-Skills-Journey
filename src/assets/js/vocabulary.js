@@ -3,6 +3,7 @@ const category = queryParams.get('category');
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
+import { formatTimestampToDate } from "../lib/format-date.js";
 
 async function getVocabulary(category) {
     setLoading(true);
@@ -17,6 +18,8 @@ async function getVocabulary(category) {
     }
 }
 getVocabulary(category);
+
+
 
 // Display vocabularies in the UI
 const displayVocabularies = ({ metadata, vocabularyList, recommends = [] }) => {
@@ -47,6 +50,37 @@ const displayVocabularies = ({ metadata, vocabularyList, recommends = [] }) => {
 
     vocabularyHeader.appendChild(headerTitle);
     vocabularyHeader.appendChild(bannerImage);
+
+
+    // New feature start
+
+    // Create and append date section
+    const dateWrapper = document.createElement('div');
+    dateWrapper.className = 'flex items-center gap-x-1.5 text-sm mt-5 mb-2';
+    const dateLabel = document.createElement('span');
+    dateLabel.className = 'font-medium';
+    dateLabel.textContent = 'Posted on:';
+    const time = document.createElement('time');
+    time.className = 'text-nowrap';
+    time.textContent = formatTimestampToDate(metadata.createdAt)
+
+    dateWrapper.append(dateLabel, time);
+    vocabularyHeader.appendChild(dateWrapper);
+
+    // Create and append subtitle and description
+    const descriptionWrapper = document.createElement('div');
+    const subtitle = document.createElement('h3');
+    subtitle.className = "float-left mr-1 text-base lg:text-lg font-medium";
+    const p = document.createElement('p');
+    subtitle.innerText = metadata.subtitle;
+    p.className = "text-base lg:text-lg";
+    p.innerHTML = metadata.description;
+    descriptionWrapper.appendChild(subtitle)
+    descriptionWrapper.appendChild(p)
+    vocabularyHeader.appendChild(descriptionWrapper);
+
+    // New feature end
+
 
     vocabularyContainer.innerHTML = ''; // Clear previous content
 
@@ -120,7 +154,7 @@ const createVocabulariesCard = ({ word, imagePath, exampleSentence }) => {
     return vocabularyCard;
 };
 
-
+// Create RecommendedCard Card
 const createRecommendedCard = ({ image, title, url }) => {
     const container = document.createElement('div')
 
@@ -164,4 +198,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-

@@ -1,9 +1,10 @@
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { textToSpeech } from "../lib/speech.js";
+import { formatTimestampToDate } from "../lib/format-date.js";
 
 const queryParams = new URLSearchParams(window.location.search);
-const category = queryParams.get("verbs");
+const category = queryParams.get("topic");
 
 if (category) {
     getVocabulary(category);
@@ -19,9 +20,7 @@ async function getVocabulary(category) {
     const url = `././assets/data/verb/${category}.json`;
     try {
         const response = await fetchData(url);
-
-        displayVerbs(response)
-
+        displayVerbs(response);
     } catch (error) {
         console.error(`Error fetching vocabulary for category "${category}":`, error);
     } finally {
@@ -30,11 +29,11 @@ async function getVocabulary(category) {
 }
 
 
-const displayVerbs = ({ header, verbs }) => {
+const displayVerbs = ({ header, verbs, recommends = [] }) => {
     if (!verbs?.length) return; // Ensure verbs exist before proceeding
-    console.log(verbs.length)
     const verbHeader = document.getElementById("verb-header");
     const verbsContainer = document.getElementById("verb");
+    const container = document.getElementById("recommends");
 
     if (!verbHeader || !verbsContainer) return;
 
@@ -51,9 +50,46 @@ const displayVerbs = ({ header, verbs }) => {
     headerImage.className = "border border-[#4755691a] object-cover";
     headerImage.src = header.image;
     headerImage.alt = `Illustration of ${header.title}`;
-    headerImage.loading = "lazy"; // Lazy loading for performance
+    headerImage.loading = "lazy";
 
-    verbHeader.append(headerTitle, headerImage);
+
+    // description section start
+    const dateWrapper = document.createElement('div');
+    dateWrapper.className = 'flex items-center gap-x-1.5 text-sm mt-5 mb-2';
+    const dateLabel = document.createElement('span');
+    dateLabel.className = 'font-medium';
+    dateLabel.textContent = 'Posted on:';
+    const time = document.createElement('time');
+    time.className = 'text-nowrap';
+    time.textContent = formatTimestampToDate(header.createdAt)
+    dateWrapper.append(dateLabel, time);
+
+    // Create and append subtitle and description
+    const descriptionWrapper = document.createElement('div');
+    const subtitle = document.createElement('h3');
+    subtitle.className = "float-left mr-1 text-base lg:text-lg font-medium";
+    const p = document.createElement('p');
+    subtitle.innerText = header.subtitle;
+    p.className = "text-base lg:text-lg";
+    p.innerHTML = header.description;
+    descriptionWrapper.appendChild(subtitle)
+    descriptionWrapper.appendChild(p)
+    // description section end
+
+
+    // recommended cards start
+    const recommendedTitle = document.getElementById('recommended-title');
+    recommendedTitle.textContent = "Recommended Verbs";
+    const cardFragment = document.createDocumentFragment();
+    recommends.forEach(item => {
+        const recommendCard = createRecommendedCard(item);
+        cardFragment.appendChild(recommendCard);
+    });
+    container.appendChild(cardFragment);
+    // recommended cards end
+
+
+    verbHeader.append(headerTitle, headerImage, dateWrapper, descriptionWrapper);
 
     // Clear previous vocabulary list
     verbsContainer.innerHTML = "";
@@ -114,6 +150,40 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
 
     return verbCard;
 };
+
+
+
+// Create RecommendedCard Card
+const createRecommendedCard = ({ image, title, url }) => {
+    const container = document.createElement('div')
+
+    const link = document.createElement("a");
+    link.href = url;
+
+    const flexDiv = document.createElement("div");
+    flexDiv.className = "flex sm:flex-col";
+
+    const imageWrapper = document.createElement("div");
+    imageWrapper.className = "border border-[#4755691a] rounded-lg mr-3 sm:mr-0";
+
+    const img = document.createElement("img");
+    img.src = image
+    img.alt = "fruit thumbnail";
+    img.className = "rounded-lg w-full max-w-[150px] sm:max-w-full";
+
+    imageWrapper.appendChild(img);
+
+    const heading = document.createElement("h3");
+    heading.className = "font-medium text-base sm:text-lg sm:mt-3 leading-6 flex-1";
+    heading.textContent = title
+
+    flexDiv.appendChild(imageWrapper);
+    flexDiv.appendChild(heading);
+
+    link.appendChild(flexDiv);
+    container.appendChild(link);
+    return container
+}
 
 
 

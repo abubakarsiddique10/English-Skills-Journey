@@ -15,7 +15,7 @@
                 "contents": [
                     {
                         "type": "paragraph",
-                        "title": "",
+                        "title": "Hello world How are you",
                         "items": [
                             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type"
                         ]
@@ -24,7 +24,14 @@
                         "type": "image",
                         "title": "Hello world",
                         "items": [
-                            "./assets/images/banner/apple.png"
+                            "./assets/images/thumbnail/2.png"
+                        ]
+                    },
+                    {
+                        "type": "image",
+                        "title": "Hello world",
+                        "items": [
+                            "./assets/images/thumbnail/3.png"
                         ]
                     }
                 ]

@@ -2,7 +2,7 @@ import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
 import { createContentCard } from "./components.js";
 
-const GRAMMAR_DATA_URL = "./assets/data/grammar/grammar.json";
+const GRAMMAR_DATA_URL = "./assets/data/blogs/blogs.json";
 
 // Fetches grammar data from JSON and displays it as cards.
 async function getGrammarData() {

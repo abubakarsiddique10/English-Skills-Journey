@@ -96,7 +96,7 @@ const createContentCard = ({ id, title, blogImg, }) => {
     const container = document.createElement('div')
 
     const link = document.createElement("a");
-    link.href = `grammar.html?topic=${title.split(' ').join('-')}-${id}`
+    link.href = `blog.html?topic=${title.split(' ').join('-')}-${id}`
 
     const flexDiv = document.createElement("div");
     flexDiv.className = "flex sm:flex-col";
