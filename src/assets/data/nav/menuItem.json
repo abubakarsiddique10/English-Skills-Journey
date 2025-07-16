@@ -16,6 +16,10 @@
         "link": "speaking-topics.html"
     },
     {
+        "name": "sentences",
+        "link": "sentences.html"
+    },
+    {
         "name": "Grammar",
         "link": "grammar-category.html"
     }
